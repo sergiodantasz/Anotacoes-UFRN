@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d3fef8f2178e9759",
+        "id": "8ac0d094e3cd9ac2",
         "type": "tabs",
         "children": [
           {
-            "id": "9939574e98532013",
+            "id": "e74255b675da3231",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BTI/1º semestre - 2025.1/Matemática Elementar/1. Conjuntos.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "1. Conjuntos"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BTI/1º semestre - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 1 - Axiomas de Incidência e Ordem.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Capítulo 1 - Axiomas de Incidência e Ordem"
+              "title": "Backlinks"
             }
           },
           {
@@ -150,17 +145,27 @@
               "icon": "lucide-list",
               "title": "Outline of Capítulo 1 - Axiomas de Incidência e Ordem"
             }
+          },
+          {
+            "id": "35049215d3f9a147",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 332.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -169,10 +174,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9939574e98532013",
+  "active": "e74255b675da3231",
   "lastOpenFiles": [
-    "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 1 - Conjuntos.pdf",
     "BTI/1º semestre - 2025.1/Matemática Elementar/1. Conjuntos.md",
+    "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 1 - Conjuntos.pdf",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Informações.md",
     "BTI/1º semestre - 2025.1/Geometria Euclidiana/1. Axiomas de Incidência e Ordem.md",
     "BTI/1º semestre - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 1 - Axiomas de Incidência e Ordem.pdf",
