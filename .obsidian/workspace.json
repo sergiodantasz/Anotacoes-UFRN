@@ -11,10 +11,14 @@
             "id": "e74255b675da3231",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "BTI/1º semestre - 2025.1/Matemática Elementar/1. Conjuntos.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "1. Conjuntos"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "244f2931f8d6b699",
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "BTI/1º semestre - 2025.1/Matemática Elementar/1. Conjuntos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 1. Conjuntos"
             }
           },
           {
@@ -161,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,8 +182,8 @@
   },
   "active": "e74255b675da3231",
   "lastOpenFiles": [
-    "BTI/1º semestre - 2025.1/Matemática Elementar/1. Conjuntos.md",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 1 - Conjuntos.pdf",
+    "BTI/1º semestre - 2025.1/Matemática Elementar/1. Conjuntos.md",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Informações.md",
     "BTI/1º semestre - 2025.1/Geometria Euclidiana/1. Axiomas de Incidência e Ordem.md",
     "BTI/1º semestre - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 1 - Axiomas de Incidência e Ordem.pdf",
