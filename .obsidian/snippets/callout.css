@@ -1,0 +1,12 @@
+.callout {
+    padding: 16px;
+}
+
+.callout .callout-content p {
+    margin: 0px;
+}
+
+.callout .callout-title {
+    margin-bottom: 16px;
+}
+
