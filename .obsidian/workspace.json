@@ -6,6 +6,7 @@
       {
         "id": "33a45ddebaf60c1c",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "51e18faf34f0a41f",
@@ -26,6 +27,7 @@
       {
         "id": "35470dcc6284c966",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "7b34a51e620b3725",
@@ -185,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 342.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,7 +201,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "51e18faf34f0a41f",
+  "active": "7b34a51e620b3725",
   "lastOpenFiles": [
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 1 - Conjuntos.pdf",
     "BTI/1º semestre - 2025.1/Matemática Elementar/1. Conjuntos.md",
