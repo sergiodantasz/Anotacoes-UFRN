@@ -2,5 +2,6 @@
   "enabledCssSnippets": [
     "math-block",
     "callout"
-  ]
+  ],
+  "theme": "obsidian"
 }
