@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cdots",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,8 +92,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -186,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5,
-    "collapsed": true
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,9 +200,9 @@
   },
   "active": "48888f7a3e138ef4",
   "lastOpenFiles": [
-    "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 2.1 - Equações e Inequações.pdf",
-    "BTI/1º semestre - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
     "BTI/1º semestre - 2025.1/Matemática Elementar/1. Conjuntos.md",
+    "BTI/1º semestre - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
+    "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 2.1 - Equações e Inequações.pdf",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Informações.md",
     "n.md",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 2.2 - Equações e Inequações.pdf",
