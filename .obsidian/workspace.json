@@ -185,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 342.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,7 +199,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "48888f7a3e138ef4",
+  "active": "9c4359856ac67d53",
   "lastOpenFiles": [
     "BTI/1º semestre - 2025.1/Matemática Elementar/1. Conjuntos.md",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 1 - Exercício 10.png",
