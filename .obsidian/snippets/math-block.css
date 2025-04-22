@@ -3,3 +3,6 @@
     border-radius: 4px;
 }
 
+.math-block .MathJax {
+    padding: 16px;
+}
