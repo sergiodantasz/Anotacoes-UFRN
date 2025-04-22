@@ -22,6 +22,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "0583b7a88c30c0ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a7f744ea488a00b9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 2.2 - Equações e Inequações.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Capítulo 2.2 - Equações e Inequações"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5,
-    "collapsed": true
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
