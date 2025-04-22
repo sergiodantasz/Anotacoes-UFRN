@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "2. Equações e Inequações"
             }
-          },
-          {
-            "id": "2a6b11bef2af7f9a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "0583b7a88c30c0ec",
@@ -213,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 342.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,7 +214,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2a6b11bef2af7f9a",
+  "active": "697b3a703a3cbb41",
   "lastOpenFiles": [
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 2.2 - Equações e Inequações.pdf",
     "BTI/1º semestre - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
