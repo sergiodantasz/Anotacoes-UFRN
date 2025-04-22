@@ -199,8 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5,
-    "collapsed": true
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,7 +212,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "48888f7a3e138ef4",
+  "active": "35049215d3f9a147",
   "lastOpenFiles": [
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Desigualdades Clássicas - Teoremas.png",
     "BTI/1º semestre - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
