@@ -20,7 +20,13 @@
               "icon": "lucide-file",
               "title": "2. Equações e Inequações"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "c33bcf7ab9b4c8dc",
+        "type": "tabs",
+        "children": [
           {
             "id": "697b3a703a3cbb41",
             "type": "leaf",
@@ -34,13 +40,7 @@
               "icon": "lucide-file",
               "title": "2. Equações e Inequações"
             }
-          }
-        ]
-      },
-      {
-        "id": "0583b7a88c30c0ec",
-        "type": "tabs",
-        "children": [
+          },
           {
             "id": "a7f744ea488a00b9",
             "type": "leaf",
@@ -199,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 342.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,16 +213,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "48888f7a3e138ef4",
+  "active": "697b3a703a3cbb41",
   "lastOpenFiles": [
-    "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Exercício 26 - 1.png",
+    "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 2.2 - Equações e Inequações.pdf",
     "BTI/1º semestre - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
+    "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Exercício 26 - 1.png",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Exercício 26 - 2.png",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Exercício 26 - 2.png",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Exercício 26 - 2.png",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Desigualdades Clássicas - Teoremas.png",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Exercício 25.png",
-    "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 2.2 - Equações e Inequações.pdf",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 1 - Exercício 10.png",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Exercício 24.png",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Exemplo 8.png",
