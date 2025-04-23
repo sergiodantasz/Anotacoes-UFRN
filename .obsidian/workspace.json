@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "01bb164e978d33c8",
+        "id": "458f1df0634784ab",
         "type": "tabs",
         "children": [
           {
-            "id": "2bc1e20eafb035fb",
+            "id": "59193c5277af0c95",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -176,8 +176,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2bc1e20eafb035fb",
+  "active": "871ba8da18c41075",
   "lastOpenFiles": [
+    "BTI/1º semestre - 2025.1/Geometria Euclidiana/Arquivos/Geometria Euclidiana Plana.pdf",
+    "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Geometria Euclidiana Plana.pdf.crdownload",
     "BTI/1º semestre - 2025.1/Geometria Euclidiana/1. Axiomas de Incidência e Ordem.md",
     "BTI/1º semestre - 2025.1/Geometria Euclidiana/2. Axiomas sobre Medição de Segmentos.md",
     "BTI/1º semestre - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 2 - Axiomas sobre Medição de Segmentos.pdf",
@@ -206,7 +208,6 @@
     "Untitled 2.md",
     "Untitled 1.md",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Metadados",
-    "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Apresentação da Disciplina.pdf",
     "BTI/Untitled.md",
     "Anotações.md",
     "Welcome.md",
