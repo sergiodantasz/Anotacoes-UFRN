@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "458f1df0634784ab",
+        "id": "a7e09342ac4e7510",
         "type": "tabs",
         "children": [
           {
-            "id": "59193c5277af0c95",
+            "id": "54b8cd37f5c48dab",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "BTI/1º período - 2025.1/Matemática Elementar/3. Matrizes e Sistemas Lineares.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "3. Matrizes e Sistemas Lineares"
             }
           }
         ]
@@ -176,8 +180,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "59193c5277af0c95",
+  "active": "54b8cd37f5c48dab",
   "lastOpenFiles": [
+    "BTI/1º período - 2025.1/Matemática Elementar/3. Matrizes e Sistemas Lineares.md",
+    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 3 - Matrizes e Sistemas Lineares.pdf",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Geometria Euclidiana Plana.pdf",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Geometria Euclidiana Plana.pdf.crdownload",
     "BTI/1º período - 2025.1/Geometria Euclidiana/1. Axiomas de Incidência e Ordem.md",
@@ -203,11 +209,9 @@
     "BTI/1º período - 2025.1/Matemática Elementar/Informações.md",
     "n.md",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 2.2 - Equações e Inequações.pdf.crdownload",
-    "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 2 - Equações e Inequações.pdf.crdownload",
     "Untitled 3.md",
     "Untitled 2.md",
     "Untitled 1.md",
-    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados",
     "BTI/Untitled.md",
     "Anotações.md",
     "Welcome.md",
