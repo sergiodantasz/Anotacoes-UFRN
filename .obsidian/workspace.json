@@ -22,6 +22,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "7a076526646e9ccb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5449c353f404a8ce",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 3 - Matrizes e Sistemas Lineares.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Capítulo 3 - Matrizes e Sistemas Lineares"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "244f2931f8d6b699",
@@ -182,6 +201,7 @@
   },
   "active": "54b8cd37f5c48dab",
   "lastOpenFiles": [
+    "Untitled.md",
     "BTI/1º período - 2025.1/Matemática Elementar/3. Matrizes e Sistemas Lineares.md",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 3 - Matrizes e Sistemas Lineares.pdf",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Geometria Euclidiana Plana.pdf",
@@ -194,7 +214,6 @@
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Desigualdades Clássicas - Teoremas.png",
     "BTI/1º período - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 2.2 - Equações e Inequações.pdf",
-    "Untitled.md",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Exercício 26 - 1.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Exercício 26 - 2.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Exercício 26 - 2.png",
