@@ -185,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 342.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,7 +199,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9f81381f3c3a0227",
+  "active": "5449c353f404a8ce",
   "lastOpenFiles": [
     "BTI/1º período - 2025.1/Matemática Elementar/1. Conjuntos.md",
     "BTI/1º período - 2025.1/Matemática Elementar/3. Matrizes e Sistemas Lineares.md",
