@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BTI/1º período - 2025.1/Matemática Elementar/3. Matrizes e Sistemas Lineares.md",
+                "file": "BTI/1º período - 2025.1/Geometria Euclidiana/1. Axiomas de Incidência e Ordem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Matrizes e Sistemas Lineares"
+              "title": "1. Axiomas de Incidência e Ordem"
             }
           }
         ]
@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 3 - Matrizes e Sistemas Lineares.pdf"
+                "file": "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 1 - Axiomas de Incidência e Ordem.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Capítulo 3 - Matrizes e Sistemas Lineares"
+              "title": "Capítulo 1 - Axiomas de Incidência e Ordem"
             }
           }
         ]
@@ -201,17 +201,22 @@
   },
   "active": "5449c353f404a8ce",
   "lastOpenFiles": [
-    "BTI/1º período - 2025.1/Matemática Elementar/1. Conjuntos.md",
-    "BTI/1º período - 2025.1/Matemática Elementar/3. Matrizes e Sistemas Lineares.md",
-    "BTI/1º período - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 1 - Axiomas de Ordem - Semiplano.png",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 1 - Axiomas de Ordem - 2.png",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 1 - Axiomas de Ordem - 1.png",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 1 - Axiomas de Incidência.png",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 1 - Axiomas de Incidência e Ordem.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 3 - Matrizes e Sistemas Lineares.pdf",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/1. Axiomas de Incidência e Ordem.md",
+    "BTI/1º período - 2025.1/Matemática Elementar/3. Matrizes e Sistemas Lineares.md",
+    "BTI/1º período - 2025.1/Matemática Elementar/1. Conjuntos.md",
+    "BTI/1º período - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
     "Untitled.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Geometria Euclidiana Plana.pdf",
     "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Geometria Euclidiana Plana.pdf.crdownload",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/1. Axiomas de Incidência e Ordem.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/2. Axiomas sobre Medição de Segmentos.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 2 - Axiomas sobre Medição de Segmentos.pdf",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 1 - Axiomas de Incidência e Ordem.pdf",
     "BTI/1º semestre - 2025.1/Geometria Euclidiana/Arquivos/Slides/GE02_-_Axiomas_sobre_Medio_de_Segmentos.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Desigualdades Clássicas - Teoremas.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 2.2 - Equações e Inequações.pdf",
@@ -221,13 +226,10 @@
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Exercício 26 - 2.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Exercício 25.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 1 - Exercício 10.png",
-    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Exercício 24.png",
-    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 2 - Exemplo 8.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 1 - Conjuntos.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 2.1 - Equações e Inequações.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/Informações.md",
     "n.md",
-    "BTI/1º semestre - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 2.2 - Equações e Inequações.pdf.crdownload",
     "Untitled 3.md",
     "Untitled 2.md",
     "Untitled 1.md",
