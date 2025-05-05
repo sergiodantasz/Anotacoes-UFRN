@@ -240,8 +240,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5,
-    "collapsed": true
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,7 +253,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "efb1d8b268ae4ffa",
+  "active": "fd88c3e42c2d1efa",
   "lastOpenFiles": [
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 2 - Axiomas sobre Medição de Segmentos.pdf",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Livros/Geometria Euclidiana Plana.pdf",
