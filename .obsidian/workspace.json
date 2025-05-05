@@ -50,7 +50,8 @@
               "title": "3. Axiomas sobre Medição de Ângulos"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "b6bb99f7d04d2793",
@@ -254,11 +255,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fd88c3e42c2d1efa",
+  "active": "e732210e1d46e443",
   "lastOpenFiles": [
+    "BTI/1º período - 2025.1/Geometria Euclidiana/1. Axiomas de Incidência e Ordem.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 2 - Axiomas sobre Medição de Segmentos.pdf",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Livros/Geometria Euclidiana Plana.pdf",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/1. Axiomas de Incidência e Ordem.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 1 - Axiomas de Incidência e Ordem.pdf",
     "BTI/1º período - 2025.1/Geometria Euclidiana/2. Axiomas sobre Medição de Segmentos.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/3. Axiomas sobre Medição de Ângulos.md",
