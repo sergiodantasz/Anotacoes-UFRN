@@ -241,8 +241,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5,
-    "collapsed": true
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -255,7 +254,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e732210e1d46e443",
+  "active": "35049215d3f9a147",
   "lastOpenFiles": [
     "BTI/1º período - 2025.1/Geometria Euclidiana/1. Axiomas de Incidência e Ordem.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/2. Axiomas sobre Medição de Segmentos.md",
