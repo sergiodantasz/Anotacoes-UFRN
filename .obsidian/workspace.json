@@ -49,8 +49,7 @@
               "title": "3. Axiomas sobre Medição de Ângulos"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -196,7 +195,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 342.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,7 +209,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9f81381f3c3a0227",
+  "active": "fd88c3e42c2d1efa",
   "lastOpenFiles": [
     "BTI/1º período - 2025.1/Geometria Euclidiana/2. Axiomas sobre Medição de Segmentos.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/3. Axiomas sobre Medição de Ângulos.md",
