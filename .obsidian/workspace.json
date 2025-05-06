@@ -6,7 +6,6 @@
       {
         "id": "1a56cd9178098a2b",
         "type": "tabs",
-        "dimension": 49.85795454545455,
         "children": [
           {
             "id": "fd88c3e42c2d1efa",
@@ -48,50 +47,6 @@
               },
               "icon": "lucide-file",
               "title": "3. Axiomas sobre Medição de Ângulos"
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "b6bb99f7d04d2793",
-        "type": "tabs",
-        "dimension": 50.14204545454546,
-        "children": [
-          {
-            "id": "9b62c591f47e6ad1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Livros/Geometria Euclidiana Plana.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Geometria Euclidiana Plana"
-            }
-          },
-          {
-            "id": "efb1d8b268ae4ffa",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 2 - Axiomas sobre Medição de Segmentos.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Capítulo 2 - Axiomas sobre Medição de Segmentos"
-            }
-          },
-          {
-            "id": "94b9bba76261d0cc",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 3 - Axiomas sobre Medição de Ângulos.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Capítulo 3 - Axiomas sobre Medição de Ângulos"
             }
           }
         ],
@@ -241,8 +196,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5,
-    "collapsed": true
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,7 +218,7 @@
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 2 - Axiomas sobre Medição de Segmentos.pdf",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Livros/Geometria Euclidiana Plana.pdf",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 1 - Axiomas de Incidência e Ordem.pdf",
-    "Capítulo 3 - Axiomas sobre Medição de Ângulos - Ângulos Opostos pelo Vértice.png",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 3 - Axiomas sobre Medição de Ângulos - Ângulos Opostos pelo Vértice.png",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 3 - Axiomas sobre Medição de Ângulos - 4.png",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 3 - Axiomas sobre Medição de Ângulos - 3.png",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 3 - Axiomas sobre Medição de Ângulos - 2.png",
