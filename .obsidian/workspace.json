@@ -185,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 342.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,7 +199,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "469b17f0969216ca",
+  "active": "8f04e774b0632ea5",
   "lastOpenFiles": [
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 3 - Matrizes e Sistemas Lineares.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/3. Matrizes e Sistemas Lineares.md",
