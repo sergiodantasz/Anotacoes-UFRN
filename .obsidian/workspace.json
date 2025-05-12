@@ -22,24 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "6c3b018098b68b5d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3b0bf9a07269761c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 3 - Matrizes e Sistemas Lineares.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Capítulo 3 - Matrizes e Sistemas Lineares"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
