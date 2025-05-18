@@ -11,10 +11,32 @@
             "id": "2ab30530ec189ec3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "BTI/1º período - 2025.1/Matemática Elementar/4. Funções Reais e Gráficos.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "4. Funções Reais e Gráficos"
+            }
+          }
+        ]
+      },
+      {
+        "id": "bed6ac4259cc2d06",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4a7bbbe9460e5f8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.1 - Funções Reais e Gráficos.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Capítulo 4.1 - Funções Reais e Gráficos"
             }
           }
         ]
@@ -74,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "244f2931f8d6b699",
@@ -178,13 +201,17 @@
   },
   "active": "2ab30530ec189ec3",
   "lastOpenFiles": [
+    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.1 - Funções Reais e Gráficos.pdf",
+    "BTI/1º período - 2025.1/Matemática Elementar/4. Funções Reais e Gráficos.md",
+    "BTI/1º período - 2025.1/Matemática Elementar/1. Conjuntos.md",
+    "Pasted image 20250518195123.png",
+    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 1.png",
+    "BTI/1º período - 2025.1/Matemática Elementar/3. Matrizes e Sistemas Lineares.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/4. Congruência.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 4 - Congruência.pdf",
-    "BTI/1º período - 2025.1/Matemática Elementar/4. Funções Reais e Gráficos.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/GE04_-_Congruncia.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.2 - Funções Reais e Gráficos.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.2 - Funções Reais e Gráficos.pdf.crdownload",
-    "BTI/1º período - 2025.1/Matemática Elementar/3. Matrizes e Sistemas Lineares.md",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 3 - Matrizes e Sistemas Lineares.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 3 - Matrizes e Sistemas Lineares.pdf.crdownload",
     "Untitled.md",
@@ -194,7 +221,6 @@
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 3 - Axiomas sobre Medição de Ângulos.pdf",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 2 - Axiomas sobre Medição de Segmentos.pdf",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Livros/Geometria Euclidiana Plana.pdf",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 1 - Axiomas de Incidência e Ordem.pdf",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 3 - Axiomas sobre Medição de Ângulos - Ângulos Opostos pelo Vértice.png",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 3 - Axiomas sobre Medição de Ângulos - 4.png",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 3 - Axiomas sobre Medição de Ângulos - 3.png",
@@ -203,9 +229,6 @@
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 2 - Axiomas sobre Medição de Segmentos - Círculo.png",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 1 - Axiomas de Ordem - Semiplano.png",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 1 - Axiomas de Ordem - 2.png",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 1 - Axiomas de Ordem - 1.png",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 1 - Axiomas de Incidência.png",
-    "BTI/1º período - 2025.1/Matemática Elementar/1. Conjuntos.md",
     "BTI/1º período - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
     "BTI/1º período - 2025.1/Matemática Elementar/Informações.md",
     "n.md",
