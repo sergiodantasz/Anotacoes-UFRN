@@ -1,5 +1,6 @@
 [
   "obsidian-regex-replace",
   "obsidian-git",
-  "automatic-table-of-contents"
+  "automatic-table-of-contents",
+  "image-converter"
 ]
