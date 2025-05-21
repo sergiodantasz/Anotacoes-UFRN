@@ -20,7 +20,13 @@
               "icon": "lucide-file",
               "title": "4. Funções Reais e Gráficos"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "1300fab9c6daa249",
+        "type": "tabs",
+        "children": [
           {
             "id": "d6cffe7edcffd125",
             "type": "leaf",
@@ -90,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "244f2931f8d6b699",
@@ -192,15 +199,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "871ba8da18c41075",
+  "active": "2ab30530ec189ec3",
   "lastOpenFiles": [
+    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.2 - Funções Reais e Gráficos.pdf",
+    "BTI/1º período - 2025.1/Matemática Elementar/4. Funções Reais e Gráficos.md",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 14.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 14.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 13.png",
-    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.2 - Funções Reais e Gráficos.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 8.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 1.png",
-    "BTI/1º período - 2025.1/Matemática Elementar/4. Funções Reais e Gráficos.md",
     "Pasted image 20250518195123.png",
     "BTI/1º período - 2025.1/Matemática Elementar/3. Matrizes e Sistemas Lineares.md",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.1 - Funções Reais e Gráficos.pdf",
@@ -222,7 +229,6 @@
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 3 - Axiomas sobre Medição de Ângulos - 4.png",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 3 - Axiomas sobre Medição de Ângulos - 3.png",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 3 - Axiomas sobre Medição de Ângulos - 2.png",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 3 - Axiomas sobre Medição de Ângulos - 1.png",
     "BTI/1º período - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
     "BTI/1º período - 2025.1/Matemática Elementar/Informações.md",
     "n.md",
