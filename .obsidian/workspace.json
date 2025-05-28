@@ -185,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 342.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,7 +199,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "35049215d3f9a147",
+  "active": "2ab30530ec189ec3",
   "lastOpenFiles": [
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 16 - 3.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 16 - 2.png",
