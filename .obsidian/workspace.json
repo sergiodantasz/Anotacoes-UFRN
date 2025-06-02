@@ -22,24 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "1300fab9c6daa249",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d6cffe7edcffd125",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.2 - Funções Reais e Gráficos.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Capítulo 4.2 - Funções Reais e Gráficos"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -92,13 +74,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "244f2931f8d6b699",
@@ -200,11 +180,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ab30530ec189ec3",
+  "active": "871ba8da18c41075",
   "lastOpenFiles": [
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.2 - Funções Reais e Gráficos.pdf",
-    "Capítulo 4 - Exemplo 18.png",
     "BTI/1º período - 2025.1/Matemática Elementar/4. Funções Reais e Gráficos.md",
+    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 18.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 17 - 1.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 17 - 2.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 17 - 3.png",
