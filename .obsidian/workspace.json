@@ -20,29 +20,27 @@
               "icon": "lucide-file",
               "title": "4. Funções Reais e Gráficos"
             }
-          },
-          {
-            "id": "87c574b5f2be4ac0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BTI/1º período - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2. Equações e Inequações"
-            }
           }
         ]
       },
       {
-        "id": "07db661f19429825",
+        "id": "c1433391d5930758",
         "type": "tabs",
         "children": [
           {
-            "id": "491d9c560798ea2d",
+            "id": "9a4aabc4efa35874",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.1 - Funções Reais e Gráficos.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Capítulo 4.1 - Funções Reais e Gráficos"
+            }
+          },
+          {
+            "id": "1ac4eb685a49c526",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -215,9 +213,10 @@
   },
   "active": "2ab30530ec189ec3",
   "lastOpenFiles": [
-    "BTI/1º período - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
-    "BTI/1º período - 2025.1/Matemática Elementar/4. Funções Reais e Gráficos.md",
+    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.1 - Funções Reais e Gráficos.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.2 - Funções Reais e Gráficos.pdf",
+    "BTI/1º período - 2025.1/Matemática Elementar/4. Funções Reais e Gráficos.md",
+    "BTI/1º período - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 18.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 17 - 1.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 17 - 2.png",
@@ -229,7 +228,6 @@
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 15 - 1.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 14.png",
     "BTI/1º período - 2025.1/Matemática Elementar/3. Matrizes e Sistemas Lineares.md",
-    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.1 - Funções Reais e Gráficos.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/1. Conjuntos.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/4. Congruência.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 4 - Congruência.pdf",
