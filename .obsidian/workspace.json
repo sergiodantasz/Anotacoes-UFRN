@@ -35,7 +35,8 @@
               "title": "5. Teorema do Ângulo Externo"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "c888d04ddac4d3db",
@@ -65,7 +66,8 @@
               "title": "Capítulo 5 - Teorema do Ângulo Externo"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -225,14 +227,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d49c80460e06c9da",
+  "active": "1bcfce21cb3573a3",
   "lastOpenFiles": [
-    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 4 - Congruência.pdf",
     "BTI/1º período - 2025.1/Geometria Euclidiana/4. Congruência.md",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/1. Axiomas de Incidência e Ordem.md",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/3. Axiomas sobre Medição de Ângulos.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/5. Teorema do Ângulo Externo.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 5 - Teorema do Ângulo Externo.pdf",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 4 - Congruência - Mediana, Bissetrizes e Altura.png",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/3. Axiomas sobre Medição de Ângulos.md",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 4 - Congruência.pdf",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/1. Axiomas de Incidência e Ordem.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/GE05_-_TeoremaAnguloExterno.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/4. Funções Reais e Gráficos.md",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.2 - Funções Reais e Gráficos.pdf",
@@ -247,7 +250,6 @@
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 16 - 1.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 15 - 2.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 15 - 1.png",
-    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 14.png",
     "BTI/1º período - 2025.1/Matemática Elementar/3. Matrizes e Sistemas Lineares.md",
     "BTI/1º período - 2025.1/Matemática Elementar/1. Conjuntos.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/GE04_-_Congruncia.pdf",
