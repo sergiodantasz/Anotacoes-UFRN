@@ -4,51 +4,65 @@
     "type": "split",
     "children": [
       {
-        "id": "e6850adc4cfd3c6e",
+        "id": "e0275ce115ef47c9",
         "type": "tabs",
         "children": [
           {
-            "id": "2ab30530ec189ec3",
+            "id": "d49c80460e06c9da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BTI/1º período - 2025.1/Matemática Elementar/4. Funções Reais e Gráficos.md",
+                "file": "BTI/1º período - 2025.1/Geometria Euclidiana/4. Congruência.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. Funções Reais e Gráficos"
+              "title": "4. Congruência"
+            }
+          },
+          {
+            "id": "1bcfce21cb3573a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BTI/1º período - 2025.1/Geometria Euclidiana/5. Teorema do Ângulo Externo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "5. Teorema do Ângulo Externo"
             }
           }
         ]
       },
       {
-        "id": "c1433391d5930758",
+        "id": "c888d04ddac4d3db",
         "type": "tabs",
         "children": [
           {
-            "id": "9a4aabc4efa35874",
+            "id": "2bd84a4ea33bfbc5",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.1 - Funções Reais e Gráficos.pdf"
+                "file": "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 4 - Congruência.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Capítulo 4.1 - Funções Reais e Gráficos"
+              "title": "Capítulo 4 - Congruência"
             }
           },
           {
-            "id": "1ac4eb685a49c526",
+            "id": "8ec2f62c11ad14aa",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.2 - Funções Reais e Gráficos.pdf"
+                "file": "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 5 - Teorema do Ângulo Externo.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Capítulo 4.2 - Funções Reais e Gráficos"
+              "title": "Capítulo 5 - Teorema do Ângulo Externo"
             }
           }
         ]
@@ -211,11 +225,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9a4aabc4efa35874",
+  "active": "d49c80460e06c9da",
   "lastOpenFiles": [
-    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.1 - Funções Reais e Gráficos.pdf",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 4 - Congruência.pdf",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/4. Congruência.md",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/1. Axiomas de Incidência e Ordem.md",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/3. Axiomas sobre Medição de Ângulos.md",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/5. Teorema do Ângulo Externo.md",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 5 - Teorema do Ângulo Externo.pdf",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/GE05_-_TeoremaAnguloExterno.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/4. Funções Reais e Gráficos.md",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.2 - Funções Reais e Gráficos.pdf",
+    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.1 - Funções Reais e Gráficos.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 18.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 17 - 1.png",
@@ -229,19 +250,13 @@
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 4 - Exemplo 14.png",
     "BTI/1º período - 2025.1/Matemática Elementar/3. Matrizes e Sistemas Lineares.md",
     "BTI/1º período - 2025.1/Matemática Elementar/1. Conjuntos.md",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/4. Congruência.md",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 4 - Congruência.pdf",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/GE04_-_Congruncia.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 4.2 - Funções Reais e Gráficos.pdf.crdownload",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 3 - Matrizes e Sistemas Lineares.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 3 - Matrizes e Sistemas Lineares.pdf.crdownload",
     "Untitled.md",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/3. Axiomas sobre Medição de Ângulos.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/2. Axiomas sobre Medição de Segmentos.md",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/1. Axiomas de Incidência e Ordem.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 3 - Axiomas sobre Medição de Ângulos.pdf",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 2 - Axiomas sobre Medição de Segmentos.pdf",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Livros/Geometria Euclidiana Plana.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/Informações.md",
     "n.md",
     "Untitled 3.md",
