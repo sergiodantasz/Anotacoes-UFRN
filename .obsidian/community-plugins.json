@@ -2,5 +2,6 @@
   "obsidian-regex-replace",
   "obsidian-git",
   "automatic-table-of-contents",
-  "image-converter"
+  "image-converter",
+  "obsidian-excalidraw-plugin"
 ]
