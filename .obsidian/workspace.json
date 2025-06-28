@@ -6,6 +6,7 @@
       {
         "id": "a5515f0b7a0fa97c",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "c2a77acb8c424e62",
@@ -26,6 +27,7 @@
       {
         "id": "67fb848aa8f8d461",
         "type": "tabs",
+        "dimension": 50,
         "children": [
           {
             "id": "4381524f5f49d0aa",
@@ -200,7 +202,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c2a77acb8c424e62",
+  "active": "4381524f5f49d0aa",
   "lastOpenFiles": [
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 5 - Funções Polinomiais.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 5 - Exemplo 4.png",
