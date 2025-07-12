@@ -1,5 +1,5 @@
 .math-block {
-    /* background-color: #1b2735; */
+    background-color: rgba(var(--callout-info), 0.1);
     border-radius: 4px;
 }
 
