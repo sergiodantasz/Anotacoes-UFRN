@@ -22,6 +22,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "50a2f7550594f6eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9e2745c9da7cf003",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 7 - Funções Trigonométricas.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Capítulo 7 - Funções Trigonométricas"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,6 +202,8 @@
   },
   "active": "67cce4403991c7bb",
   "lastOpenFiles": [
+    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 7 - Funções Trigonométricas.pdf",
+    "BTI/1º período - 2025.1/Matemática Elementar/7. Funções Trigonométricas.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/6. Axioma das Paralelas.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/4. Congruência.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/7. Semelhança de Triângulos.md",
@@ -221,8 +241,6 @@
     "Excalidraw/Drawing 2025-07-11 14.12.23.excalidraw.md",
     "Excalidraw/Drawing 2025-07-11 13.50.48.excalidraw.md",
     "Excalidraw/Drawing 2025-07-11 13.33.18.excalidraw.md",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/3. Axiomas sobre Medição de Ângulos.md",
-    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 7 - Funções Trigonométricas.pdf",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 7 - Semelhança de Triângulos.pdf",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/GE07_-_Semelhana_de_Tringulos.pdf",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/GE06_-_O_Axioma_das_Paralelas.pdf",
