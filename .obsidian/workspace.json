@@ -4,69 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8dcfb468a307e1ff",
+        "id": "5f77750bedb7cf3d",
         "type": "tabs",
-        "dimension": 50.2132196162047,
         "children": [
           {
-            "id": "e7a9b9dc336e7b34",
+            "id": "7595961573f4bdcd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BTI/1º período - 2025.1/Geometria Euclidiana/6. Axioma das Paralelas.md",
+                "file": "BTI/1º período - 2025.1/Geometria Euclidiana/7. Semelhança de Triângulos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6. Axioma das Paralelas"
-            }
-          },
-          {
-            "id": "f6f0445bcbce9b71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BTI/1º período - 2025.1/Geometria Euclidiana/4. Congruência.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "4. Congruência"
-            }
-          },
-          {
-            "id": "a0468c1702fa470d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BTI/1º período - 2025.1/Geometria Euclidiana/5. Teorema do Ângulo Externo.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "5. Teorema do Ângulo Externo"
-            }
-          }
-        ]
-      },
-      {
-        "id": "417ac84a89147c47",
-        "type": "tabs",
-        "dimension": 49.78678038379531,
-        "children": [
-          {
-            "id": "c38e8a8e36336587",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 6 - Axioma das Paralelas.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Capítulo 6 - Axioma das Paralelas"
+              "title": "7. Semelhança de Triângulos"
             }
           }
         ]
@@ -230,11 +182,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e7a9b9dc336e7b34",
+  "active": "7595961573f4bdcd",
   "lastOpenFiles": [
-    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 6 - Axioma das Paralelas.pdf",
-    "Untitled.md",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/5. Teorema do Ângulo Externo.md",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/4. Congruência.md",
+    "Excalidraw/Drawing 2025-07-13 12.33.41.excalidraw.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/6. Axioma das Paralelas.md",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 6 - Exercício 10 (1).svg",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 6 - Axioma das Paralelas.pdf",
+    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 6 - Exercício 10.svg",
+    "Untitled.md",
     "Excalidraw/Drawing 2025-07-13 07.52.10.excalidraw.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 6 - Exercício 9.svg",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 3 - Axiomas sobre Medição de Ângulos.pdf",
@@ -257,11 +214,7 @@
     "Excalidraw/Drawing 2025-07-11 14.12.23.excalidraw.md",
     "Excalidraw/Drawing 2025-07-11 13.50.48.excalidraw.md",
     "Excalidraw/Drawing 2025-07-11 13.33.18.excalidraw.md",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/5. Teorema do Ângulo Externo.md",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/4. Congruência.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 6 - Corolário 6.6 - b) - 1 (1).svg",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 6 - Corolário 6.6 - b) - 2 (1).svg",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 6 - Corolário 6.6 - b) - 2.svg",
     "BTI/1º período - 2025.1/Geometria Euclidiana/3. Axiomas sobre Medição de Ângulos.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/2. Axiomas sobre Medição de Segmentos.md",
     "Excalidraw/Drawing 2025-07-11 13.15.41.excalidraw.md",
@@ -274,7 +227,6 @@
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 7 - Funções Trigonométricas.pdf.crdownload",
     "BTI/1º período - 2025.1/Matemática Elementar/6. Funções Exponenciais e Logarítmicas.md",
     "BTI/1º período - 2025.1/Matemática Elementar/5. Funções Polinomiais.md",
-    "BTI/1º período - 2025.1/Matemática Elementar/4. Funções Reais e Gráficos.md",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 6 - Funções Exponenciais e Logarítmicas.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 5 - Funções Polinomiais.pdf"
   ]
