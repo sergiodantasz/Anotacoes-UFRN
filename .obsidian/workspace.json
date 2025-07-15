@@ -20,18 +20,6 @@
               "icon": "lucide-file",
               "title": "7. Funções Trigonométricas"
             }
-          },
-          {
-            "id": "0cb34107beb780ec",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-07-14 16.51.08.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-07-14 16.51.08.excalidraw"
-            }
           }
         ]
       },
@@ -108,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5,
-    "collapsed": true
+    "width": 365.5
   },
   "right": {
     "id": "244f2931f8d6b699",
@@ -216,6 +203,7 @@
   "lastOpenFiles": [
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 7 - Funções Trigonométricas.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/7. Funções Trigonométricas.md",
+    "Capítulo 7 - Exercício 3 - c).png",
     "Capítulo 7 - Exercício 3.png",
     "Untitled.md",
     "Excalidraw/Drawing 2025-07-14 16.51.08.excalidraw.md",
@@ -237,7 +225,6 @@
     "Excalidraw/Drawing 2025-07-14 09.14.59.excalidraw.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 7 - Exercício 1.svg",
     "Excalidraw/Drawing 2025-07-13 23.31.31.excalidraw.md",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Metadados/Capítulo 7 - Exercício 2.svg",
     "Excalidraw/Drawing 2025-07-13 12.33.41.excalidraw.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 6 - Axioma das Paralelas.pdf",
     "Excalidraw/Drawing 2025-07-13 07.52.10.excalidraw.md",
