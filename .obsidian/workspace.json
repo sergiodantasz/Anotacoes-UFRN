@@ -11,10 +11,32 @@
             "id": "bfaa628f7490279b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "BTI/1º período - 2025.1/Matemática Elementar/7. Funções Trigonométricas.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "7. Funções Trigonométricas"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0e94f6b104eccac8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "073916963c7b0981",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 7 - Funções Trigonométricas.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Capítulo 7 - Funções Trigonométricas"
             }
           }
         ]
@@ -74,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 365.5,
+    "collapsed": true
   },
   "right": {
     "id": "244f2931f8d6b699",
@@ -179,10 +202,11 @@
   },
   "active": "bfaa628f7490279b",
   "lastOpenFiles": [
+    "Capítulo 7 - Exercício 4.png",
+    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 7 - Funções Trigonométricas.pdf",
+    "BTI/1º período - 2025.1/Matemática Elementar/7. Funções Trigonométricas.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/6. Axioma das Paralelas.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/7. Semelhança de Triângulos.md",
-    "BTI/1º período - 2025.1/Matemática Elementar/7. Funções Trigonométricas.md",
-    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 7 - Funções Trigonométricas.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 7 - Exercício 3 - c).png",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 7 - Exercício 3.png",
     "Untitled.md",
