@@ -22,24 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "0e94f6b104eccac8",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "073916963c7b0981",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 7 - Funções Trigonométricas.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Capítulo 7 - Funções Trigonométricas"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -204,6 +186,10 @@
   "lastOpenFiles": [
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Slides/Capítulo 7 - Funções Trigonométricas.pdf",
     "BTI/1º período - 2025.1/Matemática Elementar/7. Funções Trigonométricas.md",
+    "Capítulo 7 - Exercício 21.png",
+    "Capítulo 7 - Exercício 19 - 2.png",
+    "Capítulo 7 - Exercício 19 - 1.png",
+    "Capítulo 7 - Exercício 18.png",
     "Capítulo 7 - Exercício 10.png",
     "Excalidraw/Drawing 2025-07-15 17.09.21.excalidraw.md",
     "Excalidraw/Drawing 2025-07-15 17.02.25.excalidraw.md",
@@ -215,13 +201,9 @@
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 7 - Exercício 6 - 4.svg",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 7 - Exercício 6 - 3.svg",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 7 - Exercício 6 - 2.svg",
-    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 7 - Exercício 6 - 1.svg",
     "Excalidraw",
-    "Capítulo 7 - Exercício 4.png",
     "BTI/1º período - 2025.1/Geometria Euclidiana/6. Axioma das Paralelas.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/7. Semelhança de Triângulos.md",
-    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 7 - Exercício 3 - c).png",
-    "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 7 - Exercício 3.png",
     "Untitled.md",
     "Excalidraw/Drawing 2025-07-14 16.51.08.excalidraw.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/4. Congruência.md",
