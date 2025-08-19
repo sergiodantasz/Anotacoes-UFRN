@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "764e87d3304cf13b",
+        "id": "3ca0d033763748b4",
         "type": "tabs",
         "children": [
           {
-            "id": "e5e5e45ddadde035",
+            "id": "9f2fbc98f2541992",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Livros/Álgebra Linear.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Álgebra Linear"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -180,9 +178,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e5e5e45ddadde035",
+  "active": "9f2fbc98f2541992",
   "lastOpenFiles": [
+    "BTI/2º período - 2025.2/Vetores e Geometria Analítica/U1/Orientações.pdf",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Livros/Álgebra Linear.pdf",
+    "BTI/2º período - 2025.2/Vetores e Geometria Analítica/U1/VGA20252TX_ORIENTACOES.pdf",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Livros",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos",
@@ -191,8 +191,6 @@
     "Untitled",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I",
     "BTI/2º período - 2025.2/Cálculo Diferencial e Integral I",
-    "BTI/2º período - 2025.2/Vetores e Geometria Analítica",
-    "BTI/2º período - 2025.2",
     "BTI/1º período - 2025.1/Matemática Elementar/7. Funções Trigonométricas.md",
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 7 - Exercício 4.png",
     "BTI/1º período - 2025.1/Matemática Elementar/Informações.md",
