@@ -3,5 +3,6 @@
     "math-block",
     "callout"
   ],
-  "theme": "obsidian"
+  "theme": "moonstone",
+  "cssTheme": "Things"
 }
