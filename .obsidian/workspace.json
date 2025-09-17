@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "3ca0d033763748b4",
+        "id": "1522d60813a423fc",
         "type": "tabs",
         "children": [
           {
-            "id": "9f2fbc98f2541992",
+            "id": "8033caef7c1583e1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
-            }
-          }
-        ]
-      },
-      {
-        "id": "9e7da13598f857f9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0121c3d338d6b82d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Arquivos/Livros/Matemática Fundacional para Computação.pdf"
+                "file": "BTI/2º período - 2025.2/Cálculo Diferencial e Integral I/Derivadas.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "Matemática Fundacional para Computação"
+              "icon": "lucide-file",
+              "title": "Derivadas"
             }
           }
         ]
@@ -92,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5,
-    "collapsed": true
+    "width": 365.5
   },
   "right": {
     "id": "244f2931f8d6b699",
@@ -197,13 +182,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "9f2fbc98f2541992",
+  "active": "8033caef7c1583e1",
   "lastOpenFiles": [
+    "BTI/2º período - 2025.2/Cálculo Diferencial e Integral I/Derivadas.md",
+    "Untitled.base",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Arquivos/Livros/Matemática Fundacional para Computação.pdf",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/U1/Anotações.md",
     "Untitled 2.base",
     "Untitled 1.base",
-    "Untitled.base",
     "BTI/2º período - 2025.2/Cálculo Diferencial e Integral I/Arquivos/Livros/Cálculo - Vol. 1 - George B. Thomas.pdf",
     "BTI/2º período - 2025.2/Cálculo Diferencial e Integral I/Arquivos/Livros",
     "BTI/2º período - 2025.2/Cálculo Diferencial e Integral I/Arquivos",
