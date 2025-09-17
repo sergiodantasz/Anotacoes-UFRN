@@ -1,0 +1,9 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k+kt}{Suponha}\PYG{+w}{ }\PYG{o+ow}{(}∃x\PYG{o+ow}{)[}¬φ\PYG{o+ow}{(}x\PYG{o+ow}{)].}
+\PYG{k+kt}{Logo}\PYG{+w}{ }seja\PYG{+w}{ }a\PYG{+w}{ }\PYG{o+ow}{:}\PYG{+w}{ }α\PYG{+w}{ }tal\PYG{+w}{ }que\PYG{+w}{ }¬φ\PYG{o+ow}{(}a\PYG{o+ow}{).}
+\PYG{k+kt}{Suponha}\PYG{+w}{ }\PYG{o+ow}{(}∀x\PYG{o+ow}{)[}φ\PYG{o+ow}{(}x\PYG{o+ow}{)].}\PYG{+w}{  }\PYG{c+c1}{\PYGZhy{}\PYGZhy{} Alvo: ⊥}
+\PYG{k+kt}{Logo}\PYG{+w}{ }φ\PYG{o+ow}{(}a\PYG{o+ow}{).}\PYG{+w}{ }\PYG{+w}{ }\PYG{o+ow}{[}\PYG{+w}{ }a\PYG{+w}{ }\PYG{o+ow}{:}\PYG{+w}{ }α\PYG{+w}{ }\PYG{o+ow}{]}
+\PYG{k+kt}{Aplique}\PYG{+w}{ }¬φ\PYG{o+ow}{(}a\PYG{o+ow}{)}\PYG{+w}{ }em\PYG{+w}{ }φ\PYG{o+ow}{(}a\PYG{o+ow}{)}\PYG{+w}{ }para\PYG{+w}{ }obter\PYG{+w}{ }⊥.
+\PYG{k+kt}{Contradição}\PYG{o+ow}{.}
+∎
+\end{MintedVerbatim}
