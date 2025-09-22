@@ -18,6 +18,8 @@
 
 (+)-distR-(·) : (x + y) · d = x · d + y · d
 
+NZD : a · b = 0  ⇒ a = 0 ∨ b = 0
+
 -- Teoremas (Consequências dos Axiomas) --
 
 * ⚠ → Ainda não foi demonstrado.
@@ -43,8 +45,6 @@
 
 ☑ ? : -(-x) = x
 ☑ ? : (-a) · b = -(a · b) = a · (-b)
-
-⚠ NZD : a · b = 0  ⇒ a = 0 ∨ b = 0
 
 ☑ (∣)-refl : a ∣ a
 ☑ (∣)-trans : a ∣ b ∧ b ∣ c ⇒ a ∣ c

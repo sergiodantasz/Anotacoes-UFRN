@@ -40,12 +40,13 @@ Calculamos:
 Sejam a, b, c : Int.
 Suponha a ∣ b ∧ b ∣ c.  -- Alvo: (∃k)[a · k = c]
 Logo a ∣ b e b ∣ c.  [Ext-L; Ext-R]
-Como a ∣ b, logo seja x : Int tal que hab : a · x = b.
-Como b ∣ c, logo seja y : Int tal que hbc : b · y = c.
+Como a ∣ b, logo seja x : Int tal que a · x = b.
+Como b ∣ c, logo seja y : Int tal que b · y = c.
 Calculamos:
-  c = b · y  [hbc ←]
-    = a · x · y  [hab ←]
-Escolho o x · y.  -- Alvo: a · x · y = c
+  c = b · y  [pela escolha de y ←]
+    = a · x · y  [pela escolha de x ←]
+    = a · (x · y)  [((·)-ass) a x y]
+Escolho o x · y como testemunha.  -- Alvo: a · x · y = c
 Imediato.
 ∎
 
@@ -199,6 +200,19 @@ Calculamos:
   a = a · b  [(hb a).r]
     = b  [(ha b).l]
 ∎
+
+---- x3.8 ----
+
+Θ. unicidade de resoluções ⇚⇛ (∀a,b)[(∃!x)[a + x = b] ∧ (∃!y)[y + a = b]]
+
+Sejam a, b : Int.  -- Alvo: (∃!x)[a + x = b] ∧ (∃!y)[y + a = b]
+Split.
+Parte L:  -- Alvo: (∃!x)[a + x = b] ⇚⇛ (∃x)[a + x = b] ∧ (∀u,v : Int)[a + u = b ∧ a + v = b ⇒ u = v]
+  Split.
+  Parte L:  -- Alvo: (∃x)[a + x = b]
+    ?
+Parte R:  -- Alvo: (∃!y)[y + a = b]
+  ?
 
 ---- x3.10 ----
 
