@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 365.5,
+    "collapsed": true
   },
   "right": {
     "id": "244f2931f8d6b699",
@@ -184,6 +185,7 @@
   },
   "active": "8033caef7c1583e1",
   "lastOpenFiles": [
+    "Untitled.md",
     "BTI/2º período - 2025.2/Cálculo Diferencial e Integral I/Derivadas.md",
     "Untitled.base",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Arquivos/Livros/Matemática Fundacional para Computação.pdf",
@@ -215,7 +217,6 @@
     "BTI/1º período - 2025.1/Matemática Elementar/Arquivos/Metadados/Capítulo 7 - Exercício 6 - 3.svg",
     "BTI/1º período - 2025.1/Geometria Euclidiana/6. Axioma das Paralelas.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/7. Semelhança de Triângulos.md",
-    "Untitled.md",
     "Excalidraw/Drawing 2025-07-14 16.51.08.excalidraw.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/4. Congruência.md",
     "Excalidraw/Drawing 2025-07-14 10.34.26.excalidraw.md",
