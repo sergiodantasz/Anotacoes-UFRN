@@ -43,12 +43,13 @@ NZD : a · b = 0  ⇒ a = 0 ∨ b = 0
 
 ☑ (+)-distL-(·) : d · (x + y) = d · x + d · y
 
-☑ ? : -(-x) = x
+☑ (-)-invol : -(-x) = x
 ☑ ? : (-a) · b = -(a · b) = a · (-b)
 
 ☑ (∣)-refl : a ∣ a
 ☑ (∣)-trans : a ∣ b ∧ b ∣ c ⇒ a ∣ c
 
-☑ unicidade de (+)-id : u, v (+)-id ⇒ u = v
-☑ unicidade de (·)-id : u, v (·)-id ⇒ u = v
+⚠ unicidade de (+)-id : ...
+⚠ unicidade de (·)-id : ...
 
+⚠ unicidade de inv-(+) : ...
