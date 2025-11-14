@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1522d60813a423fc",
+        "id": "260704948cbe3e3b",
         "type": "tabs",
         "children": [
           {
-            "id": "8033caef7c1583e1",
+            "id": "5845fd826446ba4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BTI/2º período - 2025.2/Vetores e Geometria Analítica/U2.md",
+                "file": "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/IDMb (prof. Muller).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "U2"
+              "title": "IDMb (prof. Muller)"
             }
           }
         ]
@@ -182,21 +182,22 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8033caef7c1583e1",
+  "active": "5845fd826446ba4e",
   "lastOpenFiles": [
-    "image-47.png",
-    "image-46.png",
-    "image-45.png",
-    "image-44.png",
-    "image-43.png",
-    "image-42.png",
-    "image-41.png",
-    "image-40.png",
-    "image-39.png",
-    "image-38.png",
-    "image-37.png",
-    "Untitled 1.md",
+    "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image.png",
+    "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/IDMb (prof. Muller).md",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/U2.md",
+    "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-47.png",
+    "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-46.png",
+    "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-45.png",
+    "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-44.png",
+    "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-43.png",
+    "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-42.png",
+    "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-41.png",
+    "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-40.png",
+    "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-39.png",
+    "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-38.png",
+    "Untitled 1.md",
     "Untitled.md",
     "BTI/2º período - 2025.2/Cálculo Diferencial e Integral I/Derivadas.md",
     "Untitled.base",
@@ -228,7 +229,6 @@
     "Excalidraw/Drawing 2025-07-14 09.14.59.excalidraw.md",
     "Excalidraw/Drawing 2025-07-13 23.31.31.excalidraw.md",
     "Excalidraw/Drawing 2025-07-13 12.33.41.excalidraw.md",
-    "Excalidraw/Drawing 2025-07-13 07.52.10.excalidraw.md",
-    "Excalidraw/Drawing 2025-07-12 19.58.15.excalidraw.md"
+    "Excalidraw/Drawing 2025-07-13 07.52.10.excalidraw.md"
   ]
 }
