@@ -17,24 +17,29 @@ $$
 
 ## Propriedades
 
-**Propriedade 1:** $p$ primo $\implies$ $\phi(p) = p - 1$
+**Propriedade 1:** Seja $p$ inteiro. Se $p$ é primo, então $\phi(p) = p - 1$.
 
 Seja $p$ primo.
-Então $\forall i$ tal que $1 \leq i < p$ e $mdc(i,p) = 1$, pois $p$ é primo.
-Se $i = p$ e $mdc(i,p) = 0$, então $i = p$ não pertence ao conjunto de coprimos de $p$.
-Logo $\phi(p) = p - 1$.
+Logo para todo $i$ tal que $1 \leq i < p$, segue que $mdc(i,p) = 1$, pois nenhum $i$ compartilha outro divisor com $p$ além do próprio 1.
+Se $i = p$, então $mdc(i,p) = p$. Ou seja, $i = p$ não pertence ao conjunto de coprimos de $p$.
+Portanto, $\phi(p) = p - 1$. ∎
 
 ---
 
-**Lema:** Quantos múltiplos de $a$ existem em $\{1,2,3,\ldots,a^n\}$?
+> [!question] Questão norteadora
+> Quantos múltiplos de $a$ existem em $\{1,2,3,\ldots,a^n\}$?
 
-Múltiplos de $a$: $\{a,2a,3a,\ldots,Ka = a^n\}$
-$Ka = a^n \implies K = a^{n - 1}$
-$K \in \mathbb{Z}$
+**Lema:** Sejam $a$ e $n$ inteiros tais que $a, n \geq 1$. O conjunto $\{1,2,3,\ldots,a^n\}$ possui exatamente $a^{n-1}$ múltiplos de $a$.
+
+Seja $a$ inteiro.
+Observe que os múltiplos de $a$ podem ser escritos na forma $Ka$, com $K \geq 1$. Logo os múltiplos de $a$ estão no conjunto $\{a,2a,3a,\ldots,Ka\}$, de modo que $Ka = a^n$.
+Note que $Ka = a^n \implies K = a^{n-1}$.
+Logo os valores possíveis de $K$ são $\{1,2,3,\ldots,a^{n-1}\}$.
+Portanto, existem exatamente $a^{n-1}$ múltiplos de $a$ no conjunto $\{1,2,3,\ldots,a^n\}$. ∎
 
 ---
 
-**Propriedade 2:** $p$ é primo $\implies$ $\phi(p^a) = p^a - p^{a - 1}$, em que $a : Int$ e $a > 0$.
+**Propriedade 2:** Sejam $p$ e $a$ inteiros tais que $a \geq 1$. Se $p$ é primo, então $\phi(p^a) = p^a - p^{a - 1}$.
 
 Dem.:
 
