@@ -43,7 +43,9 @@ Portanto, existem exatamente $a^{n-1}$ múltiplos de $a$ no conjunto $\{1,2,3,\l
 
 Seja $p$ primo.
 Logo, pelo lema acima, o conjunto $\{1, \ldots, p^a\}$ — com $a \geq 1$ — contém exatamente $p^{a-1}$ múltiplos de $p$.
-Um inteiro $m$ com $1 \leq m \leq p^a$ não é coprimo com $p^a$ se, e somente se, $p \mid m$ (pois $p$ é o único primo que divide $p^a$). Logo, os inteiros não coprimos com $p^a$ são exatamente os múltiplos de $p$, isto é, $\{1,\ldots,p^a\}$.
+Além disso, um inteiro $m$ com $1 \leq m \leq p^a$ não é coprimo com $p^a$ se, e somente se, $p \mid m$, pois $p$ é o único primo que divide $p^a$. Assim, os inteiros não coprimos com $p^a$ são precisamente os múltiplos de $p$.
+Como o número total de inteiros em $\{1, \ldots, p^a\}$ é $p^a$, o totiente de $p^a$ é a diferença entre o número total de inteiros e o número de múltiplos de $p$, ambos relativos ao dado conjunto.
+Portanto, $\phi(p^a) = p^a - p^{a-1}$. ∎
 
 Dem.:
 
