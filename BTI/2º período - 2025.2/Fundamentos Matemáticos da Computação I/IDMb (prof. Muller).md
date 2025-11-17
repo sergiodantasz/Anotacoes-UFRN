@@ -41,6 +41,10 @@ Portanto, existem exatamente $a^{n-1}$ múltiplos de $a$ no conjunto $\{1,2,3,\l
 
 **Propriedade 2:** Sejam $p$ e $a$ inteiros tais que $a \geq 1$. Se $p$ é primo, então $\phi(p^a) = p^a - p^{a - 1}$.
 
+Seja $p$ primo.
+Logo, pelo lema acima, o conjunto $\{1, \ldots, p^a\}$ — com $a \geq 1$ — contém exatamente $p^{a-1}$ múltiplos de $p$.
+Um inteiro 
+
 Dem.:
 
 $\phi(p^a) =$ (todos os números entre $1$ e $p^a$) - (todos os múltiplos de $p$ entre p e $p^a$) [uso do lema]
