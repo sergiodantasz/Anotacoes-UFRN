@@ -131,3 +131,35 @@ $$
 }
 $$
 
+# Números Reais
+
+Primeiro vamos definir $\mathbb{Q}$.
+
+Estrutura de $\mathbb{Z}$:
+{ℤ; 0, 1, +, -, ·, >, Pos}
+
+Importando quase tudo:
+{ℚ; 0, 1, +, -, ·, >, Pos}
+
+**O que ganhamos:**
+Qm-inv : $\forall a \neq 0, \exists a^{-1}$ tal que $a \cdot a^{-1} = 1$
+"Açúcar sintático" para frações: $\frac{a}{b} ⇐≝⇒ a \cdot b^{-1}$
+[add exemplo com 1/3]
+[add caso do 0]
+
+**O que perdemos:**
+PBO!
+Seja $A = \{x \in \mathbb{Q} \mid x > 3\}$, quem é o menor elemento de $A$?
+
+---
+
+**Definição:**
+
+Um número $a$ é dito racional se, e somente se, existirem inteiros $p$ e $q$, com $q \neq 0$, tais que:
+- $a = \frac{p}{q}$
+
+---
+
+**Teorema (Fração Irredutível)**:
+
+Seja $a$ racional, então existem inteiros $p$ e $q$, com $q \neq 0$, tais que $a = \frac{p}{q}$ e $mdc(p,q) = 1$.
