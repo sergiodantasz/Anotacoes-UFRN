@@ -1,5 +1,7 @@
 # Função Totiente de Euler
 
+> Essa função conta quantos números inteiros positivos menores ou iguais a um dado número $n$ são primos entre si com $n$.
+
 Seja $n : Int$ tal que $n > 0$.
 
 $$
@@ -8,18 +10,17 @@ $$
 
 >Os "$||$" de fora significam "cardinalidade do conjunto". O conjunto de fora significa "conjunto de todos os coprimos de $n$".
 
-*Ex.:* O totiente de $n = 14$ é 6 (6 primos no conjunto).
+*Ex.:* O totiente de 14 é 6 (6 primos no conjunto).
 
 > [!quote] Números coprimos
-> Dois números são **coprimos** se, e somente se, o único divisor comum positivo entre eles é 1.
+> Dois números são **coprimos** se, e somente se, o máximo divisor comum positivo entre eles é 1.
 
 ## Propriedades
 
-**Propriedade 1:** Se $p$ é primo, então $\phi(p) = p - 1$.
+**Propriedade 1:** $p$ primo $\implies$ $\phi(p) = p - 1$
 
-Dem.:
-
-Seja $p$ primo. Então $\forall i$ tal que $1 \leq i < p$ e $mdc(i,p) = 1$, pois $p$ é primo.
+Seja $p$ primo.
+Então $\forall i$ tal que $1 \leq i < p$ e $mdc(i,p) = 1$, pois $p$ é primo.
 Se $i = p$ e $mdc(i,p) = 0$, então $i = p$ não pertence ao conjunto de coprimos de $p$.
 Logo $\phi(p) = p - 1$.
 
