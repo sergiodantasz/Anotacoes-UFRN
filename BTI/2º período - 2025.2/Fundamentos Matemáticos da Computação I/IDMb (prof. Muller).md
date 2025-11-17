@@ -47,32 +47,25 @@ Além disso, um inteiro $m$ com $1 \leq m \leq p^a$ não é coprimo com $p^a$ se
 Como o número total de inteiros em $\{1, \ldots, p^a\}$ é $p^a$, o totiente de $p^a$ é a diferença entre o número total de inteiros e o número de múltiplos de $p$, ambos relativos ao dado conjunto.
 Portanto, $\phi(p^a) = p^a - p^{a-1}$. ∎
 
-Dem.:
-
-$\phi(p^a) =$ (todos os números entre $1$ e $p^a$) - (todos os múltiplos de $p$ entre p e $p^a$) [uso do lema]
-$\phi(p^a) = p^a - p^{a - 1} = p^{a - 1}(p - 1)$
-
-Ex.:
-Com p = 5 e a = 10
-x, 5, x, 10, x, 15, x, 20, x, ..., $5^{10}$
-
-Ex.:
-$p$ é primo e $k \in \mathbb{Z}$
-Calcular somatório de $\phi(p^i)$ com $i = 0$ até $k$.
+*Ex.:*
+Sejam $p$ primo e $k \in \mathbb{Z}$.
+Calculemos o somatório de $\phi(p^i)$ com $i = 0$ até $k$:
 
 $$
 \displaylines{
 \begin{align*}
 \sum_{i=0}^k{\phi(p^i)} &= \phi(p^0) + \sum_{i=1}^k{\phi(p^i)} \\
-&= \phi(1) + \sum_{i=1}^k{p^i - p^{i - 1}} \\
+&= \phi(1) + \sum_{i=1}^k{\left(p^i - p^{i - 1}\right)} \\
 &= 1 + \sum_{i=1}^k{p^i} - \sum_{i=1}^k{p^{i - 1}} \\
-&= 1 + \sum_{i=1}^k{p^i} - \sum_{i=0}^{k - 1}{p^i} \qquad (IndexShift) \\
+&= 1 + \sum_{i=1}^k{p^i} - \sum_{i=0}^{k - 1}{p^i} &\quad (\text{Index Shift}) \\
 &= 1 + p^k + \sum_{i=1}^{k-1}{p^i} - p^0 - \sum_{i=1}^{k - 1}{p^i} \\
 &= 1 + p^k - p^0 \\
 &= p^k
 \end{align*}
 }
 $$
+
+---
 
 **Teorema:** Se $mdc(a,b) = 1$, então $\phi(a \cdot b) = \phi(a) \cdot \phi(b)$.
 [SEM DEMO]
