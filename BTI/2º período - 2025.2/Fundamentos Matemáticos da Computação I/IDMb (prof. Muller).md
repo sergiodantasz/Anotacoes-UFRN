@@ -8,7 +8,11 @@ $$
 
 >Os "$||$" de fora significam "cardinalidade do conjunto". O conjunto de fora significa "conjunto de todos os coprimos de $n$".
 
-Ex.: O totiente de n = 14 é 6 (6 primos no conjunto).
+*Ex.:* O totiente de $n = 14$ é 6 (6 primos no conjunto).
+
+> [!quote] Números coprimos
+> Dois números são **coprimos** se, e somente se, o único divisor comum positivo entre eles é 1.
+
 ## Propriedades
 
 **Propriedade 1:** Se $p$ é primo, então $\phi(p) = p - 1$.
