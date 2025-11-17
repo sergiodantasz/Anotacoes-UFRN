@@ -156,10 +156,74 @@ Seja $A = \{x \in \mathbb{Q} \mid x > 3\}$, quem é o menor elemento de $A$?
 **Definição:**
 
 Um número $a$ é dito racional se, e somente se, existirem inteiros $p$ e $q$, com $q \neq 0$, tais que:
-- $a = \frac{p}{q}$
+- $a = \frac{p}{q} = p \cdot q^{-1}$
+
+---
+
+Q é enumerável
 
 ---
 
 **Teorema (Fração Irredutível)**:
 
 Seja $a$ racional, então existem inteiros $p$ e $q$, com $q \neq 0$, tais que $a = \frac{p}{q}$ e $mdc(p,q) = 1$.
+4/6 = 2/3 = 16/24
+2/3 é a única forma de expressar uma fração com numerador e denominador primos entre si
+
+Dem.:
+
+Seja $a = \frac{p}{q}$ em que mdc(p,q) ≠ 1, então:
+$a = \frac{p}{q} = \frac{\overline{p}k}{\overline{q}k} = \frac{\overline{p}}{\overline{q}}$
+em que k = mdc(p,q)
+$a = \frac{\overline{p}}{\overline{q}}$ é fração irredutível, pois mdc($\overline{p}$,$\overline{q}$) = 1
+
+--
+√2 é racional? como provar que não?
+
+dem por absurdo:
+
+seja √2 = a/b, com a, b : Int e b ≠ 0
+entao 2 = a²/b² ⇒ 2b² = a²
+logo a² é par
+
+2 ∣ a²
+2 ∣ a · a
+2 ∣ a ou 2 ∣ a
+2 ∣ a
+
+logo a é par
+
+--
+
+a = 2k, k : Int
+2b² = a²
+2b² = 4k²
+b² = 2k²
+logo b² é par
+b é par
+b = 2m [m abaixo]
+
+se √2 = a/b = 2k/2m = ?/?
+não irá existir fração irredutível que representa √2 pois tanto o numerador quanto o denominador são pares!!
+absurdo!
+logo √2 é irracional
+
+---
+
+**Teorema:** seja p primo, então √p é irracional.
+(dem por absurdo)
+
+seja √p = a/b uma fração irredutível.
+p = a²/b²
+pb² = a²
+p|a
+a = kp
+
+substituindo
+pb² = a²
+pb² = k²p²
+b² = k²p
+p|b
+
+se p|a e p|b, então a fração a/b não é irredutível. absurdo!!
+logo toda raiz quadrada de um numero primo é irracional.
