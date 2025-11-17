@@ -13,7 +13,7 @@ $$
 *Ex.:* O totiente de 14 é 6 (6 primos no conjunto).
 
 > [!quote] Números coprimos
-> Dois números são **coprimos** se, e somente se, o máximo divisor comum positivo entre eles é 1.
+> Dois números são **coprimos** se, e somente se, o máximo divisor comum entre eles é 1.
 
 ## Propriedades
 
@@ -67,10 +67,16 @@ $$
 
 ---
 
-**Teorema:** Se $mdc(a,b) = 1$, então $\phi(a \cdot b) = \phi(a) \cdot \phi(b)$.
-[SEM DEMO]
+**Teorema:** Sejam $a$ e $b$ inteiros. Se $mdc(a,b) = 1$, então $\phi(a \cdot b) = \phi(a) \cdot \phi(b)$.
 
-**Teorema de Euler:** Sejam $a, m \in \mathbb{Z}$ com $mdc(a,m) = 1$, então $a^{\phi(m)} \equiv 1 \pmod m$.
+> [!warning] Nota
+> O professor não fez demonstração deste teorema.
+
+---
+
+**Teorema de Euler:** Sejam $a, m \in \mathbb{Z}$ com $mdc(a,m) = 1$. Então $a^{\phi(m)} \equiv 1 \pmod m$.
+
+
 
 Dem.:
 
