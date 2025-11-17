@@ -76,7 +76,30 @@ $$
 
 **Teorema de Euler:** Sejam $a, m \in \mathbb{Z}$ com $mdc(a,m) = 1$. Então $a^{\phi(m)} \equiv 1 \pmod m$.
 
-
+Seja o conjunto $R = \{r_1,r_2,r_3,\ldots,r_{\phi(m)}\}$ (conjunto dos coprimos de $m$).
+Como $mdc(a,m) = 1$, então os elementos do conjunto $S = \{ar_1,ar_2,ar_3,\ldots,ar_{\phi(m)}\}$ são coprimos com $m$.
+Sejam $ar_i$ e $ar_j$ elementos quaisquer de $S$. Se $ar_i \equiv ar_j \pmod m$, então:
+$$
+\displaylines{
+\begin{align*}
+a(r_i - r_j) \equiv 0 \pmod m
+&\iff r_i - r_j \equiv 0 \pmod m &\quad& (\text{pois existe $a^{-1}$}) \\
+&\iff r_i \equiv r_j \pmod m &\quad& (\text{absurdo})
+\end{align*}
+}
+$$
+Logo os elementos de $S$ são distintos de $\operatorname{mod} m$.
+Como $|R| = |S|$, então os conjuntos $R$ e $S$ possuem os mesmos elementos $\operatorname{mod} m$.
+Multiplicando os termos dos conjuntos:
+$$
+\displaylines{
+\begin{align*}
+& (ar_1)(ar_2)\ldots(ar_{\phi(m)}) \equiv r_1r_2\ldots r_{\phi(m)} \pmod m \\
+\iff& a^{\phi(m)}(r_1r_2\ldots r_{phi(m)}) \equiv r_1r_2\ldots r_{\phi(m)} \pmod m \\
+\iff& a^{\phi(m)} \equiv 1 \pmod m
+\end{align*}
+}
+$$
 
 Dem.:
 
