@@ -1,6 +1,6 @@
 # Função Totiente de Euler
 
-> Essa função conta quantos números inteiros positivos menores ou iguais a um dado número $n$ são primos entre si com $n$.
+> A Função Totiente de Euler conta quantos números inteiros positivos menores ou iguais a um dado número $n$ são primos entre si com $n$.
 
 Seja $n : Int$ tal que $n > 0$.
 
