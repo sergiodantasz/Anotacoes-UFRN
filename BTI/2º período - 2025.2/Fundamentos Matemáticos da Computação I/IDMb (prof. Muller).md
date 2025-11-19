@@ -227,3 +227,87 @@ p|b
 
 se p|a e p|b, então a fração a/b não é irredutível. absurdo!!
 logo toda raiz quadrada de um numero primo é irracional.
+
+---
+
+**Conjuntos Notáveis:**
+
+i) Números Algébricos
+
+São números que podem ser obtidos como raízes de um polinômio de coeficientes inteiros.
+
+a/b  -->  bx - a = 0
+
+inclui:
+- racionais
+- alguns irracionais (radiciação)
+
+ex.: x² - 2 = 0
+
+ii) Números Transcendentais
+
+São números que não podem ser obtidos como raízes de um polinômio de coeficientes inteiros.
+
+ex.: π, e
+
+iii) Números Computáveis
+
+São números que podem ser aproximados até a precisão desejada a partir de um algoritmo.
+
+ℝ: infinitos números: incontável
+A: todos os programas em C
+- número de caracteres
+- ordem alfabética
+
+ex.: número de euler
+
+---
+
+$ℝ_ℕ \subset ℝ_ℤ \subset ℝ_ℚ \subset ℝ$
+
+(abortar a ideia padrão dos conjuntos contidos em outros, por que 5 : Int é diferente de 5 : Real, por exemplo)
+
+---
+
+**Números Reais**
+
+Especificação: importar de ℚ
+(ℚ; 0, 1, +, -, ·, <, Pos)
+
+**O que ganhamos:**
+
+- Radiciação (até certo ponto)
+- Reta real
+- Irracionais
+
+**O que eu perco:**
+
+- Frações irredutíveis : √(2)/2 o raiz de 2 nao eh par
+
+**Máximo e Mínimo:**
+
+Sejam a, b ∈ ℝ, define-se:
+
+max(a,b) =
+- a, se a > b
+- b, caso contrário
+
+min(a,b) =
+- a, se a < b
+- b, caso contrário
+
+**Módulos:**
+
+|a| =
+- a, se ≥ 0
+- -a, caso contrário
+
+**Piso/Teto:**
+
+(ceiling)
+$\lceil a \rceil$: teto de $a$
+$\lceil a \rceil ≝ min(\{x \in \mathbb{R_\mathbb{Z}} \mid x \geq a\})$
+
+(floor)
+$\lfloor a \rfloor$: piso de $a$
+$\lfloor a \rfloor ≝ max(\{x \in \mathbb{R_\mathbb{Z}} \mid x \leq a\})$
