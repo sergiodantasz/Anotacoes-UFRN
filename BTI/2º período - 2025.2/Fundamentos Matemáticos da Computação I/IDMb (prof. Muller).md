@@ -311,3 +311,107 @@ $\lceil a \rceil ≝ min(\{x \in \mathbb{R_\mathbb{Z}} \mid x \geq a\})$
 (floor)
 $\lfloor a \rfloor$: piso de $a$
 $\lfloor a \rfloor ≝ max(\{x \in \mathbb{R_\mathbb{Z}} \mid x \leq a\})$
+
+---
+
+N, Z e Q soa enumeráveis. Mas e o R? **Não!**
+
+Demons.:
+
+Vamos provar que (0,1) não é enumerável (ordenável). [Se (0,1) não é enumerável, então R não será]
+Demonstração por absurdo (Diagonal de Cantor):
+Suponha que (0,1) é um conjunto enumerável, então existe uma forma de ordenar estes números (denotados $r_i$, com $i \in \mathbb{N}$).
+$r_1 = 0,a_1a_2a_3\ldots$
+$r_2 = 0,b_1b_2b_3\ldots$
+$r_3 = 0,c_1c_2c_3\ldots$
+$r_4 = 0,d_1d_2d_3\ldots$
+$\vdots$
+diagonal: $0,a_1b_2c_3d_4$
+Construir um número que não compartilha nenhum dígito com a diagonal:
+Agora construímos um número $n$ tal que $n = 0,\alpha_1\beta_2\gamma_3\delta_4$ em que $\alpha_1 \neq a_1$, $\beta_2 \neq b_2$, $\gamma_3 \neq c_3$, $\delta_4 \neq d_4$.
+$n$ está na enumeração? Não. Absurdo!
+
+**Curiosidade:**
+
+$|(0,1)| = |\mathbb{R}|$
+
+---
+
+**Sequências de Números Reais:**
+
+Uma sequência de números reais é uma listagem ordenada de números reais:
+$x_0,x_1,x_2,x_3,\ldots$
+Notação: $(x_n)^\infty_{n=0}$ ou $(x_n)_{n \in \mathbb{N}}$ ou $(x_n)_n$
+
+**Igualdade de Sequências**
+
+Sejam duas sequências $(x_n)_{n \in \mathbb{N}}$ e $(y_n)_{n \in \mathbb{N}}$.
+$$
+(x_n)_{n \in \mathbb{N}} = (y_n)_{n \in \mathbb{N}} \iff (\forall i)[x_i = y_i]
+$$
+
+Ex:
+$(x_n)_n$ : 1/2, 3/4, 1, -3, ...
+$(y_n)_n$ : 1/2, 3/4, 8, -3, ...
+não são iguais por que $x_3 \neq y_3$
+
+Obs.: sequências não são conjuntos!!!
+
+**Sequências Recursivas:**
+
+É uma sequência em que o valor de cada elemento depende de seus antecessores.
+
+Ex.:
+$(x_n)_{n=0}^\infty$  em que:
+- $x_0 = 3$
+- $x_n = x_{n-1} + 5$, para $n > 0$
+
+**Sequência de Fibonacci**
+
+$x_0 = 1$
+$x_1 = 1$
+$x_n = x_{n-1} + x_{n-2}$
+1,1,2,3,5,8,13,21,...
+
+**Sequências Crescentes e Decrescentes**
+
+$(x_n)_{n}^\infty$ é crescente se, e somente se, $(\forall n)[x_{n+1} \geq x_n]$
+$(x_n)_{n}^\infty$ é decrescente se, e somente se, $(\forall n)[x_{n+1} \leq x_n]$
+
+Obs.:
+Seja $(x_n)_{n=0}^\infty$ crescente.
+Podemos dizer que $x_n \to \infty$ quando $n \to \infty$?
+*Não necessariamente!*
+
+Seja a sequência $(x_n)^\infty_{n=0}$ em que $x_n = \frac{1}{n+1}$.
+1,1/2, 1/3,1/4,1/5,... Sequer alcança zero
+
+Seja a sequência $(x_n)^\infty_{n=0}$ em que $x_n = \frac{-1}{n+1}$.
+-1,-1/2,-1/3,-1/4,... nunca alcança zero, mas é sempre crescente
+
+**Sequências com Cotas**
+
+i) cota inferior
+
+$C$ é uma cota inferior de $(x_n)_n$ ⇐≝⇒ (∀n)[c ≤ x_n]
+
+> Ínfimum: melhor (maior) cota inferior
+
+Ex.:
+$C = 0$
+$0 = Inf(x_n)_n$
+
+ii) cota superior
+
+$C$ é uma cota superior de $(x_n)_n$ ⇐≝⇒ (∀n)[c ≥ x_n]
+
+**Infimum**
+
+$M$ é infimum de $(x_n)_{n=0}^\infty$ ⇔ (∀n)[M ≤ x_n] ∧ (∀c)[c é cota de (x_n)n ⇒ M ≥ c]
+                      M é cota de $(x_n)_n$              M é a melhor cota
+
+**Supremum**
+
+> Supremum: melhor (menor) cota superior
+
+$M$ é supremum de $(x_n)_{n=0}^\infty$ ⇔ (∀n)[M ≥ x_n] ∧ (∀c)[c é cota de (x_n)n ⇒ M ≤ c]
