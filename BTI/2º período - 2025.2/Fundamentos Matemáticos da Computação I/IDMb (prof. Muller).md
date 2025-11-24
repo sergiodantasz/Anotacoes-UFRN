@@ -151,26 +151,28 @@ Seja $A = \{x \in \mathbb{Q} \mid x > 3\}$, quem é o menor elemento de $A$?
 
 Um número $a$ é dito racional se, e somente se, existirem inteiros $p$ e $q$, com $q \neq 0$, tais que $a = \frac{p}{q} = p \cdot q^{-1}$.
 
-> [!important] Os racionais são enumeráveis!
+> [!important] Argumento de George Cantor
 > Embora pareça contra-intuitivo à primeira vista, $\mathbb{Q}$ é enumerável. Isso significa que podemos estabelecer uma bijeção (correspondência um-para-um) entre os racionais e os naturais.
+
+## Fração Irredutível
+
+**Teorema:** Seja $a$ racional, então existem inteiros $p$ e $q$, com $q \neq 0$, tais que $a = \frac{p}{q}$ e $mdc(p,q) = 1$.
+
+Seja $a = \frac{p}{q}$ em que $mdc(p,q) \neq 1$. Logo $a = \frac{p'k}{q'k} = \frac{p'}{q'}$, com $k = mdc(p,q)$.
+
+Suponha, por absurdo, que $mdc(p',q') = d > 1$. Isso significa que $d$ divide $p'$ e $d$ divide $q'$, ou seja, $p' = dm$ e $q' = dn$. Substituindo na equação original, teremos:
+
+$$
+a = \frac{p'k}{q'k} = \frac{(dm)k}{(dn)k} = \frac{(dk)m}{(dk)n} = \frac{p}{q}
+$$
+
+Isso implica que $dk$ é um divisor comum de $p$ e de $q$. Como $d > 1$, então $dk > k$. Ora, isso é um absurdo! Pois definimos $k = mdc(p,q)$, e não pode existir um divisor comum $dk$ maior que $k$. Logo a suposição de que $d > 1$ é falsa. Concluímos que $mdc(p',q') = 1$.
+
+Portanto, $a = \frac{p'}{q'}$ é uma fração irredutível. ∎
 
 ---
 
-**Teorema (Fração Irredutível)**:
-
-Seja $a$ racional, então existem inteiros $p$ e $q$, com $q \neq 0$, tais que $a = \frac{p}{q}$ e $mdc(p,q) = 1$.
-4/6 = 2/3 = 16/24
-2/3 é a única forma de expressar uma fração com numerador e denominador primos entre si
-
-Dem.:
-
-Seja $a = \frac{p}{q}$ em que mdc(p,q) ≠ 1, então:
-$a = \frac{p}{q} = \frac{\overline{p}k}{\overline{q}k} = \frac{\overline{p}}{\overline{q}}$
-em que k = mdc(p,q)
-$a = \frac{\overline{p}}{\overline{q}}$ é fração irredutível, pois mdc($\overline{p}$,$\overline{q}$) = 1
-
---
-√2 é racional? como provar que não?
+**Questionamento:** $\sqrt{2}$ é racional? Como demonstrar que não?
 
 dem por absurdo:
 
