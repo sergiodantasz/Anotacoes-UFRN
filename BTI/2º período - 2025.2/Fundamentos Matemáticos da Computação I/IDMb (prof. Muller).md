@@ -416,14 +416,14 @@ $C$ é uma cota superior de $(x_n)_n$ ⇐≝⇒ (∀n)[c ≥ x_n]
 
 **Infimum**
 
-_ = Inf _ : Real ⨯ Set Real → Prop
+_ = Inf _ : ExtReal ⨯ Set ExtReal → Prop
 
 $M$ é infimum de $(x_n)_{n=0}^\infty$ ⇔ (∀n)[M ≤ x_n] ∧ (∀c)[c é cota de (x_n)n ⇒ M ≥ c]
                       M é cota de $(x_n)_n$              M é a melhor cota
 
 **Supremum**
 
-_ = Sup _ : Real ⨯ Set Real → Prop
+_ = Sup _ : ExtReal ⨯ Set ExtReal → Prop
 
 > Supremum: melhor (menor) cota superior
 
@@ -468,4 +468,59 @@ Propriedades:
 3. ∞ + (-∞) é uma indeterminação
 4. a · ∞ = ∞ se a > 0
 5. a · ∞ = -∞ se a < 0
-6. 0 · ∞ é uma indeterminação
+6. 0 · ∞ é uma indeterminação (se o zero vier de um limite)
+7. ∞ · ∞ = ∞
+8. (-∞) · (-∞) = ∞
+9. (-∞) · ∞ = -∞
+
+**Distâncias**
+
+Seja d : α ⨯ α → Real. Dizemos que d é uma distância (métrica) no α se, e somente se, todas as propriedades a seguir são satisfeitas.
+
+Sejam x, y, z : α.
+
+(D-Range) d(x,y) ≥ 0
+(D-Sym) d(x,y) = d(y,x)
+(D-Tri) d(x,y) ≤ d(x,z) + d(z,y) [desigualdade triangular]
+(D-EqZero) d(x,x) = 0
+(D-ZeroEq) d(x,y) = 0 ⇒ x = y
+
+Exemplos em ℝ:
+
+i) Distância Euclidiana
+
+d(a,b) ≝ |a - b|   (d : Real ⨯ Real → Real)
+
+ii) Distância Discreta
+
+$d_0$(a,b) ≝    0, se a = b
+         1, se a ≠ b       ($d_0$ : Real ⨯ Real → Real)
+
+**Def:** ε-Perto: Sejam x, y : Real e ε : Real com ε > 0.
+Dizemos que:
+x é ε-Perto de y ⇔ d(x,y) < ε
+[add exemplo com foto]
+
+Notação: x $\sim_\epsilon$ y
+
+**Def:** ε-Bola: Seja um conjunto A e um ponto c ∈ A.
+
+A é ε-Bola de c ⇔ A = {x | x $\sim_\epsilon$ c}
+
+Notação: $B_\epsilon$(c)
+ε é  raio
+c é o centro
+
+[add exemplo com foto]
+
+---
+
+Bolas em ℝ (dist. euclidiana)
+
+$B_r$(c) = {x | d(x,c) < ε} = {x | |x - c| < ε} = {x | c - ε < x < c + ε}
+$B_r$(c) = (c - ε, c + ε)
+
+[foto]
+
+dist. discreta
+[foto]
