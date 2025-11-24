@@ -134,14 +134,13 @@ Neste caso, chegamos ao Pequeno Teorema de Fermat.
 
 Importaremos quase tudo de *Int*.
 
-**Estrutura de $\mathbb{Q}$:**
-($\mathbb{Q}$; 0, 1, +, -, ·, >, Pos)
+**Estrutura de $\mathbb{Q}$:** ($\mathbb{Q}$; 0, 1, +, -, ·, >, Pos)
 
-**Com isso, ganhamos:**
+**⛤ Com isso, ganhamos:**
 - Açúcar sintático para frações: $\frac{a}{b} \iff a \cdot b^{-1}$.
 - QM-Inv: Para todo $a \neq 0$, existe $a^{-1}$ tal que $a \cdot a^{-1} = 1$.
 
-**O que perdemos:**
+**✞ O que perdemos:**
 - Princípio da Boa Ordem (PBO).
 
 Seja $A = \{x \in \mathbb{Q} \mid x > 3\}$, quem é o menor elemento de $A$?
@@ -172,98 +171,114 @@ Portanto, $a = \frac{p'}{q'}$ é uma fração irredutível. ∎
 
 ---
 
-**Questionamento:** $\sqrt{2}$ é racional? Como demonstrar que não?
+> [!question] Questão norteadora
+> $\sqrt{2}$ é racional? Como demonstrar que não?
 
-dem por absurdo:
+**Teorema:** $\sqrt{2}$ é irracional.
 
-seja √2 = a/b, com a, b : Int e b ≠ 0
-entao 2 = a²/b² ⇒ 2b² = a²
-logo a² é par
+Vamos demonstrar que $\sqrt{2}$ é irracional. Suponha, por absurdo, que existe uma fração irredutível que represente $\sqrt{2}$.
 
-2 ∣ a²
-2 ∣ a · a
-2 ∣ a ou 2 ∣ a
-2 ∣ a
+Seja $\sqrt{2} = \frac{a}{b}$, com $a$ e $b$ inteiros tais que $b \neq 0$. Disso segue que $2 = \frac{a^2}{b^2} \implies 2b^2 = a^2$. Logo $a^2$ é um número par. Calculemos:
 
-logo a é par
+$$
+\displaylines{
+\begin{align*}
+2 \mid a^2
+&\implies 2 \mid a \cdot a \\
+&\implies 2 \mid a \lor 2 \mid a \\
+&\implies 2 \mid a
+\end{align*}
+}
+$$
 
---
+Logo $a$ também é par. Sendo assim, existe $k$ inteiro tal que $a = 2k$.
 
-a = 2k, k : Int
-2b² = a²
-2b² = 4k²
-b² = 2k²
-logo b² é par
-b é par
-b = 2m [m abaixo]
+Observe o seguinte:
 
-se √2 = a/b = 2k/2m = ?/?
-não irá existir fração irredutível que representa √2 pois tanto o numerador quanto o denominador são pares!!
-absurdo!
-logo √2 é irracional
+$$
+\displaylines{
+\begin{align*}
+2b^2 = a^2
+&\implies 2b^2 = (2k)^2 \\
+&\implies 2b^2 = 4k^2 \\
+&\implies b^2 = 2k^2
+\end{align*}
+}
+$$
 
----
+Analogamente, temos que $b^2$ e $b$ são pares. Sendo assim, $b = 2m$, para algum $m$ inteiro.
 
-**Teorema:** seja p primo, então √p é irracional.
-(dem por absurdo)
+Agora note que $\sqrt{2} = \frac{a}{b} = \frac{2k}{2m} = \frac{k}{m}$. Veja que não existe uma fração irredutível que represente $\sqrt{2}$, pois tanto o numerador quanto o denominador são pares. Logo, a suposição inicial é, de fato, um absurdo.
 
-seja √p = a/b uma fração irredutível.
-p = a²/b²
-pb² = a²
-p|a
-a = kp
-
-substituindo
-pb² = a²
-pb² = k²p²
-b² = k²p
-p|b
-
-se p|a e p|b, então a fração a/b não é irredutível. absurdo!!
-logo toda raiz quadrada de um numero primo é irracional.
+Portanto, $\sqrt{2}$ é irracional. ∎
 
 ---
 
-**Conjuntos Notáveis:**
+**Teorema:** Seja $p$ primo. Então $\sqrt{p}$ é irracional.
 
-i) Números Algébricos
+Suponha, por absurdo, que $\sqrt{p}$ é racional. Logo $\sqrt{p} = \frac{a}{b}$, com $a$ e $b$ inteiros, é uma fração irredutível. Teremos:
+
+$$
+\displaylines{
+\begin{align*}
+\sqrt{p} = \frac{a}{b}
+&\implies p = \frac{a^2}{b^2} \\
+&\implies pb^2 = a^2 \\
+&\implies p \mid a \\
+&\implies a = kp, \quad k \in \mathbb{Z}
+\end{align*}
+}
+$$
+
+Substituindo, vamos ter o seguinte:
+
+$$
+\displaylines{
+\begin{align*}
+pb^2 = a^2
+&\implies pb^2 = (kp)^2 \\
+&\implies pb^2 = k^2p^2 \\
+&\implies b^2 = k^2p \\
+&\implies p \mid b
+\end{align*}
+}
+$$
+
+Se $p \mid a$ e $p \mid b$, então a fração $\frac{a}{b}$ não é irredutível, o que é um absurdo.
+
+Portanto, toda raiz quadrada de um número primo é racional. ∎
+
+## Conjuntos Notáveis
+
+> Vamos abortar a ideia padrão dos **conjuntos contidos em outros** que conhecemos. Por exemplo, *5 : Int* é diferente de *5 : Real*. Adotemos, então, a ideia de que $\mathbb{R}_\mathbb{N} \subset \mathbb{R}_\mathbb{Z} \subset \mathbb{R}_\mathbb{Q} \subset \mathbb{R}$.
+
+### Números Algébricos
 
 São números que podem ser obtidos como raízes de um polinômio de coeficientes inteiros.
 
-a/b  -->  bx - a = 0
+Inclui:
+- Racionais;
+- Alguns irracionais (radiciação).
 
-inclui:
-- racionais
-- alguns irracionais (radiciação)
+*Ex.:*
+$x = \frac{a}{b} \implies bx - a = 0$
+$x^2 - 2 = 0 \implies x^2 = 2 \implies x = \pm \sqrt{2}$
 
-ex.: x² - 2 = 0
-
-ii) Números Transcendentais
+### Números Transcendentais
 
 São números que não podem ser obtidos como raízes de um polinômio de coeficientes inteiros.
 
-ex.: π, e
+*Ex.:* $\pi$, $e$, $e^\pi$.
 
-iii) Números Computáveis
+### Números Computáveis
 
-São números que podem ser aproximados até a precisão desejada a partir de um algoritmo.
+São números que podem ser aproximados até a precisão desejada a partir de um algoritmo computacional.
 
-ℝ: infinitos números: incontável
-A: todos os programas em C
-- número de caracteres
-- ordem alfabética
+A maioria dos números reais **não é computável**, porque existem contáveis algoritmos, mas incontáveis números reais (infinitos).
 
-ex.: número de euler
+*Ex.:* todos os números algébricos e muitos transcendentais importantes.
 
----
-
-$ℝ_ℕ \subset ℝ_ℤ \subset ℝ_ℚ \subset ℝ$
-
-(abortar a ideia padrão dos conjuntos contidos em outros, por que 5 : Int é diferente de 5 : Real, por exemplo)
-
----
-
-**Números Reais**
+# Números Reais
 
 Especificação: importar de ℚ
 (ℚ; 0, 1, +, -, ·, <, Pos)
