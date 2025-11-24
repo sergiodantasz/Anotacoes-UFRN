@@ -415,3 +415,14 @@ $M$ é infimum de $(x_n)_{n=0}^\infty$ ⇔ (∀n)[M ≤ x_n] ∧ (∀c)[c é cot
 > Supremum: melhor (menor) cota superior
 
 $M$ é supremum de $(x_n)_{n=0}^\infty$ ⇔ (∀n)[M ≥ x_n] ∧ (∀c)[c é cota de (x_n)n ⇒ M ≤ c]
+
+**Ordem (Point-wise)**
+
+Sejam duas sequências $(x_n)_{n=0}^\infty$ e $(y_n)_{n=0}^\infty$.
+Dizemos que
+$$
+(x_n)_n > (y_n)_n \iff (\forall n)[x_n > y_n]
+$$
+
+ex.:
+[add duas sequencias]
