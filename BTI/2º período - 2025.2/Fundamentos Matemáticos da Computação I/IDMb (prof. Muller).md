@@ -416,10 +416,14 @@ $C$ é uma cota superior de $(x_n)_n$ ⇐≝⇒ (∀n)[c ≥ x_n]
 
 **Infimum**
 
+_ = Inf _ : Real ⨯ Set Real → Prop
+
 $M$ é infimum de $(x_n)_{n=0}^\infty$ ⇔ (∀n)[M ≤ x_n] ∧ (∀c)[c é cota de (x_n)n ⇒ M ≥ c]
                       M é cota de $(x_n)_n$              M é a melhor cota
 
 **Supremum**
+
+_ = Sup _ : Real ⨯ Set Real → Prop
 
 > Supremum: melhor (menor) cota superior
 
@@ -435,3 +439,33 @@ $$
 
 ex.:
 [add duas sequencias]
+
+**Conjunto Cotado:**
+
+É um conjunto que possui cotas superiores e inferiores.
+
+Se A não possui cotas superiores?
+Sup A = ∞
+ex.: conjuntos (\_,∞)
+
+Se A não possui cotas inferiores?
+Inf A = -∞
+ex.: conjuntos (-∞,\_)
+
+Se for somente superior ou inferior, chamamos de conjunto cotado superiormente/inferiormente.
+
+**Reais Estendidos**
+
+$$
+\overline{\mathbb{R}} = \{-\infty,\infty\} \cup \mathbb{R}
+\qquad \text{ou} \qquad
+\overline{\mathbb{R}} = [-\infty,\infty]
+$$
+
+Propriedades:
+1. a + ∞ = ∞
+2. a + (-∞) = -∞
+3. ∞ + (-∞) é uma indeterminação
+4. a · ∞ = ∞ se a > 0
+5. a · ∞ = -∞ se a < 0
+6. 0 · ∞ é uma indeterminação
