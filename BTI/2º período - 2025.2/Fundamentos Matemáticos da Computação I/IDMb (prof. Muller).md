@@ -86,42 +86,24 @@ $$
 
 Seja $R = \{r_1,r_2,r_3,\ldots,r_{\phi(m)}\}$ o conjunto dos coprimos com $m$. Considere o conjunto $S = \{ar_1,ar_2,ar_3,\ldots,ar_{\phi(m)}\}$.
 
-Veja que se assumirmos $ar_i \equiv ar_j \pmod m$, então:
+Suponha, por absurdo, que $ar_i \equiv ar_j \pmod m$, para algum $i \neq j$. Então:
 
 $$
 \displaylines{
 \begin{align*}
 a(r_i - r_j) \equiv 0 \pmod m
-&\iff r_i - r_j \equiv 0 \pmod m \qquad (\text{pois existe $a^{-1}$}) \\
-&\iff r_i \equiv r_j \pmod m
+&\implies r_i - r_j \equiv 0 \pmod m \qquad (\text{pois existe $a^{-1}$}) \\
+&\implies r_i \equiv r_j \pmod m
 \end{align*}
 }
 $$
 
+O que é um absurdo; logo todos os elementos de $S$ são distintos módulo $m$.
 
+Como $|R| = |S|$, então os conjuntos $R$ e $S$ possuem os mesmos elementos módulo $m$.
 
-Dem.:
+Multiplicando os termos dos conjuntos, teremos:
 
-Seja o conjunto $R = \{r_1,r_2,r_3,\ldots,r_{\phi(m)}\}$. [conjunto dos coprimos de m]
-Como $mdc(a,m) = 1$, então os elementos do conjunto $S = \{ar_1,ar_2,ar_3,\ldots,ar_{\phi(m)}\}$ são coprimos com m.
-
-OBS.:
-Se $ar_i \equiv ar_j \pmod m$, então:
-
-$$
-\displaylines{
-\begin{align*}
-a(r_i - r_j) \equiv 0 \pmod m
-&\iff r_i - r_j \equiv 0 \pmod m \qquad (pois\ existe\ a^{-1}) \\
-&\iff r_i \equiv r_j \pmod m \qquad (ABSURDO)
-\end{align*}
-}
-$$
-
-Então os elementos de $S$ são distintos de $mod\ m$.
-
-Como $|R| = |S|$, então os conjuntos $R$ e $S$ possuem os mesmos elementos $mod\ m$.
-Multiplicando os termos dos conjuntos:
 $$
 \displaylines{
 \begin{align*}
@@ -132,31 +114,31 @@ $$
 }
 $$
 
----
-PTF: Caso específico m = p primo
+Portanto, $a^{\phi(m)} \equiv 1 \pmod m$. ∎
+
+No caso específico em que o módulo é um número primo $p$, teremos que:
 
 $$
 \displaylines{
 \begin{align*}
-& a^{\phi(p)} \equiv 1 \pmod m \\
-\iff& a^{p - 1} \equiv 1 \pmod m \\
-\iff& a^p \equiv a \pmod m
+a^{\phi(p)} \equiv 1 \pmod p
+& \iff a^{p - 1} \equiv 1 \pmod p \\
+& \iff a^p \equiv a \pmod p
 \end{align*}
 }
 $$
 
-# Números Reais
+Neste caso, chegamos ao Pequeno Teorema de Fermat.
 
-Primeiro vamos definir $\mathbb{Q}$.
+# Números Racionais
 
-Estrutura de $\mathbb{Z}$:
-{ℤ; 0, 1, +, -, ·, >, Pos}
+Importaremos quase tudo de Int.
 
-Importando quase tudo:
-{ℚ; 0, 1, +, -, ·, >, Pos}
+**Estrutura de $\mathbb{Q}$:**
+($\mathbb{Q}$; 0, 1, +, -, ·, >, Pos)
 
-**O que ganhamos:**
-Qm-inv : $\forall a \neq 0, \exists a^{-1}$ tal que $a \cdot a^{-1} = 1$
+**Com isso, ganhamos:**
+- QM-Inv : $\forall a \neq 0, \exists a^{-1}$ tal que $a \cdot a^{-1} = 1$
 "Açúcar sintático" para frações: $\frac{a}{b} ⇐≝⇒ a \cdot b^{-1}$
 [add exemplo com 1/3]
 [add caso do 0]
@@ -328,7 +310,7 @@ $\lfloor a \rfloor ≝ max(\{x \in \mathbb{R_\mathbb{Z}} \mid x \leq a\})$
 
 ---
 
-N, Z e Q soa enumeráveis. Mas e o R? **Não!**
+N, Z e Q sao enumeráveis. Mas e o R? **Não!**
 
 Demons.:
 
