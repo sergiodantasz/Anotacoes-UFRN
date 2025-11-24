@@ -84,6 +84,22 @@ $$
 
 **Teorema de Euler:** Sejam $a, m \in \mathbb{Z}$ com $mdc(a,m) = 1$. Então $a^{\phi(m)} \equiv 1 \pmod m$.
 
+Seja $R = \{r_1,r_2,r_3,\ldots,r_{\phi(m)}\}$ o conjunto dos coprimos com $m$. Considere o conjunto $S = \{ar_1,ar_2,ar_3,\ldots,ar_{\phi(m)}\}$.
+
+Veja que se assumirmos $ar_i \equiv ar_j \pmod m$, então:
+
+$$
+\displaylines{
+\begin{align*}
+a(r_i - r_j) \equiv 0 \pmod m
+&\iff r_i - r_j \equiv 0 \pmod m \qquad (\text{pois existe $a^{-1}$}) \\
+&\iff r_i \equiv r_j \pmod m
+\end{align*}
+}
+$$
+
+
+
 Dem.:
 
 Seja o conjunto $R = \{r_1,r_2,r_3,\ldots,r_{\phi(m)}\}$. [conjunto dos coprimos de m]
@@ -115,8 +131,6 @@ $$
 \end{align*}
 }
 $$
-
-trocar n por m
 
 ---
 PTF: Caso específico m = p primo
