@@ -524,3 +524,16 @@ $B_r$(c) = (c - ε, c + ε)
 
 dist. discreta
 [foto]
+
+(dist euc) Seja um intervalo (a,b). Como representar como uma bola?
+(Se b > a por conveniência)
+
+[foto]
+
+**Def:** Diâmetro:
+Seja A um conjunto de reais.
+S = Diam A ⇔ S = Sup {d(a,b) | a, b ∈ A} [conjunto com os valores de todas as distãncias entre os pontos a e b; o S é a maior de todas as distâncias]
+Obs.: diam A = ∞ ⇔ sup A = ∞
+
+**Def.:** Conjunto Cercado
+A é cercado ⇔ (∃c)(∃m)\[A ⊆ $B_m$(c)\]   [A está contido em alguma bola]
