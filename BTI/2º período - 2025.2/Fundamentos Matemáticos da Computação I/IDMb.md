@@ -826,6 +826,9 @@ $$
 
 Portanto, $\lim \left(\frac{1}{2^{n+1}}\right)_n = 0$. ∎
 
+> [!warning] Está faltando algo?
+> O teorema exige que a demonstração seja feita para $n \geq N$, mas Muller demonstrou para $n > M$. Isso está correto e é formalmente aceito? Se supormos $n \geq N$, concluímos que $d(a_n,l) \leq \epsilon$, e eu não faço a mínima ideia se isso é aceito. Uma possível solução para esse problema seria tomar $N = \left\lceil \log_2{\left(\frac{1}{\epsilon}\right)} \right\rceil$.
+
 ### Sequências Convergente e Divergente
 
 $$
