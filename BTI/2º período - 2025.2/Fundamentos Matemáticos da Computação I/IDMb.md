@@ -735,7 +735,7 @@ $$
 (\exists N)(\forall n \geq N)[\phi(a_n)]
 $$
 
-**Significa:** existe um valor $N$ em que, para todo $n$ a partir de $N$, $\phi(a_n)$ é satisfeito.
+**Significa:** existe um valor $N$ que, para todo $n$ a partir de $N$, $\phi(a_n)$ é satisfeito.
 
 *Ex.:*
 Para valores suficientemente grandes, $2^n > n^4 > 8n$.
