@@ -777,7 +777,7 @@ $$
 
 ---
 
-**Teorema:** $\lim (\frac{1}{2^{n+1}})_n = 0$
+**Teorema:** $\lim \left(\frac{1}{2^{n+1}}\right)_n = 0$
 
 Seja $\epsilon > 0$. Vamos demonstrar que existe $N$ tal que, para todo $n \geq N$, $d(l,a_n) < \epsilon$ — em outras palavras, eventualmente $d(l,a_n) < \epsilon$.
 
