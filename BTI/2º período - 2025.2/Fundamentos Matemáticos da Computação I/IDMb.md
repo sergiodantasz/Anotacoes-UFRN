@@ -2,7 +2,7 @@
 
 > A Função Totiente de Euler conta quantos números inteiros positivos menores ou iguais a um dado número $n$ são primos entre si com $n$.
 
-Seja $n : Int$ tal que $n > 0$.
+Seja $n$ : Int tal que $n > 0$.
 
 $$
 \phi(n) ≝ |\{i \in \{1,2,3\ldots,n\} \mid mdc(i,n) = 1\}|
@@ -604,22 +604,32 @@ $$
 
 ### ε-Perto
 
-**Def:** ε-Perto: Sejam x, y : Real e ε : Real com ε > 0.
-Dizemos que:
-x é ε-Perto de y ⇔ d(x,y) < ε
-[add exemplo com foto]
+Sejam $x$, $y$, $\epsilon$ : Real com $\epsilon > 0$.
 
-Notação: x $\sim_\epsilon$ y
+$$
+x \text{ é $\epsilon$-Perto de } y \iff d(x,y) < \epsilon
+$$
 
-**Def:** ε-Bola: Seja um conjunto A e um ponto c ∈ A.
+**Notação:** $x \sim_\epsilon y$
 
-A é ε-Bola de c ⇔ A = {x | x $\sim_\epsilon$ c}
+*Ex.:*
+Sejam x = 4 e y = 5.
+Se ε = 1/2, então 4 não é 1/2-Perto de 5 ($4 \sim_\frac{1}{2} 5$).
+Se ε = 2, então 4 é 2-Perto de 5 ($4 \sim_2 5$).
 
-Notação: $B_\epsilon$(c)
-ε é  raio
-c é o centro
+### ε-Bola
 
-[add exemplo com foto]
+Sejam um conjunto $A$ e um ponto $c \in A$.
+
+$$
+A \text{ é $\epsilon$-Bola de } c \iff A = \{x \mid x \sim_\epsilon c\}
+$$
+
+**Notação:** $B_\epsilon(c)$ ($\epsilon$ é o raio e $c$ é o centro)
+
+*Ex.:*
+Sejam $c = 5$ e $\epsilon = 3$.
+Logo $B_3(5) = (2,8)$ (esse conjunto é 3-Bola de 5).
 
 ---
 
