@@ -783,7 +783,7 @@ Seja $\epsilon > 0$. Vamos demonstrar que existe $N$ tal que, para todo $n \geq 
 
 **Passo 1: Obter $N$ em função do $\epsilon$ dado.**
 
-Seja $n \geq N$ tal que $d(a_n,l) < \epsilon$. Calculamos:
+Sejam $n \geq N$ tal que $d(a_n,l) < \epsilon$ e $l = 0$. Calculamos:
 
 $$
 \displaylines{
@@ -801,9 +801,7 @@ $$
 
 > $\log_2{\frac{1}{2\epsilon}}$ não é um Int.
 
-Tome $N = \left\lceil \log_2{\frac{1}{2\epsilon}} \right\rceil < n$.
-[precisa do < n? ja esta explicito no inicio]
-[foto]
+Tomemos $N = \left\lceil \log_2{\frac{1}{2\epsilon}} \right\rceil$. Sabemos que $N$ é um inteiro e podemos, portanto, inferir $N \leq n$.
 
 **Passo 2: Demonstrar que $\forall n \geq N$, temos que $d(a_n,l) < \epsilon$.**
 
