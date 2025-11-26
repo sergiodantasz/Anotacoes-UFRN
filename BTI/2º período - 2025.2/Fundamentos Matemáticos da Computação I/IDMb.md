@@ -5,7 +5,7 @@
 Seja $n$ : Int tal que $n > 0$.
 
 $$
-\phi(n) ≝ |\{i \in \{1,2,3\ldots,n\} \mid mdc(i,n) = 1\}|
+\phi(n) \overset{\mathrm{def}}{=} |\{i \in \{1,2,3\ldots,n\} \mid mdc(i,n) = 1\}|
 $$
 
 >Os "$||$" de fora significam "cardinalidade do conjunto". O conjunto de fora significa "conjunto de todos os coprimos de $n$".
