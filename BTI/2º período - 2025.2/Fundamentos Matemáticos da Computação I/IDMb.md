@@ -665,20 +665,21 @@ $$
 
 Seja $c = 3$.
 
-5 é 1/3-Perto de 3?
-Veja que $d_0(3,5) < \frac{1}{3} \implies 1 < \frac{1}{3}$, o que não é verdadeiro, pois $1 > \frac{1}{3}$.
-Logo a resposta é *não*.
+Note que:
 
-5 é 2-Perto de 3?
-Note que $d_0(3,5) < 2 \implies 1 < 2$.
-Assim, a resposta é *sim*.
+$$
+B_\frac{1}{3}(3) = \left\{ x \mid d_0(x,3) < \frac{1}{3} \right\}
+$$
 
-Observe:
-- $B_\frac{1}{3}(3) = \{3\}$
-- $B_2(3) = \mathbb{R}$
+Para entrar na bola, precisa valer $d_0(x,3) = 0$, porque $1 \not < \frac{1}{3}$. Isso só acontece quando $x = 3$. Então $B_\frac{1}{3}(3) = \{3\}$.
 
-dist. discreta
-[foto]
+Agora, veja que:
+
+$$
+B_2(3) = \{x \mid d_0(x,3) < 2\}
+$$
+
+Ora, tanto $0 < 2$ quanto $1 < 2$, logo ambos os casos da distância discreta entram na bola. Então $B_2(3) = \mathbb{R}$.
 
 (dist euc) Seja um intervalo (a,b). Como representar como uma bola?
 (Se b > a por conveniência)
