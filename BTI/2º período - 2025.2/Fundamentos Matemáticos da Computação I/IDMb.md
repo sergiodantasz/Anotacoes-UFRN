@@ -783,7 +783,7 @@ Seja $\epsilon > 0$. Vamos demonstrar que existe $N$ tal que, para todo $n \geq 
 
 **Passo 1: Obter $N$ em função do $\epsilon$ dado.**
 
-Dado $\epsilon > 0$, vamos deduzir que $\log_2{\left(\frac{1}{2\epsilon}\right)} < n$ deve ser satisfeita. Calculamos:
+Dado $\epsilon > 0$, para que $d(a_n,l) < \epsilon$ seja satisfeita, precisamos de $\log_2{\left(\frac{1}{2\epsilon}\right)} < n$. Calculamos:
 
 $$
 \displaylines{
