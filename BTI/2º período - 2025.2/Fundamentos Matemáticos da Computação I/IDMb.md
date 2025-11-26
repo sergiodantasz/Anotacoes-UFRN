@@ -783,7 +783,7 @@ Seja $\epsilon > 0$. Vamos demonstrar que existe $N$ tal que, para todo $n \geq 
 
 **Passo 1: Obter $N$ em função do $\epsilon$ dado.**
 
-Dado $\epsilon > 0$, para que $d(a_n,l) < \epsilon$ seja satisfeita, precisamos de $\log_2{\left(\frac{1}{2\epsilon}\right)} < n$. Calculamos:
+Vamos deduzir qual valor $N$ deve assumir. Para que $d(a_n,l) < \epsilon$ seja satisfeita, temos o seguinte:
 
 $$
 \displaylines{
@@ -799,15 +799,13 @@ d(a_n,l) < \epsilon
 }
 $$
 
-> $\log_2{\frac{1}{2\epsilon}}$ não é um Int.
+> Perceba que $\log_2{\frac{1}{2\epsilon}}$ não é um Int.
 
-Tome $N = \left\lceil \log_2{\left(\frac{1}{2\epsilon}\right)} \right\rceil$. Logo $\log_2{\left(\frac{1}{2\epsilon}\right)} \leq \left\lceil  \log_2{\left(\frac{1}{2\epsilon}\right)} \right\rceil$.
-
-Sabemos que $N$ é um inteiro e podemos, então, inferir $N \leq n$ (por transitividade).
+Tome, então, $N = \left\lceil \log_2{\left(\frac{1}{2\epsilon}\right)} \right\rceil$. Note que $N \geq \log_2{\left(\frac{1}{2\epsilon}\right)}$.
 
 **Passo 2: Demonstrar que $\forall n \geq N$, temos que $d(a_n,l) < \epsilon$.**
 
-Agora, tome $n > N$. Calculamos:
+Agora, suponha $n > N$. Calculamos:
 
 $$
 \displaylines{
