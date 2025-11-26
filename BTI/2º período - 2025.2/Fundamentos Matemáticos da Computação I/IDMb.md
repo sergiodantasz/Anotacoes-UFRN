@@ -722,3 +722,149 @@ A \text{ é cercado} \iff (\exists c,m)[A \subseteq B_m(c)]
 $$
 
 Em outras palavras, $A$ é cercado se, e somente se, $A$ está contido em alguma bola.
+
+### Novos Termos
+
+Sejam $\phi$ : Real → Prop um predicado sobre reais e $(a_n)_n$ uma sequência de reais.
+
+1. **"Valores suficientemente grandes"**
+
+Dizemos que para valores suficientemente grandes de $n$, $\phi(a_n)$ é válido se, e somente se, a partir de um natural $N$, todos os $a_i$ ($i > N$) satisfazem $\phi(a_i)$.
+
+$$
+(\exists N)(\forall n \geq N)[\phi(a_n)]
+$$
+
+**Significa:** existe um valor $N$ em que, para todo $n$ a partir de $N$, $\phi(a_n)$ é satisfeito.
+
+*Ex.:*
+Para valores suficientemente grandes, $2^n > n^4 > 8n$.
+$\phi(n=1)$: $2^1 > 1^4 > 8 \cdot 1$ **(F)**
+$\phi(n=2)$: $2^2 > 2^4 > 8 \cdot 2$ **(F)**
+$\phi(n=3)$: $2^3 > 3^4 > 8 \cdot 3$ **(F)**
+$\vdots$
+$\phi(n=10)$: $2^{10} > {10}^4 > 8 \cdot 10$ **(F)**
+$\vdots$
+$\phi(n=20)$: $2^{20} > {20}^4 > 8 \cdot 20$ **(V)**
+
+2. **"Eventualmente"**
+
+$$
+\text{Eventualmente } \phi((a_n)_n) \overset{\mathrm{def}}{\iff} (\exists N)[\phi((a_n)_{n \geq N})]
+$$
+
+> **Tipagem:** $\phi$ : Seq Real → Real
+
+### Limite
+
+Sejam $(a_n)_n$ : Seq Real e $l$ : Real.
+
+Dizemos que $(a_n)_n$ tende ao $l$ (ou converge para $l$) se, e somente se, para qualquer bola de $l$, a sequência $(a_n)_n$ *eventualmente* fica dentro dela.
+
+$$
+(a_n)_n \to l \overset{\mathrm{def}}{\iff} (\forall \epsilon > 0)[\text{Eventualmente } d(l,a_n) < \epsilon]
+$$
+
+> **Tipagem:** $\_ \to \_$ : Seq Real ⨯ Real → Prop
+
+**Notação:**
+- $(a_n)_n \to l$
+- $\lim_n a_n = l$
+- $\lim (a_n)_n = l$
+
+*Ex.:*
+1/2, 1/4, 1/8, 1/16, 1/32, ... → 0
+
+---
+
+**Teorema:** $\lim (\frac{1}{2^{n+1}})_n = 0$
+
+Seja $\epsilon > 0$. Vamos demonstrar que existe $N$ tal que, para todo $n \geq N$, $d(l,a_n) < \epsilon$ — em outras palavras, eventualmente $d(l,a_n) < \epsilon$.
+
+**Passo 1: Obter $N$ em função do $\epsilon$ dado.**
+
+Seja $n \geq N$ tal que $d(a_n,l) < \epsilon$. Calculamos:
+
+$$
+\displaylines{
+\begin{align*}
+d(a_n,l) < \epsilon
+&\implies |a_n - l| < \epsilon \\
+&\implies \left|\frac{1}{2^{n+1}} - 0\right| < \epsilon \\
+&\implies \frac{1}{2^{n+1}} < \epsilon \\
+&\implies \frac{1}{\epsilon} < 2^{n + 1} \\
+&\implies \frac{1}{2\epsilon} < 2^n \\
+&\implies \log_2{\frac{1}{2\epsilon}} < n
+\end{align*}
+}
+$$
+
+> $\log_2{\frac{1}{2\epsilon}}$ não é um Int.
+
+Tome $N = \left\lceil \log_2{\frac{1}{2\epsilon}} \right\rceil < n$.
+[precisa do < n? ja esta explicito no inicio]
+[foto]
+
+**Passo 2: Demonstrar que $\forall n \geq N$, temos que $d(a_n,l) < \epsilon$.**
+
+Tome $n > N$.
+[fotos (4)]
+
+### Sequências Convergente e Divergente
+
+$$
+(a_n)_n \text{ é convergente} \overset{\mathrm{def}}{\iff} (\exists l)[(a_n)_n \to l]
+$$
+
+$$
+(a_n)_n \text{ é divergente} \overset{\mathrm{def}}{\iff} (\nexists l)[(a_n)_n \to l]
+$$
+
+**Casos envolvendo $\infty$:**
+
+$$
+(a_n)_n \text{ diverge para } \infty \overset{\mathrm{def}}{\iff} (\forall M > 0)[\text{Eventualmente } (a_n)_n > M]
+$$
+
+> $(a_n)_n > M$ significa que todos os elementos da sequência são maiores que $M$.
+
+$$
+(a_n)_n \text{ diverge para } -\infty \overset{\mathrm{def}}{\iff} (\forall M < 0)[\text{Eventualmente } (a_n)_n < M]
+$$
+
+[add exemplo da foto]
+
+---
+
+**Teorema:** Seja $(a_n)_n$ em que $a_n = (-1)^n$. Então $(a_n)_n$ diverge.
+
+Seja $l$ um número real. Suponha, por absurdo, que $(a_n)_n \to l$.
+
+[fotos (2)]
+
+---
+
+**Teorema (Unicidade):** Se $(a_n)_n$ é convergente, então existe um único $l$ tal que $(a_n)_n \to l$.
+
+Sejam $l_1$ e $l_2$ tais que $(a_n)_n \to l_1$, $(a_n)_n \to l_2$ e $l_1 > l_2$ (por conveniência).
+
+Eventualmente, $d(a_{N1},l_1) < \epsilon_1$ e $d(a_{N2},l_2) < \epsilon_2$. Tomando $N = \max(N1, N2)$, logo $d(a_N,l_1) < \epsilon_1$ e $d(a_N,l_2) < \epsilon_2$.
+
+Pela Desigualdade Triangular, teremos:
+
+$$
+d(l1,l2) < d(a_N,l_1) + d(a_N,l_2) = \epsilon_1 + \epsilon_2
+$$
+
+Tomando $\epsilon = \epsilon_1 + \epsilon_2$:
+
+$$
+\displaylines{
+\begin{align*}
+d(l_1,l_2) < \epsilon
+&\implies |l_1 - l_2| < \epsilon \\
+&\implies l_1 - l_2 < \epsilon
+\end{align*}
+}
+$$
+[foto]
