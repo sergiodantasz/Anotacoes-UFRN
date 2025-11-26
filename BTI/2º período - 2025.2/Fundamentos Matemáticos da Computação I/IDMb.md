@@ -783,30 +783,50 @@ Seja $\epsilon > 0$. Vamos demonstrar que existe $N$ tal que, para todo $n \geq 
 
 **Passo 1: Obter $N$ em função do $\epsilon$ dado.**
 
-Sejam $n \geq N$ tal que $d(a_n,l) < \epsilon$ e $l = 0$. Calculamos:
+Dado $\epsilon > 0$, vamos deduzir que $\log_2{\left(\frac{1}{2\epsilon}\right)} < n$ deve ser satisfeita. Calculamos:
 
 $$
 \displaylines{
 \begin{align*}
 d(a_n,l) < \epsilon
 &\implies |a_n - l| < \epsilon \\
-&\implies \left|\frac{1}{2^{n+1}} - 0\right| < \epsilon \\
+&\implies \left|\frac{1}{2^{n+1}} - 0\right| < \epsilon \qquad (l = 0) \\
 &\implies \frac{1}{2^{n+1}} < \epsilon \\
 &\implies \frac{1}{\epsilon} < 2^{n + 1} \\
 &\implies \frac{1}{2\epsilon} < 2^n \\
-&\implies \log_2{\frac{1}{2\epsilon}} < n
+&\implies \log_2{\left(\frac{1}{2\epsilon}\right)} < n
 \end{align*}
 }
 $$
 
 > $\log_2{\frac{1}{2\epsilon}}$ não é um Int.
 
-Tomemos $N = \left\lceil \log_2{\frac{1}{2\epsilon}} \right\rceil$. Sabemos que $N$ é um inteiro e podemos, portanto, inferir $N \leq n$.
+Tome $N = \left\lceil \log_2{\left(\frac{1}{2\epsilon}\right)} \right\rceil$. Logo $\log_2{\left(\frac{1}{2\epsilon}\right)} \leq \left\lceil  \log_2{\left(\frac{1}{2\epsilon}\right)} \right\rceil$.
+
+Sabemos que $N$ é um inteiro e podemos, então, inferir $N \leq n$ (por transitividade).
 
 **Passo 2: Demonstrar que $\forall n \geq N$, temos que $d(a_n,l) < \epsilon$.**
 
-Tome $n > N$.
-[fotos (4)]
+Agora, tome $n > N$. Calculamos:
+
+$$
+\displaylines{
+\begin{align*}
+\left\lceil  \log_2{\left(\frac{1}{2\epsilon}\right)} \right\rceil < n
+&\implies  \log_2{\left(\frac{1}{2\epsilon}\right)} \leq \left\lceil  \log_2{\left(\frac{1}{2\epsilon}\right)} \right\rceil < n \\
+&\implies  \log_2{\left(\frac{1}{2\epsilon}\right)} < n \\
+&\implies \frac{1}{2\epsilon} < 2^n \\
+&\implies \frac{1}{\epsilon} < 2^{n+1} \\
+&\implies \frac{1}{2^{n+1}} < \epsilon \\
+&\implies \frac{1}{2^{n+1}} - 0 < \epsilon \\
+&\implies \left| \frac{1}{2^{n+1}} - 0 \right| < \epsilon \qquad \left(\text{pois $\frac{1}{2^{n+1}} - 0$ é positivo}\right) \\
+&\implies |a_n - 0| < \epsilon \\
+&\implies d(a_n,l) < \epsilon
+\end{align*}
+}
+$$
+
+Portanto, $\lim \left(\frac{1}{2^{n+1}}\right)_n = 0$. ∎
 
 ### Sequências Convergente e Divergente
 
