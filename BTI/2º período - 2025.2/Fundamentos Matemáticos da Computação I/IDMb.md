@@ -132,9 +132,9 @@ Neste caso, chegamos ao Pequeno Teorema de Fermat.
 
 # Números Racionais
 
-Importaremos quase tudo de *Int*.
+> Importaremos quase tudo de $\mathbb{Z}$.
 
-**Estrutura de $\mathbb{Q}$:** ($\mathbb{Q}$; 0, 1, +, -, ·, >, Pos)
+**Especificação:** ($\mathbb{Q}$; 0, 1, +, -, ·, >, Pos)
 
 **⛤ Com isso, ganhamos:**
 - Açúcar sintático para frações: $\frac{a}{b} \iff a \cdot b^{-1}$.
@@ -280,181 +280,269 @@ A maioria dos números reais **não é computável**, porque existem contáveis 
 
 # Números Reais
 
-Especificação: importar de ℚ
-(ℚ; 0, 1, +, -, ·, <, Pos)
+> Vamos importar de $\mathbb{Q}$.
 
-**O que ganhamos:**
+**Especificação:** ($\mathbb{R}$; 0, 1, +, -, ·, <, Pos)
 
-- Radiciação (até certo ponto)
-- Reta real
-- Irracionais
+**⛤ O que ganhamos:**
+- Radiciação (até certo ponto);
+- Reta real;
+- Conjunto dos números irracionais.
 
-**O que eu perco:**
+**✞ O que perdemos:**
+- Frações irredutíveis.
 
-- Frações irredutíveis : √(2)/2 o raiz de 2 nao eh par
+> [!question] Perdemos acesso às frações irredutíveis?
+> Muller afirma que ao especificarmos os números reais, não podemos mais utilizar frações irredutíveis. Ele usou como exemplo a fração $\frac{\sqrt{2}}{2}$ e disse que não podíamos reduzir ela por causa da raiz quadrada no numerador; isso faz sentido. Mas o problema é que isso sequer é uma fração racional: em sua definição, tanto o numerador quanto o denominador devem ser números inteiros. E então, será que de fato perdemos o acesso?!
 
-**Máximo e Mínimo:**
+## Máximo e Mínimo
 
-Sejam a, b ∈ ℝ, define-se:
+Sejam $a, b \in \mathbb{R}$.
 
-max(a,b) =
-- a, se a > b
-- b, caso contrário
+$$
+\displaylines{
+\max(a,b) = \left\{
+\begin{array}{l}
+a, &\quad \text{se } a > b \\
+b, &\quad \text{se } a \leq b
+\end{array}
+\right.
+}
+$$
 
-min(a,b) =
-- a, se a < b
-- b, caso contrário
+$$
+\displaylines{
+\min(a,b) = \left\{
+\begin{array}{l}
+a, &\quad \text{se } a < b \\
+b, &\quad \text{se } a \geq b
+\end{array}
+\right.
+}
+$$
 
-**Módulos:**
+## Módulo
 
-|a| =
-- a, se ≥ 0
-- -a, caso contrário
+Seja $a \in \mathbb{R}$.
 
-**Piso/Teto:**
+$$
+\displaylines{
+|a| = \left\{
+\begin{array}{l}
+a, &\quad \text{se } a \geq 0 \\
+-a, &\quad \text{se } a < 0
+\end{array}
+\right.
+}
+$$
 
-(ceiling)
-$\lceil a \rceil$: teto de $a$
-$\lceil a \rceil ≝ min(\{x \in \mathbb{R_\mathbb{Z}} \mid x \geq a\})$
+## Teto e Piso
 
-(floor)
-$\lfloor a \rfloor$: piso de $a$
-$\lfloor a \rfloor ≝ max(\{x \in \mathbb{R_\mathbb{Z}} \mid x \leq a\})$
+Seja $a \in \mathbb{R}$.
 
----
+**Ceiling:**
 
-N, Z e Q sao enumeráveis. Mas e o R? **Não!**
+$$
+\lceil a \rceil = \min(\{x \in \mathbb{R}_\mathbb{Z} \mid x \geq a\})
+$$
 
-Demons.:
+**Floor:**
 
-Vamos provar que (0,1) não é enumerável (ordenável). [Se (0,1) não é enumerável, então R não será]
-Demonstração por absurdo (Diagonal de Cantor):
-Suponha que (0,1) é um conjunto enumerável, então existe uma forma de ordenar estes números (denotados $r_i$, com $i \in \mathbb{N}$).
-$r_1 = 0,a_1a_2a_3\ldots$
-$r_2 = 0,b_1b_2b_3\ldots$
-$r_3 = 0,c_1c_2c_3\ldots$
-$r_4 = 0,d_1d_2d_3\ldots$
-$\vdots$
-diagonal: $0,a_1b_2c_3d_4$
-Construir um número que não compartilha nenhum dígito com a diagonal:
-Agora construímos um número $n$ tal que $n = 0,\alpha_1\beta_2\gamma_3\delta_4$ em que $\alpha_1 \neq a_1$, $\beta_2 \neq b_2$, $\gamma_3 \neq c_3$, $\delta_4 \neq d_4$.
-$n$ está na enumeração? Não. Absurdo!
+$$
+\lfloor a \rfloor = \max(\{x \in \mathbb{R}_\mathbb{Z} \mid x \leq a\})
+$$
 
-**Curiosidade:**
+## Os reais são enumeráveis?
 
-$|(0,1)| = |\mathbb{R}|$
+Assim como $\mathbb{Q}$, $\mathbb{Z}$ e $\mathbb{N}$ também são enumeráveis. Mas e o $\mathbb{R}$? *Não!*
 
----
+Vamos demonstrar que $\mathbb{R}$ não é enumerável. Para tanto, basta mostrarmos que $(0,1)$ é não enumerável.
 
-**Sequências de Números Reais:**
+Suponha, por contradição, que $(0,1)$ é um conjunto enumerável. Então existe uma forma de ordenar estes números, denotados $r_i$, com $i \in \mathbb{N}$:
+
+$$
+\displaylines{
+\begin{align*}
+&r_1 = 0{,}a_1a_2a_3\ldots \\
+&r_2 = 0{,}b_1b_2b_3\ldots \\
+&r_3 = 0{,}c_1c_2c_3\ldots \\
+&\vdots
+\end{align*}
+}
+$$
+
+Tome a diagonal $d = 0{,}a_1b_2c_3d_4\ldots$. Vamos construir um novo número que não compartilha nenhum dígito com a diagonal.
+
+Seja $x$ tal que $x = 0{,}\alpha_1\beta_2\gamma_3\delta_4\ldots$, em que $\alpha_1 \neq a_1$, $\beta_2 \neq b_2$, $\gamma_3 \neq c_3$, $\delta_4 \neq d_4$ e assim por diante, de forma análoga. Ou seja, isso implica que $n$ não está na enumeração, contradizendo a hipótese inicial.
+
+Portanto, $\mathbb{R}$ não é enumerável. ∎
+
+> **Curiosidade:** $|(0,1)| = |\mathbb{R}|$
+
+## Sequências
 
 Uma sequência de números reais é uma listagem ordenada de números reais:
-$x_0,x_1,x_2,x_3,\ldots$
-Notação: $(x_n)^\infty_{n=0}$ ou $(x_n)_{n \in \mathbb{N}}$ ou $(x_n)_n$
 
-**Igualdade de Sequências**
+$$
+x_0,x_1,x_2,x_3,\ldots
+$$
+
+**Notação:**
+- $(x_n)^\infty_{n=0}$
+- $(x_n)_{n \in \mathbb{N}}$
+- $(x_n)_n$
+
+### Igualdade de Sequências
 
 Sejam duas sequências $(x_n)_{n \in \mathbb{N}}$ e $(y_n)_{n \in \mathbb{N}}$.
+
 $$
 (x_n)_{n \in \mathbb{N}} = (y_n)_{n \in \mathbb{N}} \iff (\forall i)[x_i = y_i]
 $$
 
-Ex:
-$(x_n)_n$ : 1/2, 3/4, 1, -3, ...
-$(y_n)_n$ : 1/2, 3/4, 8, -3, ...
-não são iguais por que $x_3 \neq y_3$
+> Sequências **não** são conjuntos!!!
 
-Obs.: sequências não são conjuntos!!!
+*Ex.:*
+$(x_n)_n$: 1/2, 3/4, 1, -3, ...
+$(y_n)_n$: 1/2, 3/4, 8, -3, ...
+Não são iguais por que $x_3 \neq y_3$.
 
-**Sequências Recursivas:**
+### Sequências Recursivas
 
 É uma sequência em que o valor de cada elemento depende de seus antecessores.
 
-Ex.:
-$(x_n)_{n=0}^\infty$  em que:
-- $x_0 = 3$
-- $x_n = x_{n-1} + 5$, para $n > 0$
+*Ex.:*
+Seja a sequência $(x_n)_{n=0}^\infty$, em que:
+- $x_0 = 3$;
+- $x_n = x_{n-1} + 5$, para $n > 0$.
 
-**Sequência de Fibonacci**
+### Sequência de Fibonacci
+
+É uma sequência em que cada valor é a soma dos dois elementos imediatamente anteriores (a partir do terceiro elemento).
 
 $x_0 = 1$
 $x_1 = 1$
 $x_n = x_{n-1} + x_{n-2}$
+
+Temos, portanto:
+
+$$
 1,1,2,3,5,8,13,21,...
+$$
 
-**Sequências Crescentes e Decrescentes**
+### Sequências Crescentes e Decrescentes
 
-$(x_n)_{n}^\infty$ é crescente se, e somente se, $(\forall n)[x_{n+1} \geq x_n]$
-$(x_n)_{n}^\infty$ é decrescente se, e somente se, $(\forall n)[x_{n+1} \leq x_n]$
+$$
+(x_n)_{n=0}^\infty \text{ crescrente} \iff (\forall n)[x_{n+1} \geq x_n]
+$$
 
-Obs.:
-Seja $(x_n)_{n=0}^\infty$ crescente.
-Podemos dizer que $x_n \to \infty$ quando $n \to \infty$?
+$$
+(x_n)_{n=0}^\infty \text{ decrescrente} \iff (\forall n)[x_{n+1} \leq x_n]
+$$
+
+---
+
+Seja $(x_n)_{n=0}^\infty$ crescente. Podemos dizer que $x_n \to \infty$ quando $n \to \infty$?
 *Não necessariamente!*
 
-Seja a sequência $(x_n)^\infty_{n=0}$ em que $x_n = \frac{1}{n+1}$.
-1,1/2, 1/3,1/4,1/5,... Sequer alcança zero
+Seja a sequência $(x_n)^\infty_{n=0}$ em que $x_n = \frac{1}{n+1}$:
 
-Seja a sequência $(x_n)^\infty_{n=0}$ em que $x_n = \frac{-1}{n+1}$.
--1,-1/2,-1/3,-1/4,... nunca alcança zero, mas é sempre crescente
+$$
+1, \frac{1}{2}, \frac{1}{3}, \frac{1}{4}, \frac{1}{5}, \ldots
+$$
 
-**Sequências com Cotas**
+Quando $n \to \infty$, temos que $x_n \to 0$; mas sequer alcança 0. Note também que essa sequência é decrescente.
 
-i) cota inferior
+Agora seja a sequência $(x_n)^\infty_{n=0}$ em que $x_n = \frac{-1}{n+1}$.
 
-$C$ é uma cota inferior de $(x_n)_n$ ⇐≝⇒ (∀n)[c ≤ x_n]
+$$
+-1, -\frac{1}{2}, -\frac{1}{3}, -\frac{1}{4}, -\frac{1}{5}, \ldots
+$$
 
-> Ínfimum: melhor (maior) cota inferior
+Essa, por sua vez, é sempre crescente, mas nunca alcança 0 e também não tende ao infinito quando $x \to \infty$.
 
-Ex.:
-$C = 0$
-$0 = Inf(x_n)_n$
+### Sequências com Cotas
 
-ii) cota superior
+#### Cotas Inferior e Superior
 
-$C$ é uma cota superior de $(x_n)_n$ ⇐≝⇒ (∀n)[c ≥ x_n]
+$$
+C \text{ é uma cota inferior de } (x_n)_n \iff (\forall n)[C \leq x_n]
+$$
 
-**Infimum**
+$$
+C \text{ é uma cota superior de } (x_n)_n \iff (\forall n)[C \geq x_n]
+$$
 
-_ = Inf _ : ExtReal ⨯ Set ExtReal → Prop
+#### Infimum
 
-$M$ é infimum de $(x_n)_{n=0}^\infty$ ⇔ (∀n)[M ≤ x_n] ∧ (∀c)[c é cota de (x_n)n ⇒ M ≥ c]
-                      M é cota de $(x_n)_n$              M é a melhor cota
+Infimum é a melhor (maior) cota inferior de uma sequência.
 
-**Supremum**
+> **Tipagem:** _ = inf _ : ExtReal ⨯ Set ExtReal → Prop
 
-_ = Sup _ : ExtReal ⨯ Set ExtReal → Prop
+$$
+\displaylines{
+\begin{align*}
+M \text{ é infimum de } (x_n)_n
+&\iff M \text{ é cota inferior de } (x_n)_n \land M \text{ é a melhor cota inferior de } (x_n)_n \\
+&\iff (\forall n)[M \leq x_n] \land (\forall c)[c \text{ é cota inferior de } (x_n)_n \implies M \geq c]
+\end{align*}
+}
+$$
 
-> Supremum: melhor (menor) cota superior
+#### Supremum
 
-$M$ é supremum de $(x_n)_{n=0}^\infty$ ⇔ (∀n)[M ≥ x_n] ∧ (∀c)[c é cota de (x_n)n ⇒ M ≤ c]
+Supremum é a melhor (menor) cota superior de uma sequência.
 
-**Ordem (Point-wise)**
+> **Tipagem:** _ = sup _ : ExtReal ⨯ Set ExtReal → Prop
+
+$$
+\displaylines{
+\begin{align*}
+M \text{ é supremum de } (x_n)_n
+&\iff M \text{ é cota superior de } (x_n)_n \land M \text{ é a melhor cota superior de } (x_n)_n \\
+&\iff (\forall n)[M \geq x_n] \land (\forall c)[c \text{ é cota superior de } (x_n)_n \implies M \leq c]
+\end{align*}
+}
+$$
+
+### Ordem (Point-wise)
 
 Sejam duas sequências $(x_n)_{n=0}^\infty$ e $(y_n)_{n=0}^\infty$.
-Dizemos que
+
+Dizemos que:
+
 $$
 (x_n)_n > (y_n)_n \iff (\forall n)[x_n > y_n]
 $$
 
-ex.:
-[add duas sequencias]
+*Ex.:*
+$(x_n)_n$: 1, 4, 5, 10, 12, 15, ...
+$(y_n)_n$: 0, 2, 3, 8, 13, 14, ...
+Perceba que $y_4 > x_4$, logo $(x_n)_n \not > (y_n)_n$.
 
-**Conjunto Cotado:**
+### Conjunto Cotado
 
 É um conjunto que possui cotas superiores e inferiores.
 
-Se A não possui cotas superiores?
-Sup A = ∞
-ex.: conjuntos (\_,∞)
+Se o conjunto $A$ não possuir cotas superiores:
 
-Se A não possui cotas inferiores?
-Inf A = -∞
-ex.: conjuntos (-∞,\_)
+$$
+\operatorname{sup} A = \infty
+$$
 
-Se for somente superior ou inferior, chamamos de conjunto cotado superiormente/inferiormente.
+*Ex.:* $(\_, \infty)$
 
-**Reais Estendidos**
+Se o conjunto $A$ não possuir cotas inferiores:
+
+$$
+\operatorname{inf} A = -\infty
+$$
+
+*Ex.:* $(-\infty,\_)$
+
+> Se for somente superior ou inferior, chamamos de conjunto cotado superiormente/inferiormente.
+
+## Reais Estendidos
 
 $$
 \overline{\mathbb{R}} = \{-\infty,\infty\} \cup \mathbb{R}
@@ -462,39 +550,59 @@ $$
 \overline{\mathbb{R}} = [-\infty,\infty]
 $$
 
-Propriedades:
-1. a + ∞ = ∞
-2. a + (-∞) = -∞
-3. ∞ + (-∞) é uma indeterminação
-4. a · ∞ = ∞ se a > 0
-5. a · ∞ = -∞ se a < 0
-6. 0 · ∞ é uma indeterminação (se o zero vier de um limite)
-7. ∞ · ∞ = ∞
-8. (-∞) · (-∞) = ∞
-9. (-∞) · ∞ = -∞
+**Propriedades:**
+1. $a + \infty = \infty$;
+2. $a + (-\infty) = -\infty$;
+3. $\infty + (-\infty)$ é uma indeterminação;
+4. $a \cdot \infty = \infty$, se $a > 0$;
+5. $a \cdot \infty = -\infty$, se $a < 0$;
+6. $0 \cdot \infty$ é uma indeterminação (se o zero vier de um limite);
+7. $\infty \cdot \infty = \infty$;
+8. $(-\infty) \cdot (-\infty) = \infty$;
+9. $(-\infty) \cdot \infty = -\infty$.
 
-**Distâncias**
+## Distâncias
 
-Seja d : α ⨯ α → Real. Dizemos que d é uma distância (métrica) no α se, e somente se, todas as propriedades a seguir são satisfeitas.
+Seja $d$ : α ⨯ α → Real. Dizemos que $d$ é uma distância (métrica) no α se, e somente se, todas as propriedades a seguir são satisfeitas.
 
-Sejam x, y, z : α.
+Sejam $x$, $y$, $z$ : α.
 
-(D-Range) d(x,y) ≥ 0
-(D-Sym) d(x,y) = d(y,x)
-(D-Tri) d(x,y) ≤ d(x,z) + d(z,y) [desigualdade triangular]
-(D-EqZero) d(x,x) = 0
-(D-ZeroEq) d(x,y) = 0 ⇒ x = y
+$$
+\displaylines{
+\begin{array}{l}
+&(\text{D-Range}) & d(x,y) \geq 0 \\
+&(\text{D-Sym}) & d(x,y) = d(y,x) \\
+&(\text{D-Tri}) & d(x,y) \leq d(x,z) + d(z,y) \quad (\text{Desigualdade Triangular}) \\
+&(\text{D-EqZero}) & d(x,x) = 0 \\
+&(\text{D-ZeroEq}) & d(x,y) = 0 \implies x = y
+\end{array}
+}
+$$
 
-Exemplos em ℝ:
+### Distância Euclidiana
 
-i) Distância Euclidiana
+$$
+d(a,b) = |a - b|
+$$
 
-d(a,b) ≝ |a - b|   (d : Real ⨯ Real → Real)
+> **Tipagem:** $d$ : Real ⨯ Real → Real
 
-ii) Distância Discreta
+### Distância Discreta
 
-$d_0$(a,b) ≝    0, se a = b
-         1, se a ≠ b       ($d_0$ : Real ⨯ Real → Real)
+$$
+\displaylines{
+d_0(a,b) = \left\{
+\begin{array}{l}
+0, \quad \text{se } a = b \\
+1, \quad \text{se } a \neq b
+\end{array}
+\right.
+}
+$$
+
+> **Tipagem:** $d_0$ : Real ⨯ Real → Real
+
+### ε-Perto
 
 **Def:** ε-Perto: Sejam x, y : Real e ε : Real com ε > 0.
 Dizemos que:
