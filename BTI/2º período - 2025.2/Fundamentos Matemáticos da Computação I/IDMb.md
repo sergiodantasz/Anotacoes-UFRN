@@ -505,6 +505,8 @@ M \text{ é supremum de } (x_n)_n
 }
 $$
 
+Tanto o *Infimum* quanto o *Supremum* podem ou não pertencer à sequência.
+
 ### Ordem (Point-wise)
 
 Sejam duas sequências $(x_n)_{n=0}^\infty$ e $(y_n)_{n=0}^\infty$.
@@ -681,15 +683,42 @@ $$
 
 Ora, tanto $0 < 2$ quanto $1 < 2$, logo ambos os casos da distância discreta entram na bola. Então $B_2(3) = \mathbb{R}$.
 
-(dist euc) Seja um intervalo (a,b). Como representar como uma bola?
-(Se b > a por conveniência)
+#### Como representar um intervalo como uma bola?
 
-[foto]
+> Faremos isso utilizando Distância Euclidiana.
 
-**Def:** Diâmetro:
-Seja A um conjunto de reais.
-S = Diam A ⇔ S = Sup {d(a,b) | a, b ∈ A} [conjunto com os valores de todas as distãncias entre os pontos a e b; o S é a maior de todas as distâncias]
-Obs.: diam A = ∞ ⇔ sup A = ∞
+Seja um intervalo $(a,b)$ (com $b > a$, por conveniência). Seja $c$ um ponto tal que $c = \frac{a + b}{2}$.
 
-**Def.:** Conjunto Cercado
-A é cercado ⇔ (∃c)(∃m)\[A ⊆ $B_m$(c)\]   [A está contido em alguma bola]
+Perceba o seguinte:
+
+$$
+d(a,b) = 2\epsilon \implies \epsilon = \frac{d(a,b)}{2} = \frac{b - a}{2} \qquad (a - b < 0)
+$$
+
+Logo, podemos representar um intervalo como uma bola da seguinte forma:
+
+$$
+B_{\frac{b - a}{2}}\left(\frac{a + b}{2}\right)
+$$
+
+### Diâmetro
+
+Sejam $A$ um conjunto de números reais e $S$ um número real.
+
+$$
+S = \operatorname{diam} A \iff S = \operatorname{sup}{\{d(a,b) \mid a, b \in A\}}
+$$
+
+O conjunto da direita é o conjunto que contém todas as distâncias entre os pontos $a$ e $b$, enquanto $S$ é a maior de todas as distâncias.
+
+> **Obs.:** $\operatorname{diam} A = \infty \iff \operatorname{sup} A = \infty$
+
+### Conjunto Cercado
+
+Seja $A$ um conjunto.
+
+$$
+A \text{ é cercado} \iff (\exists c,m)[A \subseteq B_m(c)]
+$$
+
+Em outras palavras, $A$ é cercado se, e somente se, $A$ está contido em alguma bola.
