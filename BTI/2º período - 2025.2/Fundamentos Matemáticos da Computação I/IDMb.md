@@ -633,12 +633,49 @@ Logo $B_3(5) = (2,8)$ (esse conjunto é 3-Bola de 5).
 
 ---
 
-Bolas em ℝ (dist. euclidiana)
+**Exemplo com Distância Euclidiana:**
 
-$B_r$(c) = {x | d(x,c) < ε} = {x | |x - c| < ε} = {x | c - ε < x < c + ε}
-$B_r$(c) = (c - ε, c + ε)
+$$
+\displaylines{
+\begin{align*}
+B_\epsilon(c)
+&= \{x \mid d(x,c) < \epsilon\} \\
+&= \{x \mid |x - c| < \epsilon\}
+\end{align*}
+}
+$$
 
-[foto]
+Se $x - c \geq 0$, então $x - c < \epsilon \implies x < c + \epsilon$.
+Se $x - c < 0$, então $-(x - c) < \epsilon \implies -x + c < \epsilon \implies x > c - \epsilon$.
+Logo:
+
+$$
+\displaylines{
+\begin{align*}
+B_\epsilon(c)
+&= \{x \mid c - \epsilon < x < c + \epsilon\} \\
+&= (c - \epsilon, c + \epsilon)
+\end{align*}
+}
+$$
+
+---
+
+**Exemplo com Distância Discreta:**
+
+Seja $c = 3$.
+
+5 é 1/3-Perto de 3?
+Veja que $d_0(3,5) < \frac{1}{3} \implies 1 < \frac{1}{3}$, o que não é verdadeiro, pois $1 > \frac{1}{3}$.
+Logo a resposta é *não*.
+
+5 é 2-Perto de 3?
+Note que $d_0(3,5) < 2 \implies 1 < 2$.
+Assim, a resposta é *sim*.
+
+Observe:
+- $B_\frac{1}{3}(3) = \{3\}$
+- $B_2(3) = \mathbb{R}$
 
 dist. discreta
 [foto]
