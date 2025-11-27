@@ -727,7 +727,7 @@ Em outras palavras, $A$ é cercado se, e somente se, $A$ está contido em alguma
 
 Sejam $\phi$ : Real → Prop um predicado sobre reais e $(a_n)_n$ uma sequência de reais.
 
-1. **"Valores suficientemente grandes"**
+#### "Valores suficientemente grandes"
 
 Dizemos que para valores suficientemente grandes de $n$, $\phi(a_n)$ é válido se, e somente se, a partir de um natural $N$, todos os $a_i$ ($i > N$) satisfazem $\phi(a_i)$.
 
@@ -747,7 +747,7 @@ $\phi(n=10)$: $2^{10} > {10}^4 > 8 \cdot 10$ **(F)**
 $\vdots$
 $\phi(n=20)$: $2^{20} > {20}^4 > 8 \cdot 20$ **(V)**
 
-2. **"Eventualmente"**
+#### "Eventualmente"
 
 $$
 \text{Eventualmente } \phi((a_n)_n) \overset{\mathrm{def}}{\iff} (\exists N)[\phi((a_n)_{n \geq N})]
@@ -845,21 +845,27 @@ $$
 (a_n)_n \text{ diverge para } \infty \overset{\mathrm{def}}{\iff} (\forall M > 0)[\text{Eventualmente } (a_n)_n > M]
 $$
 
-> $(a_n)_n > M$ significa que todos os elementos da sequência são maiores que $M$.
+> $(a_n)_n > M$ significa que todos os elementos da sequência são maiores que $M$. O resultado é análogo para $(<)$.
 
 $$
 (a_n)_n \text{ diverge para } -\infty \overset{\mathrm{def}}{\iff} (\forall M < 0)[\text{Eventualmente } (a_n)_n < M]
 $$
 
-[add exemplo da foto]
-
 ---
 
 **Teorema:** Seja $(a_n)_n$ em que $a_n = (-1)^n$. Então $(a_n)_n$ diverge.
 
-Seja $l$ um número real. Suponha, por absurdo, que $(a_n)_n \to l$.
+Suponha, por absurdo, que $(a_n)_n \to l$, para algum $l$ : Real (ou seja, eventualmente $d(a_n,l) < \epsilon$).
 
-[fotos (2)]
+Tome $d(a_n,a_{n+1}) = 2$. Pela Desigualdade Triangular:
+
+$$
+d(a_n,a_{n+1}) \leq d(a_n,l) + d(l,a_{n+1}) \iff 2 \leq d(a_n,l) + d(l,a_{n+1})
+$$
+
+Sabemos que $d(a_n,l) < \epsilon$ e $d(l,a_{n+1}) < \epsilon$. "Somando" as duas equações, teríamos, então, $d(a_n,l) + d(l,a_{n+1}) < 2\epsilon$. Sendo assim, por transitividade, segue que $2 < 2\epsilon \iff 1 < \epsilon$. Isto é, a premissa só é verdadeira para $\epsilon > 1$. Se $0 < \epsilon < 1$, temos uma contradição.
+
+Portanto, como não existe $l$ tal que $(a_n)_n \to l$, logo $(a_n)_n$ é divergente. ∎
 
 ---
 
@@ -867,12 +873,12 @@ Seja $l$ um número real. Suponha, por absurdo, que $(a_n)_n \to l$.
 
 Sejam $l_1$ e $l_2$ tais que $(a_n)_n \to l_1$, $(a_n)_n \to l_2$ e $l_1 > l_2$ (por conveniência).
 
-Eventualmente, $d(a_{N1},l_1) < \epsilon_1$ e $d(a_{N2},l_2) < \epsilon_2$. Tomando $N = \max(N1, N2)$, logo $d(a_N,l_1) < \epsilon_1$ e $d(a_N,l_2) < \epsilon_2$.
+Dado $\epsilon > 0$, eventualmente $d(a_{N1},l_1) < \epsilon_1$ e $d(a_{N2},l_2) < \epsilon_2$. Tomando $N = \max(N1, N2)$, logo $d(a_N,l_1) < \epsilon_1$ e $d(a_N,l_2) < \epsilon_2$.
 
 Pela Desigualdade Triangular, teremos:
 
 $$
-d(l1,l2) < d(a_N,l_1) + d(a_N,l_2) = \epsilon_1 + \epsilon_2
+d(l_1,l_2) \leq d(a_N,l_1) + d(a_N,l_2) < \epsilon_1 + \epsilon_2
 $$
 
 Tomando $\epsilon = \epsilon_1 + \epsilon_2$:
@@ -882,8 +888,14 @@ $$
 \begin{align*}
 d(l_1,l_2) < \epsilon
 &\implies |l_1 - l_2| < \epsilon \\
-&\implies l_1 - l_2 < \epsilon
+&\implies 0 \leq |l_1 - l_2| < \epsilon \\
+&\implies 0 \leq l_1 - l_2 < \epsilon \qquad (l_1 > l_2)
 \end{align*}
 }
 $$
-[foto]
+
+Como a desigualdade $l_1 - l_2 < \epsilon$ vale para todo $\epsilon > 0$, se tivermos $l_1 - l_2 = \delta > 0$, basta tomar $\epsilon = \frac{\delta}{2}$. Isso contradiz $d(l_1,l_2) < \epsilon$. Logo não pode ocorrer $d(l_1,l_2) > 0$.
+
+Por outro lado, a igualdade $l_1 - l_2 = 0$ ocorre se, e somente se, $l_1 = l_2$.
+
+Portanto, $l_1 = l_2$. ∎
