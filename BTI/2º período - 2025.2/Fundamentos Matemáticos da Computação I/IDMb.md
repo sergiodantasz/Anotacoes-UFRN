@@ -899,3 +899,185 @@ Como a desigualdade $l_1 - l_2 < \epsilon$ vale para todo $\epsilon > 0$, se tiv
 Por outro lado, a igualdade $l_1 - l_2 = 0$ ocorre se, e somente se, $l_1 = l_2$.
 
 Portanto, $l_1 = l_2$. ∎
+
+---
+
+**Teorema:** Toda sequência convergente de reais é cercada.
+
+[foto]
+
+Seja $\epsilon = 1$ arbitrário. Então existe $N$ tal que $(\forall n \geq N)[d(a_n,l) < 1]$ (sequência convergente). Logo $(a_n)_{n \geq N} \leq B_1(l)$.
+
+Tomando do conjunto de todas as distâncias entre os $(a_n)_{n < N}$ até $l$ (elementos fora de $B_1(l)$) o seu $\max$:
+
+$$
+M = \max{\{ d(a_n,l) \mid n < N \}}
+$$
+
+> **Obs.:** todos os elementos deste conjunto são maiores ou iguais a 1.
+
+[fotos(2)]
+
+Como $B_1(l) \subseteq B_{M+1}(l)$ e $(a_n)_{n<N} \subseteq B_{M+1}(l)$, então $(a_n)_n \subseteq B_{M+1}(l)$.
+
+Portanto, a sequência é cercada. ∎
+
+#### Propriedades
+
+Sejam $(a_n)_n$ e $(b_n)_n$ sequências que convergem para $a$ e $b$, respectivamente, e $c$ um número real.
+
+---
+
+**Propriedade 1:** $(a_n + c)_n \to a + c$
+
+Seja $(a_n)_n \to a$.
+
+Temos que $(\forall \epsilon > 0)[|a_n - a| < \epsilon]$. Calculamos:
+
+$$
+\displaylines{
+\begin{align*}
+|a_n - a| &= |a_n + c - c - a| \\
+&= |(a_n + c) - (a + c)| < \epsilon
+\end{align*}
+}
+$$
+
+Assim, $(a_n + c)_n \to a + c$. ∎
+
+---
+
+**Propriedade 2:** $(a_n + b_n)_n \to a + b$
+
+Sejam $(a_n)_n \to a$ e $(b_n)_n \to b$ sequências e $\epsilon_1 = \frac{\epsilon}{2}$ e $\epsilon_2 = \frac{\epsilon}{2}$ reais.
+
+Teremos o seguinte:
+
+$$
+|a_n - a| < \epsilon_1 \quad \text{e} \quad |b_n - b| < \epsilon_2
+$$
+
+Pela Desigualdade Triangular, segue que:
+
+$$
+|(a_n - a) + (b_n - b)| \leq |a_n - a| + |b_n - b| \implies |(a_n - a) + (b_n - b)| \leq \frac{\epsilon}{2} + \frac{\epsilon}{2} = \epsilon
+$$
+
+Portanto, $(a_n + b_n)_n \to a + b$. ∎
+
+---
+
+**Propriedade 3:** $(c \cdot a_n)_n \to c \cdot a$
+
+Seja $(a_n)_n \to a$.
+
+Calculamos:
+
+$$
+\displaylines{
+\begin{align*}
+|a_n - a| < \epsilon'
+&\implies |c||a_n - a| < |c|\epsilon' \\
+&\implies |c \cdot (a_n - a)| < |c|\epsilon'
+\end{align*}
+}
+$$
+
+Tomando $\epsilon = |c|\epsilon'$, teremos $|c \cdot (a_n - a)| < \epsilon$.
+
+Portanto, $(c \cdot a_n)_n \to c \cdot a$. ∎
+
+---
+
+**Propriedade 4:** $(a_n \cdot b_n)_n \to a \cdot b$
+
+Sejam $(a_n)_n \to a$ e $(b_n)_n \to b$ sequências.
+
+Veja que $|a_n - a| < \epsilon_1$ e $|b_n - b| < \epsilon_2$.
+
+Tomando $a_nb_n - ab = a_nb_n - a_nb + a_nb - ab = a_n(b_n - b) + b(a_n - a)$, teremos:
+
+$$
+|a_nb_n - ab| = |a_n(b_n - b) + b(a_n - a)|
+$$
+
+Calculamos, pela Desigualdade Triangular [fotos(3)]:
+
+$$
+\displaylines{
+\begin{align*}
+& |a_nb_n - ab| \leq |a_n(b_n - b)| + |b(a_n - a)| \\
+\implies& |a_nb_n - ab| \leq |a_n||b_n - b| + |b||a_n - a| \\
+\implies& |a_nb_n - ab| \leq M|b_n - b| + |b||a_n - a| \leq  M\epsilon_2 + |b|\epsilon_1
+\end{align*}
+}
+$$
+
+Sejam $\epsilon_1 < \frac{\epsilon}{2|b|}$ e $\epsilon_2 < \frac{\epsilon}{2|b|}$. Logo $|a_nb_n - ab| < \frac{M\epsilon}{2M} + \frac{|b|\epsilon}{2|b|} = \frac{\epsilon}{2} + \frac{\epsilon}{2}$. Isto é, $|a_nb_n - ab| < \epsilon$.
+
+Portanto, $(a_n \cdot b_n)_n \to a \cdot b$. ∎
+
+---
+
+**Propriedade 5:** $\left(\frac{1}{a_n}\right)_n \to \frac{1}{a}$, com $a_n \neq 0$ (para qualquer $n$) e $a \neq 0$
+
+[foto]
+
+Seja $(a_n)_n \to a$. Então $|a_n - a| < \epsilon_2$.
+
+Calculamos:
+
+$$
+\displaylines{
+\begin{align*}
+\frac{1}{a_n} - \frac{1}{a} = \frac{a - a_n}{a \cdot a_n}
+&\implies \left| \frac{1}{a_n} - \frac{1}{a} \right| = \left| \frac{a - a_n}{a \cdot a_n} \right| \\
+&\implies \left| \frac{1}{a_n} - \frac{1}{a} \right| = \left| \frac{a - a_n}{a \cdot a_n} \right| < \frac{\epsilon_1}{|a||a_n|} \\
+&\implies \left| \frac{1}{a_n} - \frac{1}{a} \right| < \frac{\epsilon_1}{|a||a_n|} < \frac{\epsilon_1}{|a|N} \qquad (N > 0 \text{ é cota inferior de } |a_n| \neq 0)
+\end{align*}
+}
+$$
+
+
+Tomando $\epsilon_1 = \epsilon|a|N$, teremos:
+
+$$
+\left| \frac{1}{a_n} - \frac{1}{a} \right| < \epsilon \implies \left(\frac{1}{a_n}\right)_n \to \frac{1}{a}
+$$
+
+Portanto, $\left(\frac{1}{a_n}\right)_n \to \frac{1}{a}$. ∎
+
+---
+
+**Propriedade 6:** $\left(\frac{a_n}{b_n}\right)_n \to \frac{a}{b}$, com $b_n \neq 0$ (para qualquer $n$) e $b \neq 0$
+
+Calculamos:
+
+$$
+\displaylines{
+\begin{align*}
+\left(a_n \cdot \frac{1}{b_n} \right)_n = (a_n)_n \cdot \left(\frac{1}{b_n} \right)_n
+\end{align*}
+}
+$$
+
+Logo $a \cdot \frac{1}{b} = \frac{a}{b}$.
+
+Portanto, $\left(\frac{a_n}{b_n}\right)_n \to \frac{a}{b}$. ∎
+
+> *Que demonstração porca.*
+
+#### Propriedades dos Limites
+
+1. $\lim_n(c + a_n)_n = c + a$
+2. $\lim_n(c \cdot a_n)_n = c \cdot a$
+3. $\lim_n(a_n + b_n)_n = a + b$
+4. $\lim_n(a_n \cdot b_n)_n = a \cdot b$
+5. $\lim_n\left(\frac{a_n}{b_n}\right)_n = \frac{a}{b}$, se $b_n \neq 0$ e $b \neq 0$
+6. $\lim_n\left(\frac{1}{a_n}\right)_n = \frac{1}{a}$, se $a_n \neq 0$ e $a \neq 0$
+
+---
+
+**Teorema do Sanduíche:** Sejam as sequências $(a_n)_n$, $(b_n)_n$ e $(c_n)_n$ que convergem para $a$, $b$ e $c$, respectivamente. Se $(\forall n)[a_n \leq b_n \leq c_n]$ e $a = c = k$, então $b = k$. [quem é k?]
+
+[fotos(3)]
