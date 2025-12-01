@@ -904,7 +904,7 @@ Portanto, $l_1 = l_2$. ∎
 
 **Teorema:** Toda sequência convergente de reais é cercada.
 
-Seja $\epsilon = 1$ arbitrário. Então existe $N$ tal que $(\forall n \geq N)[d(a_n,l) < 1]$ (sequência convergente). Logo $(a_n)_{n \geq N} \leq B_1(l)$.
+Seja $\epsilon = 1$ arbitrário. Então existe $N$ tal que $(\forall n \geq N)[d(a_n,l) < 1]$ (sequência convergente). Logo $(a_n)_{n \geq N} \subseteq B_1(l)$.
 
 Tomando do conjunto de todas as distâncias entre os $(a_n)_{n < N}$ até $l$ (elementos fora de $B_1(l)$) o seu $\max$:
 
@@ -912,9 +912,7 @@ $$
 M = \max{\{ d(a_n,l) \mid n < N \}}
 $$
 
-> **Obs.:** todos os elementos deste conjunto são maiores ou iguais a 1.
-
-[fotos(2)]
+> **Obs.:** todos os elementos deste conjunto são maiores ou iguais a 1, pois não está contidos na bola.
 
 Como $B_1(l) \subseteq B_{M+1}(l)$ e $(a_n)_{n<N} \subseteq B_{M+1}(l)$, então $(a_n)_n \subseteq B_{M+1}(l)$.
 
@@ -999,7 +997,7 @@ $$
 |a_nb_n - ab| = |a_n(b_n - b) + b(a_n - a)|
 $$
 
-Calculamos, pela Desigualdade Triangular [fotos(3)]:
+Calculamos, pela Desigualdade Triangular:
 
 $$
 \displaylines{
@@ -1019,8 +1017,6 @@ Portanto, $(a_n \cdot b_n)_n \to a \cdot b$. ∎
 
 **Propriedade 5:** $\left(\frac{1}{a_n}\right)_n \to \frac{1}{a}$, com $a_n \neq 0$ (para qualquer $n$) e $a \neq 0$
 
-[foto]
-
 Seja $(a_n)_n \to a$. Então $|a_n - a| < \epsilon_2$.
 
 Calculamos:
@@ -1035,7 +1031,6 @@ $$
 \end{align*}
 }
 $$
-
 
 Tomando $\epsilon_1 = \epsilon|a|N$, teremos:
 
@@ -1063,7 +1058,7 @@ Logo $a \cdot \frac{1}{b} = \frac{a}{b}$.
 
 Portanto, $\left(\frac{a_n}{b_n}\right)_n \to \frac{a}{b}$. ∎
 
-> *Que demonstração porca.*
+> *Meu Deus! Que demonstração porca!*
 
 #### Propriedades dos Limites
 
@@ -1076,6 +1071,7 @@ Portanto, $\left(\frac{a_n}{b_n}\right)_n \to \frac{a}{b}$. ∎
 
 ---
 
-**Teorema do Sanduíche:** Sejam as sequências $(a_n)_n$, $(b_n)_n$ e $(c_n)_n$ que convergem para $a$, $b$ e $c$, respectivamente. Se $(\forall n)[a_n \leq b_n \leq c_n]$ e $a = c = k$, então $b = k$. [quem é k?]
+**Teorema do Sanduíche:** Sejam as sequências $(a_n)_n$, $(b_n)_n$ e $(c_n)_n$ que convergem para $a$, $b$ e $c$, respectivamente. Se $(\forall n)[a_n \leq b_n \leq c_n]$ e $a = c = k$, então $b = k$.
 
-[fotos(3)]
+> [!warning] Nota
+> Infelizmente perdi a demonstração que o professor fez em sala. :(
