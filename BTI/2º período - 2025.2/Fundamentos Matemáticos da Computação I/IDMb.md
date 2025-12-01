@@ -904,8 +904,6 @@ Portanto, $l_1 = l_2$. ∎
 
 **Teorema:** Toda sequência convergente de reais é cercada.
 
-[foto]
-
 Seja $\epsilon = 1$ arbitrário. Então existe $N$ tal que $(\forall n \geq N)[d(a_n,l) < 1]$ (sequência convergente). Logo $(a_n)_{n \geq N} \leq B_1(l)$.
 
 Tomando do conjunto de todas as distâncias entre os $(a_n)_{n < N}$ até $l$ (elementos fora de $B_1(l)$) o seu $\max$:
