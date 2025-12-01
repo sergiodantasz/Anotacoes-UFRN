@@ -1075,3 +1075,181 @@ Portanto, $\left(\frac{a_n}{b_n}\right)_n \to \frac{a}{b}$. ∎
 
 > [!warning] Nota
 > Infelizmente perdi a demonstração que o professor fez em sala. :(
+
+---
+
+**Lema (Desigualdade de Bernoulli):** Seja $x$ : Real com $x > -1$ e $n$ : Nat. Então $(1 + x)^n \geq 1 + n \cdot x$.
+
+Vamos demonstrar por indução.
+
+**Caso base ($n = 0$):**
+
+Calculamos:
+
+$$
+(1 + x)^0 \geq 1 + 0 \cdot x \implies 1 \geq 1
+$$
+
+Como $1 \geq 1$ é sempre verdadeiro, concluímos o caso base.
+
+**Passo indutivo:**
+
+Nossa hipótese indutiva é $(1 + x)^n \geq 1 + n \cdot x$.
+
+Calculamos:
+
+$$
+\displaylines{
+\begin{align*}
+(1 + x)^{n + 1} \geq 1 + (n + 1) \cdot x
+&\implies (1 + x)(1 + x)^n \geq (1 + x)(1 + n \cdot x) \qquad (\text{H.I.}) \\
+&\implies (1 + x)^{n + 1} \geq (1 + x)(1 + n \cdot x) \\
+&\implies (1 + x)^{n + 1} \geq 1 + n \cdot x + x + n \cdot x^2 \\
+&\implies (1 + x)^{n + 1} \geq 1 + x (n + 1) + n \cdot x^2 \geq 1 + x(n + 1) \qquad (n \cdot x^2 > 0) \\
+&\implies (1 + x)^{n + 1} \geq 1 + (n + 1)x
+\end{align*}
+}
+$$
+
+Logo, concluímos o passo indutivo.
+
+Portanto, finalizamos a demonstração da Desigualdade de Bernoulli. ∎
+
+---
+
+**Teorema:** Seja $a$ : Real com $0 < a < 1$. Então a sequência de reais $(a^n)_n \to 0$.
+
+Como $0 < a < 1$, logo $\frac{1}{a} > 1$.
+
+Veja que:
+
+$$
+a^n = \left( \frac{1}{\frac{1}{a}} \right)^n
+= \frac{1^n}{\left(\frac{1}{a}\right)^n}
+= \frac{1}{\left(\frac{1}{a}\right)^n}
+$$
+
+Se $\frac{1}{a} > 1$, então definimos $k > -1$ tal que $\frac{1}{a} = k + 1$.
+
+Agora, note o seguinte:
+
+$$
+0 < a^n = \frac{1}{\left(\frac{1}{a}\right)^n} = \frac{1}{(k + 1)^n} \leq \frac{1}{1 + k \cdot n} \qquad (\text{Desigualdade de Bernoulli})
+$$
+
+Logo, por transitividade, $0 < a^n \leq \frac{1}{1 + k \cdot n}$. Transformando cada termo em uma sequência, teremos:
+
+$$
+(0_n)_n < (a^n)_n \leq \left(\frac{1}{1 + k \cdot n}\right)_n
+$$
+
+Tomando os limites, pelo Teorema do Sanduíche, segue que:
+
+$$
+(0_n)_n \to 0 \quad \text{e} \quad \left(\frac{1}{1 + k \cdot n}\right)_n \to 0 \implies (a^n)_n \to 0
+$$
+
+Portanto, $(a^n)_n \to 0$. ∎
+
+### Sequências Autoconvergentes (Sequência de Cauchy)
+
+$$
+(a_n)_n \text{ é autoconvergente} \overset{\mathrm{def}}{\iff} (\forall \epsilon > 0)(\exists N)(\forall i, j \geq N)[a_i \text{ e } a_j \text{ são $\epsilon$-Perto}]
+$$
+
+A parte direita pode ser traduzida assim: *eventualmente, todos os termos estão em uma mesma bola.*
+
+---
+
+**Teorema:** Toda sequência de reais convergente é autoconvergente.
+
+Seja $(a_n)_n \to l$ uma sequência real. Então existe um $N$ (com $n \geq N$) tal que $d(a_n,l) < \epsilon_1$.
+
+Tomando $i, j \geq N$, teremos $d(a_i,l) < \epsilon_1$ e $d(a_j,l) < \epsilon_1$.
+
+Pela Desigualdade Triangular, vamos ter o seguinte:
+
+$$
+\displaylines{
+\begin{align*}
+d(a_i,a_j) \leq d(a_i,l) + d(a_j,l)
+&\implies d(a_i, a_j) \leq \epsilon_1 + \epsilon_1 \\
+&\implies d(a_i, a_j) \leq 2\epsilon_1 \\
+&\implies d(a_i, a_j) \leq \epsilon
+\end{align*}
+}
+$$
+
+Portanto, $(a_n)_n$ é autoconvergente. ∎
+
+> Por que usar $\epsilon_1$ e não $\epsilon'$?
+
+---
+
+**Teorema:** Toda sequência de reais autoconvergente é cercada.
+
+Seja $(a_n)_n \to l$ uma sequência real autoconvergente. Dado $\epsilon > 0$, existe $N$ tal que $\forall i, j \geq N$, $d(a_i, a_j) < \epsilon$.
+
+Tomando $a_N$ como centro de uma ε-Bola, todos os termos $(a_n)_{n \geq N}$ estão em $B_\epsilon(a_N)$.
+
+Tomando o conjunto de todas as distâncias de $(a_n)_{n < N}$ até $a_N$, dito conjunto $A$.
+
+Definimos, então, $M = \sup(A) + 1$. Assim, os elementos de $(a_n)_{n<N}$ estão dentro de $B_M(a_N)$.
+
+Tomando $D = \max(M,\epsilon)$, teremos:
+
+$$
+B_M(a_N) \subset B_D(a_N) \quad \text{e} \quad B_\epsilon(a_N) \subset B_D(a_N)
+$$
+
+Portanto, $B_D(a_N)$ contém a sequência inteira. ∎
+
+---
+
+**Corolário:** Toda sequência autoconvergente é cotada.
+
+> [!warning] Nota
+> O professor não fez demonstração desse corolário.
+
+### Subsequências
+
+Seja $(a_n)_n$ uma sequência de reais. Dada a sequência estritamente crescente $(n_i)_i$ : Seq Nat, chamamos $(a_{n_i})_i$ de subsequência de $(a_n)_n$.
+
+Alternativamente, temos:
+
+$$
+(b_n)_n \text{ é subsequência de } (a_n)_n \overset{\mathrm{def}}{\iff} (\exists n_0, n_1, n_2, \ldots \text{ em que } n_0 < n_1 < n_2 < \ldots)(\forall i)[b_i = a_{n_i}]
+$$
+
+*Ex.:*
+$(a_n)_n$: 3, -1, 4, √2, 5, 1/3, 9, 10, -1, 7, 3, π, -1/10, ...
+$(b_n)_n$: √2, 1/3, 9, -1, 3
+Os elementos de $(b_n)_n$ também estão em $(a_n)_n$, na mesma ordem.
+
+---
+
+**Teorema:** Toda sequência autoconvergente que possui uma subsequência convergente é convergente.
+
+Seja $(a_n)_n$ autoconvergente e $(a_{n_i})_i \to l$.
+
+Dado $\epsilon > 0$, existe $N$ tal que $(\forall i, j \geq N)[d(a_i,a_j) < \epsilon_1]$.
+
+Como $(a_{n_i})_i \to l$, logo existe $M$ tal que $(\forall i \geq M)[d(a_{n_i},l) < \epsilon_2]$.
+
+Tomando $P = \max(N,M)$, então $\forall i, j \geq P$
+
+Note que $d(a_i,a_j) < \epsilon_1$ e $d(a_{n_i},l) < \epsilon_2$.
+
+Pela Desigualdade Triangular:
+
+$$
+\displaylines{
+\begin{align*}
+d(a_i,l) \leq d(a_i, a_{n_i}) + d(a_{n_i},l)
+&\implies d(a_i,l) \leq \epsilon_1 + \epsilon_2 \\
+&\implies d(a_i,l) \leq \epsilon \qquad (\epsilon = \epsilon_1 + \epsilon_2)
+\end{align*}
+}
+$$
+
+Portanto, temos uma sequência convergente. ∎
