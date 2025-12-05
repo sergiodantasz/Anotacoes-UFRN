@@ -1260,6 +1260,12 @@ $$
 a_i \text{ é um pico de } (a_n)_n \overset{\mathrm{def}}{\iff} (\forall j > i)[a_i > a_j]
 $$
 
+#### Monótona
+
+$$
+(a_n)_n \text{ é monótona} \overset{\mathrm{def}}{\iff} (\forall i, j)[i > j \implies a_j < a_i]
+$$
+
 ---
 
 **Teorema:** Toda sequência de reais tem uma subsequência monótona (crescente ou decrescente).
@@ -1351,14 +1357,7 @@ Vamos separar essa demonstração em casos.
 
 **Caso 1:** A sequência é monótona crescente.
 
-Relembre as definições de **sequência cotada** e **monótona**:
-
-$$
-(a_n)_n \text{ é monótona} \overset{\mathrm{def}}{\iff} (\forall i, j)[i > j \implies a_j < a_i]
-$$
-
-> [!warning] Definição de monótona
-> Devo criar uma seção própria pra definição de sequência monótona? Não acho que seja organizado apresentar uma definição durante uma demonstração.
+Relembre as definições de **sequência cotada** e **monótona**.
 
 Se $(\forall n)[S \geq a_n]$ — e como $S = \sup \{(a_n)_n\}$ —, então para todo $\epsilon > 0$, $S - \epsilon$ não é cota de $\{ (a_n)_n \}$.
 
