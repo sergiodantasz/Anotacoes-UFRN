@@ -1405,3 +1405,126 @@ Como $(a_n)_n$ tem subsequência convergente e é autoconvergente, então $(a_n)
 > De onde ele tirou isso?
 
 Portanto, demonstramos o Critério de Convergência de Cauchy. ∎
+
+### Propriedades de Intervalos Aninhados
+
+Sejam os intervalos:
+
+$I_0 = [a_0, b_0]$
+$I_1 = [a_1, b_1]$
+$I_2 = [a_2, b_2]$
+$\vdots$
+
+De forma que $I_0 \supseteq I_1 \supseteq I_2 \supseteq \ldots$. Então a interseção $\underset{n}{\cap} I_0$ é um conjunto cotado, habitado e fechado.
+
+Além disso, se $\operatorname{diam}{(I_n)} \to 0$, então a interseção forma um conjunto unitário.
+
+**Demonstração:**
+
+Sejam os intervalos aninhados $I_n$, então:
+
+$$
+a_0 \leq a_1 \leq a_2 \leq \ldots \leq b_2 \leq b_2 \leq b_0
+$$
+
+Considere as sequências $(a_n)_n$ e $(b_n)_n$ sendo convergentes (pois são monótonas e cotadas).
+
+Definimos $a_M = \lim_n{a_n} = \sup(a_n)$ e $b_M = \lim_n{b_n} = \inf(b_n)$.
+
+Portanto, $(a_n)_n \leq a_M \leq b_M \leq (b_n)_n$ e $\underset{n}{\cap} I = [a_M, b_M]$ (intervalo habitado e fechado).
+
+*Fim da primeira demonstração.*
+
+Supondo que $\operatorname{diam}{(I_n)} \to 0$, teremos $\operatorname{diam}{(I_n)} = |b_n - a_n| = b_n - a_n$.
+
+Se $\operatorname{diam}{(I_n)} \to 0$, então $b_M - a_M \to 0 \implies b_M = a_M$.
+
+Logo $\underset{n}{\cap} I = \{a_M\}$.
+
+*Fim da segunda demonstração.*
+
+---
+
+**Teorema (Propriedade Arquimediana):** Sejam $x, y \in \mathbb{R}$ tais que $x > 0$. Então existe pelo menos um natural $n$ tal que $nx > y$.
+
+Suponha, por absurdo, que $x$ e $y$ são reais tais que $(\forall n \in \mathbb{N})[nx < y]$.
+
+Definimos o conjunto:
+
+$$
+A = \{ nx \mid n \in \mathbb{N} \}
+$$
+
+Observe o seguinte:
+
+- $A$ é limitado superiormente ($y$ é cota superior de $A$);
+- $A \neq \emptyset$.
+
+Logo existe $S = \sup(A)$.
+
+Como $x > 0$, então $S - x < S$, isto é:
+
+$$
+S - x \text{ não é cota de } A \implies (\exists m)[S - x < mx]
+$$
+
+Note que, sendo $mx$ um elemento de $A$, $S - x < mx \iff S < mx + x \iff S < x(m + 1)$.
+
+Porém $x(m + 1) \in A$ e $x(m + 1) > S = \sup(A)$, o que é um absurdo.
+
+Portanto, $nx > y$. ∎
+
+#### Corolários
+
+**Corolário 1:** $(\forall x > 0)(\exists n \in \mathbb{R}_\mathbb{N})\left[\frac{1}{n} < x\right]$
+
+**Corolário 2:** $(\forall r > 0)(\exists n \in \mathbb{R}_\mathbb{N})[n > r]$
+
+[foto]
+
+---
+
+**Proposição:** Sejam $a, b \in \mathbb{R}$ tais que $a < b$. Então existe $r \in \mathbb{R}_\mathbb{R}$ tal que $a < r < b$ ($\mathbb{R}_\mathbb{Q}$ é denso em $\mathbb{R}$).
+
+Como $a < b$, logo $b - a > 0$. Disso segue que existe $n \in \mathbb{R}_\mathbb{N}$ tal que $n(b - a) > 1$.
+
+Além disso, existem $i$ e $j$ tais que $i > na$ e $j > -na$. Por transitividade, $-j < na < i$ ($na$ está entre dois inteiros).
+
+Logo existe $m$ tal que $m - 1 < na < m \implies m < na + 1 < m + 1$.
+
+Veja que $n(b - a) > 1 \iff nb - na > 1 \iff nb > 1 + na$.
+
+Teremos, agrupando:
+
+$$
+\displaylines{
+\begin{align*}
+na < m < na + 1 < nb
+&\implies na < m < nb \\
+&\implies a < \frac{m}{n} < b
+\end{align*}
+}
+$$
+
+Tome $r = \frac{m}{n}$ (tanto o numerador quanto o denominador são inteiros). Logo $r \in \mathbb{R}_\mathbb{Q}$.
+
+---
+
+**Proposição:** Sejam $a, b \in \mathbb{R}$ tais que $a < b$. Então existe $i \in \mathbb{R}_\mathbb{I}$ tal que $a < i < b$ ($\mathbb{R}_\mathbb{I}$ é denso em $\mathbb{R}$).
+
+Como $a$ e $b$ são reais, então existe $r$ racional tal que $a < r < b$.
+
+Pela Propriedade Arquimediana, com $x := b$ e $y := \sqrt{2}$, segue que $nb > \sqrt{2} \implies b > \frac{\sqrt{2}}{n}$.
+
+Tome $i = r + \frac{\sqrt{2}}{n}$. Disso segue que $r = \frac{i - \sqrt{2}}{n}$.
+
+Calculamos:
+
+$$
+\displaylines{
+\begin{align*}
+a < i - \frac{\sqrt{2}}{n} < b
+&\implies na < ni - \sqrt{2} < nb
+\end{align*}
+}
+$$
