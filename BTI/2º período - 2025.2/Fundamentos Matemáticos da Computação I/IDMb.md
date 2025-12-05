@@ -1253,3 +1253,149 @@ d(a_i,l) \leq d(a_i, a_{n_i}) + d(a_{n_i},l)
 $$
 
 Portanto, temos uma sequência convergente. ∎
+
+### Pico
+
+$$
+a_i \text{ é um pico de } (a_n)_n \overset{\mathrm{def}}{\iff} (\forall j > i)[a_i > a_j]
+$$
+
+---
+
+**Teorema:** Toda sequência de reais tem uma subsequência monótona (crescente ou decrescente).
+
+**Caso 1:** $(a_n)_n$ possui infinitos picos.
+
+Se $(a_n)_n$ possui infinitos picos, então existe uma sequência de naturais $n_1 < n_2 < n_3 < \ldots$ em que todos os valores $(a_n)_{n_i}$ são picos.
+
+Logo a subsequência $(a_n)_{n_1}, (a_n)_{n_2}, (a_n)_{n_3}, \ldots$ é decrescente (pois cada termo seguinte é menor que o anterior).
+
+> Mas por que não é crescente?
+
+**Caso 2:** $(a_n)_n$ possui um número finito de picos.
+
+Se $(a_n)_n$ possui um número finito de picos, então existe um último pico $a_m$ tal que $(\forall j > m)[a_m > a_j]$. Se nenhum $a_j$ é pico então $(\forall j)(\exists k > j)[a_j < a_k]$.
+
+Vamos construir uma subsequência via indução. Seja $a_{n_0}$ o último pico de $(a_n)_n$.
+
+**Passo indutivo:**
+
+Para todo $a_{n_k}$, existe um $a_{n_{k+1}}$ com $a_{n_{k+1}} > a_{n_k}$. Logo a subsequência $(a_n)_{n_0}, (a_n)_{n_1}, (a_n)_{n_2}, (a_n)_{n_3}, \ldots$ é crescente.
+
+Portanto, qualquer sequência de números reais tem uma subsequência monótona. ∎
+
+> Cadê o caso base da indução?
+
+---
+
+Seja a sequência dos dígitos de $\sqrt{2}$:
+
+- Em $\mathbb{Q}$: 1 - 1,4 - 1,41 - 1,414 - 1,4142 - ...
+- Em $\mathbb{R}$: 1 - 1,4 - 1,41 - 1,414 - 1,4142 - ...
+
+Relembre as definições de **limite** e **bola**.
+
+Observe que $l = \sqrt{2}$ existe em $\mathbb{R}$, mas não em $\mathbb{Q}$, ou seja:
+
+- Em $\mathbb{Q}$: $d(a_n, \sqrt{2})$ é indefinido, pois a bola não existe. Na reta racional, $\sqrt{2}$ é aberto.
+- Em $\mathbb{R}$: $d(a_n, \sqrt{2})$ é definido.
+
+Agora vamos *forçar a barra*. Suponha que $(a_n)_n \to \frac{K}{10^{M - 1}}$ em $\mathbb{Q}$.
+
+Com $K = M \text{ primeiros dígitos de } \sqrt{2}$ (entre aspas), teremos a sequência:
+
+$$
+\frac{1}{10^0}, \frac{14}{10^1}, \frac{141}{10^2}, \frac{1414}{10^3}, \frac{14142}{10^4}, \ldots, \frac{K}{10^{M - 1}}
+$$
+
+Segue, da nossa suposição, que:
+
+Dado $\epsilon = (M + 1) \text{-ésimo dígito de } \sqrt{2} = 2 \cdot 10^M > 0$, eventualmente temos que para todo $n > N$, $\left| a_n - \frac{K}{10^{M - 1}} \right| < \epsilon$.
+
+Se $n = M + 1$, teremos:
+
+$$
+\displaylines{
+\begin{align*}
+& \left| a_{M + 1} - \frac{K}{10^{M - 1}} \right| < \epsilon \\
+\implies& \left| \frac{M + 1 \text{ primeiros dígitos de } \sqrt{2}}{10^{M + 1 - 1}} - \frac{K}{10^{M - 1}} \right| < \epsilon \\
+\implies& \left| \frac{M + 1 \text{ primeiros dígitos de } \sqrt{2}}{10^{M}} - \frac{10K}{10^{M}} \right| < \epsilon \\
+\implies& \left| \frac{(M + 1) \text{-ésimo dígito de } \sqrt{2}}{10^{M}} - \frac{(M + 1) \text{-ésimo dígito de } \sqrt{2}}{2 \cdot 10^{M}} \right| < \epsilon \\
+\implies& 2 \cdot 10^M < 10^M
+\end{align*}
+}
+$$
+
+Isso é um absurdo. ∎
+
+> [!question] O que é isso?
+> Eu não entendi absolutamente nada daqui, não sei se isso é um teorema nem se está localizado corretamente no arquivo.
+
+### Último Axioma dos Reais (Completude)
+
+$$
+(\forall A \subseteq \mathbb{R})[A \text{ é cotado por cima} \implies A \text{ tem supremum}]
+$$
+
+$$
+(\forall A \subseteq \mathbb{R})[A \text{ é cotado por baixo} \implies A \text{ tem infimum}]
+$$
+
+> Com isso, fechamos as operações.
+
+---
+
+**Teorema (Convergência Monótona):** Toda sequência monótona e cotada é convergente.
+
+Vamos separar essa demonstração em casos.
+
+**Caso 1:** A sequência é monótona crescente.
+
+Relembre as definições de **sequência cotada** e **monótona**:
+
+$$
+(a_n)_n \text{ é monótona} \overset{\mathrm{def}}{\iff} (\forall i, j)[i > j \implies a_j < a_i]
+$$
+
+> [!warning] Definição de monótona
+> Devo criar uma seção própria pra definição de sequência monótona? Não acho que seja organizado apresentar uma definição durante uma demonstração.
+
+Se $(\forall n)[S \geq a_n]$ — e como $S = \sup \{(a_n)_n\}$ —, então para todo $\epsilon > 0$, $S - \epsilon$ não é cota de $\{ (a_n)_n \}$.
+
+> Essas sequências deveriam estar entre chaves?
+
+E como $(a_n)_n$ é crescente, temos que eventualmente:
+
+$$
+a_{N - 1} \leq S - \epsilon \leq a_N \leq a_{N + 1} \leq \ldots < S
+$$
+
+Sendo assim, eventualmente $(a_n)_{n > N} \subset B_\epsilon(S)$.
+
+Portanto, $(a_n)_n$ é convergente. ∎
+
+---
+
+**Teorema de Bolzano-Weierstrass:**
+
+$$
+(a_n)_n \text{ é cotada} \implies (a_n)_n \text{ possui subsequência convergente}
+$$
+
+[foto]
+
+### Critério de Convergência de Cauchy
+
+> Só é válido para sequências reais.
+
+Seja $(a_n)_n$ : Seq Real.
+
+$$
+(a_n)_n \text{ é autoconvergente} \implies (a_n)_n \text{ é convergente}
+$$
+
+Vamos demonstrar esse teorema.
+
+Sabendo que $(a_n)_n$ é autoconvergente, logo tal sequência também é cotada.
+
+[foto]
