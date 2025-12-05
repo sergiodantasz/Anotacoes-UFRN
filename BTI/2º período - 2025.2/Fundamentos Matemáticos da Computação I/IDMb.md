@@ -136,7 +136,7 @@ Neste caso, chegamos ao Pequeno Teorema de Fermat.
 
 **Especificação:** ($\mathbb{Q}$; 0, 1, +, -, ·, >, Pos)
 
-**⛤ Com isso, ganhamos:**
+**☆ Com isso, ganhamos:**
 - Açúcar sintático para frações: $\frac{a}{b} \iff a \cdot b^{-1}$.
 - QM-Inv: Para todo $a \neq 0$, existe $a^{-1}$ tal que $a \cdot a^{-1} = 1$.
 
@@ -284,7 +284,7 @@ A maioria dos números reais **não é computável**, porque existem contáveis 
 
 **Especificação:** ($\mathbb{R}$; 0, 1, +, -, ·, <, Pos)
 
-**⛤ O que ganhamos:**
+**☆ O que ganhamos:**
 - Radiciação (até certo ponto);
 - Reta real;
 - Conjunto dos números irracionais.
@@ -293,7 +293,7 @@ A maioria dos números reais **não é computável**, porque existem contáveis 
 - Frações irredutíveis.
 
 > [!question] Perdemos acesso às frações irredutíveis?
-> Muller afirma que ao especificarmos os números reais, não podemos mais utilizar frações irredutíveis. Ele usou como exemplo a fração $\frac{\sqrt{2}}{2}$ e disse que não podíamos reduzir ela por causa da raiz quadrada no numerador; isso faz sentido. Mas o problema é que isso sequer é uma fração racional: em sua definição, tanto o numerador quanto o denominador devem ser números inteiros. E então, será que de fato perdemos o acesso?!
+> Muller afirma que ao especificarmos os números reais, não podemos mais utilizar frações irredutíveis. Ele usou como exemplo a fração $\frac{\sqrt{2}}{2}$ e disse que não podíamos reduzir ela por causa da raiz quadrada no numerador; isso faz sentido. Mas o problema é que isso sequer é uma fração racional: em sua definição, tanto o numerador quanto o denominador devem ser números inteiros. E então, será que de fato perdemos o acesso?
 
 ## Máximo e Mínimo
 
@@ -1058,7 +1058,8 @@ Logo $a \cdot \frac{1}{b} = \frac{a}{b}$.
 
 Portanto, $\left(\frac{a_n}{b_n}\right)_n \to \frac{a}{b}$. ∎
 
-> *Meu Deus! Que demonstração porca!*
+> [!missing] Isso está certo?
+> Que demonstração é essa?
 
 #### Propriedades dos Limites
 
@@ -1074,7 +1075,7 @@ Portanto, $\left(\frac{a_n}{b_n}\right)_n \to \frac{a}{b}$. ∎
 **Teorema do Sanduíche:** Sejam as sequências $(a_n)_n$, $(b_n)_n$ e $(c_n)_n$ que convergem para $a$, $b$ e $c$, respectivamente. Se $(\forall n)[a_n \leq b_n \leq c_n]$ e $a = c = k$, então $b = k$.
 
 > [!warning] Nota
-> Infelizmente perdi a demonstração que o professor fez em sala. :(
+> Infelizmente perdi a demonstração que o professor fez em sala.
 
 ---
 
@@ -1373,15 +1374,15 @@ Sendo assim, eventualmente $(a_n)_{n > N} \subset B_\epsilon(S)$.
 
 Portanto, $(a_n)_n$ é convergente. ∎
 
+> [!warning] Demonstração incompleta
+> Não entendi o porquê, mas Muller não demonstrou o caso 2. Vai ficar por isso mesmo?
+
 ---
 
-**Teorema de Bolzano-Weierstrass:**
+**Teorema de Bolzano-Weierstrass:** $(a_n)_n \text{ é cotada} \implies (a_n)_n \text{ possui subsequência convergente}$
 
-$$
-(a_n)_n \text{ é cotada} \implies (a_n)_n \text{ possui subsequência convergente}
-$$
-
-[foto]
+> [!warning] Nota
+> Muller fez uma demonstração incompreensível deste teorema.
 
 ### Critério de Convergência de Cauchy
 
@@ -1397,4 +1398,10 @@ Vamos demonstrar esse teorema.
 
 Sabendo que $(a_n)_n$ é autoconvergente, logo tal sequência também é cotada.
 
-[foto]
+Pelo teorema de Bolzano-Weierstrass, $(a_n)_n$ tem subsequência convergente, pois ela é cotada.
+
+Como $(a_n)_n$ tem subsequência convergente e é autoconvergente, então $(a_n)_n$ é convergente.
+
+> De onde ele tirou isso?
+
+Portanto, demonstramos o Critério de Convergência de Cauchy. ∎
