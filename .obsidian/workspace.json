@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "260704948cbe3e3b",
+        "id": "997fe6f7e3ba7844",
         "type": "tabs",
         "children": [
           {
-            "id": "5845fd826446ba4e",
+            "id": "6c1ef0b75cc29be2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 365.5,
+    "collapsed": true
   },
   "right": {
     "id": "244f2931f8d6b699",
@@ -182,10 +183,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5845fd826446ba4e",
+  "active": "6c1ef0b75cc29be2",
   "lastOpenFiles": [
-    "BTI/1º período - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/IDMb.md",
+    "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Untitled.md",
+    "BTI/1º período - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
     "Untitled.base",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image.png",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/U2.md",
