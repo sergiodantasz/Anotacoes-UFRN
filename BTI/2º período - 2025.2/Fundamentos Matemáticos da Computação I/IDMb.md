@@ -1445,8 +1445,6 @@ Logo $\underset{n}{\cap} I = \{a_M\}$. ∎
 
 ### Propriedade Arquimediana
 
-Sejam $x, y \in \mathbb{R}$ tais que $x > 0$. Então existe pelo menos um natural $n$ tal que $nx > y$.
-
 $$
 (\forall x, y \in \mathbb{R})[x > 0 \implies (\exists n \in \mathbb{N})[nx > y]]
 $$
