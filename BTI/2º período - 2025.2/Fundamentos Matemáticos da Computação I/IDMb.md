@@ -246,7 +246,7 @@ $$
 
 Se $p \mid a$ e $p \mid b$, então a fração $\frac{a}{b}$ não é irredutível, o que é um absurdo.
 
-Portanto, toda raiz quadrada de um número primo é racional. ∎
+Portanto, toda raiz quadrada de um número primo é irracional. ∎
 
 ## Conjuntos Notáveis
 
@@ -1415,9 +1415,9 @@ $I_1 = [a_1, b_1]$
 $I_2 = [a_2, b_2]$
 $\vdots$
 
-De forma que $I_0 \supseteq I_1 \supseteq I_2 \supseteq \ldots$. Então a interseção $\underset{n}{\cap} I_0$ é um conjunto cotado, habitado e fechado.
+De forma que $I_0 \supseteq I_1 \supseteq I_2 \supseteq \ldots$. Então a interseção $\underset{n}{\cap} I_0$ é um conjunto cotado, habitado e fechado (*parte 1*).
 
-Além disso, se $\operatorname{diam}{(I_n)} \to 0$, então a interseção forma um conjunto unitário.
+Além disso, se $\operatorname{diam}{(I_n)} \to 0$, então a interseção forma um conjunto unitário (*parte 2*).
 
 **Demonstração:**
 
@@ -1433,19 +1433,19 @@ Definimos $a_M = \lim_n{a_n} = \sup(a_n)$ e $b_M = \lim_n{b_n} = \inf(b_n)$.
 
 Portanto, $(a_n)_n \leq a_M \leq b_M \leq (b_n)_n$ e $\underset{n}{\cap} I = [a_M, b_M]$ (intervalo habitado e fechado).
 
-*Fim da primeira demonstração.*
+*Fim da demonstração da parte 1.*
 
 Supondo que $\operatorname{diam}{(I_n)} \to 0$, teremos $\operatorname{diam}{(I_n)} = |b_n - a_n| = b_n - a_n$.
 
 Se $\operatorname{diam}{(I_n)} \to 0$, então $b_M - a_M \to 0 \implies b_M = a_M$.
 
-Logo $\underset{n}{\cap} I = \{a_M\}$.
+Logo $\underset{n}{\cap} I = \{a_M\}$. ∎
 
-*Fim da segunda demonstração.*
+*Fim da demonstração da parte 2.*
 
----
+### Propriedade Arquimediana
 
-**Teorema (Propriedade Arquimediana):** Sejam $x, y \in \mathbb{R}$ tais que $x > 0$. Então existe pelo menos um natural $n$ tal que $nx > y$.
+Sejam $x, y \in \mathbb{R}$ tais que $x > 0$. Então existe pelo menos um natural $n$ tal que $nx > y$.
 
 Suponha, por absurdo, que $x$ e $y$ são reais tais que $(\forall n \in \mathbb{N})[nx < y]$.
 
