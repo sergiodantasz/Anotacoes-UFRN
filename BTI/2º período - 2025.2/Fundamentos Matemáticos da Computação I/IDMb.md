@@ -285,7 +285,7 @@ A maioria dos números reais **não é computável**, porque existem contáveis 
 **Especificação:** ($\mathbb{R}$; 0, 1, +, -, ·, <, Pos)
 
 **☆ O que ganhamos:**
-- Radiciação (até certo ponto);
+- Radiciação ([até certo ponto]{Eu não sei o que ele quis dizer com isso.});
 - Reta real;
 - Conjunto dos números irracionais.
 
