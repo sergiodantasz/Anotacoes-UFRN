@@ -1447,6 +1447,10 @@ Logo $\underset{n}{\cap} I = \{a_M\}$. ∎
 
 Sejam $x, y \in \mathbb{R}$ tais que $x > 0$. Então existe pelo menos um natural $n$ tal que $nx > y$.
 
+$$
+(\forall x, y \in \mathbb{R})[x > 0 \implies (\exists n \in \mathbb{N})[nx > y]]
+$$
+
 Suponha, por absurdo, que $x$ e $y$ são reais tais que $(\forall n \in \mathbb{N})[nx < y]$.
 
 Definimos o conjunto:
@@ -1476,7 +1480,7 @@ Portanto, $nx > y$. ∎
 
 #### Corolários
 
-**Corolário:** $(\forall x > 0)(\exists n \in \mathbb{R}_\mathbb{N})\left[\frac{1}{n} < x\right]$
+**Corolário 1:** $(\forall x > 0)(\exists n \in \mathbb{R}_\mathbb{N})\left[\frac{1}{n} < x\right]$
 
 Seja $x$ um número real positivo.
 
@@ -1490,7 +1494,7 @@ Portanto, o corolário está demonstrado. ∎
 
 ---
 
-**Corolário:** $(\forall r > 0)(\exists n \in \mathbb{R}_\mathbb{N})[n > r]$
+**Corolário 2:** $(\forall r > 0)(\exists n \in \mathbb{R}_\mathbb{N})[n > r]$
 
 Seja $r$ : Real tal que $r > 0$.
 
@@ -1504,7 +1508,7 @@ Portanto, o corolário está demonstrado. ∎
 
 #### Proposições
 
-**Proposição:** Sejam $a, b \in \mathbb{R}$ tais que $a < b$. Então existe $r \in \mathbb{R}_\mathbb{R}$ tal que $a < r < b$ ($\mathbb{R}_\mathbb{Q}$ é denso em $\mathbb{R}$).
+**Proposição 1:** Sejam $a, b \in \mathbb{R}$ tais que $a < b$. Então existe $r \in \mathbb{R}_\mathbb{R}$ tal que $a < r < b$ ($\mathbb{R}_\mathbb{Q}$ é denso em $\mathbb{R}$).
 
 Como $a < b$, logo $b - a > 0$. Disso segue que existe $n \in \mathbb{R}_\mathbb{N}$ tal que $n(b - a) > 1$.
 
@@ -1530,7 +1534,7 @@ Tome $r = \frac{m}{n}$ (tanto o numerador quanto o denominador são inteiros). L
 
 ---
 
-**Proposição:** Sejam $a, b \in \mathbb{R}$ tais que $a < b$. Então existe $i \in \mathbb{R}_\mathbb{I}$ tal que $a < i < b$ ($\mathbb{R}_\mathbb{I}$ é denso em $\mathbb{R}$).
+**Proposição 2:** Sejam $a, b \in \mathbb{R}$ tais que $a < b$. Então existe $i \in \mathbb{R}_\mathbb{I}$ tal que $a < i < b$ ($\mathbb{R}_\mathbb{I}$ é denso em $\mathbb{R}$).
 
 Como $a$ e $b$ são reais, então existe $r$ racional tal que $a < r < b$.
 
