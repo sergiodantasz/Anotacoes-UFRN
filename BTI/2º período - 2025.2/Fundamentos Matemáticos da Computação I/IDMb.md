@@ -1476,13 +1476,33 @@ Portanto, $nx > y$. ∎
 
 #### Corolários
 
-**Corolário 1:** $(\forall x > 0)(\exists n \in \mathbb{R}_\mathbb{N})\left[\frac{1}{n} < x\right]$
+**Corolário:** $(\forall x > 0)(\exists n \in \mathbb{R}_\mathbb{N})\left[\frac{1}{n} < x\right]$
 
-**Corolário 2:** $(\forall r > 0)(\exists n \in \mathbb{R}_\mathbb{N})[n > r]$
+Seja $x$ um número real positivo.
 
-[foto]
+Pela Propriedade Arquimediana, tome $y := 1$. Disso, segue que:
+
+$$
+nx > y \implies nx > 1 \implies x > \frac{1}{n}
+$$
+
+Portanto, o corolário está demonstrado. ∎
 
 ---
+
+**Corolário:** $(\forall r > 0)(\exists n \in \mathbb{R}_\mathbb{N})[n > r]$
+
+Seja $r$ : Real tal que $r > 0$.
+
+Pela Propriedade Arquimediana, tome $y := r$ e $x := 1$. Calculamos:
+
+$$
+nx > y \implies n \cdot 1 > r \implies n > r
+$$
+
+Portanto, o corolário está demonstrado. ∎
+
+#### Proposições
 
 **Proposição:** Sejam $a, b \in \mathbb{R}$ tais que $a < b$. Então existe $r \in \mathbb{R}_\mathbb{R}$ tal que $a < r < b$ ($\mathbb{R}_\mathbb{Q}$ é denso em $\mathbb{R}$).
 
@@ -1506,7 +1526,7 @@ na < m < na + 1 < nb
 }
 $$
 
-Tome $r = \frac{m}{n}$ (tanto o numerador quanto o denominador são inteiros). Logo $r \in \mathbb{R}_\mathbb{Q}$.
+Tome $r = \frac{m}{n}$ (tanto o numerador quanto o denominador são inteiros). Logo $r \in \mathbb{R}_\mathbb{Q}$. ∎
 
 ---
 
@@ -1514,17 +1534,38 @@ Tome $r = \frac{m}{n}$ (tanto o numerador quanto o denominador são inteiros). L
 
 Como $a$ e $b$ são reais, então existe $r$ racional tal que $a < r < b$.
 
-Pela Propriedade Arquimediana, com $x := b$ e $y := \sqrt{2}$, segue que $nb > \sqrt{2} \implies b > \frac{\sqrt{2}}{n}$.
+Pela Propriedade Arquimediana, com $x := b - r$ e $y := \sqrt{2}$, segue que:
 
-Tome $i = r + \frac{\sqrt{2}}{n}$. Disso segue que $r = \frac{i - \sqrt{2}}{n}$.
+$$
+n(b - r) > \sqrt{2} \implies b - r > \frac{\sqrt{2}}{n} \implies b > \frac{\sqrt{2}}{n} + r
+$$
+
+Tome $i = r + \frac{\sqrt{2}}{n} \in \mathbb{I}$. Logo $r = i - \frac{\sqrt{2}}{n}$.
+
+Queremos mostrar que $a < i < b$.
 
 Calculamos:
 
 $$
 \displaylines{
 \begin{align*}
-a < i - \frac{\sqrt{2}}{n} < b
+a < r < b
+&\implies a < i - \frac{\sqrt{2}}{n} < b \\
 &\implies na < ni - \sqrt{2} < nb
 \end{align*}
 }
 $$
+
+Veja que se $na < ni - \sqrt{2}$, então necessariamente $na < ni$, pois $ni > ni - \sqrt{2}$. Teremos:
+
+$$
+na < ni \implies a < i
+$$
+
+Além disso, observe o seguinte:
+
+$$
+b > \frac{\sqrt{2}}{n} + r = i \implies b > i
+$$
+
+Portanto, por transitividade, temos que $a < i < b$. ∎
