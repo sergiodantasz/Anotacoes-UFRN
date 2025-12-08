@@ -912,7 +912,7 @@ $$
 M = \max{\{ d(a_n,l) \mid n < N \}}
 $$
 
-> **Obs.:** todos os elementos deste conjunto são maiores ou iguais a 1, pois não está contidos na bola.
+> **Obs.:** todos os elementos deste conjunto são maiores ou iguais a 1, pois ele não está contido na bola.
 
 Como $B_1(l) \subseteq B_{M+1}(l)$ e $(a_n)_{n<N} \subseteq B_{M+1}(l)$, então $(a_n)_n \subseteq B_{M+1}(l)$.
 
