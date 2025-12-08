@@ -842,13 +842,13 @@ $$
 **Casos envolvendo $\infty$:**
 
 $$
-(a_n)_n \text{ diverge para } \infty \overset{\mathrm{def}}{\iff} (\forall M > 0)[\text{Eventualmente } (a_n)_n > M]
+(a_n)_n \text{ diverge para } \infty \overset{\mathrm{def}}{\iff} (\forall M > 0)[\text{Eventualmente } a_n > M]
 $$
 
-> $(a_n)_n > M$ significa que todos os elementos da sequência são maiores que $M$. O resultado é análogo para $(<)$.
+> **Significado:** por mais alto que você coloque um número $M$, a sequência vai ultrapassar esse número e depois nunca mais voltar para baixo dele.
 
 $$
-(a_n)_n \text{ diverge para } -\infty \overset{\mathrm{def}}{\iff} (\forall M < 0)[\text{Eventualmente } (a_n)_n < M]
+(a_n)_n \text{ diverge para } -\infty \overset{\mathrm{def}}{\iff} (\forall M < 0)[\text{Eventualmente } a_n < M]
 $$
 
 ---
