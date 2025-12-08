@@ -687,7 +687,7 @@ Ora, tanto $0 < 2$ quanto $1 < 2$, logo ambos os casos da distância discreta en
 
 > Faremos isso utilizando Distância Euclidiana.
 
-Seja um intervalo $(a,b)$ (com $b > a$, por conveniência). Seja $c$ um ponto tal que $c = \frac{a + b}{2}$.
+Seja um intervalo $(a,b)$ (com $b > a$, por conveniência).
 
 Perceba o seguinte:
 
