@@ -759,7 +759,7 @@ $$
 
 Sejam $(a_n)_n$ : Seq Real e $l$ : Real.
 
-Dizemos que $(a_n)_n$ tende ao $l$ (ou converge para $l$) se, e somente se, para qualquer bola de $l$, a sequência $(a_n)_n$ eventualmente fica dentro dela.
+Dizemos que $(a_n)_n$ tende ao $l$ (ou converge para $l$) se, e somente se, para qualquer bola de centro $l$, eventualmente a sequência $(a_n)_n$ fica dentro dela.
 
 $$
 (a_n)_n \to l \overset{\mathrm{def}}{\iff} (\forall \epsilon > 0)[\text{Eventualmente } d(l,a_n) < \epsilon]
