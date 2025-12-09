@@ -1353,8 +1353,6 @@ $$
 (\forall A \subseteq \mathbb{R})[A \text{ é cotado por baixo} \implies A \text{ tem infimum}]
 $$
 
-> Com isso, fechamos as operações.
-
 ---
 
 **Teorema (Convergência Monótona):** Toda sequência monótona e cotada é convergente.
@@ -1367,7 +1365,7 @@ Relembre as definições de **sequência cotada** e **monótona**.
 
 Se $(\forall n)[S \geq a_n]$ — e como $S = \sup \{(a_n)_n\}$ —, então para todo $\epsilon > 0$, $S - \epsilon$ não é cota de $\{ (a_n)_n \}$.
 
-> Essas sequências deveriam estar entre chaves?
+> Quando a sequência está entre chaves, isso indica que estamos falando sobre o conjunto com todos os elementos da sequência.
 
 E como $(a_n)_n$ é crescente, temos que eventualmente:
 
