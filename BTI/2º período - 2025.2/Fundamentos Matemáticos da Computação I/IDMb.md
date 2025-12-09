@@ -1,3 +1,6 @@
+```table-of-contents
+```
+
 # Função Totiente de Euler
 
 > A Função Totiente de Euler conta quantos números inteiros positivos menores ou iguais a um dado número $n$ são primos entre si com $n$.
@@ -1259,7 +1262,11 @@ $$
 #### Monótona
 
 $$
-(a_n)_n \text{ é monótona} \overset{\mathrm{def}}{\iff} (\forall i, j)[i > j \implies a_j < a_i]
+(a_n)_n \text{ é monótona estritamente crescente} \overset{\mathrm{def}}{\iff} (\forall i, j)[i > j \implies a_i > a_j]
+$$
+
+$$
+(a_n)_n \text{ é monótona estritamente decrescente} \overset{\mathrm{def}}{\iff} (\forall i, j)[i > j \implies a_i < a_j]
 $$
 
 ---
@@ -1272,11 +1279,11 @@ Se $(a_n)_n$ possui infinitos picos, então existe uma sequência de naturais $n
 
 Logo a subsequência $(a_n)_{n_1}, (a_n)_{n_2}, (a_n)_{n_3}, \ldots$ é decrescente (pois cada termo seguinte é menor que o anterior).
 
-> Mas por que não é crescente?
-
 **Caso 2:** $(a_n)_n$ possui um número finito de picos.
 
 Se $(a_n)_n$ possui um número finito de picos, então existe um último pico $a_m$ tal que $(\forall j > m)[a_m > a_j]$. Se nenhum $a_j$ é pico então $(\forall j)(\exists k > j)[a_j < a_k]$.
+
+> Essa segunda ocorrência de $\forall j$ não sombreia a primeira?
 
 Vamos construir uma subsequência via indução. Seja $a_{n_0}$ o último pico de $(a_n)_n$.
 
@@ -1286,6 +1293,7 @@ Para todo $a_{n_k}$, existe um $a_{n_{k+1}}$ com $a_{n_{k+1}} > a_{n_k}$. Logo a
 
 Portanto, qualquer sequência de números reais tem uma subsequência monótona. ∎
 
+> [!missing] Demonstração incompleta
 > Cadê o caso base da indução?
 
 ---
@@ -1295,16 +1303,18 @@ Seja a sequência dos dígitos de $\sqrt{2}$:
 - Em $\mathbb{Q}$: 1 - 1,4 - 1,41 - 1,414 - 1,4142 - ...
 - Em $\mathbb{R}$: 1 - 1,4 - 1,41 - 1,414 - 1,4142 - ...
 
+> Usei "-" apenas para separar os elementos das sequências.
+
 Relembre as definições de **limite** e **bola**.
 
 Observe que $l = \sqrt{2}$ existe em $\mathbb{R}$, mas não em $\mathbb{Q}$, ou seja:
 
-- Em $\mathbb{Q}$: $d(a_n, \sqrt{2})$ é indefinido, pois a bola não existe. Na reta racional, $\sqrt{2}$ é aberto.
+- Em $\mathbb{Q}$: $d(a_n, \sqrt{2})$ é indefinido, pois a bola não existe. Na [reta racional]{Isso existe?}, $\sqrt{2}$ é aberto.
 - Em $\mathbb{R}$: $d(a_n, \sqrt{2})$ é definido.
 
 Agora vamos *forçar a barra*. Suponha que $(a_n)_n \to \frac{K}{10^{M - 1}}$ em $\mathbb{Q}$.
 
-Com $K = M \text{ primeiros dígitos de } \sqrt{2}$ (entre aspas), teremos a sequência:
+Com $K = M \text{ primeiros dígitos de } \sqrt{2}$, teremos a seguinte sequência, a partir de $M = 1$:
 
 $$
 \frac{1}{10^0}, \frac{14}{10^1}, \frac{141}{10^2}, \frac{1414}{10^3}, \frac{14142}{10^4}, \ldots, \frac{K}{10^{M - 1}}
@@ -1331,7 +1341,7 @@ $$
 Isso é um absurdo. ∎
 
 > [!question] O que é isso?
-> Eu não entendi absolutamente nada daqui, não sei se isso é um teorema nem se está localizado corretamente no arquivo.
+> Eu não entendi absolutamente nada do que Muller fez aqui, também não sei se isso é um teorema nem se está localizado corretamente no arquivo.
 
 ### Último Axioma dos Reais (Completude)
 
