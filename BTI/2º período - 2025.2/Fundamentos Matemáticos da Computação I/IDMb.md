@@ -962,7 +962,7 @@ $$
 Portanto, $(a_n + b_n)_n \to a + b$. ∎
 
 ---
-[PAREI AQUI]
+
 **Propriedade 3:** $(c \cdot a_n)_n \to c \cdot a$
 
 Seja $(a_n)_n \to a$.
