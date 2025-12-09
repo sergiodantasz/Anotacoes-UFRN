@@ -962,7 +962,7 @@ $$
 Portanto, $(a_n + b_n)_n \to a + b$. ∎
 
 ---
-
+[PAREI AQUI]
 **Propriedade 3:** $(c \cdot a_n)_n \to c \cdot a$
 
 Seja $(a_n)_n \to a$.
@@ -1571,3 +1571,142 @@ b > \frac{\sqrt{2}}{n} + r = i \implies b > i
 $$
 
 Portanto, por transitividade, temos que $a < i < b$. ∎
+
+## Séries Numéricas
+
+Seja $(a_n)_n$ : Seq Real. Definimos $(S_n)_n$ : Seq Real cujo termo geral é:
+
+$$
+S_n = \sum_{i = 0}^n{a_i}
+$$
+
+*Ex.:*
+$S_n = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{6} + \frac{1}{8} + \ldots + \frac{1}{2^n}$
+$(a_n)_n = 1, \frac{1}{2}, \frac{1}{4}, \frac{1}{6}, \frac{1}{8}, \ldots, \frac{1}{2^n}$
+$(S_n)_n = \left( 1, 1 + \frac{1}{2}, 1 + \frac{1}{2} + \frac{1}{4}, 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8}, \ldots, \sum_{i = 0}^n{\frac{1}{2^n}} \right)$
+
+### Séries Convergente e Divergente
+
+Seja $(a_n)_n$. Quando $n \to \infty$, definimos:
+
+$$
+S_\infty = \sum_{i = 0}^\infty{a_i}
+$$
+
+Teremos:
+
+$$
+(a_n)_n \text{ é convergente} \implies S_\infty \text{ é convergente}
+$$
+
+$$
+(a_n)_n \text{ é divergente} \implies S_\infty \text{ é divergente}
+$$
+
+[fotos(2)]
+
+---
+
+**Teorema:** $\{ S_n \} \to 2$
+
+Seja $\epsilon > 0$. Então existe $M$ tal que para todo $n > M$, teremos:
+[rascunho para encontrar M]
+$$
+\displaylines{
+\begin{align*}
+|S_n - 2| < \epsilon
+&\implies \left| 2 - \left(\frac{1}{2}\right)^{n-1} - 2 \right| < \epsilon \\
+&\implies \left(\frac{1}{2}\right)^{n-1} < \epsilon \\
+&\implies \frac{1}{2^{n - 1}} < \epsilon \\
+&\implies \frac{1}{\epsilon} < 2^{n - 1} \\
+&\implies \log_2{\frac{1}{\epsilon}} < n - 1 \\
+&\implies 1 + \log_2{\frac{1}{\epsilon}} < n \\
+&\implies 1 + \log_2{\frac{1}{\epsilon}} \leq \left\lceil 1 + \log_2{\frac{1}{\epsilon}} \right\rceil = M \leq n
+\end{align*}
+}
+$$
+
+Temos $M(\epsilon) = \left\lceil 1 + \log_2{\frac{1}{\epsilon}} \right\rceil$. [M em função do ε]
+
+Seja $n > M$.
+
+[foto]
+
+---
+
+$S_n = \sum_{i = 1}^n{\frac{1}{\sqrt{n}}}$ [nao deveria ser i em vez de n?]
+
+$S_0 = 0$
+$S_1 = 0 + 1$
+$S_2 = 0 + 1 + \frac{1}{\sqrt{2}}$
+$S_3 = 0 + 1 + \frac{1}{\sqrt{2}} + \frac{1}{\sqrt{3}}$
+$S_n = 0 + 1 + \frac{1}{\sqrt{2}} + \frac{1}{\sqrt{3}} + \ldots + \frac{1}{\sqrt{n}}$
+[tirar os casos com zero pq 1/0 é inde.]
+$\{S_n\} \to ?$
+
+$S_n \geq \frac{1}{\sqrt{n}} + \frac{1}{\sqrt{n}} + \frac{1}{\sqrt{n}} + \ldots + \frac{1}{\sqrt{n}} = \frac{n}{\sqrt{n}} = \frac{n\sqrt{n}}{n} = \sqrt{n}$ [n vezes, 1/√n é o menor termo, entao construimos algo que sabemos que Sn é de fato maior]
+
+Não sei quanto vale $S_n$, mas $S_n \geq \sqrt{n}$.
+
+Se $n \to \infty$, então $S_n \to \infty$. Logo $S_\infty$ é divergente.
+
+Alternativamente:
+
+$$
+(S_n)_n \text{ é convergente} \iff (\forall \epsilon > 0)(\exists m)(\forall n > m)\left[ \left| \sum_{i=m}^n{a_i} \right| < \epsilon \right]
+$$
+
+[foto]
+
+### Critérios de Comparação
+
+#### Séries de Termos Não Negativos
+
+Sejam $S_n$ e $P_n$ séries de termos não negativos.
+
+Se existir $K > 0$ e $N$ tais que para todo $n > N$, $S_n < P_n \cdot K$, então:
+
+$$
+P_n \text{ é convergente} \implies S_n \text{ é convergente}
+$$
+
+$$
+S_n \text{ é divergente} \implies P_n \text{ é divergente}
+$$
+
+[foto]
+
+#### Séries Alternadas
+
+Seja $S_n = \sum_{i=0}^n{(-1)^i \cdot a_i}$ em que $a_i$ é decrescente e $\lim a_i = 0$. Então $(S_n)_n$ é convergente.
+
+[fotos(2)]
+
+*Ex.:*
+Seja $(a_n)_n = (b_n)_n + L$, com $(b_n)_n \to 0$. Teremos:
+$$
+\displaylines{
+\begin{align*}
+\lim (S_n)_n
+&= \lim \sum a_i \\
+&= \lim \sum (b_i + L) \\
+&= \lim \left(\sum b_i +\sum L\right) \\
+&= 0 + n \cdot L
+\end{align*}
+}
+$$
+[esses somatórios estão corretos?]
+divergente
+$(S_n)_n \to \infty$
+
+### Critério de D'alambert
+
+Sejam $S_n = \sum a_i$ e $\lim_n \left| \frac{a_{n + 1}}{a_n} \right| = r$.
+
+Sabendo disso, então:
+
+- $(S_n)_n$ é divergente se $r > 1$ (crescente) ou $r \to 1^+$ ou $r \to \infty$;
+- $(S_n)_n$ é convergente se $r < 1$;
+- Inconclusivo se $r \to 1^-$.
+
+[foto]
