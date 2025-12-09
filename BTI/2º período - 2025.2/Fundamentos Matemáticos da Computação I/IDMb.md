@@ -1389,23 +1389,19 @@ Portanto, $(a_n)_n$ é convergente. ∎
 
 ### Critério de Convergência de Cauchy
 
-> Só é válido para sequências reais.
-
 Seja $(a_n)_n$ : Seq Real.
 
 $$
 (a_n)_n \text{ é autoconvergente} \implies (a_n)_n \text{ é convergente}
 $$
 
-Vamos demonstrar esse teorema.
+**Demonstração:**
 
 Sabendo que $(a_n)_n$ é autoconvergente, logo tal sequência também é cotada.
 
 Pelo teorema de Bolzano-Weierstrass, $(a_n)_n$ tem subsequência convergente, pois ela é cotada.
 
 Como $(a_n)_n$ tem subsequência convergente e é autoconvergente, então $(a_n)_n$ é convergente.
-
-> De onde ele tirou isso?
 
 Portanto, demonstramos o Critério de Convergência de Cauchy. ∎
 
@@ -1427,22 +1423,22 @@ Além disso, se $\operatorname{diam}{(I_n)} \to 0$, então a interseção forma 
 Sejam os intervalos aninhados $I_n$, então:
 
 $$
-a_0 \leq a_1 \leq a_2 \leq \ldots \leq b_2 \leq b_2 \leq b_0
+a_0 \leq a_1 \leq a_2 \leq \ldots \leq b_2 \leq b_1 \leq b_0
 $$
 
-Considere as sequências $(a_n)_n$ e $(b_n)_n$ sendo convergentes (pois são monótonas e cotadas).
+Considere as sequências $(a_n)_n$ e $(b_n)_n$ sendo convergentes (pelo teorema da convergência monótona — pois são monótonas e cotadas).
 
-Definimos $a_M = \lim_n{a_n} = \sup(a_n)$ e $b_M = \lim_n{b_n} = \inf(b_n)$.
+Definimos $a_m = \lim_n{a_n} = \sup(a_n)$ e $b_m = \lim_n{b_n} = \inf(b_n)$.
 
-Portanto, $(a_n)_n \leq a_M \leq b_M \leq (b_n)_n$ e $\underset{n}{\cap} I = [a_M, b_M]$ (intervalo habitado e fechado).
+Portanto, $(a_n)_n \leq a_m \leq b_m \leq (b_n)_n$ e $\underset{n}{\cap} I = [a_m, b_m]$ (intervalo habitado e fechado).
 
 *Fim da demonstração da parte 1.*
 
 Supondo que $\operatorname{diam}{(I_n)} \to 0$, teremos $\operatorname{diam}{(I_n)} = |b_n - a_n| = b_n - a_n$.
 
-Se $\operatorname{diam}{(I_n)} \to 0$, então $b_M - a_M \to 0 \implies b_M = a_M$.
+Se $\operatorname{diam}{(I_n)} \to 0$, então $b_m - a_m \to 0 \implies b_m = a_m$.
 
-Logo $\underset{n}{\cap} I = \{a_M\}$. ∎
+Logo $\underset{n}{\cap} I = \{a_m\}$. ∎
 
 *Fim da demonstração da parte 2.*
 
@@ -1452,7 +1448,9 @@ $$
 (\forall x, y \in \mathbb{R})[x > 0 \implies (\exists n \in \mathbb{N})[nx > y]]
 $$
 
-Suponha, por absurdo, que $x$ e $y$ são reais tais que $(\forall n \in \mathbb{N})[nx < y]$.
+**Demonstração:**
+
+Suponha, por absurdo, que $x$ e $y$ são reais tais que $(\exists n \in \mathbb{N})[nx < y]$.
 
 Definimos o conjunto:
 
@@ -1460,7 +1458,7 @@ $$
 A = \{ nx \mid n \in \mathbb{N} \}
 $$
 
-Observe o seguinte:
+Observe que:
 
 - $A$ é limitado superiormente ($y$ é cota superior de $A$);
 - $A \neq \emptyset$.
