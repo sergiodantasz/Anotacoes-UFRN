@@ -1149,13 +1149,15 @@ $$
 
 Portanto, $(a^n)_n \to 0$. ∎
 
-### Sequências Autoconvergentes (Sequência de Cauchy)
+### Sequência Autoconvergente (Sequência de Cauchy)
 
 $$
 (a_n)_n \text{ é autoconvergente} \overset{\mathrm{def}}{\iff} (\forall \epsilon > 0)(\exists N)(\forall i, j \geq N)[a_i \text{ e } a_j \text{ são $\epsilon$-Perto}]
 $$
 
 > **Significado:** eventualmente todos os termos estão em uma mesma bola.
+
+Ou seja, à medida que a sequência avança, os termos ficam arbitrariamente próximos uns dos outros.
 
 ---
 
