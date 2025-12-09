@@ -1213,8 +1213,6 @@ Portanto, $B_D(a_N)$ contém a sequência inteira. ∎
 
 Seja $(a_n)_n$ uma sequência de reais. Dada a sequência estritamente crescente $(n_i)_i$ : Seq Nat, chamamos $(a_{n_i})_i$ de subsequência de $(a_n)_n$.
 
-Alternativamente, temos:
-
 $$
 (b_n)_n \text{ é subsequência de } (a_n)_n \overset{\mathrm{def}}{\iff} (\exists n_0, n_1, n_2, \ldots \text{ em que } n_0 < n_1 < n_2 < \ldots)(\forall i)[b_i = a_{n_i}]
 $$
