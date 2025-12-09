@@ -1214,7 +1214,7 @@ Portanto, $B_D(a_N)$ contém a sequência inteira. ∎
 Seja $(a_n)_n$ uma sequência de reais. Dada a sequência estritamente crescente $(n_i)_i$ : Seq Nat, chamamos $(a_{n_i})_i$ de subsequência de $(a_n)_n$.
 
 $$
-(b_n)_n \text{ é subsequência de } (a_n)_n \overset{\mathrm{def}}{\iff} (\exists n_0, n_1, n_2, \ldots \text{ em que } n_0 < n_1 < n_2 < \ldots)(\forall i)[b_i = a_{n_i}]
+(b_i)_i \text{ é subsequência de } (a_n)_n \overset{\mathrm{def}}{\iff} (\exists n_0, n_1, n_2, \ldots \text{ em que } n_0 < n_1 < n_2 < \ldots)(\forall i \in \mathbb{N})[b_i = a_{n_i}]
 $$
 
 *Ex.:*
@@ -1232,7 +1232,7 @@ Dado $\epsilon > 0$, existe $N$ tal que $(\forall i, j \geq N)[d(a_i,a_j) < \eps
 
 Como $(a_{n_i})_i \to l$, logo existe $M$ tal que $(\forall i \geq M)[d(a_{n_i},l) < \epsilon_2]$.
 
-Tomando $P = \max(N,M)$, então $\forall i, j \geq P$
+Tomando $P = \max(N,M)$, então $\forall i, j \geq P$.
 
 Note que $d(a_i,a_j) < \epsilon_1$ e $d(a_{n_i},l) < \epsilon_2$.
 
@@ -1242,8 +1242,8 @@ $$
 \displaylines{
 \begin{align*}
 d(a_i,l) \leq d(a_i, a_{n_i}) + d(a_{n_i},l)
-&\implies d(a_i,l) \leq \epsilon_1 + \epsilon_2 \\
-&\implies d(a_i,l) \leq \epsilon \qquad (\epsilon = \epsilon_1 + \epsilon_2)
+&\implies d(a_i,l) < \epsilon_1 + \epsilon_2 \\
+&\implies d(a_i,l) < \epsilon \qquad (\epsilon = \epsilon_1 + \epsilon_2)
 \end{align*}
 }
 $$
