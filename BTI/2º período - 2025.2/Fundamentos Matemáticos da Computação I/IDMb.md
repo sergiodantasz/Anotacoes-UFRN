@@ -1163,9 +1163,9 @@ Ou seja, à medida que a sequência avança, os termos ficam arbitrariamente pr�
 
 **Teorema:** Toda sequência de reais convergente é autoconvergente.
 
-Seja $(a_n)_n \to l$ uma sequência real. Então existe um $N$ (com $n \geq N$) tal que $d(a_n,l) < \epsilon_1$.
+Seja $(a_n)_n \to l$ uma sequência real. Então existe um $N$ (com $n \geq N$) tal que $d(a_n,l) < \epsilon'$.
 
-Tomando $i, j \geq N$, teremos $d(a_i,l) < \epsilon_1$ e $d(a_j,l) < \epsilon_1$.
+Tomando $i, j \geq N$, teremos $d(a_i,l) < \epsilon'$ e $d(a_j,l) < \epsilon'$.
 
 Pela Desigualdade Triangular, vamos ter o seguinte:
 
@@ -1173,16 +1173,14 @@ $$
 \displaylines{
 \begin{align*}
 d(a_i,a_j) \leq d(a_i,l) + d(a_j,l)
-&\implies d(a_i, a_j) \leq \epsilon_1 + \epsilon_1 \\
-&\implies d(a_i, a_j) \leq 2\epsilon_1 \\
-&\implies d(a_i, a_j) \leq \epsilon
+&\implies d(a_i, a_j) < \epsilon' + \epsilon' \\
+&\implies d(a_i, a_j) < 2\epsilon' \\
+&\implies d(a_i, a_j) < \epsilon \qquad (\epsilon = 2\epsilon')
 \end{align*}
 }
 $$
 
 Portanto, $(a_n)_n$ é autoconvergente. ∎
-
-> Por que usar $\epsilon_1$ e não $\epsilon'$?
 
 ---
 
@@ -1192,7 +1190,7 @@ Seja $(a_n)_n \to l$ uma sequência real autoconvergente. Dado $\epsilon > 0$, e
 
 Tomando $a_N$ como centro de uma ε-Bola, todos os termos $(a_n)_{n \geq N}$ estão em $B_\epsilon(a_N)$.
 
-Tomando o conjunto de todas as distâncias de $(a_n)_{n < N}$ até $a_N$, dito conjunto $A$.
+Tome o conjunto de todas as distâncias dos elementos que estão em $(a_n)_{n < N}$ até $a_N$, dito conjunto $A$.
 
 Definimos, então, $M = \sup(A) + 1$. Assim, os elementos de $(a_n)_{n<N}$ estão dentro de $B_M(a_N)$.
 
