@@ -1058,9 +1058,6 @@ Logo $a \cdot \frac{1}{b} = \frac{a}{b}$.
 
 Portanto, $\left(\frac{a_n}{b_n}\right)_n \to \frac{a}{b}$. ∎
 
-> [!missing] Isso está certo?
-> Que demonstração é essa?
-
 #### Propriedades dos Limites
 
 1. $\lim_n(c + a_n)_n = c + a$
