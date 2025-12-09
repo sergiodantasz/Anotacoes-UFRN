@@ -1593,7 +1593,7 @@ $(S_n)_n = \left( 1, 1 + \frac{1}{2}, 1 + \frac{1}{2} + \frac{1}{4}, 1 + \frac{1
 Seja $(a_n)_n$. Quando $n \to \infty$, definimos:
 
 $$
-S_\infty = \sum_{i = 0}^\infty{a_i}
+S_\infty = \sum_{i = 0}^\infty{a_i} = \lim_{n \to \infty}{S_n}
 $$
 
 Sendo assim, teremos:
