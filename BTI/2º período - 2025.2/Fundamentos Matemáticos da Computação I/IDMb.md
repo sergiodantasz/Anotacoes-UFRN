@@ -1341,7 +1341,7 @@ $$
 Isso é um absurdo. ∎
 
 > [!question] O que é isso?
-> Eu não entendi absolutamente nada do que Muller fez aqui, também não sei se isso é um teorema nem se está localizado corretamente no arquivo.
+> Eu não entendi absolutamente nada do que Muller fez aqui, também não sei se isso é um teorema ou apenas exemplo nem se está localizado corretamente no arquivo.
 
 ### Último Axioma dos Reais (Completude)
 
