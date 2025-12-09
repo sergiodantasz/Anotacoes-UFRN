@@ -1507,9 +1507,9 @@ Portanto, o corolário está demonstrado. ∎
 
 #### Proposições
 
-**Proposição 1:** Sejam $a, b \in \mathbb{R}$ tais que $a < b$. Então existe $r \in \mathbb{R}$ tal que $a < r < b$ ($\mathbb{R}_\mathbb{Q}$ é denso em $\mathbb{R}$).
+**Proposição 1:** Sejam $a, b \in \mathbb{R}$ tais que $a < b$. Então existe $r \in \mathbb{R}_\mathbb{Q}$ tal que $a < r < b$ ($\mathbb{R}_\mathbb{Q}$ é denso em $\mathbb{R}$).
 
-Como $a < b$, logo $b - a > 0$. Disso segue que existe $n \in \mathbb{R}_\mathbb{N}$ tal que $n(b - a) > 1$.
+Como $a < b$, logo $b - a > 0$. Disso segue que existe $n \in \mathbb{R}_\mathbb{N}$ tal que $n(b - a) > 1$, pela Propriedade Arquimediana com $x := b - a$ e $y := 1$.
 
 Além disso, existem $i$ e $j$ tais que $i > na$ e $j > -na$. Por transitividade, $-j < na < i$ ($na$ está entre dois inteiros).
 
