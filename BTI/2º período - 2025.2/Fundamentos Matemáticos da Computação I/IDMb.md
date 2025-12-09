@@ -1581,6 +1581,8 @@ $$
 S_n = \sum_{i = 0}^n{a_i}
 $$
 
+> $S_n$ é a soma dos primeiros $n$ termos da sequência $(a_n)_n$, enquanto $(S_n)_n$ é chamada de **sequência das somas parciais** da série.
+
 *Ex.:*
 $S_n = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{6} + \frac{1}{8} + \ldots + \frac{1}{2^n}$
 $(a_n)_n = 1, \frac{1}{2}, \frac{1}{4}, \frac{1}{6}, \frac{1}{8}, \ldots, \frac{1}{2^n}$
@@ -1594,7 +1596,7 @@ $$
 S_\infty = \sum_{i = 0}^\infty{a_i}
 $$
 
-Teremos:
+Sendo assim, teremos:
 
 $$
 (a_n)_n \text{ é convergente} \implies S_\infty \text{ é convergente}
