@@ -1092,19 +1092,19 @@ Como $1 \geq 1$ é sempre verdadeiro, concluímos o caso base.
 
 **Passo indutivo:**
 
-Nossa hipótese indutiva é $(1 + x)^n \geq 1 + n \cdot x$.
+Nossa hipótese indutiva é $(1 + x)^n \geq 1 + n \cdot x$ e nossa tese é $(1 + x)^{n + 1} \geq 1 + (n + 1) \cdot x$.
 
 Calculamos:
 
 $$
 \displaylines{
 \begin{align*}
-(1 + x)^{n + 1} \geq 1 + (n + 1) \cdot x
-&\implies (1 + x)(1 + x)^n \geq (1 + x)(1 + n \cdot x) \qquad (\text{H.I.}) \\
-&\implies (1 + x)^{n + 1} \geq (1 + x)(1 + n \cdot x) \\
-&\implies (1 + x)^{n + 1} \geq 1 + n \cdot x + x + n \cdot x^2 \\
-&\implies (1 + x)^{n + 1} \geq 1 + x (n + 1) + n \cdot x^2 \geq 1 + x(n + 1) \qquad (n \cdot x^2 > 0) \\
-&\implies (1 + x)^{n + 1} \geq 1 + (n + 1)x
+(1 + x)^n \geq 1 + n \cdot x
+&\implies (1 + x)^n \cdot (1 + x) \geq (1 + n \cdot x) \cdot (1 + x) \\
+&\implies (1 + x)^{n + 1} \geq 1 + x + n \cdot x + n \cdot x^2 \\
+&\implies (1 + x)^{n + 1} \geq 1 + (n + 1) \cdot x + n \cdot x^2 \\
+&\implies (1 + x)^{n + 1} \geq 1 + (n + 1) \cdot x + n \cdot x^2 \geq 1 + (n + 1) \cdot x \qquad (n \cdot x^2 \geq 0) \\
+&\implies (1 + x)^{n + 1} \geq 1 + (n + 1) \cdot x
 \end{align*}
 }
 $$
