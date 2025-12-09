@@ -1450,7 +1450,7 @@ $$
 
 **Demonstração:**
 
-Suponha, por absurdo, que $x$ e $y$ são reais tais que $(\exists n \in \mathbb{N})[nx < y]$.
+Suponha, por absurdo, que $x$ e $y$ são reais tais que $(\forall n \in \mathbb{N})[nx < y]$.
 
 Definimos o conjunto:
 
@@ -1507,7 +1507,7 @@ Portanto, o corolário está demonstrado. ∎
 
 #### Proposições
 
-**Proposição 1:** Sejam $a, b \in \mathbb{R}$ tais que $a < b$. Então existe $r \in \mathbb{R}_\mathbb{R}$ tal que $a < r < b$ ($\mathbb{R}_\mathbb{Q}$ é denso em $\mathbb{R}$).
+**Proposição 1:** Sejam $a, b \in \mathbb{R}$ tais que $a < b$. Então existe $r \in \mathbb{R}$ tal que $a < r < b$ ($\mathbb{R}_\mathbb{Q}$ é denso em $\mathbb{R}$).
 
 Como $a < b$, logo $b - a > 0$. Disso segue que existe $n \in \mathbb{R}_\mathbb{N}$ tal que $n(b - a) > 1$.
 
