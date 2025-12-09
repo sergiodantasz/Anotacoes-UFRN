@@ -1155,7 +1155,7 @@ $$
 (a_n)_n \text{ é autoconvergente} \overset{\mathrm{def}}{\iff} (\forall \epsilon > 0)(\exists N)(\forall i, j \geq N)[a_i \text{ e } a_j \text{ são $\epsilon$-Perto}]
 $$
 
-A parte direita pode ser traduzida assim: *eventualmente, todos os termos estão em uma mesma bola.*
+> **Significado:** eventualmente todos os termos estão em uma mesma bola.
 
 ---
 
