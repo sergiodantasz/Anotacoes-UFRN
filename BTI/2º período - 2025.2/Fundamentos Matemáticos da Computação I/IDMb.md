@@ -1599,21 +1599,25 @@ $$
 Sendo assim, teremos:
 
 $$
-(a_n)_n \text{ é convergente} \implies S_\infty \text{ é convergente}
-$$
-
-$$
 (a_n)_n \text{ é divergente} \implies S_\infty \text{ é divergente}
 $$
 
-[fotos(2)]
+> $S_\infty$ divergente significa, na verdade, que a sequência das somas parciais $(S_n)_n$ é divergente.
+
+$$
+(a_n)_n \text{ é convergente} \implies S_\infty \text{ é um número real}
+$$
 
 ---
 
-**Teorema:** $\{ S_n \} \to 2$
+**Teorema:** $\{ S_n \} \to 2$ (considerando os dados do exemplo anterior)
+
+> $\{S_n\}$ significa o conjunto que contém todos os elementos de $(S_n)_n$.
+
+Primeiro vamos fazer um "rascunho" para encontrar qual valor $M$ deve ter.
 
 Seja $\epsilon > 0$. Então existe $M$ tal que para todo $n > M$, teremos:
-[rascunho para encontrar M]
+
 $$
 \displaylines{
 \begin{align*}
@@ -1624,12 +1628,14 @@ $$
 &\implies \frac{1}{\epsilon} < 2^{n - 1} \\
 &\implies \log_2{\frac{1}{\epsilon}} < n - 1 \\
 &\implies 1 + \log_2{\frac{1}{\epsilon}} < n \\
-&\implies 1 + \log_2{\frac{1}{\epsilon}} \leq \left\lceil 1 + \log_2{\frac{1}{\epsilon}} \right\rceil = M \leq n
+&\implies 1 + \log_2{\frac{1}{\epsilon}} \leq \left\lceil 1 + \log_2{\frac{1}{\epsilon}} \right\rceil = M < n
 \end{align*}
 }
 $$
 
-Temos $M(\epsilon) = \left\lceil 1 + \log_2{\frac{1}{\epsilon}} \right\rceil$. [M em função do ε]
+Temos $M(\epsilon) = \left\lceil 1 + \log_2{\frac{1}{\epsilon}} \right\rceil$ ($M$ em função de $\epsilon$).
+
+Agora iremos de fato iniciar a demonstração.
 
 Seja $n > M$.
 
