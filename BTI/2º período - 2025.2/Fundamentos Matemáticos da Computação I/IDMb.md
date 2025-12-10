@@ -1704,8 +1704,6 @@ $$
 
 > Esse $m$ é, implicitamente, em função de $\epsilon$: $m(\epsilon)$.
 
-[foto]
-
 ### Critérios de Comparação
 
 #### Séries de Termos Não Negativos
