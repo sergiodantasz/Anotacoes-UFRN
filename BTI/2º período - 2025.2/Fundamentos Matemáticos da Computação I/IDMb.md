@@ -1724,24 +1724,8 @@ $$
 
 Seja $S_n = \sum_{i=0}^n{(-1)^i \cdot a_i}$ em que $a_i$ é decrescente e $\lim a_i = 0$. Então $(S_n)_n$ é convergente.
 
-*Ex.:*
-
-Seja $(a_n)_n = (b_n)_n + L$, com $(b_n)_n \to 0$. Teremos:
-
-$$
-\displaylines{
-\begin{align*}
-\lim (S_n)_n
-&= \lim \sum a_i \\
-&= \lim \sum (b_i + L) \\
-&= \lim \left(\sum b_i +\sum L\right) \\
-&= 0 + n \cdot L
-\end{align*}
-}
-$$
-[esses somatórios estão corretos?]
-divergente
-$(S_n)_n \to \infty$
+> [!warning] Nota
+> Muller fez um exemplo pra esse tópico que na verdade sequer era uma séria alternada, e era bem confuso. Então eu decidi não colocar para não atrapalhar.
 
 ### Critério de D'alambert
 
