@@ -1584,8 +1584,8 @@ $$
 > $S_n$ é a soma dos $n$ primeiros termos da sequência $(a_n)_n$, enquanto $(S_n)_n$ é chamada de **sequência das somas parciais** da série.
 
 *Ex.:*
-$S_n = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{6} + \frac{1}{8} + \ldots + \frac{1}{2^n}$
-$(a_n)_n = 1, \frac{1}{2}, \frac{1}{4}, \frac{1}{6}, \frac{1}{8}, \ldots, \frac{1}{2^n}$
+$S_n = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16} + \ldots + \frac{1}{2^n}$
+$(a_n)_n = 1, \frac{1}{2}, \frac{1}{4}, \frac{1}{8}, \frac{1}{16}, \ldots, \frac{1}{2^n}$
 $(S_n)_n = \left( 1, 1 + \frac{1}{2}, 1 + \frac{1}{2} + \frac{1}{4}, 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8}, \ldots, \sum_{i = 0}^n{\frac{1}{2^n}} \right)$
 
 ### Séries Convergente e Divergente
@@ -1620,7 +1620,7 @@ Primeiro perceba que $S_n$ é a soma dos termos de uma PG onde $a_0 = 1$ e $q = 
 $$
 \displaylines{
 \begin{align*}
-S_n &= 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{6} + \frac{1}{8} + \ldots + \frac{1}{2^n} \\
+S_n &= 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \frac{1}{16} + \ldots + \frac{1}{2^n} \\
 &= \frac{1 \cdot \left( \left(\frac{1}{2}\right)^n - 1 \right)}{\frac{1}{2} - 1} \\
 &= \frac{\left(\frac{1}{2}\right)^n - 1}{-\frac{1}{2}} \\
 &= (-2) \cdot \left[\left(\frac{1}{2}\right)^n - 1\right] \\
@@ -1672,21 +1672,27 @@ n > M
 }
 $$
 
+Portanto, $\{ S_n \} \to 2$. ∎
+
 ---
 
-$S_n = \sum_{i = 1}^n{\frac{1}{\sqrt{n}}}$ [nao deveria ser i em vez de n?]
+Vamos analisar $S_n = \sum_{i = 1}^n{\frac{1}{\sqrt{i}}}$.
 
-$S_0 = 0$
-$S_1 = 0 + 1$
-$S_2 = 0 + 1 + \frac{1}{\sqrt{2}}$
-$S_3 = 0 + 1 + \frac{1}{\sqrt{2}} + \frac{1}{\sqrt{3}}$
-$S_n = 0 + 1 + \frac{1}{\sqrt{2}} + \frac{1}{\sqrt{3}} + \ldots + \frac{1}{\sqrt{n}}$
-[tirar os casos com zero pq 1/0 é inde.]
-$\{S_n\} \to ?$
+Teremos:
 
-$S_n \geq \frac{1}{\sqrt{n}} + \frac{1}{\sqrt{n}} + \frac{1}{\sqrt{n}} + \ldots + \frac{1}{\sqrt{n}} = \frac{n}{\sqrt{n}} = \frac{n\sqrt{n}}{n} = \sqrt{n}$ [n vezes, 1/√n é o menor termo, entao construimos algo que sabemos que Sn é de fato maior]
+- $S_1 = 1$
+- $S_2 = 1 + \frac{1}{\sqrt{2}}$
+- $S_3 = 1 + \frac{1}{\sqrt{2}} + \frac{1}{\sqrt{3}}$
+- $S_n = 1 + \frac{1}{\sqrt{2}} + \frac{1}{\sqrt{3}} + \ldots + \frac{1}{\sqrt{n}}$
+- $\{S_n\} \to ?$
 
-Não sei quanto vale $S_n$, mas $S_n \geq \sqrt{n}$.
+Vamos pegar o menor elemento dessa série, dito $\frac{1}{\sqrt{n}}$ (pois quanto maior $n$ for, menor será o resultado da fração). É imediato que se somarmos tal fração $n$ vezes — a mesma quantidade de elementos de $\{S_n\}$ — $S_n$ será maior ou igual a essa soma, isto é:
+
+$$
+S_n \geq \frac{1}{\sqrt{n}} + \frac{1}{\sqrt{n}} + \frac{1}{\sqrt{n}} + \ldots + \frac{1}{\sqrt{n}} = \frac{n}{\sqrt{n}} = \frac{n\sqrt{n}}{n} = \sqrt{n}
+$$
+
+Dessa forma, não sabemos quanto vale $S_n$ exatamente, mas sabemos que $S_n \geq \sqrt{n}$.
 
 Se $n \to \infty$, então $S_n \to \infty$. Logo $S_\infty$ é divergente.
 
