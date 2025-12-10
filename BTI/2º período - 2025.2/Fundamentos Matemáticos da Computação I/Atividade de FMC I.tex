@@ -5,12 +5,9 @@
 \usepackage{fontspec}
 \usepackage{mathtools}
 \usepackage{amssymb}
+\usepackage{sectsty}
 
-\renewcommand{\thesubsection}{Questão \arabic{subsection}}
-\newcommand{\sectionstar}[1]{
-	\refstepcounter{section}
-	\section*{#1}
-}
+\subsectionfont{\normalsize}
 
 \title{Atividade de FMC I}
 \author{Sérgio Dantas}
@@ -19,9 +16,9 @@
 \begin{document}
 	\maketitle
 	
-	\sectionstar{\centering Axiomas dos reais}
+	\section*{\centering Axiomas dos reais}
 	
-	\subsection{}
+	\subsection*{13. Dê um exemplo de conjunto não vazio e limitado superiormente que não possui supremo em $\mathbb{Q}$.}
 	
 	
 \end{document}
