@@ -1581,7 +1581,7 @@ $$
 S_n = \sum_{i = 0}^n{a_i}
 $$
 
-> $S_n$ é a soma dos primeiros $n$ termos da sequência $(a_n)_n$, enquanto $(S_n)_n$ é chamada de **sequência das somas parciais** da série.
+> $S_n$ é a soma dos $n$ primeiros termos da sequência $(a_n)_n$, enquanto $(S_n)_n$ é chamada de **sequência das somas parciais** da série.
 
 *Ex.:*
 $S_n = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{6} + \frac{1}{8} + \ldots + \frac{1}{2^n}$
@@ -1611,11 +1611,26 @@ Temos dois casos para quando $(a_n)_n$ é convergente, isto é, $(a_n)_n \to l$:
 
 ---
 
-**Teorema:** $\{ S_n \} \to 2$ (considerando os dados do exemplo anterior)
+**Teorema:** $\{ S_n \} \to 2$ (considere os dados do exemplo anterior)
 
 > $\{S_n\}$ significa o conjunto que contém todos os elementos de $(S_n)_n$.
 
-Primeiro vamos fazer um "rascunho" para encontrar qual valor $M$ deve ter.
+Primeiro perceba que $S_n$ é a soma dos termos de uma PG onde $a_0 = 1$ e $q = \frac{1}{2}$. Sendo assim, teremos:
+
+$$
+\displaylines{
+\begin{align*}
+S_n &= 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{6} + \frac{1}{8} + \ldots + \frac{1}{2^n} \\
+&= \frac{1 \cdot \left( \left(\frac{1}{2}\right)^n - 1 \right)}{\frac{1}{2} - 1} \\
+&= \frac{\left(\frac{1}{2}\right)^n - 1}{-\frac{1}{2}} \\
+&= (-2) \cdot \left[\left(\frac{1}{2}\right)^n - 1\right] \\
+&= 2 - 2 \cdot \left(\frac{1}{2}\right)^n \\
+&= 2 - \left(\frac{1}{2}\right)^{n - 1}
+\end{align*}
+}
+$$
+
+Agora iremos fazer um "rascunho" para encontrar qual valor $M$ deve assumir.
 
 Seja $\epsilon > 0$. Então existe $M$ tal que para todo $n > M$, teremos:
 
@@ -1636,11 +1651,26 @@ $$
 
 Temos $M(\epsilon) = \left\lceil 1 + \log_2{\frac{1}{\epsilon}} \right\rceil$ ($M$ em função de $\epsilon$).
 
-Agora iremos de fato iniciar a demonstração.
+Vamos de fato iniciar a demonstração.
 
-Seja $n > M$.
+Seja $n > M$. Calculamos:
 
-[foto]
+$$
+\displaylines{
+\begin{align*}
+n > M
+&\implies n > \left\lceil 1 + \log_2{\frac{1}{\epsilon}} \right\rceil \\
+&\implies n > \left\lceil 1 + \log_2{\frac{1}{\epsilon}} \right\rceil > 1 + \log_2{\frac{1}{\epsilon}} \\
+&\implies n > 1 + \log_2{\frac{1}{\epsilon}} \\
+&\implies n - 1 > \log_2{\frac{1}{\epsilon}} \\
+&\implies 2^{n - 1} > \frac{1}{\epsilon} \\
+&\implies \epsilon > \frac{1}{2^{n - 1}} \\
+&\implies \epsilon > \left| -\frac{1}{2^{n - 1}} \right| \\
+&\implies \epsilon > \left|2 - \frac{1}{2^{n - 1}} - 2 \right| \\
+&\implies \epsilon > |S_n - 2|
+\end{align*}
+}
+$$
 
 ---
 
