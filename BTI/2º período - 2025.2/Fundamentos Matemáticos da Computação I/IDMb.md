@@ -1694,13 +1694,15 @@ $$
 
 Dessa forma, não sabemos quanto vale $S_n$ exatamente, mas sabemos que $S_n \geq \sqrt{n}$.
 
-Se $n \to \infty$, então $S_n \to \infty$. Logo $S_\infty$ é divergente.
+Se $n \to \infty$, como $\sqrt{n} \to \infty$, então $S_n \to \infty$, uma vez que $S_n$. Portanto, $S_\infty$ é divergente. ∎
 
 Alternativamente:
 
 $$
 (S_n)_n \text{ é convergente} \iff (\forall \epsilon > 0)(\exists m)(\forall n > m)\left[ \left| \sum_{i=m}^n{a_i} \right| < \epsilon \right]
 $$
+
+> Esse $m$ é, implicitamente, em função de $\epsilon$: $m(\epsilon)$.
 
 [foto]
 
