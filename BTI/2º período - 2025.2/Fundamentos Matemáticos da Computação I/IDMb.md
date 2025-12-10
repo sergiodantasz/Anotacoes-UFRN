@@ -1604,9 +1604,10 @@ $$
 
 > $S_\infty$ divergente significa, na verdade, que a sequência das somas parciais $(S_n)_n$ é divergente.
 
-$$
-(a_n)_n \text{ é convergente} \implies S_\infty \text{ é um número real}
-$$
+Temos dois casos para quando $(a_n)_n$ é convergente, isto é, $(a_n)_n \to l$:
+
+- Se $l \neq 0$, então $S_\infty$ é divergente;
+- Se $l = 0$, então $S_\infty$ é inconclusivo (não sabemos se a série diverge ou converge).
 
 ---
 
