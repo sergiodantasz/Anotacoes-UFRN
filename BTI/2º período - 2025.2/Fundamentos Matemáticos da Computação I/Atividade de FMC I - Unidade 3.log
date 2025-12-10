@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/nixos.org)  (format=lualatex 1980.1.1)  10 DEC 2025 20:15
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/nixos.org)  (format=lualatex 1980.1.1)  10 DEC 2025 20:23
  restricted system commands enabled.
-**"Atividade de FMC I.tex"
-("./Atividade de FMC I.tex"
+**"Atividade de FMC I - Unidade 3.tex"
+("./Atividade de FMC I - Unidade 3.tex"
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
@@ -389,8 +389,8 @@ LaTeX Warning: Command \underbar  has changed.
 LaTeX Warning: Command \underline  has changed.
                Check if current package is valid.
 
-) ("./Atividade de FMC I.aux")
-\openout1 = Atividade de FMC I.aux
+) ("./Atividade de FMC I - Unidade 3.aux")
+\openout1 = Atividade de FMC I - Unidade 3.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
@@ -570,9 +570,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 {/nix/store/az9lw9l6l39yi44lj8wr6v307krf12i4-texlive-2024-env/share/texmf-var/fo
-nts/map/pdftex/updmap/pdftex.map}]
-
-[2] ("./Atividade de FMC I.aux")
+nts/map/pdftex/updmap/pdftex.map}] ("./Atividade de FMC I - Unidade 3.aux")
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -580,35 +578,28 @@ L3 programming layer <2025-01-18>
 )
 
 Here is how much of LuaTeX's memory you used:
- 7454 strings out of 475514
+ 7453 strings out of 475514
  100000,794899 words of node,token memory allocated
- 574 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 20 attribute, 56 glue_spec
-, 12 attribute_list, 1 write nodes
-   avail lists: 2:573,3:210,4:21,5:278,6:33,7:5326,8:52,9:313,10:12,11:362
- 30360 multiletter control sequences out of 65536+600000
- 61 fonts using 4273351 bytes
- 79i,6n,89p,724b,208s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 551 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 14 attribute, 55 glue_spec
+, 9 attribute_list, 1 write nodes
+   avail lists: 2:177,3:34,4:8,5:74,6:12,7:896,8:6,9:136,10:8,11:82
+ 30359 multiletter control sequences out of 65536+600000
+ 60 fonts using 4141663 bytes
+ 79i,6n,89p,255b,208s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </nix/store/swxn2kgfg47a8r0igh45r51c7x3mk92s-lm-2.005-tex/fonts/opentype/public/
 lm/lmroman12-bold.otf></nix/store/swxn2kgfg47a8r0igh45r51c7x3mk92s-lm-2.005-tex/
 fonts/opentype/public/lm/lmroman12-regular.otf></nix/store/swxn2kgfg47a8r0igh45r
 51c7x3mk92s-lm-2.005-tex/fonts/opentype/public/lm/lmroman17-regular.otf></nix/st
 ore/jnzbk1g55r9hbjhr7cllb02si7vikqw9-texlive-2024-env-texmfdist/fonts/type1/publ
 ic/amsfonts/cm/cmmi12.pfb></nix/store/jnzbk1g55r9hbjhr7cllb02si7vikqw9-texlive-2
-024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></nix/store/jnzbk1g55
+024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr12.pfb></nix/store/jnzbk1g55
 r9hbjhr7cllb02si7vikqw9-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/c
-m/cmr12.pfb></nix/store/jnzbk1g55r9hbjhr7cllb02si7vikqw9-texlive-2024-env-texmfd
-ist/fonts/type1/public/amsfonts/cm/cmr8.pfb></nix/store/jnzbk1g55r9hbjhr7cllb02s
-i7vikqw9-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-nix/store/jnzbk1g55r9hbjhr7cllb02si7vikqw9-texlive-2024-env-texmfdist/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb></nix/store/jnzbk1g55r9hbjhr7cllb02si7vikqw9-texl
-ive-2024-env-texmfdist/fonts/type1/public/amsfonts/symbols/msam10.pfb></nix/stor
-e/jnzbk1g55r9hbjhr7cllb02si7vikqw9-texlive-2024-env-texmfdist/fonts/type1/public
-/amsfonts/symbols/msbm10.pfb>
-Output written on Atividade de FMC I.pdf (2 pages, 85630 bytes).
+m/cmsy10.pfb>
+Output written on Atividade de FMC I - Unidade 3.pdf (1 page, 36493 bytes).
 
-PDF statistics: 64 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+PDF statistics: 41 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
