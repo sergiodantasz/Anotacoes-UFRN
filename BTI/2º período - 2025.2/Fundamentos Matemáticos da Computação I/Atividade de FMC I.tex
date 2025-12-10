@@ -8,6 +8,8 @@
 \usepackage{sectsty}
 
 \subsectionfont{\normalsize}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.5em}
 
 \title{Atividade de FMC I}
 \author{Sérgio Dantas}
@@ -21,4 +23,8 @@
 	\subsection*{13. Dê um exemplo de conjunto não vazio e limitado superiormente que não possui supremo em $\mathbb{Q}$.}
 	
 	Considere o conjunto $A = \{ x \in \mathbb{Q} \mid x > 0 \land x^2 < 2 \}$.
+	
+	Note que $1 \in \mathbb{Q}$, $1 > 0$ e $1^2 = 1 < 2$. Logo $1 \in A$ e, consequentemente, $A \neq \emptyset$ ($A$ é um conjunto não vazio).
+	
+	Precisamos encontrar um racional $b$ tal que $(\forall x \in A)[b \geq x]$.
 \end{document}
