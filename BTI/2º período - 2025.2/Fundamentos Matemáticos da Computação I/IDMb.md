@@ -1727,14 +1727,15 @@ Seja $S_n = \sum_{i=0}^n{(-1)^i \cdot a_i}$ em que $a_i$ é decrescente e $\lim 
 > [!warning] Nota
 > Muller fez um exemplo pra esse tópico que na verdade sequer era uma séria alternada, e era bem confuso. Então eu decidi não colocar para não atrapalhar.
 
-### Critério de D'alambert
+### Critério de d'Alembert (Teste da Razão)
 
 Sejam $S_n = \sum a_i$ e $\lim_n \left| \frac{a_{n + 1}}{a_n} \right| = r$.
 
-Sabendo disso, então:
+Sabendo disso, temos que:
 
-- $(S_n)_n$ é divergente se $r > 1$ (crescente) ou $r \to 1^+$ ou $r \to \infty$;
+- $(S_n)_n$ é divergente se $r > 1$ (crescente) ou $r \to \infty$;
 - $(S_n)_n$ é convergente se $r < 1$;
-- Inconclusivo se $r \to 1^-$.
+- Inconclusivo se $r = 1$.
 
-[foto]
+> [!warning] Nota
+> Aqui Muller também colocou "ou $r \to 1^+$" no primeiro caso. No terceiro caso, em vez de "$r = 1$" ele colocou "$r \to 1^-$". Eu fiz essas modificações porque não tenho certeza de que a forma que ele definiu está correta.
