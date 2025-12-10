@@ -54,7 +54,22 @@
 	
 	\subsection*{15. Mostre que, para $A \neq \emptyset$, $\inf(A) = -\sup(-A)$.}
 	
-	Seja $A$ um conjunto não vazio. Definimos o conjunto $-A = \{-x \mid x \in A\}$. Vamos demonstrar que $\inf(A) = -\sup(-A)$.
+	Seja $A$ um conjunto não vazio. Definimos o conjunto $-A = \{-x \mid x \in A\}$.
 	
-	Considere $\alpha = \inf(A)$. Logo, $\alpha$ é a melhor (maior) cota inferior de $A$. Ou seja, para todo $x \in A$, temos $\alpha \leq x$.
+	Considere $\alpha = \inf(A)$. Queremos mostrar que $-\alpha = \sup(-A)$. Para tanto, verifiquemos se $-\alpha$ é uma cota superior de $-A$ e a menor cota superior de $-A$.
+	
+	Como $\alpha = \inf(A)$, isso significa que $\alpha \leq x$, para todo $x \in A$. Equivalentemente, $-\alpha \geq -x$. Qualquer elemento $y \in -A$ é da forma $y = -x$ para algum $x \in A$. Portanto, para todo $y \in -A$, $y \leq -\alpha$. Concluímos que $-\alpha$ é uma cota superior de $-A$.
+	
+	Agora, suponha que exista uma outra cota superior $\beta$ para o conjunto $-A$. Precisamos mostrar que $-\alpha \leq \beta$. Para todo $y \in -A$, temos $y \leq \beta$. Note que
+	\[
+	y \leq \beta \iff -x \leq \beta \iff x \geq -\beta.
+	\]
+	Isso significa que $-\beta$ é uma cota inferior de $A$. Mas $\alpha$ é o ínfimo de $A$, logo $-\beta \leq \alpha$. Isso equivale a $\beta \geq -\alpha$. Concluímos que qualquer cota superior $\beta$ de $-A$ é maior ou igual a $-\alpha$. Desse modo, $-\alpha$ é a menor cota superior de $-A$.
+	
+	Como $-\alpha$ satisfaz ambas as condições de supremo para o conjunto $-A$, temos
+	\[
+	\sup(-A) = -\alpha \iff \sup(-A) = -\inf(A) \iff -\sup(-A) = \inf(A).
+	\]
+	
+	Portanto, $\inf(A) = -\sup(-A)$, para $A \neq \emptyset$. \blacksquare
 \end{document}
