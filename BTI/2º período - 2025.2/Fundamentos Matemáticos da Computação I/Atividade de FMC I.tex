@@ -48,5 +48,9 @@
 	\]
 	Como isso vale para qualquer $y \in c \cdot A$, concluímos que $c \cdot s$ é uma cota superior de $c \cdot A$. Logo, pela definição de supremo, $\sup(c \cdot A) \leq c \cdot s$.
 	
-	Agora, seja $\alpha = \sup(c \cdot A)$. Suponha, por absurdo, que $\alpha < c \cdot s$. Isso implica que $\frac{\alpha}{c} < s$ (pois $c > 0$). Como $\frac{\alpha}{c}$ é menor que o supremo $s$, ele não pode ser uma cota superior de $A$. Logo, deve existir algum elemento $x' \in A$ tal que $x' > \frac{\alpha}{c}$. Veja que isso é equivalente a $c \cdot x' < \alpha$.
+	Agora, seja $\alpha = \sup(c \cdot A)$. Suponha, por absurdo, que $\alpha < c \cdot s$. Isso implica que $\frac{\alpha}{c} < s$ (pois $c > 0$). Como $\frac{\alpha}{c}$ é menor que o supremo $s$, ele não pode ser uma cota superior de $A$. Logo, deve existir algum elemento $x' \in A$ tal que $x' > \frac{\alpha}{c}$. Veja que isso é equivalente a $c \cdot x' < \alpha$. Mas $c \cdot x'$ é um elemento do conjunto $c \cdot A$, pela definição. Encontramos um elemento em $c \cdot A$ que é maior que o seu supremo $\alpha$. Isso é uma contradição! Sendo assim, a suposição inicial está errada. Logo, $\alpha \geq c \cdot s$, isto é, $\sup(c \cdot A) \geq c \cdot s$.
+	
+	Como $\sup(c \cdot A) \leq c \cdot \sup(A)$ e $\sup(c \cdot A) \geq c \cdot \sup(a)$ simultaneamente, concluímos, portanto, que $\sup(c \cdot A) = c \cdot \sup(A)$. \blacksquare
+	
+	\subsection*{15. Mostre que, para $A \neq \emptyset$, $\inf(A) = -\sup(A)$.}
 \end{document}
