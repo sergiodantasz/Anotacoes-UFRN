@@ -42,5 +42,9 @@
 	
 	Sejam $c$ um real tal que $c > 0$ e $A \subset \mathbb{R}$ um conjunto não vazio e limitado superiormente. Logo, pelo Axioma da Completude, segue que $A$ tem supremo, ou seja, existe $s = \sup(A)$. Vamos demonstrar que $\sup(c \cdot A) = c \cdot \sup(A)$.
 	
-	Seja $y$ um elemento qualquer do conjunto $c \cdot A$. Por definição, $y = c \cdot x$, onde $x \in A$.
+	Seja $y$ um elemento qualquer do conjunto $c \cdot A$. Por definição, $y = c \cdot x$, onde $x \in A$. Como $s = \sup(A)$, sabemos que $x \leq s$, para todo $x \in A$. Dado $c > 0$, temos que
+	\[
+	x \leq s \iff c \cdot x \leq c \cdot s \iff y \leq c \cdot s.
+	\]
+	Como isso vale para qualquer $y \in c \cdot A$, concluímos que $c \cdot s$ é uma cota superior de $c \cdot A$. Logo, pela definição de supremo, $\sup(c \cdot A) \leq c \cdot s$.
 \end{document}
