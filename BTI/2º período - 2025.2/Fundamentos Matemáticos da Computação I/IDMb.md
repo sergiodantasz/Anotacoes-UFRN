@@ -1720,16 +1720,14 @@ $$
 S_n \text{ é divergente} \implies P_n \text{ é divergente}
 $$
 
-[foto]
-
 #### Séries Alternadas
 
 Seja $S_n = \sum_{i=0}^n{(-1)^i \cdot a_i}$ em que $a_i$ é decrescente e $\lim a_i = 0$. Então $(S_n)_n$ é convergente.
 
-[fotos(2)]
-
 *Ex.:*
+
 Seja $(a_n)_n = (b_n)_n + L$, com $(b_n)_n \to 0$. Teremos:
+
 $$
 \displaylines{
 \begin{align*}
