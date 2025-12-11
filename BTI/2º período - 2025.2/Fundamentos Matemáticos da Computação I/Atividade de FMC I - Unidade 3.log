@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/nixos.org)  (format=lualatex 1980.1.1)  10 DEC 2025 22:36
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/nixos.org)  (format=lualatex 1980.1.1)  10 DEC 2025 22:43
  restricted system commands enabled.
 **"Atividade de FMC I - Unidade 3.tex"
 ("./Atividade de FMC I - Unidade 3.tex"
@@ -585,7 +585,7 @@ Here is how much of LuaTeX's memory you used:
  537 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 15 attribute, 56 glue_spec
 , 9 attribute_list, 1 write nodes
-   avail lists: 2:717,3:124,4:8,5:324,6:30,7:4684,8:20,9:750,10:8,11:396
+   avail lists: 2:703,3:130,4:8,5:330,6:29,7:4892,8:31,9:754,10:8,11:412
  30364 multiletter control sequences out of 65536+600000
  60 fonts using 4141663 bytes
  79i,10n,89p,402b,208s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -609,7 +609,7 @@ exmfdist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></nix/store/jnzbk1g55r9hbjhr7c
 llb02si7vikqw9-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/symbols/ms
 am10.pfb></nix/store/jnzbk1g55r9hbjhr7cllb02si7vikqw9-texlive-2024-env-texmfdist
 /fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Atividade de FMC I - Unidade 3.pdf (2 pages, 106345 bytes).
+Output written on Atividade de FMC I - Unidade 3.pdf (2 pages, 107617 bytes).
 
 PDF statistics: 76 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
