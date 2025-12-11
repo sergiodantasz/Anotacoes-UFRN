@@ -158,6 +158,19 @@
 	
 	Agora iremos calcular $\inf(A)$.
 	
+	Seja $x \in A$. Por definição, existem inteiros $p$, $q$ e $r$ tais que $x = \frac{1}{2^p} + \frac{1}{3^q} + \frac{1}{5^r}$. Como as bases são positivas e os expoentes são inteiros, cada fração é positiva e, consequentemente, a soma dessas três frações também é positiva. Logo, $x > 0$.
+	
+	Ou seja, com isso nós sabemos que $A$ é limitado inferiormente e 0 é uma cota inferior. Dessa forma, $\inf(A) \geq 0$. Vamos investigar se $\inf(A) = 0$ ou $\inf(A) > 0$.
+	
+	Testemos o comportamento quando aumentamos os expoentes. Vamos escolher um subconjunto de casos onde $p = q = r = n$. O termo geral fica
+	\[
+	x_n = \frac{1}{2^n} + \frac{1}{3^n} + \frac{1}{5^n}.
+	\]
+	Observe que quando calculamos o limite quando $n \to \infty$, teremos
+	\[
+	\lim_{n \to \infty}{x_n} = 0 + 0 + 0 = 0.
+	\]
+	
 	\section*{Questão 4: Mostre que $\sqrt{2} + \sqrt{3}$ é um número irracional.}
 	
 	Primeiro, vamos demonstrar um lema que vai nos auxiliar na demonstração desta questão.
