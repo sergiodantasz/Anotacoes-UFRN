@@ -92,14 +92,16 @@
 		&\implies \sqrt{2 + \sqrt{s_k}} \leq \sqrt{2 + \sqrt{2}} \\
 		&\implies s_{k + 1} \leq \sqrt{2 + \sqrt{2}}
 	\end{align*}
-	Agora mostraremos que $s_{k + 1} \leq 2$:
+	Agora mostraremos que $s_{k + 1} \leq 2$. Sabemos que $\sqrt{2} \leq 2$, pelo caso base. Sendo assim, teremos
 	\begin{align*}
-		s_{k + 1} \leq 2
-		&\implies \sqrt{2 + \sqrt{s_k}} \leq 2 \\
-		&\implies 2 + \sqrt{s_k} \leq 4 \\
-		&\implies \sqrt{s_k} \leq 2 \\
-		&\implies s_k \leq 4
+		\sqrt{2} \leq 2
+		&\implies 2 + \sqrt{2} \leq 4 \\
+		&\implies \sqrt{2 + \sqrt{2}} \leq 2 \\
+		&\implies s_{k + 1} \leq \sqrt{2 + \sqrt{2}} \leq 2 \\
+		&\implies s_{k + 1} \leq 2.
 	\end{align*}
+	
+	Concluímos, portanto, que 2 também é uma cota superior da sequência quando $n = k + 1$. \blacksquare
 	
 	\section*{Questão 4: Mostre que $\sqrt{2} + \sqrt{3}$ é um número irracional.}
 	
