@@ -75,7 +75,19 @@
 	
 	\subsection*{16. Prove que todo conjunto não vazio e limitado superiormente possui uma sequência que converge para seu supremo.}
 	
-	Seja $A \subseteq \mathbb{R}$ um conjunto não vazio e limitado superiormente. Se $s = \sup(A)$, então existe uma sequência $(a_n)_n$ de elementos de $A$ tal que $\lim(a_n)_n = s$.
+	Seja $A \subseteq \mathbb{R}$ um conjunto não vazio e limitado superiormente. Se $S = \sup(A)$, então existe uma sequência $(a_n)_n$ de elementos de $A$ tal que $\lim(a_n)_n = S$.
 	
-	Sabemos que $s$ é a menor cota superior de $A$ (pela definição de supremo). Isso implica que $(\forall x \in A)[x \leq s]$ e, para qualquer $\epsilon > 0$, o número $s - \epsilon$ não é uma cota superior de $A$. Logo, deve existir algum elemento no conjunto que é maior que $s - \epsilon$.
+	Sabemos que $S$ é a menor cota superior de $A$ (pela definição de supremo). Isso implica que $(\forall x \in A)[x \leq S]$ e, para qualquer $\epsilon > 0$, o número $S - \epsilon$ não é uma cota superior de $A$. Logo, deve existir algum elemento no conjunto que é maior que $S - \epsilon$.
+	
+	Agora vamos construir a sequência $(a_n)_n$. Para cada $n$ natural, com $n \geq 1$, considere $\epsilon = \frac{1}{n}$. Como $S - \frac{1}{n}$ não é cota superior de $A$, existe um elemento $x_n \in A$ tal que $S - \frac{1}{n} < x_n$. Além disso, como $S$ é o supremo do conjunto, sabemos que $x_n \leq S$, isto é,
+	\[
+	S - \frac{1}{n} < x_n \leq S.
+	\]
+	
+	Calculamos:
+	\begin{align*}
+		S - \frac{1}{n} < x_n \leq S
+		&\iff S - \frac{1}{n} - S < x_n - S \leq S - S \\
+		&\iff -\frac{1}{n} < x_n - S \leq 0
+	\end{align*}
 \end{document}
