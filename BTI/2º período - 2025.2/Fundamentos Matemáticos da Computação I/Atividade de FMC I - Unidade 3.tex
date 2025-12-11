@@ -162,14 +162,14 @@
 	
 	Ou seja, com isso nós sabemos que $A$ é limitado inferiormente e 0 é uma cota inferior. Dessa forma, $\inf(A) \geq 0$. Vamos investigar se $\inf(A) = 0$ ou $\inf(A) > 0$.
 	
-	Testemos o comportamento quando aumentamos os expoentes. Vamos escolher um subconjunto de casos onde $p = q = r = n$. O termo geral fica
+	Testemos o comportamento quando aumentamos os expoentes. Vamos calcular o limite quando os expoentes tendem ao infinito:
 	\[
-	x_n = \frac{1}{2^n} + \frac{1}{3^n} + \frac{1}{5^n}.
+	\lim_{p,q,r \to \infty}{\left( \frac{1}{2^p} + \frac{1}{3^q} + \frac{1}{5^r} \right)} = 0 + 0 + 0 = 0
 	\]
-	Observe que quando calculamos o limite quando $n \to \infty$, teremos
-	\[
-	\lim_{n \to \infty}{x_n} = 0 + 0 + 0 = 0.
-	\]
+	
+	Como os valores do conjunto $A$ podem ser arbitrariamente pequenos (próximos de zero), não existe nenhuma cota inferior maior que 0. Mas note que 0 não pertence ao conjunto, pois a soma nunca dá exatamente zero.
+	
+	Portanto, $\inf(A) = 0$. \blacksquare
 	
 	\section*{Questão 4: Mostre que $\sqrt{2} + \sqrt{3}$ é um número irracional.}
 	
