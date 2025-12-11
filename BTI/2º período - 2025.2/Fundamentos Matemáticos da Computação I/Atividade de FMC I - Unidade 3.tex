@@ -11,6 +11,8 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.5em}
 
+\DeclareMathOperator{\mdc}{mdc}
+
 \title{Atividade de FMC I -- Unidade 3}
 \author{Sérgio Dantas}
 \date{\today}
@@ -22,8 +24,33 @@
 	
 	Primeiro, vamos mostrar isoladamente que $\sqrt{2}$ e $\sqrt{3}$ são irracionais.
 	
-	Suponha, por absurdo, que $\sqrt{2}$ é racional. Isso significa que podemos representá-lo através de uma fração irredutível, isto é,
+	Suponha, por absurdo, que $\sqrt{2}$ é racional. Isso significa que podemos representá-lo através de uma fração irredutível, isto é, $\sqrt{2} = \frac{p}{q}$, com $p, q \in \mathbb{Z}$, $q \neq 0$ e $\mdc(p,q) = 1$. Observe o seguinte:
+	\begin{align*}
+		\sqrt{2} = \frac{p}{q}
+		&\implies \sqrt{2}^2 = \left(\frac{p}{q}\right)^2 \\
+		&\implies 2 = \frac{p^2}{q^2} \\
+		&\implies 2q^2 = p^2
+	\end{align*}
+	Isso nos dá que $p^2$ é par. Logo,
+	\begin{align*}
+		2 \mid p^2
+		&\implies 2 \mid p \cdot p \\
+		&\implies 2 \mid p \lor 2 \mid p \qquad (\text{Lema de Euclides}) \\
+		&\implies 2 \mid p.
+	\end{align*}
+	Ou seja, $p$ também é par. Por ser par, ele pode ser representado na forma $p = 2m$, para algum $m \in \mathbb{Z}$. Agora veja o seguinte:
+	\begin{align*}
+		2q^2 = p^2
+		&\implies 2q^2 = (2m)^2 \\
+		&\implies 2q^2 = 4m^2 \\
+		&\implies q^2 = 2m^2
+	\end{align*}
+	De forma análoga, temos que $q^2$ e $q$ são pares. Sendo assim, $q = 2n$, para $n$ inteiro.
+	
+	Substituindo os valores obtidos, teremos que
 	\[
-	\sqrt{2} = \frac{p}{q}
+	\sqrt{2} = \frac{p}{q} = \frac{2m}{2n} = \frac{m}{n}.
 	\]
+	
+	Veja que não existe uma fração irredutível que represente $\sqrt{2}$, pois esse mesmo processo pode ser repetido infinitas vezes, já que tanto o numerador quanto o denominador são pares. Logo, a suposição inicial de que $\sqrt{2}$ é racional é um absurdo. Portanto, $\sqrt{2}$ é irracional.
 \end{document}
