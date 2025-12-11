@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/nixos.org)  (format=lualatex 1980.1.1)  11 DEC 2025 11:12
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/nixos.org)  (format=lualatex 1980.1.1)  11 DEC 2025 11:50
  restricted system commands enabled.
 **"Atividade de FMC I - Unidade 3.tex"
 ("./Atividade de FMC I - Unidade 3.tex"
@@ -574,7 +574,9 @@ nts/map/pdftex/updmap/pdftex.map}]
 
 [2]
 
-[3] ("./Atividade de FMC I - Unidade 3.aux")
+[3]
+
+[4] ("./Atividade de FMC I - Unidade 3.aux")
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -587,7 +589,7 @@ Here is how much of LuaTeX's memory you used:
  549 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 19 attribute, 56 glue_spec
 , 11 attribute_list, 1 write nodes
-   avail lists: 2:680,3:171,4:8,5:330,6:38,7:4892,8:33,9:754,10:8,11:412
+   avail lists: 2:930,3:171,4:8,5:362,6:34,7:4673,8:33,9:994,10:8,11:312
  30372 multiletter control sequences out of 65536+600000
  60 fonts using 4141663 bytes
  79i,10n,89p,402b,208s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -611,10 +613,10 @@ exmfdist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></nix/store/jnzbk1g55r9hbjhr7c
 llb02si7vikqw9-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/symbols/ms
 am10.pfb></nix/store/jnzbk1g55r9hbjhr7cllb02si7vikqw9-texlive-2024-env-texmfdist
 /fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Atividade de FMC I - Unidade 3.pdf (3 pages, 115332 bytes).
+Output written on Atividade de FMC I - Unidade 3.pdf (4 pages, 117332 bytes).
 
-PDF statistics: 79 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+PDF statistics: 82 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

@@ -82,9 +82,24 @@
 	
 	\textbf{Passo indutivo:}
 	
-	A nossa hipótese indutiva afirma que 2 é cota superior de $s_n = \sqrt{2 + \sqrt{s_{n - 1}}}$. Vamos mostrar que 2 também é cota superior de $s_{n + 1}$.
+	Suponha, por hipótese de indução, que 2 é uma cota superior da sequência quando $n = k$, para algum $k$ natural. Isto é, $s_k = \sqrt{2 + \sqrt{s_{k - 1}}} \leq 2$. Vamos mostrar que a propriedade se mantém para $s_{k + 1} = \sqrt{2 + \sqrt{s_k}}$.
 	
-	Se 2 é cota superior de $s_n$, então $2 \geq s_n$.
+	Calculamos:
+	\begin{align*}
+		s_k \leq 2
+		&\implies \sqrt{s_k} \leq \sqrt{2} \\
+		&\implies 2 + \sqrt{s_k} \leq 2 + \sqrt{2} \\
+		&\implies \sqrt{2 + \sqrt{s_k}} \leq \sqrt{2 + \sqrt{2}} \\
+		&\implies s_{k + 1} \leq \sqrt{2 + \sqrt{2}}
+	\end{align*}
+	Agora mostraremos que $s_{k + 1} \leq 2$:
+	\begin{align*}
+		s_{k + 1} \leq 2
+		&\implies \sqrt{2 + \sqrt{s_k}} \leq 2 \\
+		&\implies 2 + \sqrt{s_k} \leq 4 \\
+		&\implies \sqrt{s_k} \leq 2 \\
+		&\implies s_k \leq 4
+	\end{align*}
 	
 	\section*{Questão 4: Mostre que $\sqrt{2} + \sqrt{3}$ é um número irracional.}
 	
