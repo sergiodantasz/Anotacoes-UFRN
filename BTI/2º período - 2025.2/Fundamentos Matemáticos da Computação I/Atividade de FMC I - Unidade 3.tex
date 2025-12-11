@@ -23,7 +23,66 @@
 	
 	\section*{Questão 1: Seja a sequência definida por $a_{n + 1} = \frac{a_n}{2} + 3$, em que $a_0 = 0$. Supondo que a sequência converge, encontre o único limite possível. (Dica: eventualmente, tanto $a_{n + 1}$ quanto $a_n$ pertencem a uma mesma bola de raio $\epsilon$. Manipule as desigualdades para determinar o valor limite.)}
 	
-	Seja a sequência $(a_n)_n$ tal que $a_0 = 0$ e $a_{n + 1} = \frac{a_n}{2} + 3$. Suponha que $(a_n)_n$ converge, ou seja, $(\exists l)(\forall \epsilon > 0)(\exists N)(\forall n \geq N)[d(a_n,l) < \epsilon]$.
+	Seja a sequência $(a_n)_n$ tal que $a_0 = 0$ e $a_{n + 1} = \frac{a_n}{2} + 3$. Suponha que $(a_n)_n$ converge para um limite $l$. Pela definição de convergência, isso significa que $\lim(a_n)_n = l$ e $\lim(a_n)_{n + 1} = l$.
+	
+	Dado um $\epsilon > 0$ arbitrário, pela definição de limite existe um $N$ tal que, para todo $n \geq N$, $d(a_n, l) < \epsilon$. Vamos assumir que $n$ é grande o suficiente para que tanto $a_n$ quanto $a_{n + 1}$ satisfaçam:
+	\begin{gather}
+		|a_n - l| < \epsilon \\
+		|a_{n + 1} - l| < \epsilon
+	\end{gather}
+	
+	Substituindo o termo geral $a_{n + 1}$ em (2), obtemos
+	\begin{align*}
+		|a_{n + 1} - l| < \epsilon
+		&\implies \left|\frac{a_n}{2} + 3 - l\right| < \epsilon \\
+		&\implies |a_n + 6 - 2l| < 2\epsilon \\
+		&\implies |a_n - (2l - 6)| < 2\epsilon.
+	\end{align*}
+	
+	Agora temos duas informações acerca de $a_n$. Pela equação (1), $a_n$ está ``próximo" de $l$; pela (2), está ``próximo" de $2l - 6$. Intuitivamente, para $a_n$ estar perto de dois números simultaneamente, eles devem ser iguais. Para tanto, vamos calcular a distância entre $l$ e $2l - 6$.
+	
+	Usando a Desigualdade Triangular, segue que
+	\begin{align*}
+		|l - (2l - 6)|
+		&= |l - a_n + a_n - (2l - 6)| \\
+		&\leq |l - a_n| + |a_n - (2l - 6)|.
+	\end{align*}
+	Note que $|l - a_n| = |a_n - l|$ e $|l - (2l - 6)| = |l - 2l + 6| = |-l + 6| = |6 - l|$. Sendo assim, teremos
+	\begin{align*}
+		|6 - l| \leq |a_n - l| + |a_n - (2l - 6)|
+		&\implies |6 - l| \leq |a_n - l| + |a_n - (2l - 6)| < \epsilon + 2\epsilon \\
+		&\implies |6 - l| < 3\epsilon.
+	\end{align*}
+	
+	Como $\epsilon$ é um número arbitrário positivo, a única maneira de um número não negativo ($|6 - l| \geq 0$) ser menor que qualquer número positivo é se ele for igual a zero. Logo,
+	\[
+	|6 - l| = 0 \implies 6 - l = 0 \implies l = 6.
+	\]
+	Portanto, o único limite possível é $l = 6$. \blacksquare
+	
+	\section*{Questão 2: Seja $s_0 = \sqrt{2}$ e a lei de formação $s_{n + 1} = \sqrt{2 + \sqrt{s_n}}$. Mostre que: \\
+	a) A sequência tem cota superior em 2; \\
+	b) A sequência é convergente (o valor de convergência não é o 2, e nem vem ao caso aqui). \\
+	Dica: utilize indução finita nos dois casos.
+	}
+	
+	Seja a sequência $(s_n)_n$ tal que $s_0 = \sqrt{2}$ e $s_{n + 1} = \sqrt{2 + \sqrt{s_n}}$.
+	
+	\textbf{a) A sequência tem cota superior em 2.}
+	
+	Primeiramente, vamos mostrar que 2 é cota superior de $(s_n)_n$. Apliquemos a indução finita na sequência.
+	
+	\textbf{Caso base (n = 0):}
+	
+	Sabemos que $s_0 = \sqrt{2}$. Vamos mostrar que $\sqrt{2} \leq 2$. Segue abaixo:
+	\[
+	\sqrt{2} \leq 2 \iff \sqrt{2}^2 \leq 2^2 \iff 2 \leq 4
+	\]
+	Como $2 \leq 4$ é verdadeiro, logo $\sqrt{2} \leq 2$ também é. Portanto, concluímos o caso base.
+	
+	\textbf{Passo indutivo:}
+	
+	A nossa hipótese indutiva é: 2 é cota superior de $s_n = \sqrt{2 + \sqrt{s_{n - 1}}}$. Vamos mostrar que 2 também é cota superior de $s_{n + 1}$.
 	
 	\section*{Questão 4: Mostre que $\sqrt{2} + \sqrt{3}$ é um número irracional.}
 	
