@@ -110,7 +110,17 @@
 	
 	Note o seguinte:
 	\[
-	x > 0 \implies -x < 0 \implies S - x < S
+	x > 0 \iff -x < 0 \iff S - x < S
 	\]
-	Como $S - x < S$, concluímos que $S - x$ não é cota superior de $A$. Isso implica que existe um número $m$ tal que $S - x < mx < y$ (pela definição do conjunto).
+	Como $S - x < S$, concluímos que $S - x$ não é cota superior de $A$. Isso implica que existe um número $m$ tal que $S - x < mx < y$ (pela definição do conjunto). Agora veja que, sendo $mx \in A$,
+	\[
+	S - x < mx \iff S < mx + x \iff S < x(m + 1).
+	\]
+	Porém $x(m + 1) \in A$ e $x(m + 1) > S$, o que é um absurdo! Sendo assim, a hipótese inicial é falsa.
+	
+	Portanto, concluímos que $nx > y$. \blacksquare
+	
+	\subsection*{2. Use a propriedade arquimediana para mostrar que não existe número real maior que todos os inteiros.}
+	
+	Queremos demonstrar que $(\nexists x \in \mathbb{R})(\forall y \in \mathbb{Z})[x > y]$.
 \end{document}
