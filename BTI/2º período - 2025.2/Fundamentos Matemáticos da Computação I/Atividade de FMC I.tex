@@ -124,5 +124,17 @@
 	
 	Queremos demonstrar que $(\nexists r \in \mathbb{R})(\forall z \in \mathbb{Z})[r > z]$.
 	
-	Suponha, por absurdo, que existe $r$ real tal que, para todo $z$ inteiro, $r > z$.
+	Suponha, por absurdo, que existe $r$ real tal que, para todo $z$ inteiro, $r > z$. Ou seja, assumimos que $\mathbb{Z}$ é limitado superiormente por $r$.
+	
+	Vamos separar a demonstração em dois casos a partir de $r$.
+	
+	\textbf{Caso $r \leq 0$:}
+	
+	Sabemos que 1 é um número inteiro. Como $1 > 0$ e $r \leq 0$, logo $1 > r$. Isso contradiz imediatamente a hipótese inicial.
+	
+	Logo, não existe número real não positivo que é maior que todos os inteiros.
+	
+	\textbf{Caso $r > 0$:}
+	
+	Podemos aplicar a Propriedade Arquimediana neste caso, com $x \coloneq 1$ e $y \coloneq r$. Dessa forma, existe um natural $n$ tal que $n \cdot 1 > r \implies n > r$.
 \end{document}
