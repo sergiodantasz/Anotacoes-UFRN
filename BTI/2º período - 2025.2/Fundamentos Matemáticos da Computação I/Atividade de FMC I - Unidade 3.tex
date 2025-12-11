@@ -12,6 +12,7 @@
 \setlength{\parskip}{0.5em}
 
 \DeclareMathOperator{\mdc}{mdc}
+\newcommand{\customline}{\noindent\rule{\linewidth}{0.4pt}\par\vspace{1em}}
 
 \title{Atividade de FMC I -- Unidade 3}
 \author{Sérgio Dantas}
@@ -22,35 +23,47 @@
 	
 	\section*{Questão 4: Mostre que $\sqrt{2} + \sqrt{3}$ é um número irracional.}
 	
-	Primeiro, vamos mostrar isoladamente que $\sqrt{2}$ e $\sqrt{3}$ são irracionais.
+	Primeiro, vamos demonstrar um lema que vai nos auxiliar na demonstração desta questão.
 	
-	Suponha, por absurdo, que $\sqrt{2}$ é racional. Isso significa que podemos representá-lo através de uma fração irredutível, isto é, $\sqrt{2} = \frac{p}{q}$, com $p, q \in \mathbb{Z}$, $q \neq 0$ e $\mdc(p,q) = 1$. Observe o seguinte:
+	\customline
+	
+	\textbf{Lema:} $(\forall p)[p \text{ primo} \implies \sqrt{p} \text{ irracional}]$
+	
+	Seja $p$ primo. Vamos mostrar que $\sqrt{2}$ é irracional.
+	
+	Suponha, por absurdo, que $\sqrt{p}$ é racional. Isso significa que podemos representá-lo através de uma fração irredutível, isto é, $\sqrt{p} = \frac{a}{b}$, com $a, b \in \mathbb{Z}$, $b \neq 0$ e $\mdc(a,b) = 1$. Observe o seguinte:
 	\begin{align*}
-		\sqrt{2} = \frac{p}{q}
-		&\implies \sqrt{2}^2 = \left(\frac{p}{q}\right)^2 \\
-		&\implies 2 = \frac{p^2}{q^2} \\
-		&\implies 2q^2 = p^2
+		\sqrt{p} = \frac{a}{b}
+		&\implies \sqrt{p}^2 = \left(\frac{a}{b}\right)^2 \\
+		&\implies p = \frac{a^2}{b^2} \\
+		&\implies pb^2 = a^2
 	\end{align*}
-	Isso nos dá que $p^2$ é par. Logo,
+	Isso nos dá que $p \mid a^2$. Logo,
 	\begin{align*}
-		2 \mid p^2
-		&\implies 2 \mid p \cdot p \\
-		&\implies 2 \mid p \lor 2 \mid p \qquad (\text{Lema de Euclides}) \\
-		&\implies 2 \mid p.
+		p \mid a^2
+		&\implies p \mid a \cdot a \\
+		&\implies p \mid a \lor p \mid a \qquad (\text{Lema de Euclides}) \\
+		&\implies p \mid a.
 	\end{align*}
-	Ou seja, $p$ também é par. Por ser par, ele pode ser representado na forma $p = 2m$, para algum $m \in \mathbb{Z}$. Agora veja o seguinte:
+	Ou seja, $a$ pode ser representado na forma $a = pm$, para algum $m \in \mathbb{Z}$. Agora veja o seguinte:
 	\begin{align*}
-		2q^2 = p^2
-		&\implies 2q^2 = (2m)^2 \\
-		&\implies 2q^2 = 4m^2 \\
-		&\implies q^2 = 2m^2
+		pb^2 = a^2
+		&\implies pb^2 = (pm)^2 \\
+		&\implies pb^2 = p^2m^2 \\
+		&\implies b^2 = pm^2
 	\end{align*}
-	De forma análoga, temos que $q^2$ e $q$ são pares. Sendo assim, $q = 2n$, para $n$ inteiro.
+	De forma análoga, temos que $p \mid b^2$ e, consequentemente, $b = pn$, para algum $n$ inteiro.
 	
 	Substituindo os valores obtidos, teremos que
 	\[
-	\sqrt{2} = \frac{p}{q} = \frac{2m}{2n} = \frac{m}{n}.
+	\sqrt{p} = \frac{a}{b} = \frac{pm}{pn} = \frac{m}{n}.
 	\]
 	
-	Veja que não existe uma fração irredutível que represente $\sqrt{2}$, pois esse mesmo processo pode ser repetido infinitas vezes, já que tanto o numerador quanto o denominador são pares. Logo, a suposição inicial de que $\sqrt{2}$ é racional é um absurdo. Portanto, $\sqrt{2}$ é irracional.
+	Veja que não existe uma fração irredutível que represente $\sqrt{p}$, pois esse mesmo processo pode ser repetido infinitas vezes, já que tanto o numerador quanto o denominador são sempre divisíveis por $p$. Logo, a suposição inicial é um absurdo. Portanto, $\sqrt{p}$ é irracional. \blacksquare
+	
+	\customline
+	
+	Agora iniciaremos de fato a demonstração.
+	
+	Note que tanto $2$ quanto $3$ são números primos. Logo, aplicando o lema em ambos, segue que $\sqrt{2}$ e $\sqrt{3}$ são irracionais. Como o conjunto dos irracionais é fechado para soma, concluímos, portanto, que $\sqrt{2} + \sqrt{3}$ é irracional. \blacksquare
 \end{document}
