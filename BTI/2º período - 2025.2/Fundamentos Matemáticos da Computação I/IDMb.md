@@ -1445,7 +1445,7 @@ Logo $\underset{n}{\cap} I = \{a_m\}$. ∎
 ### Propriedade Arquimediana
 
 $$
-(\forall x, y \in \mathbb{R})[x > 0 \implies (\exists n \in \mathbb{N})[nx > y]]
+(\forall x, y \in \mathbb{R})[x > 0 \land y > 0 \implies (\exists n \in \mathbb{N})[nx > y]]
 $$
 
 **Demonstração:**

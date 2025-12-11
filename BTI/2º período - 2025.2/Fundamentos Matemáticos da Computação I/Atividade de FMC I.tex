@@ -18,7 +18,7 @@
 \begin{document}
 	\maketitle
 	
-	\section*{\centering Axiomas dos reais}
+	\section*{\centering Axiomas dos Reais}
 	
 	\subsection*{13. Dê um exemplo de conjunto não vazio e limitado superiormente que não possui supremo em $\mathbb{Q}$.}
 	
@@ -99,4 +99,18 @@
 	\end{align*}
 	
 	Portanto, concluímos que $(x_n)_n \to S$. \blacksquare
+	
+	\section*{\centering Propriedades Arquimedianas}
+	
+	\subsection*{1. Prove a propriedade arquimediana: para todo $x \in \mathbb{R}$ e $y > 0$, existe $n \in \mathbb{N}$ tal que $nx > y$.}
+	
+	Sejam $x, y \in \mathbb{R}$ tais que $x > 0$ e $y > 0$. Suponha, por absurdo, que para todo $n$ natural, $nx < y$.
+	
+	Definimos o conjunto $A = \{nx \mid n \in \mathbb{N} \land nx < y\}$. Observe que $A$ é limitado superiormente, pois $y$ é cota superior do conjunto, e $A \neq \emptyset$. Pelo Axioma da Completude, segue que $A$ tem supremo, digamos $S = \sup(A)$.
+	
+	Note o seguinte:
+	\[
+	x > 0 \implies -x < 0 \implies S - x < S
+	\]
+	Como $S - x < S$, concluímos que $S - x$ não é cota superior de $A$. Isso implica que existe um número $m$ tal que $S - x < mx < y$ (pela definição do conjunto).
 \end{document}
