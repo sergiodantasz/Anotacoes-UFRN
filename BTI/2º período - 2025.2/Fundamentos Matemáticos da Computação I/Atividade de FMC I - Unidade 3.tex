@@ -144,7 +144,19 @@
 	
 	\section*{Questão 3: Encontre o Supremum e o Infimum do conjunto de todos os reais que podem ser representados na forma $2^{-p} + 3^{-q} + 5^{-r}$ em que $p$, $q$ e $r$ são inteiros positivos.}
 	
-	Seja $A = \{2^{-p} + 3^{-q} + 5^{-r} \mid p, q, r \in \mathbb{Z}_{>0}\}$. Vamos encontrar o supremo e o ínfimo de $A$.
+	Seja $A = \{2^{-p} + 3^{-q} + 5^{-r} \mid p, q, r \in \mathbb{Z}_{\geq 1}\}$. Vamos encontrar o supremo e o ínfimo de $A$.
+	
+	Calculemos, primeiramente, $\sup(A)$.
+	
+	Note que $\frac{1}{2^p}$, $\frac{1}{3^q}$ e $\frac{1}{5^r}$ são estritamente decrescentes, pois quanto menor o valor do expoente, maior é resultado da fração. Como $p$, $q$ e $r$ são inteiros positivos, os menores valores possíveis para eles são $p = 1$, $q = 1$ e $r = 1$.
+	
+	Com isso, podemos obter o elemento máximo do conjunto, dado por
+	\[
+	\max(A) = \frac{1}{2^1} + \frac{1}{3^1} + \frac{1}{5^1} = \frac{31}{30}.
+	\]
+	Portanto, $\sup(A) = \max(A) = \frac{31}{30}$.
+	
+	Agora iremos calcular $\inf(A)$.
 	
 	\section*{Questão 4: Mostre que $\sqrt{2} + \sqrt{3}$ é um número irracional.}
 	
