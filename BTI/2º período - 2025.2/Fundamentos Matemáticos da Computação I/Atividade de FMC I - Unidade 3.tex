@@ -65,5 +65,19 @@
 	
 	Agora iniciaremos de fato a demonstração.
 	
-	Note que tanto $2$ quanto $3$ são números primos. Logo, aplicando o lema em ambos, segue que $\sqrt{2}$ e $\sqrt{3}$ são irracionais. Como o conjunto dos irracionais é fechado para soma, concluímos, portanto, que $\sqrt{2} + \sqrt{3}$ é irracional. \blacksquare
+	Note que tanto $2$ quanto $3$ são números primos. Logo, aplicando o lema em ambos, segue que $\sqrt{2}$ e $\sqrt{3}$ são irracionais.
+	
+	Considere $x = \sqrt{2} = \sqrt{3}$. Suponha, por absurdo, que $x$ é racional. Calculamos:
+	\begin{align*}
+		x = \sqrt{2} + \sqrt{3}
+		&\implies x^2 = (\sqrt{2} + \sqrt{3})^2 \\
+		&\implies x^2 = \sqrt{2}^2 + 2\sqrt{2}\sqrt{3} + \sqrt{3}^2 \\
+		&\implies x^2 = 2 + 2\sqrt{6} + 3 \\
+		&\implies x^2 = 5 + 2\sqrt{6} \\
+		&\implies \frac{x^2 - 5}{2} = \sqrt{6}
+	\end{align*}
+	
+	Como assumimos $x$ racional, logo $x^2$ também é racional, pois os racionais são fechados para multiplicação. O raciocínio é análogo para $x^2 - 5$ e $\frac{x^2 - 5}{2}$, ambos racionais, dado $\mathbb{Q}$ fechado para subtração e divisão. Sendo assim, o lado esquerdo da igualdade é racional.
+	
+	Analisemos o lado direito da igualdade.
 \end{document}

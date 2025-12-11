@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/nixos.org)  (format=lualatex 1980.1.1)  10 DEC 2025 21:35
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024/nixos.org)  (format=lualatex 1980.1.1)  10 DEC 2025 21:58
  restricted system commands enabled.
 **"Atividade de FMC I - Unidade 3.tex"
 ("./Atividade de FMC I - Unidade 3.tex"
@@ -585,7 +585,7 @@ Here is how much of LuaTeX's memory you used:
  531 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 13 attribute, 56 glue_spec
 , 8 attribute_list, 1 write nodes
-   avail lists: 2:705,3:109,4:8,5:251,6:31,7:3505,8:20,9:653,10:8,11:252
+   avail lists: 2:696,3:107,4:8,5:243,6:31,7:3386,8:20,9:642,10:8,11:239
  30364 multiletter control sequences out of 65536+600000
  60 fonts using 4141663 bytes
  79i,10n,89p,365b,208s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -599,16 +599,19 @@ ic/amsfonts/cm/cmex10.pfb></nix/store/jnzbk1g55r9hbjhr7cllb02si7vikqw9-texlive-2
 5r9hbjhr7cllb02si7vikqw9-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/
 cm/cmmi8.pfb></nix/store/jnzbk1g55r9hbjhr7cllb02si7vikqw9-texlive-2024-env-texmf
 dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></nix/store/jnzbk1g55r9hbjhr7cllb0
-2si7vikqw9-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
+2si7vikqw9-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmr6.pfb></
 nix/store/jnzbk1g55r9hbjhr7cllb02si7vikqw9-texlive-2024-env-texmfdist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></nix/store/jnzbk1g55r9hbjhr7cllb02si7vikqw9-tex
-live-2024-env-texmfdist/fonts/type1/public/amsfonts/symbols/msam10.pfb></nix/sto
-re/jnzbk1g55r9hbjhr7cllb02si7vikqw9-texlive-2024-env-texmfdist/fonts/type1/publi
-c/amsfonts/symbols/msbm10.pfb>
-Output written on Atividade de FMC I - Unidade 3.pdf (2 pages, 74803 bytes).
+1/public/amsfonts/cm/cmr8.pfb></nix/store/jnzbk1g55r9hbjhr7cllb02si7vikqw9-texli
+ve-2024-env-texmfdist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></nix/store/jnzb
+k1g55r9hbjhr7cllb02si7vikqw9-texlive-2024-env-texmfdist/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb></nix/store/jnzbk1g55r9hbjhr7cllb02si7vikqw9-texlive-2024-env-t
+exmfdist/fonts/type1/public/amsfonts/symbols/msam10.pfb></nix/store/jnzbk1g55r9h
+bjhr7cllb02si7vikqw9-texlive-2024-env-texmfdist/fonts/type1/public/amsfonts/symb
+ols/msbm10.pfb>
+Output written on Atividade de FMC I - Unidade 3.pdf (2 pages, 92508 bytes).
 
-PDF statistics: 64 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+PDF statistics: 72 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
