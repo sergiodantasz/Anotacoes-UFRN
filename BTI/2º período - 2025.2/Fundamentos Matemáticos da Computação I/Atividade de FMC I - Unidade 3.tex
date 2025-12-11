@@ -105,7 +105,27 @@
 	
 	\textbf{b) A sequência é convergente.}
 	
-	Agora iremos demonstrar que $(s_n)_n$ converge, ou seja, $(s_n)_n \to l$, para algum $l$ real.
+	Agora iremos demonstrar que $(s_n)_n$ converge. Para tanto, iremos mostrar que a sequência é limitada e monótona.
+	
+	\textbf{Parte 1: A sequência é limitada.}
+	
+	Esse caso é imediato, pois já demonstramos anteriormente que 2 é uma cota superior de $(s_n)_n$. Logo, fechamos a parte 1.
+	
+	\textbf{Parte 2: A sequência é monótona.}
+	
+	Iremos aplicar a indução para mostrar que $s_{n + 1} > s_n$, para todo $n \in \mathbb{N}$.
+	
+	\textbf{Caso base ($n = 0$):}
+	
+	Note que $s_0 = \sqrt{2}$ e $s_1 = \sqrt{2 + \sqrt{s_0}} = \sqrt{2 + \sqrt{\sqrt{2}}}$. Calculamos:
+	\begin{align*}
+		\sqrt{2 + \sqrt{\sqrt{2}}} > \sqrt{2}
+		&\implies 2 + \sqrt{\sqrt{2}} > 2 \\
+		&\implies \sqrt{\sqrt{2}} > 0 \\
+		&\implies \sqrt{2} > 0 \\
+		&\implies 2 > 0
+	\end{align*}
+	Como $2 > 0$ é sempre verdadeiro, logo concluímos o caso base.
 	
 	\section*{Questão 4: Mostre que $\sqrt{2} + \sqrt{3}$ é um número irracional.}
 	
