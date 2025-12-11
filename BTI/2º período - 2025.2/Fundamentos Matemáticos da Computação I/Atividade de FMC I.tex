@@ -87,7 +87,10 @@
 	Calculamos:
 	\begin{align*}
 		S - \frac{1}{n} < x_n \leq S
-		&\iff S - \frac{1}{n} - S < x_n - S \leq S - S \\
-		&\iff -\frac{1}{n} < x_n - S \leq 0
+		&\implies S - \frac{1}{n} - S < x_n - S \leq S - S \\
+		&\implies -\frac{1}{n} < x_n - S \leq 0 \\
+		&\implies \frac{1}{n} > -(x_n - S) \geq 0 \\
+		&\implies \frac{1}{n} > |x_n - S| \geq 0 \qquad (x_n - S \leq 0) \\
+		&\implies |x_n - S| < \frac{1}{n}
 	\end{align*}
 \end{document}
