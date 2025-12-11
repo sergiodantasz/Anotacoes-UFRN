@@ -79,5 +79,16 @@
 	
 	Como assumimos $x$ racional, logo $x^2$ também é racional, pois os racionais são fechados para multiplicação. O raciocínio é análogo para $x^2 - 5$ e $\frac{x^2 - 5}{2}$, ambos racionais, dado $\mathbb{Q}$ fechado para subtração e divisão. Sendo assim, o lado esquerdo da igualdade é racional.
 	
-	Analisemos o lado direito da igualdade.
+	Analisemos o lado direito da igualdade. Suponha, por absurdo, que $\sqrt{6}$ é racional. Logo existem $a, b \in \mathbb{Z}$, com $b \neq 0$ e $\mdc(a,b) = 1$, tais que $\sqrt{6} = \frac{a}{b}$. Note que
+	\[
+	\sqrt{6} = \frac{a}{b} \implies a^2 = 6b^2 = 3(2b^2).
+	\]
+	Sabendo disso, segue que $3 \mid a^2 \implies 3 \mid a$, pelo Lema de Euclides. Logo $a = 3k$, para algum $k$ inteiro. Substituindo na equação original, temos
+	\begin{align*}
+		a^2 = 6b^2
+		&\implies (3k)^2 = 6b^2 \\
+		&\implies 9k^2 = 6b^2 \\
+		&\implies 3k^2 = 2b^2.
+	\end{align*}
+    Observe que $3 \mid 3k^2$, ou seja, $3 \mid 2b^2$. Como $\mdc(2,3) = 1$, então necessariamente $3 \mid b^2$. Isso implica que $3 \mid b$, isto é, $b = 3j$, para algum $j \in \mathbb{Z}$.
 \end{document}
