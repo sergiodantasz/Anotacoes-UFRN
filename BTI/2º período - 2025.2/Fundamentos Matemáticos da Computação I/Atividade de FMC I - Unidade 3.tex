@@ -132,7 +132,15 @@
 	
 	Nossa hipótese indutiva diz que $s_{k + 1} > s_k$, para algum $k \in \mathbb{N}$. Queremos provar que $s_{k + 2} > s_{k + 1}$.
 	
-	Observe que $s_{k + 2} = \sqrt{2 + \sqrt{s_{k + 1}}}$.	
+	Observe que $s_{k + 2} = \sqrt{2 + \sqrt{s_{k + 1}}}$. Sabemos que $\sqrt{2 + \sqrt{n}}$ (para todo $n \in \mathbb{N}$) é estritamente crescente, pois $\sqrt{n}$ e $2 + \sqrt{n}$ também são. Disso, podemos inferir que
+	\[
+	s_{k + 1} > s_k \implies \sqrt{2 + \sqrt{s_{k + 1}}} > \sqrt{2 + \sqrt{s_k}}.
+	\]
+	Logo, $s_{k + 2} > s_{k + 1}$. E assim concluímos o passo indutivo.
+	
+	Portanto, segue que a sequência é monótona estritamente crescente. Fechamos a parte 2.
+	
+	Por ser cotada superiormente e monótona, temos que $(s_n)_n$ é convergente, pelo Teorema da Convergência Monótona. \blacksquare
 	
 	\section*{Questão 4: Mostre que $\sqrt{2} + \sqrt{3}$ é um número irracional.}
 	
