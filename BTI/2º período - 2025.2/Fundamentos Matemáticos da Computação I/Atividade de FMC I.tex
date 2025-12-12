@@ -159,6 +159,16 @@
 	
 	\subsection*{1. Mostre que toda sequência limitada em $\mathbb{R}$ possui uma subsequência convergente (Teorema de Bolzano–Weierstrass).}
 	
+	Seja $(a_n)_n$ uma sequência de números reais cotada. Isso significa que existe um número real $M > 0$ tal que, para todo $n$ natural, $|a_n| \leq M$.
+	
+	Pelo Teorema da Subsequência Monótona, sabemos que $(a_n)_n$ possui uma subsequência $(a_{n_k})_k$ que é monótona. Como a sequência original é limitada por $M$, isso nos dá que $(a_{n_k})_k$ também é, ou seja,
+	\[
+	(\forall k \in \mathbb{N})[|a_{n_k}| \leq M].
+	\]
+	Temos, assim, uma subsequência monótona e cotada. Logo, pelo Teorema da Convergência Monótona, segue que $(a_{n_k})_k$ é convergente.
+	
+	Portanto, toda sequência cotada possui uma subsequência convergente. \blacksquare
+	
 	\section*{\centering Propriedades Arquimedianas}
 	
 	\subsection*{1. Prove a propriedade arquimediana: para todo $x \in \mathbb{R}$ e $y > 0$, existe $n \in \mathbb{N}$ tal que $nx > y$.}
