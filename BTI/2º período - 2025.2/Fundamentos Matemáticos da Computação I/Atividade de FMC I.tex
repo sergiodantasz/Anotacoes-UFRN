@@ -133,6 +133,28 @@
 	
 	\subsection*{9. Mostre que toda sequência constante é autoconvergente.}
 	
+	Seja $(a_n)_n$ uma sequência constante. Isso significa que existe um número real $c$ tal que, para todo $n$ natural, $a_n = c$. Queremos mostrar que $(a_n)_n$ satisfaz a condição de autoconvergência:
+	\[
+	(\forall \epsilon > 0)(\exists N)(\forall i, j \geq N)[d(a_i, a_j) < \epsilon]
+	\]
+	
+	Seja $\epsilon > 0$ arbitrário. Precisamos encontrar um natural $N$ que satisfaça a condição. Como a sequência não varia, qualquer $N$ serve. Tome, por exemplo, $N = 0$.
+	
+	Sejam $i$ e $j$ índices quaisquer tais que $i, j \geq N$. Como a sequência é constante, sabemos que $a_i = c$ e $a_j = c$. Calculando a distância entre os termos, temos que
+	\begin{align*}
+		d(a_i, a_j)
+		&= |a_i - a_j| \\
+		&= |c - c| \\
+		&= |0| \\
+		&= 0.
+	\end{align*}
+	Como $\epsilon$ é positivo, segue trivialmente que
+	\[
+	0 < \epsilon \implies d(a_i, a_j) < \epsilon.
+	\]
+	
+	Portanto, a condição é satisfeita para todo $\epsilon > 0$. Logo, toda sequência constante é autoconvergente. \blacksquare
+	
 	\section*{\centering Propriedades Arquimedianas}
 	
 	\subsection*{1. Prove a propriedade arquimediana: para todo $x \in \mathbb{R}$ e $y > 0$, existe $n \in \mathbb{N}$ tal que $nx > y$.}
