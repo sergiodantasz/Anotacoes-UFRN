@@ -108,8 +108,26 @@
 	
 	Tome, por exemplo, $\epsilon = 1$. Logo existe $N \in \mathbb{N}$ tal que $(\forall n \geq N)[d(a_n,l) < 1]$. Isso significa que todos os termos a partir do índice $N$ estão contidos na bola de raio 1 centrada em $l$, digamos
 	\[
-	(a_n)_{n \geq N} \subseteq B_1(l)
+	(a_n)_{n \geq N} \subseteq B_1(l).
 	\]
+	
+	Note que $|a_n - l| < 1$. Pela Desigualdade Triangular, segue que
+	\begin{align*}
+		a_n = a_n - l + l
+		&\implies |a_n| = |(a_n - l) + l| \\
+		&\implies |a_n| = |(a_n - l) + l| \leq |a_n - l| + |l| \\
+		&\implies |a_n| \leq |a_n - l| + |l| < 1 + |l| \qquad (|a_n - l| < 1) \\
+		&\implies |a_n| < |l| + 1.
+	\end{align*}
+	
+	Considere agora os termos que ficaram de fora, ou seja, o conjunto finito dos índices anteriores a $N$, dado por $\{a_0, a_1, a_2, \ldots, a_{N - 1}\}$. Como este conjunto é finito, podemos calcular a distância de cada um desses termos até $l$. Seja $M$ o valor máximo dessas distâncias, representado por
+	\[
+	M = \max\{d(a_0, l), d(a_1, l), d(a_2, l), \ldots, d(a_{N - 1}, l)\}.
+	\]
+	
+	Definimos agora um raio $K$ que seja grande o suficiente para cobrir tanto a ``cabeça'' quanto a ``calda''. Tomemos $K = \max(M, 1)$.
+	
+	Para $n < N$, a distância $d(a_n,l) \leq M \leq K$. Para $n \geq N$, a distância $d(a_n,l) < 1 \leq K$.
 	
 	\section*{\centering Propriedades Arquimedianas}
 	
