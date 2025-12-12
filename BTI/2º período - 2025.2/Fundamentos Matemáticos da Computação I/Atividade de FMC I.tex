@@ -125,9 +125,11 @@
 	M = \max\{d(a_0, l), d(a_1, l), d(a_2, l), \ldots, d(a_{N - 1}, l)\}.
 	\]
 	
-	Definimos agora um raio $K$ que seja grande o suficiente para cobrir tanto a ``cabeça'' quanto a ``calda''. Tomemos $K = \max(M, 1)$.
+	Definimos agora um raio $K$ que seja grande o suficiente para cobrir tanto a ``cabeça'' quanto a ``calda''. Tomemos $K = \max(M, 1)$. Para $n < N$, a distância $d(a_n,l) \leq M \leq K$. Para $n \geq N$, a distância $d(a_n,l) < 1 \leq K$.
 	
-	Para $n < N$, a distância $d(a_n,l) \leq M \leq K$. Para $n \geq N$, a distância $d(a_n,l) < 1 \leq K$.
+	Dessa forma, para todo $n$ natural, temos que $d(a_n,l) \leq K$. Isso significa que toda a sequência está contida na bola $B_{K + 1}(l)$ (ou simplesmente limitada por $|l| + K$).
+	
+	Portanto, a sequência é cotada (cercada). \blacksquare
 	
 	\section*{\centering Propriedades Arquimedianas}
 	
