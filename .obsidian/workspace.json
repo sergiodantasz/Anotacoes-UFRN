@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "997fe6f7e3ba7844",
+        "id": "36998fbf584965e2",
         "type": "tabs",
         "children": [
           {
-            "id": "6c1ef0b75cc29be2",
+            "id": "0d6c3b3884524064",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/IDMb.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "IDMb"
+              "title": "New tab"
             }
           }
         ]
@@ -78,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5,
-    "collapsed": true
+    "width": 365.5
   },
   "right": {
     "id": "244f2931f8d6b699",
@@ -183,8 +178,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6c1ef0b75cc29be2",
+  "active": "871ba8da18c41075",
   "lastOpenFiles": [
+    "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/IDMb.md",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I.synctex(busy)",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I - Unidade 3.synctex(busy)",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I - Unidade 3.synctex.gz",
@@ -192,7 +188,6 @@
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I - Unidade 3.aux",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I - Unidade 3.log",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I - Unidade 3.tex",
-    "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/IDMb.md",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Untitled.md",
     "BTI/1º período - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
     "Untitled.base",
@@ -213,7 +208,6 @@
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Arquivos/Livros/Matemática Fundacional para Computação.pdf",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/U1/Anotações.md",
     "Untitled 2.base",
-    "Untitled 1.base",
     "BTI/1º período - 2025.1/Matemática Elementar/7. Funções Trigonométricas.md",
     "BTI/1º período - 2025.1/Matemática Elementar/Informações.md",
     "Excalidraw/Drawing 2025-07-15 17.09.21.excalidraw.md",
