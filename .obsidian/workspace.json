@@ -162,7 +162,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 342.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,8 +178,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "871ba8da18c41075",
+  "active": "0d6c3b3884524064",
   "lastOpenFiles": [
+    "BTI/2º período - 2025.2/Cálculo Diferencial e Integral I/Derivadas.md",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/IDMb.md",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I.synctex(busy)",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I - Unidade 3.synctex(busy)",
@@ -203,7 +205,6 @@
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-39.png",
     "Untitled 1.md",
     "Untitled.md",
-    "BTI/2º período - 2025.2/Cálculo Diferencial e Integral I/Derivadas.md",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Arquivos/Livros/Matemática Fundacional para Computação.pdf",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/U1/Anotações.md",
     "Untitled 2.base",
