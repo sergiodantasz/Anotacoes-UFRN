@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b9ecf251895500ec",
+        "id": "b7c942462f5d5dea",
         "type": "tabs",
         "children": [
           {
-            "id": "ed2b4bfc02d21f1c",
+            "id": "b862789b2484aaf8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/DEMONSTRAÇÃO DIRETA E POR CONTRAPOSIÇÃO.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DEMONSTRAÇÃO DIRETA E POR CONTRAPOSIÇÃO"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5
+    "width": 379.5,
+    "collapsed": true
   },
   "right": {
     "id": "244f2931f8d6b699",
@@ -138,13 +143,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "BTI/1º semestre - 2025.1/Geometria Euclidiana/Arquivos/Slides/Capítulo 1 - Axiomas de Incidência e Ordem.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Capítulo 1 - Axiomas de Incidência e Ordem"
+              "title": "Outline"
             }
           },
           {
@@ -162,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 342.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,10 +182,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "871ba8da18c41075",
+  "active": "b862789b2484aaf8",
   "lastOpenFiles": [
+    "Untitled 1.md",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/DEMONSTRAÇÃO DIRETA E POR CONTRAPOSIÇÃO.md",
+    "Untitled.md",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/IDMb.md",
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Unidade 1.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II",
     "BTI/3º período - 2026.1",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Notas.pdf",
@@ -205,8 +212,6 @@
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-41.png",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-40.png",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-39.png",
-    "Untitled 1.md",
-    "Untitled.md",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/U1/Anotações.md",
     "BTI/1º período - 2025.1/Matemática Elementar/7. Funções Trigonométricas.md",
     "BTI/1º período - 2025.1/Matemática Elementar/Informações.md",
