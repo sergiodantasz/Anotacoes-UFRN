@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8e696dbeb99f7955",
+        "id": "c39949a8164f3371",
         "type": "tabs",
         "children": [
           {
-            "id": "725edcd08558abe3",
+            "id": "37278562290d33d8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -179,7 +179,8 @@
   },
   "active": "871ba8da18c41075",
   "lastOpenFiles": [
-    "BTI/3º período - 2026.1/Untitled",
+    "BTI/3º período - 2026.1/Linguagem de Programação I",
+    "BTI/3º período - 2026.1/Estrutura de Dados Básicas I",
     "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Demonstração Direta e por Contraposição.md",
     "Ex. 7.md",
@@ -195,7 +196,6 @@
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I - Unidade 3.synctex.gz",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I - Unidade 3.pdf",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I - Unidade 3.aux",
-    "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I - Unidade 3.log",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Untitled.md",
     "BTI/1º período - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image.png",
