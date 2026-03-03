@@ -20,7 +20,7 @@ $$
 
 # Demonstração por Contraposição
 
-Diferentemente da direta, a demonstração por contraposição nega tanto o antecedente quando o consequente e inverte a direção de inferência:
+Diferentemente da direta, a demonstração por contraposição nega tanto o antecedente quando o consequente e inverte a direção de inferência. A contrapositiva de $P \implies Q$ é:
 
 $$
 \lnot Q \implies \lnot P
@@ -98,9 +98,9 @@ Como $t$ é inteiro e $m \cdot n = t^2$, logo, por definição, $m \cdot n$ é u
 > [!example] Proposição
 > Se $n^2$ é par, então $n$ é par.
 
-> **Contraposição:** Se $n$ é ímpar, então $n^2$ é ímpar.
+> **Contrapositiva:** Se $n$ é ímpar, então $n^2$ é ímpar.
 
-**Demonstração:**
+**Demonstração (por contraposição):**
 
 *Imediato. Já foi demonstrada no [[#Ex. 1]].* ∎
 
@@ -109,9 +109,9 @@ Como $t$ é inteiro e $m \cdot n = t^2$, logo, por definição, $m \cdot n$ é u
 > [!example] Proposição
 > Para todo $n$ inteiro, se $3n + 2$ é ímpar, então $n$ é ímpar.
 
-> **Contraposição:** Se $n$ é par, então $3n + 2$ é par.
+> **Contrapositiva:** Se $n$ é par, então $3n + 2$ é par.
 
-**Demonstração:**
+**Demonstração (por contraposição):**
 
 Seja $n$ inteiro e par.
 
@@ -211,9 +211,9 @@ Como $t \in \mathbb{Z}$ e $x \cdot y = 2t + 1$, logo, por definição, $x \cdot 
 > [!example] Proposição
 > Para todo $m, n \in \mathbb{Z}$, se $m \cdot n$ é par, então $m$ é par ou $n$ é par.
 
-> **Contraposição:** Para todo $m, n \in \mathbb{Z}$, se $m$ é ímpar e $n$ é ímpar, então $m \cdot n$ é ímpar.
+> **Contrapositiva:** Para todo $m, n \in \mathbb{Z}$, se $m$ é ímpar e $n$ é ímpar, então $m \cdot n$ é ímpar.
 
-**Demonstração:**
+**Demonstração (por contraposição):**
 
 *Imediato. Já foi demonstrada no [[#Ex. 7]].* ∎
 
@@ -246,9 +246,9 @@ Como $t, z \in \mathbb{Z}$ e $x \cdot y = \frac{t}{z}$, logo, por definição, $
 > [!example] Proposição
 > Dados $x, y, z \in \mathbb{Z}$, se $x + y + z$ é ímpar, então pelo menos um dentre $x$, $y$ e $z$ é ímpar.
 
-> **Contraposição:** Dados $x, y, z \in \mathbb{Z}$, se $x$, $y$ e $z$ são pares, então $x + y + z$ é par.
+> **Contrapositiva:** Dados $x, y, z \in \mathbb{Z}$, se $x$, $y$ e $z$ são pares, então $x + y + z$ é par.
 
-**Demonstração:**
+**Demonstração (por contraposição):**
 
 Sejam $x$, $y$ e $z$ pares.
 
