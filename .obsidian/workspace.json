@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c39949a8164f3371",
+        "id": "3f5601ccd8133873",
         "type": "tabs",
         "children": [
           {
-            "id": "37278562290d33d8",
+            "id": "593357d789bd5f9c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Demonstração por Contradição.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Demonstração por Contradição"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5
+    "width": 379.5,
+    "collapsed": true
   },
   "right": {
     "id": "244f2931f8d6b699",
@@ -177,12 +182,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "871ba8da18c41075",
+  "active": "593357d789bd5f9c",
   "lastOpenFiles": [
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Demonstração por Contradição.md",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Demonstração Direta e por Contraposição.md",
     "BTI/3º período - 2026.1/Linguagem de Programação I",
     "BTI/3º período - 2026.1/Estrutura de Dados Básicas I",
     "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado",
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Demonstração Direta e por Contraposição.md",
     "Ex. 7.md",
     "Untitled 1.md",
     "Untitled.md",
@@ -195,7 +201,6 @@
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I - Unidade 3.synctex(busy)",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I - Unidade 3.synctex.gz",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I - Unidade 3.pdf",
-    "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I - Unidade 3.aux",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Untitled.md",
     "BTI/1º período - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image.png",
