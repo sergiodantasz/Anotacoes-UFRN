@@ -599,9 +599,17 @@ Logo, pelo menos um dos números reais $a_1$, $a_2$ e $a_3$ é maior ou igual à
 > [!example] Proposição
 > O produto de dois números irracionais é irracional.
 
-**Demonstração:**
+**Refutação:**
 
-...
+Vamos refutar essa afirmação por meio de contra-exemplo.
+
+Tome o número $\sqrt{2}$. Veja que:
+
+$$
+\sqrt{2} \cdot \sqrt{2} = 2
+$$
+
+Como $\sqrt{2}$ é irracional e o produto entre $\sqrt{2}$ e $\sqrt{2}$ é $2 \in \mathbb{Q}$, logo a afirmação é falsa. $\blacksquare$
 
 ## Ex. 15
 
@@ -614,4 +622,123 @@ Logo, pelo menos um dos números reais $a_1$, $a_2$ e $a_3$ é maior ou igual à
 
 **Demonstração:**
 
-...
+Seja $n \in \mathbb{Z}$.
+
+Separo a cadeia de equivalências em três equivalências, e cada equivalência em duas partes:
+
+**1. $n$ é par se, e somente se, $n + 1$ é ímpar:**
+
+**Parte 1:**
+
+Suponha que $n$ é par.
+
+Por definição, existe $k \in \mathbb{Z}$ tal que $n = 2k$.
+
+Note que:
+
+$$
+n = 2k \iff n + 1 = 2k + 1
+$$
+
+Logo $n + 1$ é ímpar.
+
+**Parte 2:**
+
+Suponha que $n + 1$ é ímpar.
+
+Por definição, existe $p \in \mathbb{Z}$ tal que $n + 1 = 2p + 1$.
+
+Veja que:
+
+$$
+n + 1 = 2p + 1 \iff n = 2p
+$$
+
+Logo $n$ é par.
+
+**2. $n$ é par se, e somente se, $3n + 1$ é ímpar:**
+
+**Parte 1:**
+
+Suponha que $n$ é par.
+
+Por definição, existe $k \in \mathbb{Z}$ tal que $n = 2k$.
+
+Note que:
+
+$$
+\begin{align}
+n = 2k &\iff 3n = 6k \\
+       &\iff 3n + 1 = 6k + 1 \\
+       &\iff 3n + 1 = 2(3k) + 1
+\end{align}
+$$
+
+Logo $3n + 1$ é ímpar.
+
+**Parte 2:**
+
+Suponha que $3n + 1$ é ímpar.
+
+Por definição, existe $p \in \mathbb{Z}$ tal que $3n + 1 = 2p + 1$.
+
+Observe que:
+
+$$
+3n + 1 = 2p + 1 \iff 3n = 2p
+$$
+
+Sabemos que $n$ é inteiro, então $3n$ deve ser múltiplo de $3$. Logo o lado direito também deve ser, ou seja, $3$ divide $2p$. Como $3$ não divide $2$, necessariamente $3$ divide $p$.
+
+Sendo assim, existe $t$ inteiro tal que $p = 3t$. Substituindo na equação:
+
+$$
+\begin{align}
+3n = 2p &\iff 3n = 2(3t) \\
+        &\iff 3n = 3(2t) \\
+        &\iff n = 2t
+\end{align}
+$$
+
+Logo $n$ é par.
+
+**3. $n$ é par se, e somente se, $3n$ é par:**
+
+**Parte 1:**
+
+Suponha que $n$ é par.
+
+Por definição, existe $k \in \mathbb{Z}$ tal que $n = 2k$.
+
+Calculamos
+
+$$
+\begin{align}
+n = 2k &\iff 3n = 6k \\
+       &\iff 3n = 2(3k)
+\end{align}
+$$
+
+Logo $3n$ é par.
+
+**Parte 2:**
+
+Suponha que $3n$ é par.
+
+Por definição, existe $p \in \mathbb{Z}$ tal que $3n = 2p$.
+
+Logo $3$ divide $2p$. Como $3$ não divide $2$, então $3$ divide $p$.
+
+Desse modo, existe $t$ inteiro tal que $p = 3t$. Substituindo:
+
+$$
+\begin{align}
+3n = 2p &\iff 3n = 2(3t) \\
+        &\iff 3n = 3(2t) \\
+        &\iff n = 2t
+\end{align}
+$$
+
+Logo $n$ é par.
+
+Portanto, pelas três equivalências, concluímos a demonstração. $\blacksquare$
