@@ -67,7 +67,7 @@ $$
 
 Tome $t = 2k^2 + k$.
 
-Como $t$ é inteiro e $n^2 = 2t + 1$, logo, por definição, $n^2$ é ímpar. ∎
+Como $t$ é inteiro e $n^2 = 2t + 1$, logo, por definição, $n^2$ é ímpar. $\blacksquare$
 
 ## Ex. 2
 
@@ -91,7 +91,7 @@ $$
 
 Tome $t = k_1 \cdot k_2$.
 
-Como $t$ é inteiro e $m \cdot n = t^2$, logo, por definição, $m \cdot n$ é um quadrado perfeito. ∎
+Como $t$ é inteiro e $m \cdot n = t^2$, logo, por definição, $m \cdot n$ é um quadrado perfeito. $\blacksquare$
 
 ## Ex. 3
 
@@ -102,7 +102,7 @@ Como $t$ é inteiro e $m \cdot n = t^2$, logo, por definição, $m \cdot n$ é u
 
 **Demonstração (por contraposição):**
 
-*Imediato. Já foi demonstrada no [[#Ex. 1]].* ∎
+*Imediato. Já foi demonstrada no [[#Ex. 1]].* $\blacksquare$
 
 ## Ex. 4
 
@@ -129,7 +129,7 @@ $$
 
 Tome $t = 3k + 1$.
 
-Como $t$ é inteiro e $3n + 2 = 2t$, logo, por definição, $3n + 2$ é par. ∎
+Como $t$ é inteiro e $3n + 2 = 2t$, logo, por definição, $3n + 2$ é par. $\blacksquare$
 
 ## Ex. 5
 
@@ -154,7 +154,7 @@ $$
 
 Tome $t = ps + rq$ e $z = qs$.
 
-Como $t, z \in \mathbb{Z}$ e $x + y = \frac{t}{z}$, logo, por definição, $x + y$ é racional. ∎
+Como $t, z \in \mathbb{Z}$ e $x + y = \frac{t}{z}$, logo, por definição, $x + y$ é racional. $\blacksquare$
 
 ## Ex. 6
 
@@ -179,7 +179,7 @@ $$
 
 Tome $t = k_1 + k_2 - n$.
 
-Como $t$ é inteiro e $m + p = 2t$, logo, por definição, $m + p$ é par. ∎
+Como $t$ é inteiro e $m + p = 2t$, logo, por definição, $m + p$ é par. $\blacksquare$
 
 ## Ex. 7
 
@@ -204,7 +204,7 @@ $$
 
 Tome $t = 2k_1k_2 + k_1 + k_2$.
 
-Como $t \in \mathbb{Z}$ e $x \cdot y = 2t + 1$, logo, por definição, $x \cdot y$ é ímpar. ∎
+Como $t \in \mathbb{Z}$ e $x \cdot y = 2t + 1$, logo, por definição, $x \cdot y$ é ímpar. $\blacksquare$
 
 ## Ex. 8
 
@@ -215,7 +215,7 @@ Como $t \in \mathbb{Z}$ e $x \cdot y = 2t + 1$, logo, por definição, $x \cdot 
 
 **Demonstração (por contraposição):**
 
-*Imediato. Já foi demonstrada no [[#Ex. 7]].* ∎
+*Imediato. Já foi demonstrada no [[#Ex. 7]].* $\blacksquare$
 
 ## Ex. 9
 
@@ -239,7 +239,7 @@ $$
 
 Tome $t = p \cdot r$ e $z = q \cdot s$.
 
-Como $t, z \in \mathbb{Z}$ e $x \cdot y = \frac{t}{z}$, logo, por definição, $x \cdot y$ é racional. ∎
+Como $t, z \in \mathbb{Z}$ e $x \cdot y = \frac{t}{z}$, logo, por definição, $x \cdot y$ é racional. $\blacksquare$
 
 ## Ex. 10
 
@@ -265,4 +265,4 @@ $$
 
 Tome $t = k_1 + k_2 + k_3$.
 
-Como $t$ é inteiro e $x + y + z = 2t$, logo, por definição, $x + y + z$ é par. ∎
+Como $t$ é inteiro e $x + y + z = 2t$, logo, por definição, $x + y + z$ é par. $\blacksquare$
