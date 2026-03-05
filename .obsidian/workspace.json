@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e28f369aaeeb4b46",
+        "id": "fecc12bba6f1d510",
         "type": "tabs",
         "children": [
           {
-            "id": "6eba041a294249c1",
+            "id": "640c202eb344ad5a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "BTI/3º período - 2026.1/Estrutura de Dados Básicas I/U1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "U1"
             }
           }
         ]
@@ -177,10 +181,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6eba041a294249c1",
+  "active": "640c202eb344ad5a",
   "lastOpenFiles": [
-    "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/U1.md",
+    "BTI/3º período - 2026.1/Estrutura de Dados Básicas I/U1.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Demonstração por Contradição.md",
+    "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/U1.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Demonstração Direta e por Contraposição.md",
     "BTI/3º período - 2026.1/Linguagem de Programação I",
     "BTI/3º período - 2026.1/Estrutura de Dados Básicas I",
@@ -223,7 +228,6 @@
     "Excalidraw/Drawing 2025-07-14 16.51.08.excalidraw.md",
     "BTI/1º período - 2025.1/Geometria Euclidiana/4. Congruência.md",
     "Excalidraw/Drawing 2025-07-14 10.34.26.excalidraw.md",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/5. Teorema do Ângulo Externo.md",
-    "Excalidraw/Drawing 2025-07-14 09.59.29.excalidraw.md"
+    "BTI/1º período - 2025.1/Geometria Euclidiana/5. Teorema do Ângulo Externo.md"
   ]
 }

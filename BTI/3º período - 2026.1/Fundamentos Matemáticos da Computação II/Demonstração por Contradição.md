@@ -497,14 +497,88 @@ Como $ab > n$, logo $ab \neq n$. $\blacksquare$
 
 **Demonstração:**
 
-...
+Sejam $a$ e $b$ inteiros.
+
+Separo a cadeia de equivalências em duas equivalências, e cada equivalência em duas partes:
+
+**1. $a < b$ se, e somente se, $\frac{a + b}{2} > a$:**
+
+**Parte 1:**
+
+Suponha que $a < b$.
+
+Calculamos:
+
+$$
+\begin{align}
+a < b &\iff a + a < a + b \\
+      &\iff 2a < a + b \\
+      &\iff a < \frac{a + b}{2}
+\end{align}
+$$
+
+**Parte 2:**
+
+Suponha que $\frac{a + b}{2} > a$.
+
+Calculamos:
+
+$$
+\begin{align}
+\frac{a + b}{2} > a &\iff a + b > 2a \\
+                    &\iff a - a + b > a \\
+                    &\iff a < b
+\end{align}
+$$
+
+**2. $a < b$ se, e somente se, $\frac{a + b}{2} < b$:**
+
+**Parte 1:**
+
+Suponha que $a < b$.
+
+Calculamos:
+
+$$
+\begin{align}
+a < b &\iff a + b < b + b \\
+      &\iff a + b < 2b \\
+      &\iff \frac{a + b}{2} < b
+\end{align}
+$$
+
+**Parte 2:**
+
+Suponha que $\frac{a + b}{2} < b$.
+
+Calculamos:
+
+$$
+\begin{align}
+\frac{a + b}{2} < b &\iff a + b < 2b \\
+                    &\iff a + b - b < b \\
+                    &\iff a < b
+\end{align}
+$$
+
+Portanto, pelas duas equivalências, concluímos a demonstração. $\blacksquare$
 
 ## Ex. 13
 
 > [!example] Proposição
 > Pelo menos um dos números reais $a_1$, $a_2$ e $a_3$ é maior ou igual à média desses números.
 
-**Demonstração:**
+> **Negação:** Todos os $a_1$, $a_2$ e $a_3$ são menores que a média entre eles.
+
+**Demonstração (por contradição):**
+
+Sejam $a_1, a_2, a_3 \in \mathbb{R}$.
+
+Suponha, por contradição, que todos os $a_1$, $a_2$ e $a_3$ são menores que a média entre eles, isto é:
+
+$$
+a_1 < \frac{a_1 + a_2 + a_3}{3} \land a_2 < \frac{a_1 + a_2 + a_3}{3} \land a_3 < \frac{a_1 + a_2 + a_3}{3}
+$$
 
 ...
 
