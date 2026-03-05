@@ -65,3 +65,63 @@ bool booleano = true;
 bool booleano = false;
 ```
 
+# Exercício
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int option;
+    
+    double num1, num2;
+    
+	while (true) {
+	    cout << "--------------------------" << endl;
+	    cout << "1 - Soma" << endl;
+	    cout << "2 - Subtração" << endl;
+	    cout << "3 - Divisão" << endl;
+	    cout << "4 - Multiplicação" << endl;
+	    cout << "5 - Sair" << endl;
+	    cout << "--------------------------" << endl;
+	    cout << "Escolha uma opção: ";
+	    cin >> option;
+	    
+	    cout << option << endl;
+	    
+	    if (!(option >= 1 && option <= 5)) {
+	        cout << "Opção inválida." << endl;
+	        continue;
+	    }
+	    
+	    if (option == 5) {
+	        cout << "Saindo..." << endl;
+	        return 0;
+	    }
+	    
+	    cout << "Número 1: ";
+	    cin >> num1;
+	    cout << "Número 2: ";
+	    cin >> num2;
+	    
+	    switch (option) {
+	        case 1:
+	            cout << num1 << " + " << num2 << " = " << num1 + num2 << endl;
+	            break;
+	        case 2:
+	            cout << num1 << " - " << num2 << " = " << num1 - num2 << endl;
+	            break;
+	        case 3:
+	            cout << num1 << " / " << num2 << " = " << num1 / num2 << endl;
+	            break;
+	        case 4:
+	            cout << num1 << " * " << num2 << " = " << num1 * num2 << endl;
+	            break;
+	    }
+	}
+	
+    return 0;
+}
+
+```
