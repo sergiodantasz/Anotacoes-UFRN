@@ -580,7 +580,19 @@ $$
 a_1 < \frac{a_1 + a_2 + a_3}{3} \land a_2 < \frac{a_1 + a_2 + a_3}{3} \land a_3 < \frac{a_1 + a_2 + a_3}{3}
 $$
 
-...
+Somando as três inequações:
+
+$$
+\begin{align}
+& a_1 + a_2 + a_3 < \frac{a_1 + a_2 + a_3}{3} + \frac{a_1 + a_2 + a_3}{3} + \frac{a_1 + a_2 + a_3}{3} \\
+\iff& a_1 + a_2 + a_3 < 3 \cdot \frac{a_1 + a_2 + a_3}{3} \\
+\iff& a_1 + a_2 + a_3 < a_1 + a_2 + a_3
+\end{align}
+$$
+
+Chegamos a um absurdo.
+
+Logo, pelo menos um dos números reais $a_1$, $a_2$ e $a_3$ é maior ou igual à média entre eles. $\blacksquare$
 
 ## Ex. 14
 
