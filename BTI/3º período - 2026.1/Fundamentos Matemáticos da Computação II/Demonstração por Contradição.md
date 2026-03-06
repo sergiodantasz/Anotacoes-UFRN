@@ -533,37 +533,13 @@ $$
 \end{align}
 $$
 
-**2. $a < b$ se, e somente se, $\frac{a + b}{2} < b$:**
+**2. $\frac{a + b}{2} > a$ se, e somente se, $\frac{a + b}{2} < b$:**
 
-**Parte 1:**
+...
 
-Suponha que $a < b$.
+**3. $\frac{a + b}{2} < b$ se, e somente se, $a < b$:**
 
-Calculamos:
-
-$$
-\begin{align}
-a < b &\iff a + b < b + b \\
-      &\iff a + b < 2b \\
-      &\iff \frac{a + b}{2} < b
-\end{align}
-$$
-
-**Parte 2:**
-
-Suponha que $\frac{a + b}{2} < b$.
-
-Calculamos:
-
-$$
-\begin{align}
-\frac{a + b}{2} < b &\iff a + b < 2b \\
-                    &\iff a + b - b < b \\
-                    &\iff a < b
-\end{align}
-$$
-
-Portanto, pelas duas equivalências, concluímos a demonstração. $\blacksquare$
+...
 
 ## Ex. 13
 
@@ -658,89 +634,14 @@ $$
 
 Logo $n$ é par.
 
-**2. $n$ é par se, e somente se, $3n + 1$ é ímpar:**
+**2. $n + 1$ é ímpar se, e somente se, $3n + 1$ é ímpar:**
 
-**Parte 1:**
+...
 
-Suponha que $n$ é par.
+**3. $3n + 1$ é ímpar se, e somente se, $3n$ é par:**
 
-Por definição, existe $k \in \mathbb{Z}$ tal que $n = 2k$.
+...
 
-Note que:
+**4. $3n$ é par se, e somente se, $n$ é par:**
 
-$$
-\begin{align}
-n = 2k &\iff 3n = 6k \\
-       &\iff 3n + 1 = 6k + 1 \\
-       &\iff 3n + 1 = 2(3k) + 1
-\end{align}
-$$
-
-Logo $3n + 1$ é ímpar.
-
-**Parte 2:**
-
-Suponha que $3n + 1$ é ímpar.
-
-Por definição, existe $p \in \mathbb{Z}$ tal que $3n + 1 = 2p + 1$.
-
-Observe que:
-
-$$
-3n + 1 = 2p + 1 \iff 3n = 2p
-$$
-
-Sabemos que $n$ é inteiro, então $3n$ deve ser múltiplo de $3$. Logo o lado direito também deve ser, ou seja, $3$ divide $2p$. Como $3$ não divide $2$, necessariamente $3$ divide $p$.
-
-Sendo assim, existe $t$ inteiro tal que $p = 3t$. Substituindo na equação:
-
-$$
-\begin{align}
-3n = 2p &\iff 3n = 2(3t) \\
-        &\iff 3n = 3(2t) \\
-        &\iff n = 2t
-\end{align}
-$$
-
-Logo $n$ é par.
-
-**3. $n$ é par se, e somente se, $3n$ é par:**
-
-**Parte 1:**
-
-Suponha que $n$ é par.
-
-Por definição, existe $k \in \mathbb{Z}$ tal que $n = 2k$.
-
-Calculamos
-
-$$
-\begin{align}
-n = 2k &\iff 3n = 6k \\
-       &\iff 3n = 2(3k)
-\end{align}
-$$
-
-Logo $3n$ é par.
-
-**Parte 2:**
-
-Suponha que $3n$ é par.
-
-Por definição, existe $p \in \mathbb{Z}$ tal que $3n = 2p$.
-
-Logo $3$ divide $2p$. Como $3$ não divide $2$, então $3$ divide $p$.
-
-Desse modo, existe $t$ inteiro tal que $p = 3t$. Substituindo:
-
-$$
-\begin{align}
-3n = 2p &\iff 3n = 2(3t) \\
-        &\iff 3n = 3(2t) \\
-        &\iff n = 2t
-\end{align}
-$$
-
-Logo $n$ é par.
-
-Portanto, pelas três equivalências, concluímos a demonstração. $\blacksquare$
+...
