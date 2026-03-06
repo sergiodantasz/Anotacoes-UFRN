@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5,
-    "collapsed": true
+    "width": 379.5
   },
   "right": {
     "id": "244f2931f8d6b699",
@@ -166,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5,
-    "collapsed": true
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,10 +182,10 @@
   },
   "active": "ed1500e1736ed85d",
   "lastOpenFiles": [
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Aula 6 de março.md",
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Indução.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Demonstração por Contradição.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Demonstração Direta e por Contraposição.md",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Indução.md",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Aula 6 de março.md",
     "BTI/3º período - 2026.1/Linguagem de Programação I/Introdução ao C++.md",
     "BTI/3º período - 2026.1/Arquitetura de Computadores",
     "BTI/3º período - 2026.1/Estrutura de Dados Básicas I/U1.md",

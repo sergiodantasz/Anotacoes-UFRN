@@ -13,7 +13,23 @@ Assumimos que $P$ é verdadeiro e $Q$ é falso. A partir dessas hipóteses, obte
 
 # Demonstração de Cadeia de Equivalências
 
-...
+Considere, por exemplo, que queremos demonstrar que as proposições $P$, $Q$ e $R$ são equivalentes. Para demonstrar uma cadeia de equivalências (várias equivalências juntas), há duas formas:
+
+**Forma 1:**
+
+$$
+P \implies Q \land Q \implies R \land R \implies P
+$$
+
+A ordem e arranjo das implicações tanto faz, o que importa é demonstrar de modo "circular", passando por todas as proposições e voltando ao início.
+
+**Forma 2:**
+
+$$
+P \iff Q \land P \iff R
+$$
+
+Novamente, o que vale é demonstrar de forma circular, não importando o arranjo.
 
 # Exercícios
 

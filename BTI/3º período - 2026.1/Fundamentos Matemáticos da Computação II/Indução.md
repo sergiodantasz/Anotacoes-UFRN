@@ -1,38 +1,45 @@
 # Indução
 
-Queremos demonstrar que uma propriedade $P(n)$ vale para todo inteiro $n$, com $n \geq a$.
+Queremos demonstrar que uma propriedade $P(n)$ vale para todo $n, a \in \mathbb{Z}$, com $n \geq a$. Separamos isso em duas etapas.
 
-**Caso base:** $P(a)$ é verdadeiro.
+**Caso base:**
 
-Suponha que vale $P(k)$, para $k \geq a$. (HI)
+Mostramos que $P(a)$ é verdadeira.
 
-**Passo indutivo:** mostrar que vale $P(k + 1)$.
+**Passo indutivo:**
+
+>**HI:** Supomos que $P(k)$ é verdadeira para algum inteiro $k \geq a$.
+
+Mostramos que $P(k + 1)$ também é verdadeira.
 
 # Exercícios
 
 ## Ex. 1
 
 > [!example] Proposição
-> $0$ é o único elemento neutro da soma.
+> 0 é o único elemento neutro da soma.
 
-> **Negação:** ...
+> **Negação:** Existe um elemento neutro da soma diferente de 0.
 
 **Demonstração (por contradição):**
 
-Suponha, por contradição, que existe $x \neq 0$ tal que $x$ é elemento neutro da soma:
+Suponha, por contradição, que existe $x \neq 0$ tal que $x$ é elemento neutro da soma.
+
+Logo, para todo $a$ inteiro, temos:
 
 $$
-\begin{align}
-x + 0 = x &\quad& (1) \\
-0 + x = 0 &\quad& (2)
-\end{align}
+a + x = a \quad \text{e} \quad x + a = a
 $$
 
-De (1) e (2), temos que $0 = x + 0 = x$.
+Tome $a = 0$.
+
+Logo $0 + x = 0$.
+
+Mas como 0 é elemento neutro da soma, então $0 + x = x$.
 
 Um absurdo, pois supomos $x \neq 0$.
 
-Portanto, $0$ é o único elemento neutro da soma. $\blacksquare$
+Portanto, 0 é o único elemento neutro da soma. $\blacksquare$
 
 ## Ex. 2
 
@@ -86,26 +93,29 @@ $$
 ## Ex. 5
 
 > [!example] Proposição
-> $1$ é o único elemento neutro da multiplicação.
+> 1 é o único elemento neutro da multiplicação.
 
-> **Negação:** ...
+> **Negação:** Existe um elemento neutro da multiplicação diferente de 1.
 
 **Demonstração (por contradição):**
 
-Suponha, por contradição, que existe $x \neq 1$ tal que $x$ é elemento neutro da multiplicação:
+Suponha, por contradição, que existe $x \neq 1$ tal que $x$ é elemento neutro da multiplicação.
+
+Logo, para todo $a$ inteiro, temos:
 
 $$
-\begin{align}
-x \cdot 1 = x &\quad& (1) \\
-1 \cdot x = 1 &\quad& (2)
-\end{align}
+a \cdot x = a \quad \text{e} \quad x \cdot a = a
 $$
 
-De (1) e (2), segue que $x = x \cdot 1 = 1$.
+Tome $a = 1$.
 
-Isso é um absurdo, pois supomos $x \neq 1$.
+Logo $1 \cdot x = 1$.
 
-Portanto, $1$ é o único elemento neutro da multiplicação. $\blacksquare$
+Mas como 1 é elemento neutro da soma, então $1 \cdot x = x$.
+
+Um absurdo, pois supomos $x \neq 1$.
+
+Portanto, 1 é o único elemento neutro da multiplicação. $\blacksquare$
 
 ## Ex. 6
 
