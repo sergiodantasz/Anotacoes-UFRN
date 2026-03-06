@@ -63,7 +63,7 @@ Portanto, $\sqrt{2}$ é racional. $\blacksquare$
 
 > **Negação:** Existe um conjunto de 22 dias consecutivos tal que, para todo dia da semana, no máximo 3 desses dias caem nesse dia da semana.
 
-**Demonstração (por contradição:**
+**Demonstração (por contradição):**
 
 Suponha, por contradição, que no máximo 3 dias caem em um mesmo dia da semana.
 
@@ -232,6 +232,8 @@ $$
 Logo, por definição, $n^2$ é par.
 
 **Parte 2 (por contraposição):**
+
+> **Contrapositiva:** Se $n$ é ímpar, então $n^2$ é ímpar.
 
 Suponha que $n$ é ímpar.
 
@@ -601,7 +603,7 @@ Logo, pelo menos um dos números reais $a_1$, $a_2$ e $a_3$ é maior ou igual à
 
 **Refutação:**
 
-Vamos refutar essa afirmação por meio de contra-exemplo.
+Vamos refutar essa afirmação por meio de um contra-exemplo.
 
 Tome o número $\sqrt{2}$. Veja que:
 
