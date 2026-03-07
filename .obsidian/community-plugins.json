@@ -4,5 +4,6 @@
   "automatic-table-of-contents",
   "image-converter",
   "obsidian-excalidraw-plugin",
-  "hover-reveal"
+  "hover-reveal",
+  "execute-code"
 ]

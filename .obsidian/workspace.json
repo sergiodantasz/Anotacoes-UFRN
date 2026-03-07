@@ -11,10 +11,14 @@
             "id": "c5faeea997f8b28a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "BTI/3º período - 2026.1/Linguagem de Programação I/Introdução ao C++.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Introdução ao C++"
             }
           }
         ]
@@ -177,7 +181,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "871ba8da18c41075",
+  "active": "c5faeea997f8b28a",
   "lastOpenFiles": [
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Indução.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Demonstração por Contradição.md",
