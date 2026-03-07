@@ -165,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 342.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,7 +181,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "35049215d3f9a147",
+  "active": "dfc2c65954b70971",
   "lastOpenFiles": [
     "BTI/3º período - 2026.1/Linguagem de Programação I/C.md",
     "BTI/3º período - 2026.1/Linguagem de Programação I/C++.md",
