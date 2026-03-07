@@ -275,8 +275,6 @@ numeros.pop_back();   // Remove do fim
 
 Criar um programa que realize operações matemáticas simples (adição, subtração, multiplicação e divisão).
 
-**Requisitos do material:** exibir opções: 1 - Soma; 2 - Subtração; 3 - Divisão; 4 - Multiplicação; **0 - Sair**.
-
 ```cpp
 #include <iostream>
 
