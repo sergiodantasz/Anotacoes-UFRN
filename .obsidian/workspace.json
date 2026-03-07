@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ca2ce60858911b94",
+        "id": "fa3fc4311338f507",
         "type": "tabs",
         "children": [
           {
-            "id": "d6145054d24670c5",
+            "id": "dfc2c65954b70971",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -165,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5,
-    "collapsed": true
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,7 +180,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d6145054d24670c5",
+  "active": "35049215d3f9a147",
   "lastOpenFiles": [
     "BTI/3º período - 2026.1/Linguagem de Programação I/C.md",
     "BTI/3º período - 2026.1/Linguagem de Programação I/C++.md",

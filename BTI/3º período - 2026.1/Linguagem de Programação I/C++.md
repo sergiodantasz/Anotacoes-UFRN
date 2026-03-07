@@ -4,112 +4,278 @@
 
 ### 1.1. Função `main`
 
+`main()` é a função principal: a execução do programa começa nela. O C++ exige que o programa tenha uma função `main`.
+
 ```cpp
 #include <iostream>
-
 using namespace std;
 
 int main() {
-    cout << "Olá, mundo!" << endl;
+    cout << "Olá Mundo" << endl;
     return 0;
 }
 ```
 
-`#include <iostream>` fornece `cout`, `cin` e outros para entrada e saída. `using namespace std` permite usar `cout` em vez de `std::cout`.
+- `#include <iostream>` — biblioteca para entrada e saída (`cin`, `cout`).
+- `using namespace std` — permite usar `cout` em vez de `std::cout`.
 
 ### 1.2. Comentários
 
-```cpp
-// Comentário de uma linha
+- `//` — comentário de uma linha.
+- `/* */` — comentário de várias linhas.
 
+```cpp
+// Comentário simples
 /*
-   Comentário
-   de várias linhas
+   Comentário de múltiplas linhas
 */
 ```
 
-## 2. Tipos de dados e variáveis
+## 2. Novos tipos de dados em relação ao C
 
-### 2.1. Tipos em relação ao C
+O C++ adicionou tipos que não existem no C:
 
-Além dos tipos do C (`int`, `float`, `double`, `char`, etc.), o C++ traz:
+| Tipo     | Descrição |
+| -------- | --------- |
+| `bool`   | Valores lógicos: `true` ou `false`. |
+| `string` | Classe da biblioteca padrão (`<string>`) para texto; substitui o uso de `char[]` do C. |
 
-| Tipo     | Descrição                    |
-| -------- | ---------------------------- |
-| `bool`   | Booleano: `true` ou `false`   |
-| `string` | Texto (da biblioteca `<string>`) |
+**Tipo `bool`:**
 
-**Exemplo:**
+- Pode ser `true` ou `false`.
+- Usa-se com operadores lógicos: `&&` (E), `||` (OU), `!` (negação).
+- **Conversão automática:** inteiro diferente de zero → `true`; zero → `false`.
 
-```cpp
-bool autenticado = true;   // ou false, ou 1, ou 0
-string nome = "Sérgio Dantas";
-```
+**Tipo `string`:**
 
-Para usar `string`, inclua: `#include <string>`.
+- Em C, strings são arrays de caracteres (`char[]`). Em C++, `string` gerencia memória automaticamente.
+- Operações: concatenação com `+`, comparação com `==`, `<`, etc., `.size()` ou `.length()`, `.clear()`, entre outras.
+- Incluir: `#include <string>` (e pertence ao `std`).
 
-### 2.2. Tipagem automática com `auto`
+## 3. Variáveis
 
-A palavra-chave `auto` deixa o compilador inferir o tipo a partir da inicialização. A variável **precisa** ser inicializada na declaração.
-
-```cpp
-auto idade = 10;        // int
-auto sobrenome = "Dantas";  // const char* (literal)
-auto nome = string("Sérgio");  // std::string
-```
-
-### 2.3. Declaração de variáveis
+Declaração e inicialização dos tipos básicos:
 
 ```cpp
-int inteiro = 5;
-double decimal = 5.99;
+int numerointeiro = 5;
+double numerosDecimais = 5.99;
 char letra = 'D';
-string texto = "Hello";
-bool ok = true;
-bool erro = false;
+string textos = "Hello";
+bool boleano = true;
 ```
 
-## 3. Entrada e saída
+**Faixas e exemplos (resumo):**
 
-### 3.1. Saída com `cout`
+| Tipo    | Exemplo / Faixa |
+| ------- | ----------------- |
+| `int`   | -2.147.483.648 a 2.147.483.647 |
+| `double`| Ponto flutuante (grande faixa) |
+| `char`  | `'a'`, `'b'` |
+| `string`| `"Hello World"` |
+| `bool`  | `true` ou `false` |
 
-O operador `<<` envia dados para a saída padrão. É possível encadear várias saídas.
+### 3.1. `auto`
+
+O tipo é definido na primeira atribuição e não pode mudar depois. A **inicialização é obrigatória**.
 
 ```cpp
-cout << "Olá";
-cout << nome << endl;  // endl quebra a linha
+auto idade = 10;           // tipo int
+auto nome = string("Ana"); // tipo string
+```
+
+## 4. Entrada e saída
+
+A biblioteca `iostream` (C++) oferece:
+
+- `cout` — saída padrão (console).
+- `cin` — entrada padrão (teclado).
+
+### 4.1. `cout`
+
+Usa-se o operador `<<` para cada parte da saída.
+
+```cpp
+cout << "Olá Mundo" << endl;
 cout << "Idade: " << idade << endl;
 ```
 
-### 3.2. Entrada com `cin`
+**Quebra de linha:** use `\n` ou `endl`.
 
-O operador `>>` lê da entrada padrão (teclado). O tipo da variável define como o valor é interpretado.
+- `\n` — apenas insere quebra de linha.
+- `endl` — insere quebra de linha e faz **flush** do buffer (a saída é mostrada imediatamente).
+
+### 4.2. `cin`
+
+Usado para ler entradas do usuário (oposto do cout).
 
 ```cpp
-int opcao;
-cin >> opcao;
-
-double x, y;
-cin >> x >> y;   // lê dois valores em sequência
+int idade;
+cout << "Digite sua idade: ";
+cin >> idade;
+cout << "Você tem " << idade << " anos." << endl;
 ```
 
-### 3.3. Comparação de strings
+**Atenção:** `cin` lê até espaço ou Enter; ao ler um número, deixa um `\n` no buffer. Para ler uma **linha inteira com espaços**, use `getline()`.
 
-Diferente do C, em C++ podemos comparar `string` com `==`.
+### 4.3. `getline`
+
+Lê o conteúdo inteiro de uma linha (até o `\n`), não deixando nada no buffer.
 
 ```cpp
-string nome = "Sérgio";
+string linha;
+getline(cin, linha);
+```
 
-if (nome == "Sérgio") {
-    cout << "Você é Sérgio.";
-} else {
-    cout << "Você não é Sérgio, você é " << nome << endl;
+**Problema comum:** depois de `cin >> numero`, o `\n` fica no buffer e o próximo `getline` pode ler linha vazia.
+
+Soluções:
+
+- Remover o `\n` do buffer antes do `getline`, ou
+- Ler o número com `getline` e depois converter para o tipo apropriado (veja abaixo).
+
+### 4.4. Conversão de string para número
+
+Funções da biblioteca `<string>` (namespace `std`):
+
+| Função   | Retorno        | Descrição |
+| -------- | -------------- | --------- |
+| `stoi`   | `int`          | string → int |
+| `stol`   | `long`         | string → long |
+| `stoll`  | `long long`    | string → long long |
+| `stoul`  | `unsigned long`| string → unsigned long |
+| `stoull` | `unsigned long long` | string → unsigned long long |
+| `stof`   | `float`        | string → float |
+| `stod`   | `double`       | string → double |
+| `stold`  | `long double`  | string → long double |
+
+Exemplo: `int n = stoi("42");`
+
+### 4.5. Comparação de strings
+
+Em C++ é possível comparar `string` com `==` (diferente do C).
+
+```cpp
+string nome = "Ana";
+if (nome == "Ana") {
+    cout << "Olá, Ana!" << endl;
 }
 ```
 
-## 4. Exercício: calculadora em menu
+## 5. Controle de fluxo
 
-Exemplo que usa `cout`, `cin`, `switch`, `while` e tipos básicos:
+### 5.1. `if` / `else if` / `else`
+
+Executa um bloco de código condicionalmente.
+
+```cpp
+int x = 10;
+if (x > 5) {
+    cout << "Maior que 5" << endl;
+} else if (x == 5) {
+    cout << "Igual a 5" << endl;
+} else {
+    cout << "Menor que 5" << endl;
+}
+```
+
+### 5.2. `switch` / `case`
+
+Seleciona entre vários blocos com base no valor de uma variável. Usado quando há muitas opções.
+
+```cpp
+switch (opcao) {
+    case 1:
+        cout << "Opção 1" << endl;
+        break;
+    case 2:
+        cout << "Opção 2" << endl;
+        break;
+    default:
+        cout << "Outra opção" << endl;
+        break;
+}
+```
+
+- **break** — termina o `switch` (ou o loop). Sem `break`, a execução **cai** no próximo `case`.
+- A partir do **C++17**, é possível inicializar variável dentro do `switch`.
+
+### 5.3. `while`
+
+Repete um bloco **enquanto** a condição for verdadeira.
+
+```cpp
+while (i < 5) {
+    cout << "i = " << i << endl;
+    i++;
+}
+```
+
+- **break** — termina o loop.
+- **continue** — pula para a próxima iteração.
+
+### 5.4. `do-while`
+
+Executa o bloco **pelo menos uma vez** e repete enquanto a condição for verdadeira. A condição é testada **depois** da execução.
+
+```cpp
+do {
+    cout << "j = " << j << endl;
+    j++;
+} while (j < 5);
+```
+
+### 5.5. `for`
+
+Repete um bloco com controle de início, condição e incremento.
+
+```cpp
+for (int i = 0; i < 5; i++) {
+    // Executa 5 vezes
+}
+```
+
+**Range-based for** (percorrer coleção):
+
+```cpp
+vector<int> numeros = {1, 2, 3, 4};
+for (int n : numeros) {
+    cout << n << endl;
+}
+```
+
+## 6. Arrays estáticos e `vector`
+
+### 6.1. Array estático `int[]`
+
+Tamanho **fixo**, definido na inicialização. Não é possível adicionar ou remover elementos.
+
+```cpp
+int numeros[] = {1, 2, 3, 4};
+for (int i = 0; i < 4; i++) {
+    cout << numeros[i] << endl;
+}
+```
+
+### 6.2. `vector` (C++)
+
+Classe da biblioteca padrão que fornece **array dinâmico**: tamanho pode mudar, memória gerenciada automaticamente.
+
+```cpp
+#include <vector>
+
+vector<int> numeros = {1, 2, 3, 4};
+for (int n : numeros) {
+    cout << n << endl;
+}
+numeros.push_back(6);  // Adiciona no fim
+numeros.pop_back();   // Remove do fim
+```
+
+## 7. Exercício: calculadora em menu
+
+Criar um programa que realize operações matemáticas simples (adição, subtração, multiplicação e divisão).
+
+**Requisitos do material:** exibir opções: 1 - Soma; 2 - Subtração; 3 - Divisão; 4 - Multiplicação; **0 - Sair**.
 
 ```cpp
 #include <iostream>
@@ -126,19 +292,19 @@ int main() {
         cout << "2 - Subtração" << endl;
         cout << "3 - Divisão" << endl;
         cout << "4 - Multiplicação" << endl;
-        cout << "5 - Sair" << endl;
+        cout << "0 - Sair" << endl;
         cout << "--------------------------" << endl;
         cout << "Escolha uma opção: ";
         cin >> option;
 
-        if (!(option >= 1 && option <= 5)) {
-            cout << "Opção inválida." << endl;
-            continue;
-        }
-
-        if (option == 5) {
+        if (option == 0) {
             cout << "Saindo..." << endl;
             return 0;
+        }
+
+        if (option < 1 || option > 4) {
+            cout << "Opção inválida." << endl;
+            continue;
         }
 
         cout << "Número 1: ";
