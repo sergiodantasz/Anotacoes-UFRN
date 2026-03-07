@@ -48,24 +48,28 @@ Portanto, 0 é o único elemento neutro da soma. $\blacksquare$
 
 **Demonstração:**
 
-Note que $10 = 3 + 7$, $3$ e $7$ são primos e $10$ é par. $\blacksquare$
+Tome o número 10. Note que ele pode ser escrito na forma $3 + 7$. Como 3 e 7 são primos, logo 10 é par. $\blacksquare$
 
 ## Ex. 3
 
 > [!example] Proposição
-> Existem números irracionais $x$ e $y$ tal que $x^y$ é racional.
+> Existem números irracionais $x$ e $y$ tais que $x^y$ é racional.
 
 **Demonstração:**
 
-> Este é um exemplo de demonstração não construtiva.
+> Este é um exemplo de demonstração não construtiva, pois mostramos que objetos com tais características existem, mas não dizemos quais são.
 
 Sabemos que $\sqrt{2}$ é irracional.
 
-Se $\sqrt{2}^\sqrt{2}$ for racional, tome $x = y = \sqrt{2}$.
+Separo em dois casos a partir de $\sqrt{2}^\sqrt{2}$:
 
-...
+**Caso $\sqrt{2}^\sqrt{2}$ é racional:**
 
-Se $\sqrt{2}^\sqrt{2}$ não for racional, tome $x = \sqrt{2}^\sqrt{2}$ e $y = \sqrt{2}$.
+Tome $x = y = \sqrt{2}$. Pela hipótese do caso, segue que $x^y$ é racional.
+
+**Caso $\sqrt{2}^\sqrt{2}$ é irracional:**
+
+Tome $x = \sqrt{2}^\sqrt{2}$ e $y = \sqrt{2}$.
 
 Calculamos:
 
@@ -73,22 +77,48 @@ $$
 x^y = \left(\sqrt{2}^\sqrt{2}\right)^\sqrt{2} = \sqrt{2}^{\sqrt{2} \cdot \sqrt{2}} = \sqrt{2}^2 = 2
 $$
 
-Como $2 \in \mathbb{Q}$, logo $x^y$ é racional. $\blacksquare$
+Como $2 \in \mathbb{Q}$, logo $x^y$ é racional.
+
+Portanto, concluímos que existem números irracionais $x$ e $y$ tais que $x^y$ é racional. $\blacksquare$
 
 ## Ex. 4
 
 > [!example] Proposição
-> Para todo $n \in \mathbb{N}^*$, $1 + 1 + 3 + \cdots + n = \frac{n(n + 1)}{2} = \sum_{i = 1}^n{i}$.
+> Para todo $n \in \mathbb{N}^*$, $1 + 2 + 3 + \cdots + n = \frac{n(n + 1)}{2} = \sum_{i = 1}^n{i}$.
 
 **Demonstração (por indução):**
 
-**Caso base:** $n = 1$.
+**Caso base ($n = 1$):**
+
+Calculamos:
 
 $$
-1 = \frac{1(1 + 1)}{2} = \frac{2}{2}
+1 = \frac{1(1 + 1)}{2} = \frac{2}{2} = 1
 $$
 
-[foto]
+Logo a propriedade é válida para $n = 1$.
+
+**Passo indutivo:**
+
+> **HI:** $1 + 2 + \cdots + k = \frac{k(k + 1)}{2}$, para $k \geq 1$.
+
+Queremos demonstrar que a propriedade é válida para $k + 1$.
+
+Calculamos:
+
+$$
+\begin{align}
+\sum_{i = 1}^{k + 1}{i} &= \sum_{i = 1}^{k}{i} + (k + 1) \\
+                        &= \frac{k(k + 1)}{2} + (k + 1) &\quad& (\text{HI}) \\
+                        &= \frac{k(k + 1) + 2(k + 1)}{2} \\
+                        &= \frac{(k + 1)(k + 2)}{2} \\
+                        &= \frac{(k + 1)((k + 1) + 1)}{2}
+\end{align}
+$$
+
+Logo a propriedade é válida para $n = k + 1$.
+
+Portanto, pelo princípio da indução matemática, concluímos a demonstração. $\blacksquare$
 
 ## Ex. 5
 
@@ -124,7 +154,34 @@ Portanto, 1 é o único elemento neutro da multiplicação. $\blacksquare$
 
 **Demonstração (por indução):**
 
-...
+**Caso base ($n = 1$):**
+
+Calculamos:
+
+$$
+1 = 1^2 = 1
+$$
+
+Logo a propriedade é válida para $n = 1$.
+
+**Passo indutivo:**
+
+> **HI:** $1 + 3 + \cdots + (2k - 1) = k^2$, para $k \geq 1$.
+
+Calculamos:
+
+$$
+\begin{align}
+\sum_{i = 1}^{k + 1}{2i - 1} &= \sum_{i = 1}^{k}{2i - 1} + (2(k + 1) - 1) \\
+                             &= k^2 + 2k + 2 - 1 &\quad& (\text{HI}) \\
+                             &= k^2 + 2k + 1 \\
+                             &= (k + 1)^2
+\end{align}
+$$
+
+Logo a propriedade vale para $n = k + 1$.
+
+Portanto, concluímos a demonstração. $\blacksquare$
 
 ## Ex. 7
 
@@ -133,7 +190,45 @@ Portanto, 1 é o único elemento neutro da multiplicação. $\blacksquare$
 
 **Demonstração (por indução):**
 
-...
+**Caso base ($n = 1$):**
+
+Calculamos:
+
+$$
+1 = \frac{1(1 + 1)(2 \cdot 1 + 1)}{6} = \frac{1 \cdot 2 \cdot 3}{6} = 1
+$$
+
+Logo a propriedade é válida para $n = 1$.
+
+**Passo indutivo:**
+
+> **HI:** $1^2 + 2^2 + \cdots + k^2 = \frac{k(k + 1)(2k + 1)}{6}$, para $k \geq 1$.
+
+Calculamos:
+
+$$
+\begin{align}
+\sum_{i = 1}^{k + 1}{i^2} &= \sum_{i = 1}^{k}{i^2} + (k + 1)^2 \\
+                          &= \frac{k(k + 1)(2k + 1)}{6} + (k + 1)^2 &\quad& (\text{HI}) \\
+                          &= \frac{k(k + 1)(2k + 1) + 6(k + 1)^2}{6} \\
+                          &= \frac{(k + 1)(k(2k + 1) + 6(k + 1))}{6} \\
+                          &= \frac{(k + 1)(2k^2 + k + 6k + 6)}{6} \\
+                          &= \frac{(k + 1)(2k^2 + 7k + 6)}{6} \\
+                          &= \frac{(k + 1)\left((k + 2)\left(k + \frac{3}{2}\right)\right)}{6} \\
+                          &= \frac{(k + 1)()}{6}
+\end{align}
+$$
+
+$\frac{(k + 1)((k + 1) + 1)(2(k + 1) + 1)}{6}$
+
+_ + _ = -7/2
+_ * _ = 3
+
+delta = 49 - 4.2.6 = 49 - 48 = 1
+
+k = (-7 +/- 1)/(4)
+k1 = -6/4 = -3/2
+k2 = -8/4 = -2
 
 ## Ex. 8
 
