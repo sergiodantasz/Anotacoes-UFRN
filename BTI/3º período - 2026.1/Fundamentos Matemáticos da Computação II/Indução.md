@@ -86,8 +86,6 @@ Portanto, concluímos que existem números irracionais $x$ e $y$ tais que $x^y$ 
 > [!example] Proposição
 > Para todo $n \in \mathbb{N}^*$, $1 + 2 + 3 + \cdots + n = \frac{n(n + 1)}{2} = \sum_{i = 1}^n{i}$.
 
-Seja $n \in \mathbb{N}^*$.
-
 **Demonstração (por indução):**
 
 **Caso base ($n = 1$):**
@@ -156,8 +154,6 @@ Portanto, 1 é o único elemento neutro da multiplicação. $\blacksquare$
 
 **Demonstração (por indução):**
 
-Seja $n \in \mathbb{N}^*$.
-
 **Caso base ($n = 1$):**
 
 Calculamos:
@@ -193,8 +189,6 @@ Portanto, concluímos a demonstração. $\blacksquare$
 > Para todo $n \in \mathbb{N}^*$, $1^2 + 2^2 + \cdots + n^2 = \frac{n(n + 1)(2n + 1)}{6}$.
 
 **Demonstração (por indução):**
-
-Seja $n \in \mathbb{N}^*$.
 
 **Caso base ($n = 1$):**
 
@@ -237,8 +231,6 @@ Portanto, concluímos a demonstração. $\blacksquare$
 
 **Demonstração (por indução):**
 
-Seja $n \in \mathbb{N}$.
-
 **Case base ($n = 0$):**
 
 Calculamos:
@@ -274,8 +266,6 @@ Portanto, concluímos a demonstração. $\blacksquare$
 > Para todo $n \in \mathbb{N}$, $n < 2^n$.
 
 **Demonstração (por indução):**
-
-Seja $n \in \mathbb{N}$.
 
 **Caso base ($n = 0$):**
 
