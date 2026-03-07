@@ -86,6 +86,8 @@ Portanto, concluímos que existem números irracionais $x$ e $y$ tais que $x^y$ 
 > [!example] Proposição
 > Para todo $n \in \mathbb{N}^*$, $1 + 2 + 3 + \cdots + n = \frac{n(n + 1)}{2} = \sum_{i = 1}^n{i}$.
 
+Seja $n \in \mathbb{N}^*$.
+
 **Demonstração (por indução):**
 
 **Caso base ($n = 1$):**
@@ -154,6 +156,8 @@ Portanto, 1 é o único elemento neutro da multiplicação. $\blacksquare$
 
 **Demonstração (por indução):**
 
+Seja $n \in \mathbb{N}^*$.
+
 **Caso base ($n = 1$):**
 
 Calculamos:
@@ -190,6 +194,8 @@ Portanto, concluímos a demonstração. $\blacksquare$
 
 **Demonstração (por indução):**
 
+Seja $n \in \mathbb{N}^*$.
+
 **Caso base ($n = 1$):**
 
 Calculamos:
@@ -214,30 +220,53 @@ $$
                           &= \frac{(k + 1)(k(2k + 1) + 6(k + 1))}{6} \\
                           &= \frac{(k + 1)(2k^2 + k + 6k + 6)}{6} \\
                           &= \frac{(k + 1)(2k^2 + 7k + 6)}{6} \\
-                          &= \frac{(k + 1)\left((k + 2)\left(k + \frac{3}{2}\right)\right)}{6} \\
-                          &= \frac{(k + 1)()}{6}
+                          &= \frac{(k + 1)((k + 2)(2k + 3))}{6} \\
+                          &= \frac{(k + 1)((k + 1) + 1)(2k + 2 + 1)}{6} \\
+                          &= \frac{(k + 1)((k + 1) + 1)(2(k + 1) + 1)}{6} \\
 \end{align}
 $$
 
-$\frac{(k + 1)((k + 1) + 1)(2(k + 1) + 1)}{6}$
+Logo a propriedade é válida para $n = k + 1$.
 
-_ + _ = -7/2
-_ * _ = 3
-
-delta = 49 - 4.2.6 = 49 - 48 = 1
-
-k = (-7 +/- 1)/(4)
-k1 = -6/4 = -3/2
-k2 = -8/4 = -2
+Portanto, concluímos a demonstração. $\blacksquare$
 
 ## Ex. 8
 
 > [!example] Proposição
-> Para todo $n \in \mathbb{N}^*$, $2^0 + 2^1 + 2^2 + \cdots + 2^n = 2^{n + 1} - 1$.
+> Para todo $n \in \mathbb{N}$, $2^0 + 2^1 + 2^2 + \cdots + 2^n = 2^{n + 1} - 1$.
 
 **Demonstração (por indução):**
 
-...
+Seja $n \in \mathbb{N}$.
+
+**Case base ($n = 0$):**
+
+Calculamos:
+
+$$
+2^0 = 1 = 2^{0 + 1} - 1 = 2 - 1 = 1
+$$
+
+Logo a propriedade é válida para $n = 0$.
+
+**Passo indutivo:**
+
+> **HI:** $2^0 + 2^1 + 2^2 + \cdots + 2^k = 2^{k + 1} - 1$, para $k \geq 0$.
+
+Calculamos:
+
+$$
+\begin{align}
+\sum_{i = 0}^{k + 1}{2^i} &= \sum_{i = 0}^{k}{2^i} + 2^{k + 1} \\
+	                      &= 2^{k + 1} - 1 + 2^{k + 1} &\quad& (\text{HI}) \\
+	                      &= 2 \cdot 2^{k + 1} - 1 \\
+	                      &= 2^{(k + 1) + 1} - 1
+\end{align}
+$$
+
+Logo a propriedade é válida para $n = k + 1$.
+
+Portanto, concluímos a demonstração. $\blacksquare$
 
 ## Ex. 9
 
@@ -246,4 +275,30 @@ k2 = -8/4 = -2
 
 **Demonstração (por indução):**
 
-...
+Seja $n \in \mathbb{N}$.
+
+**Caso base ($n = 0$):**
+
+Calculamos:
+
+$$
+2^0 = 1 > 0
+$$
+
+Logo a propriedade é válida para $n = 0$.
+
+**Passo indutivo:**
+
+> **HI:** $k < 2^k$, para $k \geq 0$.
+
+Como $k \geq 0$, temos $2^k \geq 2^0 = 1$ (1).
+
+Somando (1) e (HI):
+
+$$
+k + 1 < 2^k + 2^k = 2 \cdot 2^k = 2^{k + 1}
+$$
+
+Logo a propriedade é válida para $n = k + 1$.
+
+Portanto, concluímos a demonstração. $\blacksquare$
