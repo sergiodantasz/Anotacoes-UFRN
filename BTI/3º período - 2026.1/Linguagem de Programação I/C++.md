@@ -77,7 +77,7 @@ O operador `<<` envia dados para a saída padrão. É possível encadear várias
 
 ```cpp
 cout << "Olá";
-cout << nome << endl;           // endl quebra a linha
+cout << nome << endl;  // endl quebra a linha
 cout << "Idade: " << idade << endl;
 ```
 
@@ -108,7 +108,6 @@ if (nome == "Sérgio") {
 ```
 
 ## 4. Exercício: calculadora em menu
-
 
 Exemplo que usa `cout`, `cin`, `switch`, `while` e tipos básicos:
 
