@@ -142,15 +142,13 @@ Sejam $A$, $B$, $C$ e $D$ conjuntos quaisquer. Demonstre ou refute:
 
 **1)** $\emptyset \subseteq A$
 
-Como o conjunto vazio é subconjunto de todo conjunto (exceto ele mesmo), então $\emptyset \subseteq A$.
+Suponha, por contradição, que $\emptyset \nsubseteq A$. Ou seja, existe $x$ tal que $x \in \emptyset$ e $x \notin A$. Isso é um absurdo, pois $\emptyset$ não possui nenhum elemento. $\blacksquare$
 
 **2)** $A \subseteq A$
 
-Pela reflexividade, é imediato que $A \subseteq A$.
+Seja $x \in A$. Logo $x \in A$. $\blacksquare$
 
 **3)** $A \subseteq A \cup B$
-
-Pela definição de união, $x \in A \cup B$ se, e somente se, $x \in A$ ou $x \in B$. Como todos os elementos de $A$ pertencem a $A \cup B$, logo $A \subseteq A \cup B$.
 
 **4)** $A \cup u = u$
 
@@ -162,11 +160,51 @@ Pela definição de união, $x \in A \cup B$ se, e somente se, $x \in A$ ou $x \
 
 **8)** $(A \cup B) \cup C = A \cup (B \cup C)$
 
+Calculamos:
+
+$$
+\begin{align}
+(A \cup B) \cup C &= \{ x \mid x \in A \cup B \lor x \in C \} \\
+                  &= \{ x \mid (x \in A \lor x \in B) \lor x \in C \} \\
+                  &= \{ x \mid x \in A \lor (x \in B \lor x \in C) \} \\
+                  &= \{ x \mid x \in A \lor x \in B \cup C \} \\
+                  &= A \cup (B \cup C)
+\end{align}
+$$
+
+Logo a união é associativa. $\blacksquare$
+
 **9)** $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
 
 **10)** $A \cap B = A \cup B$
 
+Vamos apresentar um contra-exemplo.
+
+Tome $A = \{ 1 \}$ e $B = \{ 2 \}$. Veja que $A \cap B = \emptyset$ e $A \cup B = \{ 1, 2 \}$.
+
+Como $A \cap B \neq A \cup B$, logo a afirmação é falsa. $\blacksquare$
+
 **11)** $A \subseteq B \implies A \cap B = A$
+
+Suponha que $A \subseteq B$.
+
+Vamos mostrar que $A \cap B \subseteq A$ e $A \subseteq A \cap B$.
+
+**Parte $A \cap B \subseteq A$:**
+
+Seja $x \in A \cap B$.
+
+Pela definição de interseção, $x \in A$ e $x \in B$. Logo $x \in A$.
+
+**Parte $A \subseteq A \cap B$:**
+
+Seja $x \in A$.
+
+Pela hipótese inicial, $x \in B$.
+
+Pela definição de interseção, $x \in A \cap B$.
+
+Pelas duas partes, segue que $A \cap B = A$. $\blacksquare$
 
 **12)** $A \subseteq B \implies A \cup B = B$
 
