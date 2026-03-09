@@ -29,10 +29,16 @@ A população diz respeito a todos os elementos que podem participar da pesquisa
 
 ## Variável Estatística
 
-É a característica ou propriedade que será estudada/observada na população. São divididas em:
+É a característica ou propriedade que será estudada/observada na população. São divididas nos seguintes tipos:
 
 - Qualitativas: Nominais e Ordinais;
 - Quantitativas: Discretas e Contínuas.
+
+A variável é qualitativa quando a resposta é uma palavra; e quantitativa quando é um número.
+
+Quando a resposta é um número natural, a variável é quantitativa discreta; quando é um número decimal, é quantitativa contínua.
+
+Quando a resposta é uma palavra que possui ordenação, a variável é qualitativa ordinal; quando não é ordinal, é qualitativa nominal.
 
 ## Fases do Método Estatístico
 
