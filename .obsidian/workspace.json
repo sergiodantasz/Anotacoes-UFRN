@@ -11,10 +11,14 @@
             "id": "b971ed0653e81706",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "BTI/3º período - 2026.1/Probabilidade/Introdução à Probabilidade.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Introdução à Probabilidade"
             }
           }
         ]
@@ -179,6 +183,8 @@
   },
   "active": "b971ed0653e81706",
   "lastOpenFiles": [
+    "BTI/3º período - 2026.1/Probabilidade/Introdução à Probabilidade.md",
+    "BTI/3º período - 2026.1/Probabilidade",
     "BTI/3º período - 2026.1/Linguagem de Programação I/C++.md",
     "BTI/3º período - 2026.1/Linguagem de Programação I/C.md",
     "BTI/3º período - 2026.1/Linguagem de Programação I/teste.md",
@@ -202,7 +208,6 @@
     "BTI/2º período - 2025.2/Cálculo Diferencial e Integral I/Derivadas.md",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I.synctex(busy)",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I - Unidade 3.synctex(busy)",
-    "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I - Unidade 3.synctex.gz",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Untitled.md",
     "BTI/1º período - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image.png",
@@ -223,7 +228,6 @@
     "Excalidraw/Drawing 2025-07-15 17.02.25.excalidraw.md",
     "Excalidraw/Drawing 2025-07-15 15.34.52.excalidraw.md",
     "Excalidraw/Drawing 2025-07-15 14.12.41.excalidraw.md",
-    "Excalidraw/Drawing 2025-07-15 11.44.53.excalidraw.md",
-    "BTI/1º período - 2025.1/Geometria Euclidiana/6. Axioma das Paralelas.md"
+    "Excalidraw/Drawing 2025-07-15 11.44.53.excalidraw.md"
   ]
 }
