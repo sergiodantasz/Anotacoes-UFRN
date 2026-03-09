@@ -27,6 +27,10 @@ A população diz respeito a todos os elementos que podem participar da pesquisa
 - Amostragem Sistemática;
 - Amostragem por Conglomerado.
 
+## Fenômeno
+
+O fenômeno é o acontecimento ou processo da realidade que queremos analisar através dos dados.
+
 ## Variável Estatística
 
 É a característica ou propriedade que será estudada/observada na população. São divididas nos seguintes tipos:
@@ -50,3 +54,49 @@ O método estatístico é subdividido nas seguintes fases:
 - Apuração dos dados;
 - Exposição dos dados;
 - Análise dos resultados.
+
+# Exercícios
+
+## Ex. 1
+
+**Classifique cada um dos dados abaixo como qualitativo nominal, qualitativo ordinal, quantitativo discreto e quantitativo contínuo:**
+
+**a) Número de downloads de um aplicativo em um dia.**
+
+Quantitativo discreto.
+
+**b) Sistema operacional utilizado por um usuário (Windows, Linux, MacOS).**
+
+Qualitativo nominal.
+
+**c) Tempo de execução de um algoritmo (em segundos).**
+
+Quantitativo contínuo.
+
+**d) Nível de satisfação do usuário (baixo, médio, alto).**
+
+Qualitativo ordinal.
+
+**e) Número de erros registrados em um servidor.**
+
+Quantitativo discreto.
+
+## Ex. 2
+
+**Um professor deseja estudar o tempo que estudantes levam para executar um programa em Python durante um laboratório. Ele registrou os seguintes tempos (em segundos):**
+
+**12, 15, 11, 14, 13, 12, 16, 14, 13, 12**
+
+**Construa uma tabela simples de dados e identifique:**
+
+**a) Qual é o fenômeno estudado.**
+
+Tempo que estudantes levam para executar um programa em Python durante o laboratório.
+
+**b) Qual é a variável observada.**
+
+Tempo de execução do programa.
+
+**c) Qual é o tipo de dado.**
+
+Quantitativo contínuo.
