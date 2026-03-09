@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1009bc9ae84c5963",
+        "id": "09acf5e469e3bc0c",
         "type": "tabs",
         "children": [
           {
-            "id": "1e566b88b1fe4730",
+            "id": "ccbde66be5df7c20",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Teoria dos Conjuntos.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Teoria dos Conjuntos"
+              "title": "New tab"
             }
           }
         ]
@@ -181,12 +177,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1e566b88b1fe4730",
+  "active": "ccbde66be5df7c20",
   "lastOpenFiles": [
+    "BTI/3º período - 2026.1/Linguagem de Programação I/C++.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Teoria dos Conjuntos.md",
     "BTI/3º período - 2026.1/Probabilidade/Introdução à Probabilidade.md",
     "BTI/3º período - 2026.1/Probabilidade",
-    "BTI/3º período - 2026.1/Linguagem de Programação I/C++.md",
     "BTI/3º período - 2026.1/Linguagem de Programação I/C.md",
     "BTI/3º período - 2026.1/Linguagem de Programação I/teste.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Indução.md",
