@@ -11,10 +11,14 @@
             "id": "998c184f782e3290",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "BTI/3º período - 2026.1/Linguagem de Programação I/C++.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "C++"
             }
           }
         ]
@@ -177,7 +181,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "871ba8da18c41075",
+  "active": "998c184f782e3290",
   "lastOpenFiles": [
     "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/Metadados",
     "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/Metadados/ai-ml-dl.png",
