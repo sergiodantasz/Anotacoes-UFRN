@@ -251,6 +251,7 @@ Tamanho **fixo**, definido na inicialização. Não é possível adicionar ou re
 
 ```cpp
 int numeros[] = {1, 2, 3, 4};
+
 for (int i = 0; i < 4; i++) {
     cout << numeros[i] << endl;
 }
@@ -264,14 +265,29 @@ Classe da biblioteca padrão que fornece **array dinâmico**: tamanho pode mudar
 #include <vector>
 
 vector<int> numeros = {1, 2, 3, 4};
+
 for (int n : numeros) {
     cout << n << endl;
 }
+
 numeros.push_back(6);  // Adiciona no fim
 numeros.pop_back();   // Remove do fim
 ```
 
-## 7. Exercício: calculadora em menu
+# 7. `struct` com ponteiro
+
+
+```cpp
+struct Pessoa {
+	string nome;
+	int idade;
+}
+
+Pessoa p = new Pessoa();
+```
+
+
+## Exercício: calculadora em menu
 
 Criar um programa que realize operações matemáticas simples (adição, subtração, multiplicação e divisão).
 
