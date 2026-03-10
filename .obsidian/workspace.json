@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "47c864a31e4b2dca",
+        "id": "40b0042a898df891",
         "type": "tabs",
         "children": [
           {
-            "id": "75b0dc081e8c7536",
+            "id": "998c184f782e3290",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -179,6 +179,12 @@
   },
   "active": "871ba8da18c41075",
   "lastOpenFiles": [
+    "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/Metadados",
+    "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/Metadados/ai-ml-dl.png",
+    "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/Introdução ao Aprendizado de Máquina.md",
+    "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/2-análise exploratória de dados.ipynb",
+    "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/1-introdução ao AM.ipynb",
+    "BTI/3º período - 2026.1/Estrutura de Dados Básicas I/U1.md",
     "BTI/3º período - 2026.1/Probabilidade/Introdução à Probabilidade.md",
     "BTI/3º período - 2026.1/Linguagem de Programação I/C++.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Teoria dos Conjuntos.md",
@@ -190,8 +196,6 @@
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Demonstração Direta e por Contraposição.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Aula 6 de março.md",
     "BTI/3º período - 2026.1/Arquitetura de Computadores",
-    "BTI/3º período - 2026.1/Estrutura de Dados Básicas I/U1.md",
-    "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/U1.md",
     "BTI/3º período - 2026.1/Linguagem de Programação I",
     "BTI/3º período - 2026.1/Estrutura de Dados Básicas I",
     "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado",
@@ -203,8 +207,6 @@
     "BTI/3º período - 2026.1",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Notas.pdf",
     "BTI/2º período - 2025.2/Cálculo Diferencial e Integral I/Derivadas.md",
-    "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I.synctex(busy)",
-    "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Atividade de FMC I - Unidade 3.synctex(busy)",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/Untitled.md",
     "BTI/1º período - 2025.1/Matemática Elementar/2. Equações e Inequações.md",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image.png",
@@ -217,13 +219,11 @@
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-42.png",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-41.png",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-40.png",
-    "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-39.png",
     "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/U1/Anotações.md",
     "BTI/1º período - 2025.1/Matemática Elementar/7. Funções Trigonométricas.md",
     "BTI/1º período - 2025.1/Matemática Elementar/Informações.md",
     "Excalidraw/Drawing 2025-07-15 17.09.21.excalidraw.md",
     "Excalidraw/Drawing 2025-07-15 17.02.25.excalidraw.md",
-    "Excalidraw/Drawing 2025-07-15 15.34.52.excalidraw.md",
-    "Excalidraw/Drawing 2025-07-15 14.12.41.excalidraw.md"
+    "Excalidraw/Drawing 2025-07-15 15.34.52.excalidraw.md"
   ]
 }
