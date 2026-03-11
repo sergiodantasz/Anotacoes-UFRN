@@ -53,7 +53,7 @@ $$
 
 # Cardinalidade
 
-A cardinalidade de um conjunto é a quantidade de elementos que o conjunto possui.
+A cardinalidade de um conjunto é a quantidade de elementos que o conjunto possui. É representado por $|C|$, onde $C$ é um conjunto.
 
 $$
 \displaylines{
@@ -136,21 +136,28 @@ $$
 
 # Exercícios
 
+> Sejam $A$, $B$, $C$ e $D$ conjuntos quaisquer. Demonstre ou refute as proposições abaixo.
+
 ## Ex. 1
 
-Sejam $A$, $B$, $C$ e $D$ conjuntos quaisquer. Demonstre ou refute:
-
-**1)** $\emptyset \subseteq A$
+> [!example] Proposição
+> $\emptyset \subseteq A$
 
 Suponha, por contradição, que $\emptyset \nsubseteq A$. Ou seja, existe $x$ tal que $x \in \emptyset$ e $x \notin A$. Isso é um absurdo, pois $\emptyset$ não possui nenhum elemento.
 
 Logo $\emptyset \subseteq A$. $\blacksquare$
 
-**2)** $A \subseteq A$
+## Ex. 2
+
+> [!example] Proposição
+> $A \subseteq A$
 
 Seja $x \in A$. Logo $x \in A$. $\blacksquare$
 
-**3)** $A \subseteq A \cup B$
+## Ex. 3
+
+> [!example] Proposição
+> $A \subseteq A \cup B$
 
 Seja $x \in A$.
 
@@ -158,7 +165,10 @@ Pela definição de união, $x \in A$ ou $x \in B$.
 
 Como $x \in A$, logo $A \subseteq A \cup B$. $\blacksquare$
 
-**4)** $A \cup u = u$
+## Ex. 4
+
+> [!example] Proposição
+> $A \cup u = u$
 
 Seja $x \in A \cup u$. Pela definição de união, $x \in A$ ou $x \in u$.
 
@@ -175,7 +185,10 @@ Seja $x \in u$. Então $x \in A \cup u$, pois $x \in u$.
 
 Pelas duas partes, temos $A \cup u = u$. $\blacksquare$
 
-**5)** $A \cap u = A$
+## Ex. 5
+
+> [!example] Proposição
+> $A \cap u = A$
 
 Vamos separar em duas partes:
 
@@ -189,7 +202,10 @@ Se $x \in A$, então como $u$ é o universo, $x \in u$. Logo $x \in A \cap u$.
 
 Pelas duas partes, $A \cap u = A$. $\blacksquare$
 
-**6)** $A \cup \emptyset = A$
+## Ex. 6
+
+> [!example] Proposição
+> $A \cup \emptyset = A$
 
 **Parte $A \cup \emptyset \subseteq A$:**
 
@@ -203,7 +219,10 @@ Se $x \in A$, então, por definição, $x \in A \cup \emptyset$.
 
 Pelas duas partes, $A \cup \emptyset = A$. $\blacksquare$
 
-**7)** $A \cap \emptyset = \emptyset$
+## Ex. 7
+
+> [!example] Proposição
+> $A \cap \emptyset = \emptyset$
 
 Suponha, por contradição, que $A \cap \emptyset \neq \emptyset$.
 
@@ -211,7 +230,10 @@ Então existe $x \in A \cap \emptyset$. Logo, por definição, $x \in A$ e $x \i
 
 Logo $A \cap \emptyset = \emptyset$. $\blacksquare$
 
-**8)** $(A \cup B) \cup C = A \cup (B \cup C)$
+## Ex. 8
+
+> [!example] Proposição
+> $(A \cup B) \cup C = A \cup (B \cup C)$
 
 Calculamos:
 
@@ -227,7 +249,10 @@ $$
 
 Logo a união é associativa. $\blacksquare$
 
-**9)** $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
+## Ex. 9
+
+> [!example] Proposição
+> $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
 
 Calculamos:
 
@@ -243,7 +268,10 @@ $$
 
 Logo a interseção distribui sobre a união. $\blacksquare$
 
-**10)** $A \cap B = A \cup B$
+## Ex. 10
+
+> [!example] Proposição
+> $A \cap B = A \cup B$
 
 Vamos apresentar um contra-exemplo.
 
@@ -251,7 +279,10 @@ Tome $A = \{ 1 \}$ e $B = \{ 2 \}$. Veja que $A \cap B = \emptyset$ e $A \cup B 
 
 Como $A \cap B \neq A \cup B$, logo a afirmação é falsa. $\blacksquare$
 
-**11)** $A \subseteq B \implies A \cap B = A$
+## Ex. 11
+
+> [!example] Proposição
+> $A \subseteq B \implies A \cap B = A$
 
 Suponha que $A \subseteq B$ (H).
 
@@ -267,7 +298,10 @@ Seja $x \in A$. Por (H), temos que $x \in B$. Pela definição de interseção, 
 
 Logo, pelas duas partes, segue que $A \cap B = A$. $\blacksquare$
 
-**12)** $A \subseteq B \implies A \cup B = B$
+## Ex. 12
+
+> [!example] Proposição
+> $A \subseteq B \implies A \cup B = B$
 
 Suponha que $A \subseteq B$.
 
@@ -286,7 +320,10 @@ Pela definição de união, $x \in A$ ou $x \in B$. Como $x \in B$, logo $x \in 
 
 Pelas duas partes, $A \subseteq B \implies A \cup B = B$. $\blacksquare$
 
-**13)** $A \times (B \cup C) = (A \times B) \cup (A \times C)$
+## Ex. 13
+
+> [!example] Proposição
+> $A \times (B \cup C) = (A \times B) \cup (A \times C)$
 
 Calculamos:
 
@@ -301,7 +338,10 @@ $$
 
 Logo concluímos a demonstração. $\blacksquare$
 
-**14)** $P(A \cup B) = P(A) \cup P(B)$
+## Ex. 14
+
+> [!example] Proposição
+> $P(A \cup B) = P(A) \cup P(B)$
 
 Vamos refutar essa afirmação apresentando um contra-exemplo.
 
