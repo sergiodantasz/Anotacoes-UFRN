@@ -142,7 +142,9 @@ Sejam $A$, $B$, $C$ e $D$ conjuntos quaisquer. Demonstre ou refute:
 
 **1)** $\emptyset \subseteq A$
 
-Suponha, por contradição, que $\emptyset \nsubseteq A$. Ou seja, existe $x$ tal que $x \in \emptyset$ e $x \notin A$. Isso é um absurdo, pois $\emptyset$ não possui nenhum elemento. $\blacksquare$
+Suponha, por contradição, que $\emptyset \nsubseteq A$. Ou seja, existe $x$ tal que $x \in \emptyset$ e $x \notin A$. Isso é um absurdo, pois $\emptyset$ não possui nenhum elemento.
+
+Logo $\emptyset \subseteq A$. $\blacksquare$
 
 **2)** $A \subseteq A$
 
@@ -150,13 +152,61 @@ Seja $x \in A$. Logo $x \in A$. $\blacksquare$
 
 **3)** $A \subseteq A \cup B$
 
+Seja $x \in A$. Pela definição de união, $x \in A$ ou $x \in B$.
+
+Como $x \in A$ em ambos os casos, logo $A \subseteq A \cup B$. $\blacksquare$
+
 **4)** $A \cup u = u$
+
+Seja $x \in A \cup u$. Pela definição de união, $x \in A$ ou $x \in u$.
+
+Vamos separar a demonstração em duas partes:
+
+**Parte $A \cup u \subseteq u$:**
+
+Como $x \in u$, logo $A \cup u \subseteq u$.
+
+**Parte $u \subseteq A \cup u$:**
+
+De forma análoga, segue que $u \subseteq A \cup u$.
+
+Pelas duas partes, logo $A \cup u = u$. $\blacksquare$
 
 **5)** $A \cap u = A$
 
+Seja $x \in A \cap u$. Pela definição de interseção, $x \in A$ (1) e $x \in u$ (2).
+
+**Parte $A \cap u \subseteq A$:**
+
+De (1) e (2), segue que $x \in A$.
+
+**Parte $A \subseteq A \cap u$:**
+
+De forma análoga, temos $x \in A \cap u$.
+
+Pelas duas partes, $A \cap u = A$. $\blacksquare$
+
 **6)** $A \cup \emptyset = A$
 
+Seja $x \in A \cup \emptyset$. Por definição, $x \in A$ ou $x \in \emptyset$.
+
+**Parte $A \cup \emptyset \subseteq A$:**
+
+Como $x \in A \cup \emptyset$, então $x \in A$.
+
+**Parte $A \subseteq A \cup \emptyset$:**
+
+Sabemos que $x \in A$ ou $x \in \emptyset$. Logo $x \in A \cup \emptyset$.
+
+Pelas duas partes, $A \cup \emptyset = A$. $\blacksquare$
+
 **7)** $A \cap \emptyset = \emptyset$
+
+Suponha, por contradição, que $A \cap \emptyset \neq \emptyset$.
+
+Então existe $x \in A \cap \emptyset$. Logo, por definição, $x \in A$ e $x \in \emptyset$. Absurdo, pois $\emptyset$ não tem nenhum elemento.
+
+Logo $A \cap \emptyset = \emptyset$. $\blacksquare$
 
 **8)** $(A \cup B) \cup C = A \cup (B \cup C)$
 
@@ -176,6 +226,23 @@ Logo a união é associativa. $\blacksquare$
 
 **9)** $A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
 
+Calculamos:
+
+$$
+\begin{align}
+A \cap (B \cup C) &= \{ x \mid x \in A \land x \in B \cup C \} \\
+                  &= \{ x \mid x \in A \land (x \in B \lor x \in C) \} \\
+                  &= \{ x \mid x \in A \cup A \land (x \in B \lor x \in C) \} \\
+                  &= \{ x \mid (x \in A \lor x \in A) \land (x \in B \lor x \in C) \} \\
+                  &= \{ x \mid x \in A \lor (x \in A \land x \in B) \lor x \in C \} \\
+                  &= \{ x \mid  \}
+                  \\
+                  &= \{ x \mid (x \in A \land x \in B) \lor (x \in A \land x \in C) \} \\
+                  &= \{ x \mid (x \in A \cap B) \lor (x \in A \cap C) \} \\
+                  &= (A \cap B) \cup (A \cap C)
+\end{align}
+$$
+
 **10)** $A \cap B = A \cup B$
 
 Vamos apresentar um contra-exemplo.
@@ -186,25 +253,19 @@ Como $A \cap B \neq A \cup B$, logo a afirmação é falsa. $\blacksquare$
 
 **11)** $A \subseteq B \implies A \cap B = A$
 
-Suponha que $A \subseteq B$.
+Suponha que $A \subseteq B$ (H).
 
 Vamos mostrar que $A \cap B \subseteq A$ e $A \subseteq A \cap B$.
 
 **Parte $A \cap B \subseteq A$:**
 
-Seja $x \in A \cap B$.
-
-Pela definição de interseção, $x \in A$ e $x \in B$. Logo $x \in A$.
+Seja $x \in A \cap B$. Pela definição de interseção, $x \in A$ e $x \in B$. Logo $x \in A$.
 
 **Parte $A \subseteq A \cap B$:**
 
-Seja $x \in A$.
+Seja $x \in A$. Por (H), temos que $x \in B$. Pela definição de interseção, $x \in A \cap B$.
 
-Pela hipótese inicial, $x \in B$.
-
-Pela definição de interseção, $x \in A \cap B$.
-
-Pelas duas partes, segue que $A \cap B = A$. $\blacksquare$
+Logo, pelas duas partes, segue que $A \cap B = A$. $\blacksquare$
 
 **12)** $A \subseteq B \implies A \cup B = B$
 
