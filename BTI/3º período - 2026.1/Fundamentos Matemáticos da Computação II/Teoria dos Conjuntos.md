@@ -1,4 +1,4 @@
-# Teoria dos Conjuntos
+# Introdução
 
 Um conjunto é uma coleção de elementos que a ordem não importa e não há elementos repetidos.
 
