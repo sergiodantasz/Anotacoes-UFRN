@@ -232,15 +232,13 @@ $$
 \begin{align}
 A \cap (B \cup C) &= \{ x \mid x \in A \land x \in B \cup C \} \\
                   &= \{ x \mid x \in A \land (x \in B \lor x \in C) \} \\
-                  &= \{ x \mid x \in A \cap A \land (x \in B \lor x \in C) \} \\
-                  &= \{ x \mid (x \in A \land x \in A) \land (x \in B \lor x \in C) \} \\
-                  &= \{ x \mid (x \in A \land x \in A) \land (x \in B \lor x \in C) \} \\
-                  \\
                   &= \{ x \mid (x \in A \land x \in B) \lor (x \in A \land x \in C) \} \\
                   &= \{ x \mid (x \in A \cap B) \lor (x \in A \cap C) \} \\
                   &= (A \cap B) \cup (A \cap C)
 \end{align}
 $$
+
+Logo a interseção distribui sobre a união. $\blacksquare$
 
 **10)** $A \cap B = A \cup B$
 
@@ -267,6 +265,18 @@ Seja $x \in A$. Por (H), temos que $x \in B$. Pela definição de interseção, 
 Logo, pelas duas partes, segue que $A \cap B = A$. $\blacksquare$
 
 **12)** $A \subseteq B \implies A \cup B = B$
+
+Suponha que $A \subseteq B$.
+
+**Parte $A \cup B \subseteq B$:**
+
+Seja $x \in A \cup B$. Pela definição de união, $x \in A$ ou $x \in B$. Logo, pela hipótese inicial, $x \in B$.
+
+**Parte $B \subseteq A \cup B$:**
+
+Seja $x \in B$. Pela definição de união, $x \in A$ ou $x \in B$. Logo $x \in A \cup B$.
+
+Pelas duas partes, $A \subseteq B \implies A \cup B = B$. $\blacksquare$
 
 **13)** $A \times (B \cup C) = (A \times B) \cup (A \times C)$
 
