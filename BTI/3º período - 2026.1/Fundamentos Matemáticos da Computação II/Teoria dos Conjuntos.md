@@ -232,10 +232,9 @@ $$
 \begin{align}
 A \cap (B \cup C) &= \{ x \mid x \in A \land x \in B \cup C \} \\
                   &= \{ x \mid x \in A \land (x \in B \lor x \in C) \} \\
-                  &= \{ x \mid x \in A \cup A \land (x \in B \lor x \in C) \} \\
-                  &= \{ x \mid (x \in A \lor x \in A) \land (x \in B \lor x \in C) \} \\
-                  &= \{ x \mid x \in A \lor (x \in A \land x \in B) \lor x \in C \} \\
-                  &= \{ x \mid  \}
+                  &= \{ x \mid x \in A \cap A \land (x \in B \lor x \in C) \} \\
+                  &= \{ x \mid (x \in A \land x \in A) \land (x \in B \lor x \in C) \} \\
+                  &= \{ x \mid (x \in A \land x \in A) \land (x \in B \lor x \in C) \} \\
                   \\
                   &= \{ x \mid (x \in A \land x \in B) \lor (x \in A \land x \in C) \} \\
                   &= \{ x \mid (x \in A \cap B) \lor (x \in A \cap C) \} \\
