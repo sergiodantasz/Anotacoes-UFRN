@@ -8,7 +8,7 @@ $$
 B = \{\text{carrinho}, \text{bola}, \text{boneco}, \ldots\}
 $$
 
-**Foram intencional:**
+**Forma intensional:**
 
 $$
 B = \{x \mid  x \text{ é brinquedo}\}
@@ -152,9 +152,11 @@ Seja $x \in A$. Logo $x \in A$. $\blacksquare$
 
 **3)** $A \subseteq A \cup B$
 
-Seja $x \in A$. Pela definição de união, $x \in A$ ou $x \in B$.
+Seja $x \in A$.
 
-Como $x \in A$ em ambos os casos, logo $A \subseteq A \cup B$. $\blacksquare$
+Pela definição de união, $x \in A$ ou $x \in B$.
+
+Como $x \in A$, logo $A \subseteq A \cup B$. $\blacksquare$
 
 **4)** $A \cup u = u$
 
@@ -164,39 +166,40 @@ Vamos separar a demonstração em duas partes:
 
 **Parte $A \cup u \subseteq u$:**
 
-Como $x \in u$, logo $A \cup u \subseteq u$.
+Se $x \in A$, como $u$ é o universo, então $x \in u$.
+Se $x \in u$, então já está em $u$.
 
 **Parte $u \subseteq A \cup u$:**
 
-De forma análoga, segue que $u \subseteq A \cup u$.
+Seja $x \in u$. Então $x \in A \cup u$, pois $x \in u$.
 
-Pelas duas partes, logo $A \cup u = u$. $\blacksquare$
+Pelas duas partes, temos $A \cup u = u$. $\blacksquare$
 
 **5)** $A \cap u = A$
 
-Seja $x \in A \cap u$. Pela definição de interseção, $x \in A$ (1) e $x \in u$ (2).
+Vamos separar em duas partes:
 
 **Parte $A \cap u \subseteq A$:**
 
-De (1) e (2), segue que $x \in A$.
+Se $x \in A \cap u$, então $x \in A$ e $x \in u$. Logo $x \in A$.
 
 **Parte $A \subseteq A \cap u$:**
 
-De forma análoga, temos $x \in A \cap u$.
+Se $x \in A$, então como $u$ é o universo, $x \in u$. Logo $x \in A \cap u$.
 
 Pelas duas partes, $A \cap u = A$. $\blacksquare$
 
 **6)** $A \cup \emptyset = A$
 
-Seja $x \in A \cup \emptyset$. Por definição, $x \in A$ ou $x \in \emptyset$.
-
 **Parte $A \cup \emptyset \subseteq A$:**
 
-Como $x \in A \cup \emptyset$, então $x \in A$.
+Se $x \in A \cup \emptyset$, por definição, $x \in A$ ou $x \in \emptyset$.
+
+Como $x \in \emptyset$ é impossível, logo $x \in A$.
 
 **Parte $A \subseteq A \cup \emptyset$:**
 
-Sabemos que $x \in A$ ou $x \in \emptyset$. Logo $x \in A \cup \emptyset$.
+Se $x \in A$, então, por definição, $x \in A \cup \emptyset$. 
 
 Pelas duas partes, $A \cup \emptyset = A$. $\blacksquare$
 
@@ -270,14 +273,50 @@ Suponha que $A \subseteq B$.
 
 **Parte $A \cup B \subseteq B$:**
 
-Seja $x \in A \cup B$. Pela definição de união, $x \in A$ ou $x \in B$. Logo, pela hipótese inicial, $x \in B$.
+Seja $x \in A \cup B$.
+
+Se $x \in A$, como $A \subseteq B$, então $x \in B$.
+Se $x \in B$, é imediato.
 
 **Parte $B \subseteq A \cup B$:**
 
-Seja $x \in B$. Pela definição de união, $x \in A$ ou $x \in B$. Logo $x \in A \cup B$.
+Seja $x \in B$.
+
+Pela definição de união, $x \in A$ ou $x \in B$. Como $x \in B$, logo $x \in A \cup B$.
 
 Pelas duas partes, $A \subseteq B \implies A \cup B = B$. $\blacksquare$
 
 **13)** $A \times (B \cup C) = (A \times B) \cup (A \times C)$
 
+Calculamos:
+
+$$
+\begin{align}
+A \times (B \cup C) &= \{ (a, x) \mid a \in A \land x \in B \cup C \} \\
+                    &= \{ (a, x) \mid a \in A \land (x \in B \lor x \in C) \} \\
+                    &= \{ (a, x) \mid (a \in A \land x \in B) \lor (a \in A \land x \in C) \} \\
+                    &= (A \times B) \cup (A \times C)
+\end{align}
+$$
+
+Logo concluímos a demonstração. $\blacksquare$
+
 **14)** $P(A \cup B) = P(A) \cup P(B)$
+
+Vamos refutar essa afirmação apresentando um contra-exemplo.
+
+Tome $A = \{1\}$ e $B = \{2\}$. Veja que $A \cup B = \{1, 2\}$.
+
+No entanto, temos:
+
+$$
+P(A) = \{\emptyset, \{1\}\}, \quad P(B) = \{\emptyset, \{2\}\} \quad \text{e} \quad P(A \cup B) = \{\emptyset, \{1\}, \{2\}, \{1, 2\}\}
+$$
+
+Agora, perceba que:
+
+$$
+P(A) \cup P(B) = \{ \emptyset, \{1\}, \{2\} \}
+$$
+
+Logo $P(A \cup B) \neq P(A) \cup P(B)$. $\blacksquare$

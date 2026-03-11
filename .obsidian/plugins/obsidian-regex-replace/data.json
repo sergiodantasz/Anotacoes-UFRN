@@ -1,6 +1,6 @@
 {
-  "findText": ";",
-  "replaceText": "\\mid",
+  "findText": "bc",
+  "replaceText": "x",
   "useRegEx": false,
   "selOnly": false,
   "caseInsensitive": false,
