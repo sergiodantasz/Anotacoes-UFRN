@@ -94,39 +94,76 @@ Logo $A \cup \overline{A} = u$.
 > [!example] Proposição
 > $A \cap \overline{A} = \emptyset$
 
-...
+Suponha, por contradição, que $A \cap \overline{A} \neq \emptyset$.
+
+Logo existe $x \in A \cap \overline{A}$, isto é, $x \in A$ e $x \notin A$.
+
+Absurdo, pois é impossível um elemento pertencer e não pertencer a um mesmo conjunto simultaneamente.
+
+Portanto $A \cap \overline{A} = \emptyset$. $\blacksquare$
 
 ## Ex. 6
 
 > [!example] Proposição
 > $A \setminus B \subseteq A$
 
-...
+Seja $x \in A \setminus B$. Pela definição de diferença, $x \in A$ e $x \notin B$. Logo $x \in A$.
+
+Assim, $A \setminus B \subseteq A$. $\blacksquare$
 
 ## Ex. 7
 
 > [!example] Proposição
 > $A \subseteq A \setminus B$
 
-...
+Refutaremos essa afirmação.
+
+Tome $A = \{ 1, 2 \}$ e $B = \{ 2 \}$. Note que $A \setminus B = \{ 1 \}$.
+
+Como $2 \in A$ e $2 \notin A \setminus B$, logo $A \nsubseteq A \setminus B$. $\blacksquare$
 
 ## Ex. 8
 
 > [!example] Proposição
 > $A \cap (B \setminus A) = \emptyset$
 
-...
+Suponha, por contradição, que $A \cap (B \setminus A) \neq \emptyset$.
+
+Logo existe $x \in A \cap (B \setminus A)$, ou seja, $x \in A$ e $x \in B \setminus A$. Por definição de diferença, $x \in B$ e $x \notin A$.
+
+Isso é um absurdo, pois não é possível que $x \in A$ e $x \notin A$. Portanto, $A \cap (B \setminus A) = \emptyset$. $\blacksquare$
 
 ## Ex. 9
 
 > [!example] Proposição
 > $A \cup (B \setminus A) = A \cup B$
 
-...
+Calculamos:
+
+$$
+\begin{align}
+A \cup (B \setminus A) &= \{ x \mid x \in A \cup (B \setminus A) \} \\
+                       &= \{ x \mid x \in A \lor x \in (B \setminus A) \} \\
+                       &= \{ x \mid x \in A \lor (x \in B \land x \notin A) \} \\
+                       &= \{ x \mid (x \in A \lor x \in B) \land (x \in A \lor x \notin A) \} \\
+                       &= \{ x \mid x \in A \cup B \land x \in u \} \\
+                       &= \{ x \mid x \in ((A \cup B) \cap u) \} \\
+                       &= \{ x \mid x \in A \cup B \} \\
+                       &= A \cup B
+\end{align}
+$$
+
+Logo concluímos a demonstração. $\blacksquare$
 
 ## Ex. 10
 
 > [!example] Proposição
 > $A \setminus B = \overline{B \setminus A}$
 
-...
+Vamos refutar essa afirmação.
+
+Considere o universo $u = \{ 1, 2\}$. Tome $A = \{ 1, 2 \}$ e $B = \{ 2 \}$.
+
+Note que $A \setminus B = \{ 1 \}$ e $B \setminus A = \emptyset$. Logo $\overline{B \setminus A} = u = \{ 1, 2\}$.
+
+Sendo assim, $A \setminus B \neq \overline{B \setminus A}$. Portanto a afirmação é falsa. $\blacksquare$
