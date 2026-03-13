@@ -165,8 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5,
-    "collapsed": true
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,7 +180,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2fd4f160dcc0e017",
+  "active": "35049215d3f9a147",
   "lastOpenFiles": [
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Teoria dos Conjuntos.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Funções.md",
