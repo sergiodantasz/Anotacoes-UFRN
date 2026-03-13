@@ -82,12 +82,13 @@ Se $x \notin A$, como $x \in u$ também é dado, logo $x \in u$.
 
 **Parte $u \subseteq A \cup \overline{A}$:**
 
-Seja $x \in u$.
+Suponha, por contradição, que $u \nsubseteq A \cup \overline{A}$.
 
-Se $x \in A$, pela definição de união, $x \in A \cup \overline{A}$.
-Se $x \notin A$, então, pela definição de complemento, $x \in \overline{A}$. Logo $x \in A \cup \overline{A}$.
+Ou seja, existe $x \in u$ tal que $x \notin A \cup \overline{A}$. Logo $x \notin A \iff x \in \overline{A}$ ou $x \notin \overline{A} \iff x \in A$.
 
-Logo $A \cup \overline{A} = u$.
+Em ambos os casos, isso é um absurdo, pois $x \in u$ e $u \nsubseteq A \cup \overline{A}$. Assim, $u \subseteq A \cup \overline{A}$.
+
+Logo $A \cup \overline{A} = u$. $\blacksquare$
 
 ## Ex. 5
 
