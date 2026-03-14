@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a37768f99eacc1af",
+        "id": "dd4b20fda07af68c",
         "type": "tabs",
         "children": [
           {
-            "id": "2fd4f160dcc0e017",
+            "id": "97e4b7ebbff25f1d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Funções.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Funções"
+              "title": "New tab"
             }
           }
         ]
@@ -181,10 +177,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2fd4f160dcc0e017",
+  "active": "97e4b7ebbff25f1d",
   "lastOpenFiles": [
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Teoria dos Conjuntos.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Funções.md",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Teoria dos Conjuntos.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Teoria dos Conjuntos - Exercícios.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Funções",
     "BTI/3º período - 2026.1/Linguagem de Programação I/C.md",

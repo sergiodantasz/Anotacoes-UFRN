@@ -115,6 +115,8 @@ $$
 
 Logo $f^{-1}(x) = \frac{x - 1}{2}$.
 
+Portanto, $f$ é bijetiva e possui inversa. $\blacksquare$
+
 ## Ex. 2
 
 > [!example] Função
@@ -151,11 +153,13 @@ f(x) &= f(\sqrt{y - 4}) \\
 \end{align}
 $$
 
-Logo $f$ é injetiva.
+Logo $f$ é sobrejetiva.
 
 **Inversa:**
 
-...
+Como $f$ não é bijetiva, então ela não possui inversa.
+
+Portanto, $f$ é sobrejetiva. Por não ser injetiva, então $f$ não possui inversa. $\blacksquare$
 
 ## Ex. 3
 
@@ -168,11 +172,35 @@ Sejam $x_1, x_2 \in \mathbb{N}^*$.
 
 **Caso $x_1$ e $x_2$ são pares:**
 
-...
+Suponha que $f(x_1) = f(x_2)$.
+
+Calculamos:
+
+$$
+\begin{align}
+f(x_1) = f(x_2) &\iff -\frac{x_1}{2} = -\frac{x_2}{2} \\
+                &\iff \frac{x_1}{2} = \frac{x_2}{2} \\
+                &\iff x_1 = x_2
+\end{align}
+$$
+
+Assim, temos que $f$ é injetiva.
 
 **Caso $x_1$ e $x_2$ são ímpares:**
 
-...
+Suponha que $f(x_1) = f(x_2)$.
+
+Calculamos:
+
+$$
+\begin{align}
+f(x_1) = f(x_2) &\iff \frac{x_1 - 1}{2} = \frac{x_2 - 1}{2} \\
+                &\iff x_1 - 1 = x_2 - 1 \\
+                &\iff x_1 = x_2
+\end{align}
+$$
+
+Logo $f$ é injetiva.
 
 **Caso $x_1$ é par e $x_2$ é ímpar:**
 
@@ -261,7 +289,7 @@ $$
 
 Logo $f^{-1}(x) = 2x + 1$, para $x \geq 0$.
 
-Portanto, a inversa de $f$ é dada por:
+Sendo assim, a inversa de $f$ é dada por:
 
 $$
 f^{-1}(x) = \begin{cases}
@@ -269,3 +297,5 @@ f^{-1}(x) = \begin{cases}
   2x + 1, &\text{se } x \geq 0
 \end{cases}
 $$
+
+Portanto, $f$ é bijetiva e possui inversa. $\blacksquare$
