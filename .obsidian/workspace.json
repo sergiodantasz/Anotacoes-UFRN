@@ -11,10 +11,14 @@
             "id": "475b8ee1c8c688dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Funções.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Funções"
             }
           }
         ]
@@ -161,7 +165,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 342.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,7 +181,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "35049215d3f9a147",
+  "active": "475b8ee1c8c688dc",
   "lastOpenFiles": [
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Funções.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Composição de Funções.md",
