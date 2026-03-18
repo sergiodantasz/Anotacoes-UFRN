@@ -258,3 +258,21 @@ i_B(f(x)) &= i_B(y) \\
 $$
 
 Portanto, por transitividade, $f(i_A(x)) = f(x) = i_B(f(x))$. $\blacksquare$
+
+## Ex. 10
+
+> [!example] Proposição
+> Sejam $C, D \subseteq B$. Se $f$ é injetiva, então $f(C \cap D) = f(C) \cap f(D)$.
+
+**Demonstração:**
+
+...
+
+## Ex. 11
+
+> [!example] Proposição
+> Sejam $C, D \subseteq B$. Se $f$ é sobrejetiva, então $B = f(A)$.
+
+**Demonstração:**
+
+...
