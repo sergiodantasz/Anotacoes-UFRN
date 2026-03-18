@@ -73,7 +73,9 @@ Portanto $f$ é injetiva. $\blacksquare$
 
 **Demonstração:**
 
-...
+Suponha que $f$ e $g$ são sobrejetivas.
+
+Seja $y \in B$.
 
 ## Ex. 4
 
