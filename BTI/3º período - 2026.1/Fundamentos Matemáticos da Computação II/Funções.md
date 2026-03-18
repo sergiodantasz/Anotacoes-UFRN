@@ -13,7 +13,7 @@ Uma relação $R$ é qualquer subconjunto de $A \times B$.
 Uma função é uma relação em $A \times B$ onde cada elemento de $A$ aparece uma única vez.
 
 $$
-f : \{ (x, y) \mid y = f(a) \} \subseteq A \times B
+f : \{ (x, y) \mid y = f(x) \} \subseteq A \times B
 $$
 
 $$

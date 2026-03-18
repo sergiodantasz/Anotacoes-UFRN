@@ -56,7 +56,15 @@ Logo $g \circ f$ é injetiva. $\blacksquare$
 
 **Demonstração:**
 
-...
+Suponha que $g \circ f$ é injetiva.
+
+Sejam $x_1, x_2 \in A$ tais que $f(x_1) = f(x_2)$.
+
+Como $g \circ f$ é injetiva, então $g \circ f (x_1) = g \circ f (x_2) \implies x_1 = x_2$.
+
+Por $g$ ser função, veja que $f(x_1) = f(x_2) \implies g(f(x_1)) = g(f(x_2))$. Logo $g \circ f (x_1) = g \circ f (x_2)$. De sua injetividade, temos que $x_1 = x_2$.
+
+Portanto $f$ é injetiva. $\blacksquare$
 
 ## Ex. 3
 
@@ -112,7 +120,7 @@ Portanto, pela existência e pela unicidade, temos que $g \circ f$ é uma funç�
 ## Ex. 6
 
 > [!example] Proposição
-> Se $f$ possui inversa, então $f \circ f^{-1} = i_B$ e $f^{-1} \circ f = i_B$.
+> Se $f$ possui inversa, então $f \circ f^{-1} = i_B$ e $f^{-1} \circ f = i_A$.
 
 **Demonstração:**
 
@@ -126,7 +134,15 @@ $$
 f \circ f^{-1} (b) = f(f^{-1}(b)) = f(a) = b
 $$
 
-[fazer o outro lado da conjunção]
+Como $f$ também é função, existe $b \in B$ tal que $f(a) = b$.
+
+Note também que:
+
+$$
+f^{-1} \circ f (a) = f^{-1}(f(a)) = f^{-1}(b) = a
+$$
+
+Portanto, $f \circ f^{-1} = i_B$ e $f^{-1} \circ f = i_A$. $\blacksquare$
 
 ## Ex. 7
 
