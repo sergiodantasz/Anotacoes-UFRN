@@ -208,13 +208,53 @@ Portanto, a inversa de uma função qualquer é única. $\blacksquare$
 
 **Demonstração:**
 
-...
+Seja $x \in A$.
+
+Calculamos:
+
+$$
+\begin{align}
+(h \circ (g \circ f))(x) &= h((g \circ f)(x)) \\
+                         &= h(g(f(x)))
+\end{align}
+$$
+
+Calculamos
+
+$$
+\begin{align}
+((h \circ g) \circ f)(x) &= (h \circ g)(f(x)) \\
+                         &= h(g(f(x)))
+\end{align}
+$$
+
+Logo, por transitividade, temos $h \circ (g \circ f) = (h \circ g) \circ f$. $\blacksquare$
 
 ## Ex. 9
 
 > [!example] Proposição
-> $f \circ i_A = f = i_b \circ f$
+> $f \circ i_A = f = i_B \circ f$
+
+> **Formalização:** $(\forall x \in A)[f(i_A​(x)) = f(x) \land i_B​(f(x)) = f(x)]$
 
 **Demonstração:**
 
-...
+Seja $x \in A$.
+
+Note que, para todo $a \in A$, $i_A(a) = a$. Aplicando isso em $x$, temos $i_A(x) = x$. Logo $f(i_A(x)) = f(x)$.
+
+Como $f$ é função, então existe $y \in B$ tal que $f(x) = y$.
+
+Agora, perceba que, para todo $b \in B$, $i_B(b) = b$. Aplicando isso em $y$, segue que $i_B(y) = y$.
+
+Calculamos:
+
+$$
+\begin{align}
+i_B(f(x)) &= i_B(y) \\
+          &= y \\
+          &= f(x)
+\end{align}
+$$
+
+Portanto, por transitividade, $f(i_A(x)) = f(x) = i_B(f(x))$. $\blacksquare$
