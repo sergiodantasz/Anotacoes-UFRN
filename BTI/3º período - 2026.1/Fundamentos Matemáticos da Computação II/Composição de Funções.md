@@ -79,8 +79,6 @@ Seja $c \in C$.
 
 Como $g$ é sobrejetiva, logo existe $b \in B$ tal que $g(b) = c$ (1). Logo, por $f$ ser sobrejetiva, então existe $a \in A$ tal que $f(a) = b$ (2).
 
-Tome $a \in A$.
-
 De (1) e (2), temos que:
 
 $$
@@ -107,8 +105,6 @@ Seja $c \in C$.
 Aplicando a sobrejetividade de $g \circ f$ em $c$, temos que existe $a \in A$ tal que $g \circ f(a) = c$.
 
 Como $f$ é função, então existe $b \in B$ tal que $f(a) = b$.
-
-Tome $b = f(a)$.
 
 Note que:
 
