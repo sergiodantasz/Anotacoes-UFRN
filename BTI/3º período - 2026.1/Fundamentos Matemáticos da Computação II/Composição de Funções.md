@@ -75,7 +75,23 @@ Portanto $f$ é injetiva. $\blacksquare$
 
 Suponha que $f$ e $g$ são sobrejetivas.
 
-Seja $y \in B$.
+Seja $c \in C$.
+
+Como $g$ é sobrejetiva, logo existe $b \in B$ tal que $g(b) = c$ (1). Logo, por $f$ ser sobrejetiva, então existe $a \in A$ tal que $f(a) = b$ (2).
+
+Tome $a \in A$.
+
+De (1) e (2), temos que:
+
+$$
+\begin{align}
+c &= g(b) \\
+  &= g(f(a)) \\
+  &= g \circ f (a)
+\end{align}
+$$
+
+Portanto $g \circ f$ é sobrejetiva. $\blacksquare$
 
 ## Ex. 4
 
@@ -84,7 +100,11 @@ Seja $y \in B$.
 
 **Demonstração:**
 
-...
+Suponha que $g \circ f$ é sobrejetiva. Logo 
+
+Seja $c \in C$.
+
+> alvo: $(\exists b \in B)[f(b) = c]$
 
 ## Ex. 5
 
