@@ -100,11 +100,23 @@ Portanto $g \circ f$ é sobrejetiva. $\blacksquare$
 
 **Demonstração:**
 
-Suponha que $g \circ f$ é sobrejetiva. Logo 
+Suponha que $g \circ f$ é sobrejetiva.
 
 Seja $c \in C$.
 
-> alvo: $(\exists b \in B)[f(b) = c]$
+Aplicando a sobrejetividade de $g \circ f$ em $c$, temos que existe $a \in A$ tal que $g \circ f(a) = c$.
+
+Como $f$ é função, então existe $b \in B$ tal que $f(a) = b$.
+
+Tome $b = f(a)$.
+
+Note que:
+
+$$
+g \circ f (a) = g(f(a)) = g(b) = c
+$$
+
+Portanto $g$ é sobrejetiva. $\blacksquare$
 
 ## Ex. 5
 
