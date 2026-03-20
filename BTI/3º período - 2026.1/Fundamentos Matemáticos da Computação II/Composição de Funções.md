@@ -17,6 +17,12 @@ $$
 
 A função identidade $i_A : A \to A$ é uma função cujo domínio e contradomínio são iguais, isto é, $i_A(x) = x$.
 
+# Imagem
+
+$$
+f(A) = \{ y \mid (\exists x)[x \in A \land f(x) = y] \}
+$$
+
 # Exercícios
 
 > Demonstre ou refute as seguintes proposições.
