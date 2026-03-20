@@ -284,7 +284,7 @@ Como $x \in C \cap D$, $x \in C$ e $x \in D$.
 Como $x \in C$, $f(x) \in f(C)$.
 Como $x \in D$, $f(x) \in f(D)$.
 
-Logo $f(x) = y \in f(C) \cap f(D)$.
+Logo $f(x) \in f(C) \cap f(D)$.
 
 **Parte $f(C) \cap f(D) \subseteq f(C \cap D)$:**
 
@@ -295,14 +295,17 @@ Logo $y \in f(C)$ e $y \in f(D)$.
 Como $y \in f(C)$, existe $x_1 \in C$ tal que $y = f(x_1)$.
 Como $y \in f(D)$, existe $x_2 \in D$ tal que $y = f(x_2)$.
 
-Como $f$ é injetiva (pela hipótese), logo $f(x_1) = y = f(x_2)$ e $x_1 = x_2$.
+Como $f$ é injetiva e $f(x_1) = f(x_2)$, temos $x_1 = x_2$.
+Como $x_1 \in C$ e $x_2 \in D$, segue que $x_1 \in C$ e $x_1 \in D$.
 
-Portanto, $x_1 \in C$ e $x_1 \in D$, isto é, $x_1 \in C \cap D$, e $f(x_1) \in f(C \cap D)$. $\blacksquare$
+Logo $x_1 \in C \cap D$ e, consequentemente, $f(x_1) \in f(C \cap D)$. Ou seja, $y \in f(C \cap D)$.
+
+Portanto, $f(C \cap D) = f(C) \cap f(D)$. $\blacksquare$
 
 ## Ex. 11
 
 > [!example] Proposição
-> Sejam $C, D \subseteq A$. Se $f$ é sobrejetiva, então $B = f(A)$.
+> Se $f$ é sobrejetiva, então $B = f(A)$.
 
 **Demonstração:**
 
@@ -314,6 +317,6 @@ Seja $y \in f(A)$. Pela definição de imagem, existe $x \in A$ tal que $f(x) = 
 
 **Parte $B \subseteq f(A)$:**
 
-Seja $y \in B$. Como $f : A \to B$ é sobrejetiva, existe $x \in A$ tal que $f(x) = y$. Logo $y \in f(A)$.
+Seja $y \in B$. Como $f : A \to B$ é sobrejetiva, existe $x \in A$ tal que $f(x) = y$. Logo, pela definição de imagem, $y \in f(A)$.
 
 Portanto $B = f(A)$. $\blacksquare$
