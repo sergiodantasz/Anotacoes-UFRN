@@ -262,17 +262,52 @@ Portanto, por transitividade, $f(i_A(x)) = f(x) = i_B(f(x))$. $\blacksquare$
 ## Ex. 10
 
 > [!example] Proposição
-> Sejam $C, D \subseteq B$. Se $f$ é injetiva, então $f(C \cap D) = f(C) \cap f(D)$.
+> Sejam $C, D \subseteq A$. Se $f$ é injetiva, então $f(C \cap D) = f(C) \cap f(D)$.
 
 **Demonstração:**
 
-...
+Suponha que $f$ é injetiva.
+
+**Parte $f(C \cap D) \subseteq f(C) \cap f(D)$:**
+
+Seja $y \in f(C \cap D)$.
+
+Pela definição de imagem, existe $x \in C \cap D$ tal que $f(x) = y$.
+
+Como $x \in C \cap D$, $x \in C$ e $x \in D$.
+Como $x \in C$, $f(x) \in f(C)$.
+Como $x \in D$, $f(x) \in f(D)$.
+
+Logo $f(x) = y \in f(C) \cap f(D)$.
+
+**Parte $f(C) \cap f(D) \subseteq f(C \cap D)$:**
+
+Seja $y \in f(C) \cap f(D)$.
+
+Logo $y \in f(C)$ e $y \in f(D)$.
+
+Como $y \in f(C)$, existe $x_1 \in C$ tal que $y = f(x_1)$.
+Como $y \in f(D)$, existe $x_2 \in D$ tal que $y = f(x_2)$.
+
+Como $f$ é injetiva (pela hipótese), logo $f(x_1) = y = f(x_2)$ e $x_1 = x_2$.
+
+Portanto, $x_1 \in C$ e $x_1 \in D$, isto é, $x_1 \in C \cap D$, e $f(x_1) \in f(C \cap D)$. $\blacksquare$
 
 ## Ex. 11
 
 > [!example] Proposição
-> Sejam $C, D \subseteq B$. Se $f$ é sobrejetiva, então $B = f(A)$.
+> Sejam $C, D \subseteq A$. Se $f$ é sobrejetiva, então $B = f(A)$.
 
 **Demonstração:**
 
-...
+Suponha que $f$ é sobrejetiva.
+
+**Parte $f(A) \subseteq B$:**
+
+Seja $y \in f(A)$. Pela definição de imagem, existe $x \in A$ tal que $f(x) = y$. Logo $y \in B$.
+
+**Parte $B \subseteq f(A)$:**
+
+Seja $y \in B$. Como $f : A \to B$ é sobrejetiva, existe $x \in A$ tal que $f(x) = y$. Logo $y \in f(A)$.
+
+Portanto $B = f(A)$. $\blacksquare$
