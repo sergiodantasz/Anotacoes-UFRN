@@ -56,3 +56,10 @@ Como $\{ (1, 2) \} \nsubseteq \emptyset$, logo a afirmação é falsa.
 
 ## Questão 3
 
+O que podemos concluir sobre os conjuntos $A$, $B$ e $C$, sabendo que $A \cup B = B$, $A \setminus B = A$ e $A \cap C = B \cap C$?
+
+**Resposta:**
+
+Como a $A \cup B = B$, é imediato que $A \subseteq B$. Então sobram duas possibilidades: $A = \emptyset$ ou $A \neq \emptyset$. Mas perceba que $A \setminus B = A$. Logo, como $A \subseteq B$, então $A \setminus B = \emptyset$. Se $A \neq \emptyset$, chegamos a uma contradição. Desse modo, temos necessariamente $A = \emptyset$.
+
+Dado $A = \emptyset$, segue que $A \cap C = \emptyset$. Como $A \cap C = B \cap C$, logo $B \cap C = \emptyset$. Podemos afirmar que $B$ e $C$ são conjuntos disjuntos. Nada mais além disso.
