@@ -72,3 +72,19 @@ Mostre que quando restringimos o domínio de $f$ a $C$, o resultado ainda é uma
 
 **Demonstração:**
 
+Considere $g = f \cap (C \times B)$.
+
+$$
+(\forall c \in C)(\exists! b \in B)[(c, b) \in g]
+$$
+
+$$
+(\forall c \in C)[(\exists b \in B)[(c, b) \in g] \land (\forall b_1, b_2 \in B)[(c, b_1) \in g \land (c, b_2) \in g \implies b_1 = b_2]]
+$$
+
+$$
+(\exists c \in C)[(\forall b \in B)[(c, b) \notin g] \lor (\exists b_1, b_2 \in B)[(c, b_1) \in g \land (c, b_2) \in g \land b_1 \neq b_2]]
+$$
+
+Suponha, por contradição, que $g$ não é uma função. Ou seja, $(\exists c \in C)(\forall b \in B)[g(c) \neq b]$.
+
