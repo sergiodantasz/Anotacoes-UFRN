@@ -69,7 +69,8 @@
               "title": "Composição de Funções"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -230,11 +231,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ab2b0e1ec7834655",
+  "active": "f93f4d029f448efd",
   "lastOpenFiles": [
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Exercícios - 20 de março.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Teoria dos Conjuntos.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Funções.md",
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Exercícios - 20 de março.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Composição de Funções.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Indução.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Teoria dos Conjuntos - Exercícios.md",
