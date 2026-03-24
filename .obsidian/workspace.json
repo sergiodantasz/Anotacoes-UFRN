@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ad2210258ee5a453",
+        "id": "e1190c3e4dcf0042",
         "type": "tabs",
         "children": [
           {
-            "id": "ac59452255055e30",
+            "id": "c31ea8284827016b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -177,9 +177,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ac59452255055e30",
+  "active": "c31ea8284827016b",
   "lastOpenFiles": [
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 7.md",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Composição de Funções.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 6.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 5.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 4.md",
@@ -189,7 +190,6 @@
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Exercícios - 20 de março.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Funções.md",
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Composição de Funções.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Teoria dos Conjuntos.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Indução.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Teoria dos Conjuntos - Exercícios.md",
