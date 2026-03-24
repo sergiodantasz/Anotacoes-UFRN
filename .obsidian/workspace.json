@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e1190c3e4dcf0042",
+        "id": "1a16604163ec5756",
         "type": "tabs",
         "children": [
           {
-            "id": "c31ea8284827016b",
+            "id": "cb9a7eed2f0abe2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BTI/3º período - 2026.1/Linguagem de Programação I/C++.md",
+                "file": "BTI/3º período - 2026.1/Probabilidade/S2 - Introdução à Probabilidade.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C++"
+              "title": "S2 - Introdução à Probabilidade"
             }
           }
         ]
@@ -181,8 +181,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c31ea8284827016b",
+  "active": "871ba8da18c41075",
   "lastOpenFiles": [
+    "BTI/3º período - 2026.1/Probabilidade/S2 - Introdução à Probabilidade.md",
+    "BTI/3º período - 2026.1/Probabilidade/S1 - Introdução à Probabilidade.md",
+    "BTI/3º período - 2026.1/Linguagem de Programação I/C++.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 7.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Composição de Funções.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 6.md",
@@ -199,14 +202,12 @@
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Teoria dos Conjuntos - Exercícios.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Funções",
     "BTI/3º período - 2026.1/Linguagem de Programação I/C.md",
-    "BTI/3º período - 2026.1/Linguagem de Programação I/C++.md",
     "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/Metadados",
     "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/Metadados/ai-ml-dl.png",
     "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/Introdução ao Aprendizado de Máquina.md",
     "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/2-análise exploratória de dados.ipynb",
     "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/1-introdução ao AM.ipynb",
     "BTI/3º período - 2026.1/Estrutura de Dados Básicas I/U1.md",
-    "BTI/3º período - 2026.1/Probabilidade/Introdução à Probabilidade.md",
     "BTI/3º período - 2026.1/Probabilidade",
     "BTI/3º período - 2026.1/Linguagem de Programação I/teste.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Demonstração por Contradição.md",
@@ -219,7 +220,6 @@
     "Ex. 7.md",
     "Untitled 1.md",
     "Untitled.md",
-    "BTI/2º período - 2025.2/Fundamentos Matemáticos da Computação I/IDMb.md",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image.png",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-47.png",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-46.png",
