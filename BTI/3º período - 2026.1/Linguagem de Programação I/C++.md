@@ -276,72 +276,17 @@ numeros.pop_back();   // Remove do fim
 
 # 7. `struct` com ponteiro
 
-
 ```cpp
 struct Pessoa {
 	string nome;
 	int idade;
 }
 
-Pessoa p = new Pessoa();
-```
+Pessoa* p = new Pessoa();
 
-
-## Exercício: calculadora em menu
-
-Criar um programa que realize operações matemáticas simples (adição, subtração, multiplicação e divisão).
-
-```cpp
-#include <iostream>
-
-using namespace std;
-
-int main() {
-    int option;
-    double num1, num2;
-
-    while (true) {
-        cout << "--------------------------" << endl;
-        cout << "1 - Soma" << endl;
-        cout << "2 - Subtração" << endl;
-        cout << "3 - Divisão" << endl;
-        cout << "4 - Multiplicação" << endl;
-        cout << "0 - Sair" << endl;
-        cout << "--------------------------" << endl;
-        cout << "Escolha uma opção: ";
-        cin >> option;
-
-        if (option == 0) {
-            cout << "Saindo..." << endl;
-            return 0;
-        }
-
-        if (option < 1 || option > 4) {
-            cout << "Opção inválida." << endl;
-            continue;
-        }
-
-        cout << "Número 1: ";
-        cin >> num1;
-        cout << "Número 2: ";
-        cin >> num2;
-
-        switch (option) {
-            case 1:
-                cout << num1 << " + " << num2 << " = " << num1 + num2 << endl;
-                break;
-            case 2:
-                cout << num1 << " - " << num2 << " = " << num1 - num2 << endl;
-                break;
-            case 3:
-                cout << num1 << " / " << num2 << " = " << num1 / num2 << endl;
-                break;
-            case 4:
-                cout << num1 << " * " << num2 << " = " << num1 * num2 << endl;
-                break;
-        }
-    }
-
-    return 0;
-}
+p->idade = 20; // Usa -> para acessar  
+  
+cout << p->idade << endl;  
+  
+delete p; // Libera memória
 ```

@@ -11,10 +11,14 @@
             "id": "c31ea8284827016b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "BTI/3º período - 2026.1/Linguagem de Programação I/C++.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "C++"
             }
           }
         ]
