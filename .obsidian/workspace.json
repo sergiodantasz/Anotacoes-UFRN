@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1a16604163ec5756",
+        "id": "4f1af827238c7ae8",
         "type": "tabs",
         "children": [
           {
-            "id": "cb9a7eed2f0abe2e",
+            "id": "d5b031e41edf55bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BTI/3º período - 2026.1/Probabilidade/S2 - Introdução à Probabilidade.md",
+                "file": "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Sequências.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "S2 - Introdução à Probabilidade"
+              "title": "Sequências"
             }
           }
         ]
@@ -181,9 +181,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "871ba8da18c41075",
+  "active": "d5b031e41edf55bb",
   "lastOpenFiles": [
     "BTI/3º período - 2026.1/Probabilidade/S2 - Introdução à Probabilidade.md",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Sequências.md",
     "BTI/3º período - 2026.1/Probabilidade/S1 - Introdução à Probabilidade.md",
     "BTI/3º período - 2026.1/Linguagem de Programação I/C++.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 7.md",
@@ -219,7 +220,6 @@
     "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado",
     "Ex. 7.md",
     "Untitled 1.md",
-    "Untitled.md",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image.png",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-47.png",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-46.png",
