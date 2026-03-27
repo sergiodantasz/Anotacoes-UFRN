@@ -58,3 +58,13 @@ A(m, n) = \begin{cases}
 $$
 
 Com $m$ e $n$ números não negativos.
+
+# Exercícios
+
+## Ex. 1
+
+> [!example] Exercício
+> Demonstre usando a indução matemática que a fórmula fechada está correta.
+
+**Caso base ($n = 0$):**
+
