@@ -61,10 +61,67 @@ Com $m$ e $n$ números não negativos.
 
 # Exercícios
 
-## Ex. 1
+## Ex. 8
+
+Considere a sequência:
+
+$$
+-1, 3, 7, 11, \ldots
+$$
+
+Cuja fórmula recursiva é:
+
+- $a_0 = -1$;
+- $a_n = a_{n - 1} + 4$, para $n \geq 1$.
+
+E a fórmula fechada é $a_n = 4n - 1$.
+
+Além disso, a soma é dada por $S_n = (2n - 1)(n + 1)$.
 
 > [!example] Exercício
 > Demonstre usando a indução matemática que a fórmula fechada está correta.
 
+Por indução.
+
 **Caso base ($n = 0$):**
 
+Note que $a_0 = 4 \cdot 0 - 1 = -1$.
+
+**Passo indutivo:**
+
+> **HI:** $a_k = -1 + 4k$, para $k \geq 0$.
+
+Calculamos:
+
+$$
+\begin{align}
+a_{k + 1}
+\end{align}
+$$
+[terminar]
+> [!example] Exercício
+> Demonstre usando a indução matemática que a soma está correta.
+
+Por indução.
+
+**Caso base ($n = 0$):**
+
+Veja que $S_0 = (2 \cdot 0 - 1)(0 + 1) = -1$.
+
+**Passo indutivo:**
+
+> **HI:** $S_k = (2k - 1)(k + 1)$, para $k \geq 0$.
+
+Queremos mostrar que $S_{k + 1} = (2k + 1)(k + 2)$.
+
+Calculamos:
+
+$$
+\begin{align}
+S_{k + 1} &= S_k + (-1 + 4(k + 1)) \\
+          &= (2k - 1)(k + 1) + (-1 + 4(k + 1)) &\quad& (\text{HI}) \\
+          &= 2k^2 + 2k -k - 1 -1 + 4k + 4 \\
+          &= 2k^2 + 5k + 2 \\
+          &= (2k + 1)(k + 2)
+\end{align}
+$$
