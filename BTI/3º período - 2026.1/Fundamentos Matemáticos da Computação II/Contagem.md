@@ -42,3 +42,21 @@ Seja $f : A \to B$ uma função.
 Sejam $n \in \mathbb{N}$ e $A \subseteq \{ 0, 1, 2, \ldots, 2n - 1 \}$.
 
 Mostre que se $|A| = n + 2$, então existem $a, a' \in A$, com $a \neq a'$, tais que $a + a' = 2n$.
+
+Suponha que $|A| = n + 2$.
+
+Considere $A' = A \setminus \{0, n\}$.
+
+[terminar]
+
+# Conjunto Enumerável
+
+$$
+A \text{ é enumerável} \iff A \sim \mathbb{N}
+$$
+
+# Conjunto Contável
+
+$$
+A \text{ é contável} \iff A \text{ é finito} \lor A \text{ é enumerável}
+$$
