@@ -91,14 +91,19 @@ Note que $a_0 = 4 \cdot 0 - 1 = -1$.
 
 > **HI:** $a_k = -1 + 4k$, para $k \geq 0$.
 
+Como $a_n = a_{n - 1} + 4$, então $a_{k + 1} = a_k + 4$.
+
 Calculamos:
 
 $$
 \begin{align}
-a_{k + 1}
+a_{k + 1} &= a_k + 4 \\
+          &= (-1 + 4k) + 4 &\quad& (\text{HI}) \\
+          &= 4k + 3 \\
+          &= 4(k + 1) - 1
 \end{align}
 $$
-[terminar]
+
 > [!example] Exercício
 > Demonstre usando a indução matemática que a soma está correta.
 
