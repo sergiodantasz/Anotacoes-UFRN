@@ -27,3 +27,18 @@ Considere $I_n = \{ x \in \mathbb{N} \mid x < n \}$, com $|I_n| = n$.
 $$
 A \text{ é finito} \iff \exists n \in \mathbb{N}, A \sim I_n
 $$
+
+# Princípio da Casa dos Pombos (PCP)
+
+Se em $n$ caixas colocarmos mais de $n$ objetos, alguma caixa terá mais de 1 objeto.
+
+Seja $f : A \to B$ uma função.
+
+- Se $|A| > |B|$, então $f$ não é injetiva;
+- Se $|A| < |B|$, então $f$ não é sobrejetiva.
+
+**Exemplo:**
+
+Sejam $n \in \mathbb{N}$ e $A \subseteq \{ 0, 1, 2, \ldots, 2n - 1 \}$.
+
+Mostre que se $|A| = n + 2$, então existem $a, a' \in A$, com $a \neq a'$, tais que $a + a' = 2n$.
