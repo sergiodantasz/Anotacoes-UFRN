@@ -43,11 +43,19 @@ Sejam $n \in \mathbb{N}$ e $A \subseteq \{ 0, 1, 2, \ldots, 2n - 1 \}$.
 
 Mostre que se $|A| = n + 2$, então existem $a, a' \in A$, com $a \neq a'$, tais que $a + a' = 2n$.
 
+Observe que os pares de elementos que somam $2n$ são:
+
+$$
+(1, 2n - 1), (2, 2n - 2), (3, 2n - 3), \ldots, (n - 1, n + 1)
+$$
+
 Suponha que $|A| = n + 2$.
 
-Considere $A' = A \setminus \{0, n\}$.
+Considere $A' = A \setminus \{0, n\}$. Logo $|A'| \geq n$.
 
-[terminar]
+Perceba que a quantidade de pares que somam $2n$ é igual a $n - 1$.
+
+Como temos $n - 1$ pares e $n$ elementos em $A'$, se escolhermos $n$ elementos distribuídos em apenas $n - 1$ pares, então algum par terá dois elementos escolhidos. Ou seja, existem $a, a' \in A'$, com $a \neq a'$, pertencentes ao mesmo par.
 
 # Conjunto Enumerável
 
