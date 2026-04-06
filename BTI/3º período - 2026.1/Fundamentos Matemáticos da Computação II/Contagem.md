@@ -1,6 +1,6 @@
 # Introdução
 
-Se existe uma função injetiva $f : A \to B$, dizemos que $A$ e $B$ têm a mesma cardinalidade.
+Se existe uma função bijetiva $f : A \to B$, dizemos que $A$ e $B$ têm a mesma cardinalidade.
 
 Denotamos esse fato por:
 
