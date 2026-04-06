@@ -1,6 +1,6 @@
 # Introdução
 
-A sequência pode ser representada por $\{a_n\}$ ou $a_n$. Seus elementos são representados por $a_0, a_1, a_2, \ldots, a_n$.
+Sequências são listas ordenadas de elementos. Podem ser representadas por $\{a_n\}$ ou $a_n$. Seus elementos são representados por $a_0, a_1, a_2, \ldots, a_n$.
 
 > O primeiro elemento pode ser $a_0$ ou $a_1$, isso deve ser explicitado.
 
@@ -42,7 +42,7 @@ $$
 n! = n \cdot (n - 1) \cdot (n - 2) \cdot \ldots \cdot 2 \cdot 1
 $$
 
-É dada por:
+É dado por:
 
 - $a_1 = 1$;
 - $a_n = n \cdot a_{n - 1}$, para $n \geq 2$.
@@ -58,6 +58,42 @@ A(m, n) = \begin{cases}
 $$
 
 Com $m$ e $n$ números não negativos.
+
+# Fórmulas
+
+## PA
+
+### Termo Geral
+
+$$
+a_n = a_1 + (n - 1) \cdot r
+$$
+
+### Soma
+
+$$
+S_n = \frac{(a_1 + a_n) \cdot n}{2}
+$$
+
+## PG
+
+### Termo Geral
+
+$$
+a_n = a_1 \cdot q^{n - 1}
+$$
+
+### Soma Finita
+
+$$
+S_n = \frac{a_1 \cdot (q^n - 1)}{q - 1}
+$$
+
+### Soma Infinita
+
+$$
+S_\infty = \frac{a_1}{1 - q}
+$$
 
 # Exercícios
 
