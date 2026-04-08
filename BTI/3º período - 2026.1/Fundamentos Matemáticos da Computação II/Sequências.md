@@ -97,7 +97,7 @@ $$
 
 # Exercícios
 
-## Ex. 8
+## Ex. ?
 
 Considere a sequência:
 
