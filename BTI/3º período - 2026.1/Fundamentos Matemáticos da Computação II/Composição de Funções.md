@@ -10,7 +10,7 @@ g \circ f : A \to C \\
 $$
 
 $$
-g \circ f = \{ (a, c) \mid \exists b \in B \text{ tal que } (a, b) \in f \land (b, c) \in g\}
+g \circ f = \{ (a, c) \mid \exists b \in B, (a, b) \in f \land (b, c) \in g\}
 $$
 
 # Função Identidade
@@ -125,7 +125,7 @@ Portanto $g$ é sobrejetiva. $\blacksquare$
 > [!example] Proposição
 > $g \circ f : A \to C$ é uma função.
 
-> **Formalização:** $(\forall a \in A)(\exists! c \in C)[g \circ f (a) = c]$
+> **Formalização:** $(\forall a \in A)(\exists! c \in C)[(g \circ f)(a) = c]$
 
 **Demonstração:**
 
