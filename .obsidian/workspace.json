@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ed5530f69c780f5d",
+        "id": "10429cbc2ac439d2",
         "type": "tabs",
         "children": [
           {
-            "id": "f0e85176ec6220d1",
+            "id": "327e52e8b648d9b8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Lista de Exercícios.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Lista de Exercícios"
+              "title": "New tab"
             }
           }
         ]
@@ -181,10 +177,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f0e85176ec6220d1",
+  "active": "327e52e8b648d9b8",
   "lastOpenFiles": [
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 5.md",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/james.md",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Contagem.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Lista de Exercícios.md",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 5.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 2.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 1.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 3.md",
@@ -199,8 +197,6 @@
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Demonstração por Contradição.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Demonstração Direta e por Contraposição.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Sequências.md",
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Contagem.md",
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/james.md",
     "BTI/3º período - 2026.1/Probabilidade/S2 - Introdução à Probabilidade.md",
     "BTI/3º período - 2026.1/Probabilidade/S1 - Introdução à Probabilidade.md",
     "BTI/3º período - 2026.1/Linguagem de Programação I/C++.md",
