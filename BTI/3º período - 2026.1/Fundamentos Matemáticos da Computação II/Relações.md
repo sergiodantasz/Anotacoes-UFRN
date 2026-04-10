@@ -60,3 +60,10 @@ Uma relação $R \subseteq A \times A$ é transitiva se, e somente se, para todo
 
 > Exemplos: $R_1$, $R_2$, $R_3$, $R_4$, $R_5$, $R_6$, $R_{11}$, $R_{12}$, $R_{13}$
 
+# Composição
+
+Sejam $R \subseteq A \times B$ e $S \subseteq B \times C$. A composição de $R$ com $S$ é:
+
+$$
+S \circ R = \{ (a, c) \mid \exists b \in B, a\ R\ b \land b\ S\ c \}
+$$
