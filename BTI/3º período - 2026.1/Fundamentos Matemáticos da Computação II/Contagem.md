@@ -66,5 +66,5 @@ $$
 # Conjunto Contável
 
 $$
-A \text{ é contável} \iff A \text{ é finito} \land A \text{ é enumerável}
+A \text{ é contável} \iff A \text{ é finito} \lor A \text{ é enumerável}
 $$

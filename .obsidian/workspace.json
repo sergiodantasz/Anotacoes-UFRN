@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8bfbb7bb30763149",
+        "id": "9cb948db686b0bd5",
         "type": "tabs",
         "children": [
           {
-            "id": "d6338cf33e85c583",
+            "id": "61367962754bb95a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Relações.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Relações"
             }
           }
         ]
@@ -177,11 +181,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d6338cf33e85c583",
+  "active": "61367962754bb95a",
   "lastOpenFiles": [
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Sequências.md",
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/james.md",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Funções.md",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Relações.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Contagem.md",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/james.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Lista de Exercícios.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 5.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 2.md",
@@ -191,7 +197,6 @@
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 6.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 7.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Composição de Funções.md",
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Funções.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Teoria dos Conjuntos - Exercícios.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Teoria dos Conjuntos.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Indução.md",
@@ -211,7 +216,6 @@
     "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/1-introdução ao AM.ipynb",
     "BTI/3º período - 2026.1/Estrutura de Dados Básicas I/U1.md",
     "BTI/3º período - 2026.1/Probabilidade",
-    "BTI/3º período - 2026.1/Linguagem de Programação I/teste.md",
     "BTI/3º período - 2026.1/Arquitetura de Computadores",
     "BTI/3º período - 2026.1/Linguagem de Programação I",
     "BTI/3º período - 2026.1/Estrutura de Dados Básicas I",
