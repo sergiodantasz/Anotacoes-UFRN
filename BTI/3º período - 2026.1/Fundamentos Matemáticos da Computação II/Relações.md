@@ -57,3 +57,6 @@ Uma relação $R \subseteq A \times A$ é antissimétrica se, e somente se, para
 ## Transitividade
 
 Uma relação $R \subseteq A \times A$ é transitiva se, e somente se, para todo $a, b, c \in R$, $a\ R\ b \land b\ R\ c \implies a\ R\ c$.
+
+> Exemplos: $R_1$, $R_2$, $R_3$, $R_4$, $R_5$, $R_6$, $R_{11}$, $R_{12}$, $R_{13}$
+
