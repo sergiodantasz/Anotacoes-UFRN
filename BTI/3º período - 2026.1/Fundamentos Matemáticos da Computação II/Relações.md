@@ -67,3 +67,60 @@ Sejam $R \subseteq A \times B$ e $S \subseteq B \times C$. A composição de $R$
 $$
 S \circ R = \{ (a, c) \mid \exists b \in B, a\ R\ b \land b\ S\ c \}
 $$
+
+# Exercícios
+
+Sejam $R_1 \subseteq A \times A$ e $R_2 \subseteq B \times B$.
+
+## Ex. 1
+
+> [!example] Proposição
+> Se $R_1$ e $R_2$ são reflexivas, então $R_1 \cup R_2$ é reflexiva.
+
+**Demonstração:**
+
+Sejam $R_1$ (H1) e $R_2$ (H2) relações reflexivas.
+
+Seja $x \in A \cup B$. Logo $x \in A$ ou $x \in B$.
+
+**Caso $x \in A$:**
+
+Por (H1), $(x, x) \in R_1$. Logo $(x, x) \in R_1 \cup R_2$.
+
+**Caso $x \in B$:**
+
+Pela (H2), $(x, x) \in R_2$. Logo $(x, x) \in R_1 \cup R_2$.
+
+De ambos os casos, $(x, x) \in R_1 \cup R_2$. Portanto, $R_1 \cup R_2$ é reflexiva. $\blacksquare$
+
+## Ex. 2
+
+> [!example] Proposição
+> Se $R_1$ e $R_2$ são simétricas, então $R_1 \cup R_2$ é simétrica.
+
+**Demonstração:**
+
+Sejam $R_1$ (H1) e $R_2$ (H2) relações simétricas.
+
+Sejam $a, b \in A \cup B$.
+
+Suponha $(a, b) \in R_1 \cup R_2$.
+
+**Caso $(a, b) \in R_1$:**
+
+Por (H1), $(b, a) \in R_1$. Logo $(b, a) \in R_1 \cup R_2$.
+
+**Caso $(a, b) \in R_2$:**
+
+Por (H2), $(b, a) \in R_2$. Logo $(b, a) \in R_1 \cup R_2$.
+
+De ambos os casos, $(b, a) \in R_1 \cup R_2$. Portanto $R_1 \cup R_2$ é simétrica. $\blacksquare$
+
+## Ex. 3
+
+> [!example] Proposição
+> Se $R_1$ e $R_2$ são transitivas, então $R_1 \cup R_2$ é transitiva.
+
+**Refutação:**
+
+...
