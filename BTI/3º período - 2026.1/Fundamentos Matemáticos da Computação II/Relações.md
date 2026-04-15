@@ -123,4 +123,8 @@ De ambos os casos, $(b, a) \in R_1 \cup R_2$. Portanto $R_1 \cup R_2$ é simétr
 
 **Refutação:**
 
-...
+Considere $A = B = \{ a, b, c \}$.
+
+Tome $R_1 = \{(a, b)\}$ e $R_2 = \{(b, c)\}$. Note que ambas as relações são transitivas. No entanto, $R_1 \cup R_2 = \{(a, b), (b, c)\}$ não é transitiva.
+
+Portanto, $R_1 \cup R_2$ não é transitiva. $\blacksquare$
