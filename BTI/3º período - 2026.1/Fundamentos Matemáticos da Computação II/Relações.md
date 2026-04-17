@@ -134,6 +134,28 @@ $$
 
 > Exemplos: $R_6$
 
+# Mínimo e Minimal
+
+## Mínimo
+
+Sejam $R \subseteq A \times A$ uma relação de ordem parcial, $B \subseteq A$ $b \in B$.
+
+$b$ é o menor elemento (ou o elemento mínimo) de $B$ se, e somente se:
+
+$$
+\forall x \in B, b\ R\ x
+$$
+
+## Minimal
+
+Sejam $R \subseteq A \times A$ uma relação de ordem parcial, $B \subseteq A$ $b \in B$.
+
+$b$ é o elemento minimal de $B$ se, e somente se:
+
+$$
+\nexists x, x\ R\ b \land x \neq b
+$$
+
 # Exercícios
 
 Sejam $R_1 \subseteq A \times A$ e $R_2 \subseteq B \times B$.
