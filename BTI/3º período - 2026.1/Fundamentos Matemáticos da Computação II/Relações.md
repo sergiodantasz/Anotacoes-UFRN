@@ -112,6 +112,8 @@ $R$ é total se, e somente se, para todo $a \in A$, existe $b \in B$ tal que $(a
 
 # Ordem
 
+[foto]
+
 ## Ordem Parcial
 
 $R \subseteq A \times A$ é uma relação de ordem parcial se, e somente se, $R$ é:
@@ -120,6 +122,8 @@ $R \subseteq A \times A$ é uma relação de ordem parcial se, e somente se, $R$
 - Antissimétrica;
 - Transitiva.
 
+> Exemplos: $R_1$, $R_3$, $R_4$, $R_6$
+
 ## Ordem Total
 
 $R \subseteq A \times A$ é uma relação de ordem total se, e somente se, $R$ é parcial e:
@@ -127,6 +131,8 @@ $R \subseteq A \times A$ é uma relação de ordem total se, e somente se, $R$ �
 $$
 \forall a, b \in A, a\ R\ b \lor b\ R\ a
 $$
+
+> Exemplos: $R_6$
 
 # Exercícios
 
