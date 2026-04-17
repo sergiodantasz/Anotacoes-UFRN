@@ -84,7 +84,7 @@ $$
 Ran(R) = Img(R) = \{ b \in B \mid \exists a \in A, (a, b) \in R \}
 $$
 
-## Propriedades
+# Propriedades (pt. 2)
 
 ### Injetividade
 
@@ -109,6 +109,24 @@ $R$ é sobrejetiva se, e somente se, para todo $b \in B$, existe $a \in A$ tal q
 ### Totalidade
 
 $R$ é total se, e somente se, para todo $a \in A$, existe $b \in B$ tal que $(a, b) \in R$.
+
+# Ordem
+
+## Ordem Parcial
+
+$R \subseteq A \times A$ é uma relação de ordem parcial se, e somente se, $R$ é:
+
+- Reflexiva;
+- Antissimétrica;
+- Transitiva.
+
+## Ordem Total
+
+$R \subseteq A \times A$ é uma relação de ordem total se, e somente se, $R$ é parcial e:
+
+$$
+\forall a, b \in A, a\ R\ b \lor b\ R\ a
+$$
 
 # Exercícios
 
