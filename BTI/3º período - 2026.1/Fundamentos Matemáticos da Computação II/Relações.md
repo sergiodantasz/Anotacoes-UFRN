@@ -326,3 +326,35 @@ Considere $R \subseteq A \times B$ e $S \subseteq B \times C$.
 > Se $R$ e $S$ são totais, então $S \circ R$ é total.
 
 ...
+
+# Exercícios (pt. 3)
+
+Sejam $R \subseteq A \times A$ uma relação de ordem parcial e $B \subseteq A$.
+
+## Ex. 1
+
+> [!example] Proposição
+> Se $B$ possui um menor elemento, então esse elemento é único.
+
+...
+
+## Ex. 2
+
+> [!example] Proposição
+> Se $b$ é o menor elemento de $B$, então $b$ é o elemento minimal de $B$. Além disso, $b$ é o único elemento minimal de $B$.
+
+...
+
+## Ex. 3
+
+> [!example] Proposição
+> Se $R$ é uma ordem total e $b$ é um elemento minimal de $B$, então $b$ é o único elemento minimal de $B$.
+
+...
+
+## Ex. 4
+
+> [!example] Proposição
+> Se $R$ é uma ordem total e $b$ é um elemento minimal de $B$, então $b$ é o menor elemento de $B$.
+
+...
