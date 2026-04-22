@@ -138,7 +138,7 @@ $$
 
 ## Mínimo
 
-Sejam $R \subseteq A \times A$ uma relação de ordem parcial, $B \subseteq A$ $b \in B$.
+Sejam $R \subseteq A \times A$ uma relação de ordem parcial, $B \subseteq A$ e $b \in B$.
 
 $b$ é o menor elemento (ou o elemento mínimo) de $B$ se, e somente se:
 
@@ -148,7 +148,7 @@ $$
 
 ## Minimal
 
-Sejam $R \subseteq A \times A$ uma relação de ordem parcial, $B \subseteq A$ $b \in B$.
+Sejam $R \subseteq A \times A$ uma relação de ordem parcial, $B \subseteq A$ e $b \in B$.
 
 $b$ é o elemento minimal de $B$ se, e somente se:
 
