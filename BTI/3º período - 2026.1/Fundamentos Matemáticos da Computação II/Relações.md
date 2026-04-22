@@ -134,11 +134,11 @@ $$
 
 > Exemplos: $R_6$
 
-# Mínimo e Minimal
+# Definições
+
+Sejam $R \subseteq A \times A$ uma relação de ordem parcial, $B \subseteq A$, $a \in A$ e $b \in B$.
 
 ## Mínimo
-
-Sejam $R \subseteq A \times A$ uma relação de ordem parcial, $B \subseteq A$ e $b \in B$.
 
 $b$ é o menor elemento (ou o elemento mínimo) de $B$ se, e somente se:
 
@@ -148,13 +148,45 @@ $$
 
 ## Minimal
 
-Sejam $R \subseteq A \times A$ uma relação de ordem parcial, $B \subseteq A$ e $b \in B$.
-
 $b$ é o elemento minimal de $B$ se, e somente se:
 
 $$
 \nexists x, x\ R\ b \land x \neq b
 $$
+
+## Máximo
+
+...
+
+## Maximal
+
+...
+
+## Limitante Inferior
+
+$a$ é limitante inferior de $B$ se, e somente se:
+
+$$
+\forall x \in B, a\ R\ x
+$$
+
+## Maior Limitante Inferior
+
+Sejam $L = \{ x \mid x \text{ é limitante inferior de } B \}$ e $l \in L$.
+
+$l$ é o maior limitante inferior de $B$ se, e somente se:
+
+$$
+\forall x \in L, x\ R\ l
+$$
+
+## Limitante Superior
+
+...
+
+## Menor Limitante Superior
+
+...
 
 # Exercícios
 
