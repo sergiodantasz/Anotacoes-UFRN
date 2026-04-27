@@ -390,3 +390,93 @@ Sejam $R \subseteq A \times A$ uma relação de ordem parcial e $B \subseteq A$.
 > Se $R$ é uma ordem total e $b$ é um elemento minimal de $B$, então $b$ é o menor elemento de $B$.
 
 ...
+
+# Exercícios (pt. 4)
+
+## Ex. 1
+
+Sejam $R \subseteq A \times B$ e $S, T \subseteq B \times C$.
+
+> [!example] Proposição
+> $(S \cap T) \circ R \subseteq (S \circ R) \cap (T \circ R)$
+
+**Demonstração:**
+
+Seja $(a, c) \in (S \cap T) \circ R$.
+
+Pela definição de composição, existe $b \in B$ tal que $(a, b) \in R$ (1) e $(b, c) \in S \cap T$ (2).
+
+De (2), pela definição de interseção, então $(b, c) \in S$ (3) e $(b, c) \in T$ (4).
+
+Pela definição de composição, de (1) e (3), temos que $(a, c) \in S \circ R$ (5).
+
+De (1) e (4), temos que $(a, c) \in T \circ R$ (6).
+
+Pela definição de interseção, de (5) e (6), segue que $(a, c) \in (S \circ R) \cap (T \circ R)$. $\blacksquare$
+
+> [!example] Proposição
+> $(S \circ R) \cap (T \circ R) \subseteq (S \cap T) \circ R$
+
+**Refutação:**
+
+Vamos apresentar um contra-exemplo.
+
+Tome $A = B = C = \{1,2,3\}$.
+
+Considere:
+
+- $R = \{ (1, 1), (1, 2) \}$;
+- $S = \{(1, 2\}$;
+- $T = \{(2, 1)\}$.
+
+Note que $S \circ R = \{(1, 2)\}$ e $T \circ R = \{(1, 2\}$, logo $(S \circ R) \cap (T \circ R) = \{(1, 1)\}$.
+
+Veja também que $S \cap T = \emptyset$, logo $(S \cap T) \circ R = \emptyset$.
+
+Portanto $(S \circ R) \cap (T \circ R) \nsubseteq (S \cap T) \circ R$. $\blacksquare$
+
+## Ex. 2
+
+Seja $R \subseteq A \times A$ tal que $R$ é simétrica e transitiva.
+
+> [!example] Proposição
+> $\forall x \in A, \exists y \in A, x\ R\ y \implies R \text{ é reflexiva}$
+
+**Demonstração:**
+
+Suponha que, para todo $x \in A$, existe $y \in A$ tal que $x\ R\ y$.
+
+Seja $a \in A$.
+
+Pela hipótese inicial, existe $a' \in A$ tal que $a\ R\ a'$.
+
+Como $R$ é simétrica, logo $a'\ R\ a$. Como $R$ é transitiva, logo $a\ R\ a$.
+
+Portanto $R$ é reflexiva. $\blacksquare$
+
+## Ex. 3
+
+Ache os fechos de:
+
+**a)**
+
+[foto]
+
+**b)** $R = \{ (x, y) \in \mathbb{R} \times \mathbb{R} \mid x < y \}$
+
+Fecho reflexivo: $R_r = \{ (x, y) \in \mathbb{R} \times \mathbb{R} \mid x \leq y \}$.
+Fecho simétrico: $R_s = \{ (x, y) \in \mathbb{R} \times \mathbb{R} \mid x \neq y \}$.
+Fecho transitivo: $R_t = R$.
+
+## Ex. 4
+
+Sejam $R_1, R_2 \subseteq A \times A$, $R_1 \subseteq R_2$, $B \subseteq A$ e $b \in B$.
+
+> [!example] Proposição
+> $b \text{ menor elemento em } R_1 \implies b \text{ menor elemento em } R_2$
+
+Suponha que $b$ é o menor elemento de $B$ em $R_1$, isto é, $\forall x \in B, b\ R_1\ x$.
+
+Seja $b' \in B$. Logo $b\ R_1\ b'$.
+
+Como $R_1 \subseteq R_2$, então $b\ R_2\ b'$. $\blacksquare$
