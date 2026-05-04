@@ -200,7 +200,24 @@ Uma relação $R \subseteq A \times A$ é uma relação de equivalência se, e s
 - Transitiva;
 - Simétrica.
 
-> Exemplos: igualdade, 
+# Classe de Equivalência
+
+$[x]_R$ é o conjuno de todos os elementos com os quais $x$ se relaciona por $R$.
+
+[foto]
+
+# Partição
+
+Uma partição é um conjunto formado por subconjuntos (sem números repetidos que já estão em outros subconjuntos) cuja união é o conjunto no qual a partição se baseia.
+
+> Toda relação de equivalência define uma partição.
+
+Exemplo:
+
+$A = \{1, 2, 3, 4, 5\}$
+
+$P_1 = \{\{1\}, \{2, 3, 4\}, \{5\}\}$
+$P_2 = \{\{1, 2, 3\}, \{4, 5\}\}$
 
 # Exercícios
 
