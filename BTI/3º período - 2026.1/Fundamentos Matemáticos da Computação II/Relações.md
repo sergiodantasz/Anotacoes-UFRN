@@ -192,6 +192,16 @@ $$
 
 ...
 
+# Relação de Equivalência
+
+Uma relação $R \subseteq A \times A$ é uma relação de equivalência se, e somente se, $R$ é:
+
+- Reflexiva;
+- Transitiva;
+- Simétrica.
+
+> Exemplos: igualdade, 
+
 # Exercícios
 
 Sejam $R_1 \subseteq A \times A$ e $R_2 \subseteq B \times B$.
