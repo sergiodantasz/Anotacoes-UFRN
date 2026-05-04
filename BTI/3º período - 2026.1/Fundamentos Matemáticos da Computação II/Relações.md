@@ -151,7 +151,11 @@ $$
 $b$ é o elemento minimal de $B$ se, e somente se:
 
 $$
-\nexists x, x\ R\ b \land x \neq b
+\nexists x \in B, x\ R\ b \land x \neq b
+$$
+
+$$
+\forall x \in B, x\ R\ b \implies x = b
 $$
 
 ## Máximo
@@ -480,3 +484,18 @@ Suponha que $b$ é o menor elemento de $B$ em $R_1$, isto é, $\forall x \in B, 
 Seja $b' \in B$. Logo $b\ R_1\ b'$.
 
 Como $R_1 \subseteq R_2$, então $b\ R_2\ b'$. $\blacksquare$
+
+> [!example] Proposição
+> $b \text{ é minimal em } R_2 \implies b \text{ é minimal em } R_1$
+
+Suponha que $b$ é minimal em $R_2$.
+
+Seja $x \in B$.
+
+Pela hipótese, se $(x, b) \in R_2$, então $x = b$ (1).
+
+Suponha que $(x, b) \in R_1$.
+
+Como $R_1 \subseteq R_2$, logo $(x, b) \in R_2$.
+
+Portanto, de (1), temos que $x = b$. $\blacksquare$
