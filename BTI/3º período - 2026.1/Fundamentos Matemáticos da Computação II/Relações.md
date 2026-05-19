@@ -283,7 +283,7 @@ O conjunto de todas as classes de equivalência de $A$ por $R$ é o conjunto quo
 $$
 \begin{align}
 A / R &= \{ [x]_R \mid x \in A \} \\
-      &= \{ X \subseteq A \mid \exists x \in A, [X] = [x]_R \}
+      &= \{ X \subseteq A \mid \exists x \in A, X = [x]_R \}
 \end{align}
 $$
 
