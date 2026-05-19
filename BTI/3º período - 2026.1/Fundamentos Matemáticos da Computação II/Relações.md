@@ -268,10 +268,23 @@ $P_2 = \{\{1, 2, 3\}, \{4, 5\}\}$
 
 # Classe de Equivalência
 
-$[x]_R$ é o conjunto de todos os elementos com os quais $x$ se relaciona por $R$. A classe de equivalência de $x$ com respeito a $R$ é o conjunto:
+A classe de equivalência de $x$ com respeito a $R$ é dada por:
 
 $$
 [x]_R = \{ y \mid (x, y) \in R \}
+$$
+
+$[x]_R$ é o conjunto de todos os elementos com os quais $x$ se relaciona por $R$.
+
+# Conjunto Quociente
+
+O conjunto de todas as classes de equivalência de $A$ por $R$ é o conjunto quociente de $A$ módulo $R$:
+
+$$
+\begin{align}
+A / R &= \{ [x]_R \mid x \in A \} \\
+      &= \{ X \subseteq A \mid \exists x \in A, [X] = [x]_R \}
+\end{align}
 $$
 
 # Exercícios (2.1)
