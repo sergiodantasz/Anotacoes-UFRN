@@ -30,29 +30,25 @@ Considerando $A = B = \mathbb{Z}$, temos:
 - $R_7 = \{ (a, b) \mid a = b + 1 \}$
 - $R_8 = \{ (a, b) \mid a + b \leq 3 \}$
 
-Mais exemplos com $A \times B = \{ 1, 2, 3, 4\}$:
-
-- $R_9 = \{ (1, 1), (1, 2) \}$
-[mais exemplos]
 # Propriedades
 
 ## Reflexividade
 
 Uma relação $R \subseteq A \times A$ é reflexiva se, e somente se, para todo $a \in R$, $a\ R\ a$.
 
-> Exemplos: $R_3$, $R_5$, $R_6$, $R_{13}$
+> Exemplos: $R_3$, $R_5$, $R_6$
 
 ## Simetria
 
 Uma relação $R \subseteq A \times A$ é simétrica se, e somente se, para todo $a, b \in R$, $a\ R\ b \implies b\ R\ a$.
 
-> Exemplos: $R_{13}$, $R_{10}$, $R_1$, $R_5$, $R_6$, $R_8$
+> Exemplos: $R_1$, $R_5$, $R_6$, $R_8$
 
 ## Antissimetria
 
 Uma relação $R \subseteq A \times A$ é antissimétrica se, e somente se, para todo $a, b \in R$, $a\ R\ b \land b\ R\ a \implies a = b$.
 
-> Exemplos: $R_1$, $R_2$, $R_3$, $R_4$, $R_5$, $R_6$, $R_7$, $R_{11}$, $R_{12}$
+> Exemplos: $R_1$, $R_2$, $R_3$, $R_4$, $R_5$, $R_6$, $R_7$
 
 ## Transitividade
 
