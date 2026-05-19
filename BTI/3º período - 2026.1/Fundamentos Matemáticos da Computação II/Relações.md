@@ -204,7 +204,9 @@ Uma relação $R \subseteq A \times A$ é uma relação de equivalência se, e s
 
 $[x]_R$ é o conjuno de todos os elementos com os quais $x$ se relaciona por $R$.
 
-[fotos]
+$$
+
+$$
 
 # Partição
 
