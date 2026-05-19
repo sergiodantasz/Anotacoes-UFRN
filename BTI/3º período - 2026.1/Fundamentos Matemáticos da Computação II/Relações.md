@@ -251,7 +251,15 @@ Uma partição é um conjunto formado por subconjuntos (sem números repetidos q
 
 > Toda relação de equivalência define uma partição.
 
-Exemplo:
+Seja $A$ um conjunto e $F \subseteq P(A)$.
+
+$F$ é uma partição de $A$ se, e somente se:
+
+- $\cup_{X \in F}{X} = A$ (a união de todos os blocos é o próprio conjunto $A$);
+- $\forall X, Y \in F, X \neq Y \implies X \cap Y = \emptyset$ (os blocos são dois a dois disjuntos);
+- $\forall X \in F, X \neq \emptyset$ (nenhum bloco é vazio).
+
+**Exemplo:**
 
 $A = \{1, 2, 3, 4, 5\}$
 
