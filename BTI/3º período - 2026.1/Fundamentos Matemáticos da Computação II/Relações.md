@@ -150,11 +150,19 @@ $$
 
 ### Máximo
 
-...
+$b$ é o maior elemento (ou o elemento máximo) de $B$ se, e somente se:
+
+$$
+\forall x \in B, x\ R\ b
+$$
 
 ### Maximal
 
-...
+$b$ é o elemento maximal de $B$ se, e somente se:
+
+$$
+\forall x \in B, b\ R\ x \implies x = b
+$$
 
 ### Limitante Inferior
 
