@@ -172,9 +172,9 @@ $$
 \forall x \in B, a\ R\ x
 $$
 
-### Maior Limitante Inferior
+### Maior Limitante Inferior (Ínfimo)
 
-Sejam $L = \{ x \mid x \text{ é limitante inferior de } B \}$ e $l \in L$.
+Sejam $L = \{ x \in A \mid x \text{ é limitante inferior de } B \}$ e $l \in L$.
 
 $l$ é o maior limitante inferior de $B$ se, e somente se:
 
@@ -184,11 +184,21 @@ $$
 
 ### Limitante Superior
 
-...
+$a$ é limitante superior de $B$ se, e somente se:
 
-### Menor Limitante Superior
+$$
+\forall x \in B, x\ R\ a
+$$
 
-...
+### Menor Limitante Superior (Supremo)
+
+Sejam $L = \{ x \in A \mid x \text{ é limitante superior de } B \}$ e $l \in L$.
+
+$l$ é o maior limitante superior de $B$ se, e somente se:
+
+$$
+\forall x \in L, l\ R\ x
+$$
 
 # Relação de Equivalência
 
