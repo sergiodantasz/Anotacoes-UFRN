@@ -54,7 +54,7 @@ Uma relação $R \subseteq A \times A$ é antissimétrica se, e somente se, para
 
 Uma relação $R \subseteq A \times A$ é transitiva se, e somente se, para todo $a, b, c \in R$, $a\ R\ b \land b\ R\ c \implies a\ R\ c$.
 
-> Exemplos: $R_1$, $R_2$, $R_3$, $R_4$, $R_5$, $R_6$, $R_{11}$, $R_{12}$, $R_{13}$
+> Exemplos: $R_1$, $R_2$, $R_3$, $R_4$, $R_5$, $R_6$
 
 # Composição
 
@@ -80,7 +80,7 @@ $$
 Ran(R) = Img(R) = \{ b \in B \mid \exists a \in A, (a, b) \in R \}
 $$
 
-# Propriedades (pt. 2)
+# Relações
 
 ### Injetividade
 
@@ -108,8 +108,6 @@ $R$ é total se, e somente se, para todo $a \in A$, existe $b \in B$ tal que $(a
 
 # Ordem
 
-[foto]
-
 ## Ordem Parcial
 
 $R \subseteq A \times A$ é uma relação de ordem parcial se, e somente se, $R$ é:
@@ -118,8 +116,6 @@ $R \subseteq A \times A$ é uma relação de ordem parcial se, e somente se, $R$
 - Antissimétrica;
 - Transitiva.
 
-> Exemplos: $R_1$, $R_3$, $R_4$, $R_6$
-
 ## Ordem Total
 
 $R \subseteq A \times A$ é uma relação de ordem total se, e somente se, $R$ é parcial e:
@@ -127,8 +123,6 @@ $R \subseteq A \times A$ é uma relação de ordem total se, e somente se, $R$ �
 $$
 \forall a, b \in A, a\ R\ b \lor b\ R\ a
 $$
-
-> Exemplos: $R_6$
 
 # Definições
 
@@ -221,7 +215,7 @@ $P_2 = \{\{1, 2, 3\}, \{4, 5\}\}$
 
 Sejam $R_1 \subseteq A \times A$ e $R_2 \subseteq B \times B$. Demonstre ou refute:
 
-## Ex. 1
+## Ex. (a)
 
 > [!example] Proposição
 > Se $R_1$ e $R_2$ são reflexivas, então $R_1 \cup R_2$ é reflexiva.
@@ -242,7 +236,7 @@ Pela (H2), $(x, x) \in R_2$. Logo $(x, x) \in R_1 \cup R_2$.
 
 De ambos os casos, $(x, x) \in R_1 \cup R_2$. Portanto, $R_1 \cup R_2$ é reflexiva. $\blacksquare$
 
-## Ex. 2
+## Ex. (b)
 
 > [!example] Proposição
 > Se $R_1$ e $R_2$ são simétricas, então $R_1 \cup R_2$ é simétrica.
@@ -265,7 +259,7 @@ Por (H2), $(b, a) \in R_2$. Logo $(b, a) \in R_1 \cup R_2$.
 
 De ambos os casos, $(b, a) \in R_1 \cup R_2$. Portanto $R_1 \cup R_2$ é simétrica. $\blacksquare$
 
-## Ex. 3
+## Ex. (c)
 
 > [!example] Proposição
 > Se $R_1$ e $R_2$ são transitivas, então $R_1 \cup R_2$ é transitiva.
@@ -278,7 +272,7 @@ Tome $R_1 = \{(a, b)\}$ e $R_2 = \{(b, c)\}$. Note que ambas as relações são 
 
 Portanto, $R_1 \cup R_2$ não é transitiva. $\blacksquare$
 
-## Ex. ?
+## Ex. (g)
 
 > [!example] Proposição
 > $R$ é transitiva se, e somente se, $R \circ R \subseteq R$.
@@ -305,14 +299,9 @@ Suponha $R(x, y)$ e $R(y, z)$.
 
 Por composição, $(x, z) \in R \circ R$.
 
-Pela hipótese, $(x, z) \in R$.
+Pela hipótese inicial, $(x, z) \in R$.
 
-## Ex. 4
-
-> [!example] Proposição
-> ...
-
-[foto]
+Portanto, pelas duas partes, concluímos a demonstração. $\blacksquare$
 
 # Exercícios (pt. 2)
 
