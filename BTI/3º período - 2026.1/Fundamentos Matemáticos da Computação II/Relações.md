@@ -106,7 +106,7 @@ $R$ é sobrejetiva se, e somente se, para todo $b \in B$, existe $a \in A$ tal q
 
 $R$ é total se, e somente se, para todo $a \in A$, existe $b \in B$ tal que $(a, b) \in R$.
 
-# Ordem
+# Relações de Ordem
 
 ## Ordem Parcial
 
@@ -124,11 +124,11 @@ $$
 \forall a, b \in A, a\ R\ b \lor b\ R\ a
 $$
 
-# Definições
+## Elementos
 
 Sejam $R \subseteq A \times A$ uma relação de ordem parcial, $B \subseteq A$, $a \in A$ e $b \in B$.
 
-## Mínimo
+### Mínimo
 
 $b$ é o menor elemento (ou o elemento mínimo) de $B$ se, e somente se:
 
@@ -136,7 +136,7 @@ $$
 \forall x \in B, b\ R\ x
 $$
 
-## Minimal
+### Minimal
 
 $b$ é o elemento minimal de $B$ se, e somente se:
 
@@ -148,15 +148,15 @@ $$
 \forall x \in B, x\ R\ b \implies x = b
 $$
 
-## Máximo
+### Máximo
 
 ...
 
-## Maximal
+### Maximal
 
 ...
 
-## Limitante Inferior
+### Limitante Inferior
 
 $a$ é limitante inferior de $B$ se, e somente se:
 
@@ -164,7 +164,7 @@ $$
 \forall x \in B, a\ R\ x
 $$
 
-## Maior Limitante Inferior
+### Maior Limitante Inferior
 
 Sejam $L = \{ x \mid x \text{ é limitante inferior de } B \}$ e $l \in L$.
 
@@ -174,11 +174,11 @@ $$
 \forall x \in L, x\ R\ l
 $$
 
-## Limitante Superior
+### Limitante Superior
 
 ...
 
-## Menor Limitante Superior
+### Menor Limitante Superior
 
 ...
 
@@ -303,7 +303,7 @@ Pela hipótese inicial, $(x, z) \in R$.
 
 Portanto, pelas duas partes, concluímos a demonstração. $\blacksquare$
 
-# Exercícios (pt. 2)
+# Exercícios (4.1)
 
 ## Ex. 1
 
