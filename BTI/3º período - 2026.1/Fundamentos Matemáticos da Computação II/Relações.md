@@ -210,8 +210,6 @@ Uma partição é um conjunto formado por subconjuntos (sem números repetidos q
 
 > Toda relação de equivalência define uma partição.
 
-
-
 Exemplo:
 
 $A = \{1, 2, 3, 4, 5\}$
@@ -219,9 +217,9 @@ $A = \{1, 2, 3, 4, 5\}$
 $P_1 = \{\{1\}, \{2, 3, 4\}, \{5\}\}$
 $P_2 = \{\{1, 2, 3\}, \{4, 5\}\}$
 
-# Exercícios
+# Exercícios (2.1)
 
-Sejam $R_1 \subseteq A \times A$ e $R_2 \subseteq B \times B$.
+Sejam $R_1 \subseteq A \times A$ e $R_2 \subseteq B \times B$. Demonstre ou refute:
 
 ## Ex. 1
 
