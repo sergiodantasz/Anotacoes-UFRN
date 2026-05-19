@@ -208,13 +208,42 @@ Uma relação $R \subseteq A \times A$ é uma relação de equivalência se, e s
 - Transitiva;
 - Simétrica.
 
-# Classe de Equivalência
+# Fechos
 
-$[x]_R$ é o conjunto de todos os elementos com os quais $x$ se relaciona por $R$.
+Dado que uma relação $R$ não satisfaz uma propriedade $P$, o fecho de $R$ com respeito a $P$ é a menor relação que contém $R$ e satisfaz $P$.
+
+Ou seja, o fecho é exatamente a relação original $R$ "somada" ao número mínimo estritamente necessário de novos pares para satisfazer $P$.
+
+## Fecho Reflexivo
 
 $$
-[x]_R = \{ y \mid (x, y) \in R \}
+R_{ref} = R \cup i_A
 $$
+
+> Basta unir com o conjunto de todos os pares onde $x$ se relaciona com ele mesmo.
+
+## Fecho Simétrico
+
+$$
+R_{sim} = R \cup R^{-1}
+$$
+
+> Basta garantir que, para cada "ida" que já existe em $R$, também existirá a "volta".
+
+## Fecho Transitivo
+
+$$
+R_{trans} = \cup_{i=1}^{\infty}{R^i}
+$$
+
+Onde:
+
+- $R^1 = R$;
+- $R^n = R^{n-1} \circ R$.
+
+## Fecho de Equivalência
+
+É a menor relação de equivalência possível que contém $R$.
 
 # Partição
 
@@ -228,6 +257,14 @@ $A = \{1, 2, 3, 4, 5\}$
 
 $P_1 = \{\{1\}, \{2, 3, 4\}, \{5\}\}$
 $P_2 = \{\{1, 2, 3\}, \{4, 5\}\}$
+
+# Classe de Equivalência
+
+$[x]_R$ é o conjunto de todos os elementos com os quais $x$ se relaciona por $R$.
+
+$$
+[x]_R = \{ y \mid (x, y) \in R \}
+$$
 
 # Exercícios (2.1)
 
