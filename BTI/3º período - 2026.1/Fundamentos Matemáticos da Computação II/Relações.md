@@ -202,10 +202,10 @@ Uma relação $R \subseteq A \times A$ é uma relação de equivalência se, e s
 
 # Classe de Equivalência
 
-$[x]_R$ é o conjuno de todos os elementos com os quais $x$ se relaciona por $R$.
+$[x]_R$ é o conjunto de todos os elementos com os quais $x$ se relaciona por $R$.
 
 $$
-
+[x]_R = \{ y \mid (x, y) \in R \}
 $$
 
 # Partição
@@ -213,6 +213,8 @@ $$
 Uma partição é um conjunto formado por subconjuntos (sem números repetidos que já estão em outros subconjuntos) cuja união é o conjunto no qual a partição se baseia.
 
 > Toda relação de equivalência define uma partição.
+
+
 
 Exemplo:
 
