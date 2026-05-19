@@ -453,7 +453,7 @@ Considere $R \subseteq A \times B$ e $S \subseteq B \times C$.
 
 ...
 
-# Exercícios (pt. 3)
+# Exercícios (5.1)
 
 Sejam $R \subseteq A \times A$ uma relação de ordem parcial e $B \subseteq A$.
 
@@ -485,7 +485,7 @@ Sejam $R \subseteq A \times A$ uma relação de ordem parcial e $B \subseteq A$.
 
 ...
 
-# Exercícios (pt. 4)
+# Exercícios (8.1)
 
 ## Ex. 1
 
