@@ -91,3 +91,15 @@ Por (1), $(a, a) \in R_1$.
 Por (2), $(a, a) \in R_2$.
 
 Logo, pela definição de interseção, $(a, a) \in R_1 \cap R_2$.
+
+**Antissimetria:**
+
+...
+
+**Transitividade:**
+
+...
+
+**Comparabilidade:**
+
+...
