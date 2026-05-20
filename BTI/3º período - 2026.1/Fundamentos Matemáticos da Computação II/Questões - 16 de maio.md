@@ -37,13 +37,11 @@ Portanto $S \circ R$ é total. $\blacksquare$
 
 Suponha que $R_1$ e $R_2$ sejam ordens parciais em $A$. $R_1 - R_2$ deve ser uma ordem parcial em $A$?
 
-Irei apresentar um contra-exemplo.
+Tome o conjunto $A = \{a\}$ e as relações $R_1 = \{(a, a)\}$ e $R_2 = \{(a, a)\}$. Note que $R_1 - R_2 = \emptyset$.
 
-Como $R_1$ e $R_2$ são ordens parciais, logo elas são reflexivas.
+Para que $R_1 - R_2$ seja uma ordem parcial em $A$, ela precisa obrigatoriamente ser reflexiva.
 
-Tome $A = \{ a \}$, $R_1 = \{ (a, a) \}$ e $R_2 = \{ (a, a) \}$.
-
-Veja que $R_1$ e $R_2$ são de ordem parcial, mas $R_1 - R_2 = \emptyset$.
+Como $a \in A$, o par $(a, a)$ deveria pertencer à relação resultante. Contudo, como a relação resultante é vazia, temos que $(a, a) \notin (R_1 - R_2)$. 
 
 Portanto $R_1 - R_2$ não é uma ordem parcial em $A$. $\blacksquare$
 
