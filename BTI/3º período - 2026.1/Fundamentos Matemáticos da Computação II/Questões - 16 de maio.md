@@ -94,7 +94,14 @@ Logo, pela definição de interseção, $(a, a) \in R_1 \cap R_2$.
 
 **Antissimetria:**
 
-...
+Sejam $a_1, a_2 \in A$.
+
+Suponha que $(a_1, a_2) \in R_1 \cap R_2$ (3) e $(a_2, a_1) \in R_1 \cap R_2$ (4).
+
+De (3), temos $(a_1, a_2) \in R_1$ e $(a_1, a_2) \in R_2$.
+De (4), temos $(a_2, a_1) \in R_1$ e $(a_2, a_1) \in R_2$.
+
+Logo, por (1) e (2), segue que $a_1 = a_2$.
 
 **Transitividade:**
 
