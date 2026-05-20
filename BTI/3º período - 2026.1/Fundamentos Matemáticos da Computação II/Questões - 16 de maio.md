@@ -142,3 +142,12 @@ Portanto, pela ausência da comparabilidade em $R_1 \cap R_2$, concluímos que $
 
 Sejam $R \subseteq A \times B$ e $S \subseteq B \times C$. Verifique se $Dom(R) \subseteq Dom(S \circ R)$. Justifique.
 
+Vamos apresentar um contraexemplo.
+
+Tome $A = \{ 1 \}$, $B = \{2\}$ e $C = \{3\}$.
+
+Considere as relações $R = \{ (1,2) \}$ e $S = \emptyset$.
+
+Perceba que $Dom(R) = \{ 1 \}$ e $Dom(S) = \emptyset$. Além disso, $S \circ R = \emptyset$, logo $Dom(S \circ R) = \emptyset$.
+
+Concluímos que $Dom(R) \nsubseteq Dom(S \circ R)$. Portanto a afirmação é falsa. $\blacksquare$
