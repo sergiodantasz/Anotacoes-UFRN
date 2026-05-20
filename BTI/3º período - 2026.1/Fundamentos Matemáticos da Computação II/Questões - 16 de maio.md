@@ -94,19 +94,51 @@ Logo, pela definição de interseção, $(a, a) \in R_1 \cap R_2$.
 
 **Antissimetria:**
 
-Sejam $a_1, a_2 \in A$.
+Sejam $a, b \in A$.
 
-Suponha que $(a_1, a_2) \in R_1 \cap R_2$ (3) e $(a_2, a_1) \in R_1 \cap R_2$ (4).
+Suponha que $(a, b) \in R_1 \cap R_2$ (3) e $(b, a) \in R_1 \cap R_2$ (4).
 
-De (3), temos $(a_1, a_2) \in R_1$ e $(a_1, a_2) \in R_2$.
-De (4), temos $(a_2, a_1) \in R_1$ e $(a_2, a_1) \in R_2$.
+De (3), temos $(a, b) \in R_1$ e $(a, b) \in R_2$.
+De (4), temos $(b, a) \in R_1$ e $(b, a) \in R_2$.
 
-Logo, por (1) e (2), segue que $a_1 = a_2$.
+Logo, por (1) e (2), segue que $a = b$.
 
 **Transitividade:**
 
-...
+Sejam $a, b, c \in A$.
+
+Suponha que $(a, b) \in R_1 \cap R_2$ (5) e $(b, c) \in R_1 \cap R_2$ (6).
+
+De (5), temos $(a, b) \in R_1$ e $(a, b) \in R_2$.
+De (6), temos $(b, c) \in R_1$ e $(b, c) \in R_2$.
+
+Logo, de (1), pela definição de transitividade, $(a, c) \in R_1$. Analogamente, de (2), temos $(a, c) \in R_2$.
+
+Assim, pela definição de interseção, segue que $(a, c) \in R_1 \cap R_2$.
 
 **Comparabilidade:**
 
-...
+Sejam $a, b \in A$.
+
+De (1), temos que $(a, b) \in R_1$ ou $(b, a) \in R_1$.
+De (2), temos que $(a, b) \in R_2$ ou $(b, a) \in R_2$.
+
+Precisamos dividir a demonstração em 4 casos:
+
+- $(a, b) \in R_1$ e $(a, b) \in R_2$;
+- $(a, b) \in R_1$ e $(b, a) \in R_2$;
+- $(b, a) \in R_1$ e $(a, b) \in R_2$;
+- $(b, a) \in R_1$ e $(b, a) \in R_2$.
+
+Irei apresentar um contraexemplo para o segundo caso.
+
+Tome $A = \{ a, b \}$, com $a \neq b$. Considere as relações $R_1 = i_A \cup \{ (a, b) \}$ e $R_2 = i_A \cup \{ (b, a) \}$.
+
+Note que tanto $R_1$ quanto $R_2$ são relações de ordem total em $A$, mas $R_1 \cap R_2 = i_A$. Desse modo, $R_1 \cap R_2$ não satisfaz a comparabilidade, pois todos os elementos do conjunto deveriam estar relacionados em algum sentido (faltando, neste caso, $(a, b)$ ou $(b, a)$).
+
+Portanto, pela ausência da comparabilidade em $R_1 \cap R_2$, concluímos que $R_1 \cap R_2$ não é uma relação de ordem total. $\blacksquare$
+
+# Questão 5
+
+Sejam $R \subseteq A \times B$ e $S \subseteq B \times C$. Verifique se $Dom(R) \subseteq Dom(S \circ R)$. Justifique.
+
