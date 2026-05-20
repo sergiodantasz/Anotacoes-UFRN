@@ -80,3 +80,14 @@ Portanto, pela existência do contraexemplo, concluímos que $(S \cap T) \circ R
 # Questão 4
 
 Sejam $R_1$ e $R_2$ relações sobre $A$. Prove ou refute: Se $R_1$ e $R_2$ são relações de ordem total, então $R_1 \cap R_2$ é uma relação de ordem total.
+
+Suponha que $R_1$ (1) e $R_2$ (2) são relações de ordem total.
+
+**Reflexividade:**
+
+Seja $a \in A$.
+
+Por (1), $(a, a) \in R_1$.
+Por (2), $(a, a) \in R_2$.
+
+Logo, pela definição de interseção, $(a, a) \in R_1 \cap R_2$.
