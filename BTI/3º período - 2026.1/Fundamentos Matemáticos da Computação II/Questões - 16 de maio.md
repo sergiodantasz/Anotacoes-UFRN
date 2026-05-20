@@ -1,4 +1,10 @@
-# a)
+# Questão 1
+
+Sejam $R$ e $S$ relações tais que $R$ é de $A$ para $B$ e $S$ é de $B$ para $C$.
+
+Mostre que:
+
+##### a) Se $R$ e $S$ são funcionais, então $S \circ R$ é funcional.
 
 Suponha $R$ e $S$ funcionais.
 
@@ -14,7 +20,7 @@ Como $S$ é funcional, $(b_1, c_1) \in S$ e $(b_2, c_2) \in S$, logo $c_1 = c_2$
 
 Portanto $S \circ R$ é funcional. $\blacksquare$
 
-# b)
+##### b) Se $R$ e $S$ são totais, então $S \circ R$ é total.
 
 Suponha $R$ e $S$ totais.
 
@@ -26,3 +32,8 @@ Como $S$ é total e $b \in B$, logo existe $c \in C$ tal que $(b, c) \in S$ (2).
 Pela definição de composição, de (1) e (2) temos que $(a, c) \in S \circ R$.
 
 Portanto $S \circ R$ é total. $\blacksquare$
+
+# Questão 2
+
+Suponha que $R_1$ e $R_2$ sejam ordens parciais em $A$. $R_1 - R_2$ deve ser uma ordem parcial em $A$?
+
