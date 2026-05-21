@@ -10,38 +10,6 @@ Como $a \in A$, o par $(a, a)$ deveria pertencer à relação resultante. Contud
 
 Portanto $R_1 - R_2$ não é uma ordem parcial em $A$. $\blacksquare$
 
-# Questão 3
-
-Suponha que $R$ é uma relação de $A$ para $B$ e $S$ e $T$ são relações de $B$ para $C$. Prove ou refute: $(S \cap T) \circ R = (S \circ R) \cap (T \circ R)$.
-
-Vamos tentar demonstrar.
-
-**Parte $(S \cap T) \circ R \subseteq (S \circ R) \cap (T \circ R)$:**
-
-Seja $(a, c) \in (S \cap T) \circ R$.
-
-Pela definição de composição, existe $b \in B$ tal que $(a, b) \in R$ (1) e $(b, c) \in S \cap T$ (2).
-
-Logo, de (2), temos $(b, c) \in S$ (3) e $(b, c) \in T$ (4).
-
-Pela definição de composição, de (1) e (3) temos $(a, c) \in S \circ R$. Além disso, de (1) e (4), temos $(a, c) \in T \circ R$.
-
-Assim, pela definição de interseção, segue que $(a, c) \in (S \circ R) \cap (T \circ R)$.
-
-**Parte $(S \circ R) \cap (T \circ R) \subseteq (S \cap T) \circ R$:**
-
-Mostrarei agora que $(S \circ R) \cap (T \circ R) \nsubseteq (S \cap T) \circ R$ por meio de um contraexemplo.
-
-Tome $A = \{ a \}$, $B = \{ b_1, b_2 \}$ e $C = \{ c \}$. Defino como relações $R = \{ (a, b_1), (a, b_2) \}$, $S = \{ (b_1, c) \}$ e $T = \{ (b_2, c) \}$.
-
-Perceba que $S \circ R = \{ (a, c) \}$ e $T \circ R = \{ (a, c) \}$. Logo $(S \circ R) \cap (T \circ R) = \{ (a, c) \}$.
-
-Agora note que $S \cap T = \emptyset$. Logo $(S \cap T) \circ R = \emptyset$. Como o conjunto vazio não possui elementos, é impossível $(a, c) \in (S \cap T) \circ R$ e a inclusão falha.
-
-Assim, $(S \circ R) \cap (T \circ R) \nsubseteq (S \cap T) \circ R$.
-
-Portanto, pela existência do contraexemplo, concluímos que $(S \cap T) \circ R \neq (S \circ R) \cap (T \circ R)$. $\blacksquare$
-
 # Questão 4
 
 Sejam $R_1$ e $R_2$ relações sobre $A$. Prove ou refute: Se $R_1$ e $R_2$ são relações de ordem total, então $R_1 \cap R_2$ é uma relação de ordem total.

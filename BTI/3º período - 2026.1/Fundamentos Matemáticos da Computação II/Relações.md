@@ -646,51 +646,45 @@ Seja $(a, c) \in (S \cap T) \circ R$.
 
 Pela definição de composição, existe $b \in B$ tal que $(a, b) \in R$ (1) e $(b, c) \in S \cap T$ (2).
 
-De (2), pela definição de interseção, então $(b, c) \in S$ (3) e $(b, c) \in T$ (4).
+Logo, de (2), temos $(b, c) \in S$ (3) e $(b, c) \in T$ (4).
 
-Pela definição de composição, de (1) e (3), temos que $(a, c) \in S \circ R$ (5).
+Pela definição de composição, de (1) e (3) temos $(a, c) \in S \circ R$. Além disso, de (1) e (4), temos $(a, c) \in T \circ R$.
 
-De (1) e (4), temos que $(a, c) \in T \circ R$ (6).
-
-Pela definição de interseção, de (5) e (6), segue que $(a, c) \in (S \circ R) \cap (T \circ R)$. $\blacksquare$
+Assim, pela definição de interseção, segue que $(a, c) \in (S \circ R) \cap (T \circ R)$. $\blacksquare$
 
 > [!example] Proposição
 > $(S \circ R) \cap (T \circ R) \subseteq (S \cap T) \circ R$
 
 **Refutação:**
 
-Vamos apresentar um contra-exemplo.
+Mostrarei agora que $(S \circ R) \cap (T \circ R) \nsubseteq (S \cap T) \circ R$ por meio de um contraexemplo.
 
-Tome $A = B = C = \{1,2,3\}$.
+Tome $A = \{ a \}$, $B = \{ b_1, b_2 \}$ e $C = \{ c \}$. Defino como relações $R = \{ (a, b_1), (a, b_2) \}$, $S = \{ (b_1, c) \}$ e $T = \{ (b_2, c) \}$.
 
-Considere:
+Perceba que $S \circ R = \{ (a, c) \}$ e $T \circ R = \{ (a, c) \}$. Logo $(S \circ R) \cap (T \circ R) = \{ (a, c) \}$.
 
-- $R = \{ (1, 1), (1, 2) \}$;
-- $S = \{(1, 2\}$;
-- $T = \{(2, 1)\}$.
+Agora note que $S \cap T = \emptyset$. Logo $(S \cap T) \circ R = \emptyset$. Como o conjunto vazio não possui elementos, é impossível $(a, c) \in (S \cap T) \circ R$ e a inclusão falha.
 
-Note que $S \circ R = \{(1, 2)\}$ e $T \circ R = \{(1, 2\}$, logo $(S \circ R) \cap (T \circ R) = \{(1, 1)\}$.
+Assim, $(S \circ R) \cap (T \circ R) \nsubseteq (S \cap T) \circ R$.
 
-Veja também que $S \cap T = \emptyset$, logo $(S \cap T) \circ R = \emptyset$.
-
-Portanto $(S \circ R) \cap (T \circ R) \nsubseteq (S \cap T) \circ R$. $\blacksquare$
+Portanto, pela existência do contraexemplo, concluímos que $(S \cap T) \circ R \neq (S \circ R) \cap (T \circ R)$. $\blacksquare$
 
 ## Ex. 2
 
-Seja $R \subseteq A \times A$ tal que $R$ é simétrica e transitiva.
+Seja $R \subseteq A \times A$ uma relação tal que $R$ é simétrica e transitiva.
 
 > [!example] Proposição
 > $\forall x \in A, \exists y \in A, x\ R\ y \implies R \text{ é reflexiva}$
 
 **Demonstração:**
 
-Suponha que, para todo $x \in A$, existe $y \in A$ tal que $x\ R\ y$.
+Suponha que, para todo $x \in A$, existe $y \in A$ tal que $(x, y) \in R$.
 
 Seja $a \in A$.
 
-Pela hipótese inicial, existe $a' \in A$ tal que $a\ R\ a'$.
+Pela hipótese inicial, existe $a' \in A$ tal que $(a, a') \in R$.
 
-Como $R$ é simétrica, logo $a'\ R\ a$. Como $R$ é transitiva, logo $a\ R\ a$.
+Como $R$ é simétrica, logo $(a', a) \in R$. Como $R$ é transitiva, logo $(a, a) \in R$.
 
 Portanto $R$ é reflexiva. $\blacksquare$
 
@@ -698,9 +692,9 @@ Portanto $R$ é reflexiva. $\blacksquare$
 
 Ache os fechos de:
 
-**a)**
+**a)** $A = \{ a, b, c, d\}$ e $R = \{ (a, a), (a, b), (b, c), (c, d) \}$
 
-[foto]
+
 
 **b)** $R = \{ (x, y) \in \mathbb{R} \times \mathbb{R} \mid x < y \}$
 
