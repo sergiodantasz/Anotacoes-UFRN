@@ -528,16 +528,41 @@ $$
 
 **b)** Verifique quais das relações $R$, $S$, $S \circ R$ e $S \circ S^{-1}$ são injetivas, funcionais, sobrejetivas e totais.
 
-...
+$R$: não é injetiva, não é funcional, é sobrejetiva, é total.
+$S$: não é injetiva, não é funcional, é sobrejetiva, é total.
+$S \circ R$: não é injetiva, não é funcional, é sobrejetiva, é total.
+$S \circ S^{-1}$: não é injetiva, não é funcional, é sobrejetiva, é total.
 
 ## Ex. 3
 
-Considere $R \subseteq A \times B$. Suponha $R$ funcional.
+Seja $R \subseteq A \times B$.
 
 > [!example] Proposição
 > $R^{-1}$ é funcional se, e somente se, $R$ é injetiva.
 
-...
+**Parte ($\implies$):**
+
+Suponha $R^{-1}$ funcional.
+
+Sejam $a_1, a_2 \in A$ e $b \in B$.
+
+Disso e da hipótese inicial, temos $(b, a_1) \in R^{-1} \land (b, a_2) \in R^{-1} \implies a_1 = a_2$ (1).
+
+Suponha que $(a_1, b) \in R$ e $(a_2, b) \in R$. Pela definição de inversa, segue que $(b, a_1) \in R^{-1}$ e $(b, a_2) \in R^{-1}$.
+
+Logo, disso e de (1), temos $a_1 = a_2$. Sendo assim, $R$ é injetiva.
+
+**Parte ($\impliedby$):**
+
+Suponha $R$ injetiva.
+
+Sejam $b \in B$ e $a_1, a_2 \in A$.
+
+Suponha que $(b, a_1) \in R^{-1}$ e $(b, a_2) \in R^{-1}$. Pela definição de inversa, $(a_1, b) \in R$ e $(a_2, b) \in R$.
+
+Disso, da hipótese inicial e da definição de injetiva, obtemos $a_1 = a_2$. Logo $R^{-1}$ é funcional.
+
+Portanto, pelas duas partes, concluímos a demonstração. $\blacksquare$
 
 ## Ex. 4
 
