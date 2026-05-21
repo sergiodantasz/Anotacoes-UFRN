@@ -298,7 +298,7 @@ Sejam $R_1 \subseteq A \times A$ e $R_2 \subseteq B \times B$. Demonstre ou refu
 
 **Demonstração:**
 
-Sejam $R_1$ (H1) e $R_2$ (H2) relações reflexivas.
+Suponha que $R_1$ (H1) e $R_2$ (H2) são reflexivas.
 
 Seja $x \in A \cup B$. Logo $x \in A$ ou $x \in B$.
 
@@ -310,7 +310,7 @@ Por (H1), $(x, x) \in R_1$. Logo $(x, x) \in R_1 \cup R_2$.
 
 Pela (H2), $(x, x) \in R_2$. Logo $(x, x) \in R_1 \cup R_2$.
 
-De ambos os casos, $(x, x) \in R_1 \cup R_2$. Portanto, $R_1 \cup R_2$ é reflexiva. $\blacksquare$
+De ambos os casos, $(x, x) \in R_1 \cup R_2$. Portanto $R_1 \cup R_2$ é reflexiva. $\blacksquare$
 
 ## Ex. (b)
 
@@ -319,7 +319,7 @@ De ambos os casos, $(x, x) \in R_1 \cup R_2$. Portanto, $R_1 \cup R_2$ é reflex
 
 **Demonstração:**
 
-Sejam $R_1$ (H1) e $R_2$ (H2) relações simétricas.
+Suponha que $R_1$ (H1) e $R_2$ (H2) são simétricas.
 
 Sejam $a, b \in A \cup B$.
 
@@ -346,7 +346,58 @@ Considere $A = B = \{ a, b, c \}$.
 
 Tome $R_1 = \{(a, b)\}$ e $R_2 = \{(b, c)\}$. Note que ambas as relações são transitivas. No entanto, $R_1 \cup R_2 = \{(a, b), (b, c)\}$ não é transitiva.
 
-Portanto, $R_1 \cup R_2$ não é transitiva. $\blacksquare$
+Portanto $R_1 \cup R_2$ não é transitiva. $\blacksquare$
+
+## Ex. (d)
+
+> [!example] Proposição
+> Se $R_1$ e $R_2$ são reflexivas, então $R_1 \cap R_2$ é reflexiva.
+
+**Demonstração:**
+
+Sejam $R_1$ e $R_2$ relações reflexivas.
+
+Seja $x \in A \cap B$. Logo $x \in A$ e $x \in B$.
+
+Pelas hipóteses iniciais, temos $(x, x) \in R_1$ e $(x, x) \in R_2$. Pela definição de interseção, segue que $(x, x) \in R_1 \cap R_2$.
+
+Portanto $R_1 \cap R_2$ é reflexiva. $\blacksquare$
+
+## Ex. (e)
+
+> [!example] Proposição
+> Se $R_1$ e $R_2$ são simétricas, então $R_1 \cap R_2$ é simétrica.
+
+**Demonstração:**
+
+Suponha que $R_1$ e $R_2$ são simétricas.
+
+Sejam $x, y \in A \cap B$. Logo $x \in A$, $x \in B$, $y \in A$ e $y \in B$.
+
+Pelas hipóteses iniciais, temos $(x, y) \in R_1 \implies (y, x) \in R_1$ e $(x, y) \in R_2 \implies (y, x) \in R_2$.
+
+Suponha $(x, y) \in R_1 \cap R_2$. Logo $(x, y) \in R_1$ e $(x, y) \in R_2$.
+
+Disso e das implicações, segue que $(y, x) \in R_1$ e $(y, x) \in R_2$. Pela definição de interseção, $(y, x) \in R_1 \cap R_2$.
+
+Portanto $R_1 \cap R_2$ é simétrica. $\blacksquare$
+
+## Ex. (f)
+
+> [!example] Proposição
+> Se $R_1$ e $R_2$ são transitivas, então $R_1 \cap R_2$ é transitiva.
+
+**Demonstração:**
+
+Suponha que $R_1$ e $R_2$ são transitivas.
+
+Sejam $x, y, z \in A \cap B$. Logo $x \in A$, $x \in B$, $y \in A$, $y \in B$, $z \in A$ e $z \in B$.
+
+Suponha que $(x, y) \in R_1 \cap R_2$ e $(y, z) \in R_1 \cap R_2$. Logo $(x, y) \in R_1$, $(x, y) \in R_2$, $(y, z) \in R_1$ e $(y, z) \in R_2$.
+
+Disso e das hipóteses iniciais, segue que $(x, z) \in R_1$ e $(x, z) \in R_2$. Sendo assim, temos $(x, z) \in R_1 \cap R_2$.
+
+Portanto $R_1 \cap R_2$ é transitiva. $\blacksquare$
 
 ## Ex. (g)
 
