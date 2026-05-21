@@ -186,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 342.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,7 +202,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "35049215d3f9a147",
+  "active": "61367962754bb95a",
   "lastOpenFiles": [
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Relações.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Questões - 16 de maio.md",
