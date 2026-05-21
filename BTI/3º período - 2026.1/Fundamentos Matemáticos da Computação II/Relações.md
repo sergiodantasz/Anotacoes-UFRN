@@ -439,17 +439,47 @@ Considere $R \subseteq A \times B$. Demonstre as seguintes proposições.
 > [!example] Proposição
 > $(R^{-1})^{-1} = R$
 
-...
+**Parte $(R^{-1})^{-1} \subseteq R$:**
+
+Seja $(x, y) \in (R^{-1})^{-1}$.
+
+Pela definição de inversa, $(y, x) \in R^{-1}$. Novamente pela definição, temos $(x, y) \in R$.
+
+**Parte $R \subseteq (R^{-1})^{-1}$:**
+
+Seja $(x, y) \in R$.
+
+Pela definição de inversa, $(y, x) \in R^{-1}$. Mais uma vez aplicando a definição, segue que $(x, y) \in (R^{-1})^{-1}$.
+
+Portanto, pelas duas partes, concluímos que $(R^{-1})^{-1} = R$. $\blacksquare$
 
 > [!example] Proposição
 > $Dom(R^{-1}) = Ran(R)$
 
-...
+**Parte $Dom(R^{-1}) \subseteq Ran(R)$:**
+
+Note que $R^{-1} \subseteq B \times A$.
+
+Seja $b \in Dom(R^{-1})$. Logo existe $a \in A$ tal que $(b, a) \in R^{-1}$. Pela definição de inversa, temos que $(a, b) \in R$.
+
+Disso e da definição de imagem, concluímos que $b \in Ran(R)$.
+
+**Parte $Ran(R) \subseteq Dom(R^{-1})$:**
+
+Seja $b \in Ran(R)$. Logo existe $a \in A$ tal que $(a, b) \in R$. Pela definição de inversa, temos $(b, a) \in R^{-1}$.
+
+Disso e da definição de domínio, segue que $b \in Dom(R^{-1})$.
+
+Portanto, pelas duas partes, $Dom(R^{-1}) = Ran(R)$. $\blacksquare$
 
 > [!example] Proposição
 > $(S \circ R)^{-1} = R^{-1} \circ S^{-1}$
 
-...
+**Parte $(S \circ R)^{-1} \subseteq R^{-1} \circ S^{-1}$:**
+
+Seja $c \in (S \circ R)^{-1}$.
+
+**Parte $R^{-1} \circ S^{-1} \subseteq (S \circ R)^{-1}$:**
 
 > [!example] Proposição
 > $Dom(S \circ R) \subseteq Dom(R)$
@@ -497,12 +527,33 @@ Considere $R \subseteq A \times B$ e $S \subseteq B \times C$.
 > [!example] Proposição
 > Se $R$ e $S$ são funcionais, então $S \circ R$ é funcional.
 
-...
+Suponha $R$ e $S$ funcionais.
+
+Sejam $a \in A$ e $c_1, c_2 \in C$.
+
+Suponha $(a, c_1) \in S \circ R$ (1) e $(a, c_2) \in S \circ R$ (2).
+
+De (1), pela definição de composição, existe $b_1 \in B$ tal que $(a, b_1) \in R$ e $(b_1, c_1) \in S$.
+De (2), existe $b_2 \in B$ tal que $(a, b_2) \in R$ e $(b_2, c_2) \in S$.
+
+Como $R$ é funcional, $(a, b_1) \in R$ e $(a, b_2) \in R$, logo $b_1 = b_2$.
+Como $S$ é funcional, $(b_1, c_1) \in S$ e $(b_2, c_2) \in S$, logo $c_1 = c_2$.
+
+Portanto $S \circ R$ é funcional. $\blacksquare$
 
 > [!example] Proposição
 > Se $R$ e $S$ são totais, então $S \circ R$ é total.
 
-...
+Suponha $R$ e $S$ totais.
+
+Seja $a \in A$.
+
+Como $R$ é total e $a \in A$, logo existe $b \in B$ tal que $(a, b) \in R$ (1).
+Como $S$ é total e $b \in B$, logo existe $c \in C$ tal que $(b, c) \in S$ (2).
+
+Pela definição de composição, de (1) e (2) temos que $(a, c) \in S \circ R$.
+
+Portanto $S \circ R$ é total. $\blacksquare$
 
 # Exercícios (5.1)
 
