@@ -694,7 +694,9 @@ Ache os fechos de:
 
 **a)** $A = \{ a, b, c, d\}$ e $R = \{ (a, a), (a, b), (b, c), (c, d) \}$
 
-
+Fecho reflexivo: $R_r = \{ (a, a), (a, b), (b, c), (c, d), (b, b), (c, c), (d, d) \}$
+Fecho simétrico: $R_s = \{ (a, a), (a, b), (b, a), (b, c), (c, b), (c, d), (d, c) \}$
+Fecho transitivo: $R_t = \{ (a, a), (a, b), (b, c), (c, d), (a, c), (b, d), (a, d) \}$
 
 **b)** $R = \{ (x, y) \in \mathbb{R} \times \mathbb{R} \mid x < y \}$
 
@@ -729,3 +731,60 @@ Suponha que $(x, b) \in R_1$.
 Como $R_1 \subseteq R_2$, logo $(x, b) \in R_2$.
 
 Portanto, de (1), temos que $x = b$. $\blacksquare$
+
+# Exercícios (9.1)
+
+## Ex. 1
+
+> [!example] Exercício
+> Seja $R$ uma relação em $A$. Prove que $R$ é simétrica e antissimétrica se, e somente se, $R \subseteq i_A$.
+
+**Parte ($\implies$):**
+
+Suponha que $R$ é simétrica (1) e antissimétrica (2).
+
+Seja $(x, y) \in R$.
+
+Logo, disso e de (1), $(y, x) \in R$.
+
+Disso e de (2), temos $x = y$.
+
+Pela definição de identidade, concluímos que $(x, y) \in i_A$.
+
+**Parte ($\impliedby$):**
+
+Suponha $R \subseteq i_A$.
+
+**(I)** $R$ é simétrica:
+
+Sejam $x, y \in A$.
+
+Suponha que $(x, y) \in R$. Logo, pela hipótese inicial da parte, temos $(x, y) \in i_A$.
+
+Dessa forma, pela definição de identidade, necessariamente $x = y$. Disso segue que $(x, y)$ é exatamente igual a $(y, x)$.
+
+Sendo assim, como $(x, y) \in R$ e $(y, x) \in R$, concluímos que $R$ é simétrica.
+
+**(II)** $R$ é antissimétrica:
+
+Sejam $x, y \in A$.
+
+Suponha que $(x, y) \in R$ e $(y, x) \in R$.
+
+De forma análoga ao bloco (I), $(x, y) \in i_A$ e $(y, x) \in i_A$ e, consequentemente, $x = y$. Desse modo, $R$ é antissimétrica.
+
+Portanto, pelas duas partes, concluímos a demonstração. $\blacksquare$
+
+## Ex. 2
+
+Suponha que $R_1$ e $R_2$ sejam ordens parciais em $A$. Para cada item, forneça uma prova ou um contraexemplo que justifique sua resposta.
+
+> [!example] Exercício
+> $R_1 \cap R_2$ deve ser uma ordem parcial em $A$?
+
+...
+
+> [!example] Exercício
+> $R_1 \cup R_2$ deve ser uma ordem parcial em $A$?
+
+...
