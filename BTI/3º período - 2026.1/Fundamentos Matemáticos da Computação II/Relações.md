@@ -82,6 +82,8 @@ $$
 
 # Relações
 
+Seja $R \subseteq A \times B$.
+
 ### Injetividade
 
 $R$ é injetiva se, e somente se, para todo $a_1, a_2 \in A$, para todo $b \in B$:
@@ -92,7 +94,7 @@ $$
 
 ### Funcionalidade
 
-$R$ é funcional se, e somente se, para todo $b_1, b_2 \in B$, para todo $a \in A$:
+$R$ é funcional se, e somente se, para todo $a \in A$, para todo $b_1, b_2 \in B$:
 
 $$
 a\ R\ b_1 \land a\ R\ b_2 \implies b_1 = b_2
@@ -434,7 +436,7 @@ Portanto, pelas duas partes, concluímos a demonstração. $\blacksquare$
 
 ## Ex. 1
 
-Considere $R \subseteq A \times B$. Demonstre as seguintes proposições.
+Considere $R \subseteq A \times B$ e $S \subset B \times C$. Demonstre as seguintes proposições.
 
 > [!example] Proposição
 > $(R^{-1})^{-1} = R$
@@ -477,35 +479,52 @@ Portanto, pelas duas partes, $Dom(R^{-1}) = Ran(R)$. $\blacksquare$
 
 **Parte $(S \circ R)^{-1} \subseteq R^{-1} \circ S^{-1}$:**
 
-Seja $c \in (S \circ R)^{-1}$.
+Seja $(c, a) \in (S \circ R)^{-1}$. Logo, pela definição de inversa, $(a, c) \in S \circ R$.
+
+Pela definição de composta, existe $b \in B$ tal que $(a, b) \in R$ e $(b, c) \in S$. Disso temos que $(b, a) \in R^{-1}$ e $(c, b) \in S^{-1}$.
+
+Logo, pela definição de composta, $(c, a) \in R^{-1} \circ S^{-1}$.
 
 **Parte $R^{-1} \circ S^{-1} \subseteq (S \circ R)^{-1}$:**
+
+Seja $(c, a) \in R^{-1} \circ S^{-1}$. Logo existe $b \in B$ tal que $(c, b) \in S^{-1}$ e $(b, a) \in R^{-1}$. Pela definição de inversa, $(b, c) \in S$ e $(a, b) \in R$.
+
+Assim, pela definição de composta, segue que $(a, c) \in S \circ R$. Pela definição de inversa, temos $(c, a) \in (S \circ R)^{-1}$.
+
+Portanto, pelas duas partes, $(S \circ R)^{-1} = R^{-1} \circ S^{-1}$. $\blacksquare$
 
 > [!example] Proposição
 > $Dom(S \circ R) \subseteq Dom(R)$
 
-...
+Seja $a \in Dom(S \circ R)$. Logo existe $c \in C$ tal que $(a, c) \in S \circ R$.
+
+Pela definição de composta, existe $b \in B$ tal que $(a, b) \in R$ e $(b, c) \in S$. Disso e da definição de domínio, segue que $a \in Dom(R)$.
+
+Portanto $Dom(S \circ R) \subseteq Dom(R)$. $\blacksquare$
 
 ## Ex. 2
 
-Considere:
-
-- $A = \{ 1, 2, 3 \}$;
-- $B = \{ 4, 5, 6 \}$;
-- $R = \{ (1, 4), (1, 5), (2, 5), (3, 6) \} \subseteq A \times B$;
-- $S = \{ (4, 5), (4, 6), (5, 4), (6, 6) \} \subseteq B \times B$.
+Sejam os conjuntos $A = \{ 1, 2, 3 \}$ e $B = \{ 4, 5, 6 \}$ e as relações $R = \{ (1, 4), (1, 5), (2, 5), (3, 6) \} \subseteq A \times B$ e $S = \{ (4, 5), (4, 6), (5, 4), (6, 6) \} \subseteq B \times B$.
 
 **a)** Encontre:
 
 > [!example] Exercício
 > $S \circ R$
 
-...
+$$
+S \circ R = \{ (1, 5), (1, 6), (1, 4), (2, 4), (3, 6) \}
+$$
 
 > [!example] Exercício
 > $S \circ S^{-1}$
 
-...
+$$
+S^{-1} = \{ (5, 4), (6, 4), (4, 5), (6, 6) \}
+$$
+
+$$
+S \circ S^{-1} = \{ (5, 5), (5, 6), (6, 5), (6, 6), (4, 4) \}
+$$
 
 **b)** Verifique quais das relações $R$, $S$, $S \circ R$ e $S \circ S^{-1}$ são injetivas, funcionais, sobrejetivas e totais.
 
