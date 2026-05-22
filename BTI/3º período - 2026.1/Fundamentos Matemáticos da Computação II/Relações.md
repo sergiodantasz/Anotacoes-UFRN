@@ -903,3 +903,34 @@ Pela definição de inversa, $(a, b) \in R^{-1}$.
 Em ambos os casos $R^{-1}$ satisfaz a propriedade da comparabilidade.
 
 Portanto, concluímos que $R^{-1}$ é uma ordem total. $\blacksquare$
+
+# Exercícios (11.1)
+
+# Ex. 1
+
+Verifique se as seguintes relações são de equivalência. Caso sejam, apresente as classes de equivalência e a partição definida por cada relação.
+
+> [!example] Exercício
+> $A = \{ 2, 3, \ldots, 20 \}$, $R = \{ (x, y) \mid x \equiv y \pmod{3} \}$
+
+Vamos separar pelo resto:
+
+- Resto 0: 3, 6, 9, 12, 15, 18
+- Resto 1: 4, 7, 10, 13, 16, 19
+- Resto 2: 2, 5, 8, 11, 14, 17, 20
+
+
+
+> [!example] Exercício
+> $A = \{ 2, 3, \ldots, 20 \}$, $R = \{ (x, y) \mid x \text{ e } y \text{ possuem a mesma quantidade de fatores primos} \}$
+
+Vamos separar por quantidade de fatores primos:
+
+- 1: 2, 3, 5, 7, 11, 13, 17, 19
+- 2: 4, 6, 9, 10, 14, 15
+- 3: 8, 12, 18, 20
+- 4: 16
+
+> [!example] Exercício
+> $R = \{ (x, y) \mid x \cdot y \geq 0 \} \subseteq \mathbb{Z}^* \times \mathbb{Z}^*$
+
