@@ -35,7 +35,8 @@
               "title": "Questões - 16 de maio"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "4130c7cc97ce9aa5",
@@ -216,7 +217,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7921caa8173d626b",
+  "active": "e4e13eb2d695a87a",
   "lastOpenFiles": [
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Questões - 16 de maio.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Relações.md",

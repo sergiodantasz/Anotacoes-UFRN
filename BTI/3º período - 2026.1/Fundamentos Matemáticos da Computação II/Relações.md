@@ -890,3 +890,16 @@ Como já demonstramos que $R^{-1}$ é uma ordem parcial, nos basta apenas mostra
 
 Sejam $a, b \in A$.
 
+Pela comparabilidade de $R$, segue que $(a, b) \in R$ ou $(b, a) \in R$.
+
+**Caso $(a, b) \in R$:**
+
+Aplicando a definição de inversa, temos $(b, a) \in R^{-1}$.
+
+**Caso $(b, a) \in R$:**
+
+Pela definição de inversa, $(a, b) \in R^{-1}$.
+
+Em ambos os casos $R^{-1}$ satisfaz a propriedade da comparabilidade.
+
+Portanto, concluímos que $R^{-1}$ é uma ordem total. $\blacksquare$
