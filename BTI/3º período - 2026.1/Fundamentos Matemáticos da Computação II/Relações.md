@@ -782,9 +782,111 @@ Suponha que $R_1$ e $R_2$ sejam ordens parciais em $A$. Para cada item, forneça
 > [!example] Exercício
 > $R_1 \cap R_2$ deve ser uma ordem parcial em $A$?
 
-...
+**Reflexividade:**
+
+Seja $a \in A$.
+
+Como $R_1$ e $R_2$ são reflexivas, logo $(a, a) \in R_1$ e $(a, a) \in R_2$. Pela definição de interseção, temos $(a, a) \in R_1 \cap R_2$.
+
+Assim, $R_1 \cap R_2$ é reflexiva.
+
+**Antissimetria:**
+
+Sejam $a, b \in A$.
+
+Suponha $(a, b) \in R_1 \cap R_2$ (1) e $(b, a) \in R_1 \cap R_2$ (2).
+
+De (1), temos $(a, b) \in R_1$ e $(a, b) \in R_2$.
+De (2), temos $(b, a) \in R_1$ e $(b, a) \in R_2$.
+
+Logo, disso e da antissimetria de $R_1$ e $R_2$, segue que $a = b$.
+
+Desse modo, $R_1 \cap R_2$ é antissimétrica.
+
+**Transitividade:**
+
+Sejam $a, b, c \in A$.
+
+Suponha $(a, b) \in R_1 \cap R_2$ (1) e $(b, c) \in R_1 \cap R_2$ (2).
+
+De (1), temos $(a, b) \in R_1$ e $(a, b) \in R_2$.
+De (2), temos $(b, c) \in R_1$ e $(b, c) \in R_2$.
+
+Logo, disso e da transitividade de $R_1$, temos $(a, c) \in R_1$. Analogamente, para $R_2$, temos $(a, c) \in R_2$. Pela definição de interseção, $(a, c) \in R_1 \cap R_2$.
+
+Assim, $R_1 \cap R_2$ é transitiva.
+
+Portanto, pelas três propriedades demonstradas, concluímos que $R_1 \cap R_2$ é de ordem parcial. $\blacksquare$
 
 > [!example] Exercício
 > $R_1 \cup R_2$ deve ser uma ordem parcial em $A$?
 
-...
+Irei apresentar um contraexemplo.
+
+Tome o conjunto $A = \{1, 2\}$.
+
+Defina as relações:
+
+- $R_1 = \{ (1, 1), (2, 2), (1, 2) \}$;
+- $R_2 = \{ (1, 1), (2, 2), (2, 1) \}$.
+
+Note que ambas são ordens parciais (reflexivas, antissimétricas e transitivas).
+
+Calculando a união, teremos:
+
+$$
+R_1 \cup R_2 = \{ (1, 1), (2, 2), (1, 2), (2, 1) \}
+$$
+
+Como $(1, 2) \in R_1 \cup R_2$ e $(2, 1) \in R_1 \cup R_2$, a antissimetria obriga $1 = 2$, o que é falso.
+
+Dessa forma, concluímos que $R_1 \cup R_2$ não é uma ordem parcial. $\blacksquare$
+
+## Ex. 6
+
+Seja $R \subseteq A \times A$.
+
+> [!example] Exercício
+> Se $R$ é uma ordem parcial, então $R^{-1}$ é uma ordem parcial.
+
+Suponha que $R$ é uma ordem parcial.
+
+**Reflexividade:**
+
+Seja $a \in A$.
+
+Da reflexividade de $R$, $(a, a) \in R$. Pela definição de inversa, temos $(a, a) \in R^{-1}$.
+
+Logo $R^{-1}$ é reflexiva.
+
+**Antissimetria:**
+
+Sejam $a, b \in A$.
+
+Suponha que $(a, b) \in R^{-1}$ e $(b, a) \in R^{-1}$. Logo, da definição de inversa, $(b, a) \in R$ e $(a, b) \in R$.
+
+Disso e da antissimetria de $R$, segue que $a = b$.
+
+Logo $R^{-1}$ é antissimétrica.
+
+**Transitividade:**
+
+Sejam $a, b, c \in A$.
+
+Suponha que $(a, b) \in R^{-1}$ e $(b, c) \in R^{-1}$. Logo, da definição de inversa, $(b, a) \in R$ e $(c, b) \in R$.
+
+Disso e da transitividade de $R$, temos que $(c, a) \in R$. Aplicando a definição de inversa, $(a, c) \in R^{-1}$.
+
+Logo $R^{-1}$ é transitiva.
+
+Portanto, pelas três propriedades demonstradas, concluímos que $R^{-1}$ é uma ordem parcial. $\blacksquare$
+
+> [!example] Exercício
+> Se $R$ é uma ordem total, então $R^{-1}$ é uma ordem total.
+
+Suponha que $R$ é uma ordem total.
+
+Como já demonstramos que $R^{-1}$ é uma ordem parcial, nos basta apenas mostrar que ela possui a propriedade da comparabilidade.
+
+Sejam $a, b \in A$.
+
