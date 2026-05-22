@@ -913,32 +913,79 @@ Verifique se as seguintes relações são de equivalência. Caso sejam, apresent
 > [!example] Exercício
 > $A = \{ 2, 3, \ldots, 20 \}$, $R = \{ (x, y) \mid x \equiv y \pmod{3} \}$
 
-Vamos separar pelo resto:
-
-- Resto 0: 3, 6, 9, 12, 15, 18
-- Resto 1: 4, 7, 10, 13, 16, 19
-- Resto 2: 2, 5, 8, 11, 14, 17, 20
-
-
+...
 
 > [!example] Exercício
 > $A = \{ 2, 3, \ldots, 20 \}$, $R = \{ (x, y) \mid x \text{ e } y \text{ possuem a mesma quantidade de fatores primos} \}$
 
-Vamos separar por quantidade de fatores primos:
-
-- 1: 2, 3, 5, 7, 11, 13, 17, 19
-- 2: 4, 6, 9, 10, 14, 15
-- 3: 8, 12, 18, 20
-- 4: 16
-
-Classes de equivalência:
-
-- $[2]_R = \{  \}$
+...
 
 > [!example] Exercício
 > $R = \{ (x, y) \mid x \cdot y \geq 0 \} \subseteq \mathbb{Z}^* \times \mathbb{Z}^*$
 
+**Relação de equivalência:**
+
 **Reflexividade:**
+
+Primeiramente, perceba que podemos reduzir $x \cdot y \geq 0$ para simplesmente $x \cdot y > 0$, já que a relação é definida sobre o conjunto dos inteiros não nulos e a multiplicação entre eles jamais resultará em zero.
 
 Seja $x \in \mathbb{Z}^*$.
 
+*Caso $x > 0$:*
+
+$$
+x > 0 \implies x \cdot x > 0 \cdot x \implies x \cdot x > 0
+$$
+
+*Caso $x < 0$:*
+
+$$
+x < 0 \implies x \cdot x > 0 \cdot x \implies x \cdot x > 0
+$$
+
+Em ambos os casos temos $x \cdot x > 0$, isto é, $x \cdot x \geq 0$. Logo $R$ é reflexiva.
+
+**Simetria:**
+
+Sejam $x, y \in \mathbb{Z}^*$.
+
+Suponha $x \cdot y \geq 0$.
+
+Pela propriedade da comutatividade, temos $x \cdot y = y \cdot x$. Logo $y \cdot x \geq 0$ e, consequentemente, $R$ é simétrica.
+
+**Transitividade:**
+
+Sejam $x, y, z \in \mathbb{Z}^*$.
+
+Suponha $x \cdot y \geq 0$ e $y \cdot z \geq 0$.
+
+Multiplicando as duas inequações e usando as propriedades comutativa e associativa da multiplicação, temos:
+
+$$
+\begin{align}
+(x \cdot y) \cdot (y \cdot z) \geq 0 \cdot 0
+                  &\implies x \cdot (y \cdot y) \cdot z \geq 0 \\
+                  &\implies x \cdot z \cdot y^2 \geq 0 \qquad (1)
+\end{align}
+$$
+
+Como $y \in \mathbb{Z}^*$, sabemos que $y \neq 0$ e, consequentemente, $y^2 > 0$. Logo podemos dividir (1) por $y^2$ em ambos os lados:
+
+$$
+\frac{x \cdot z \cdot y^2}{y^2} \geq \frac{0}{y^2} \implies x \cdot z \geq 0
+$$
+
+Com isso concluímos que $R$ é transitiva.
+
+Portanto, pelas três propriedades, temos que $R$ é uma relação de equivalência. $\blacksquare$
+
+**Classes de equivalência:**
+
+Como a relação é sobre $\mathbb{Z}^*$, definimos duas classes:
+
+- $[1]_R = \{ 1, 2, 3, 4, 5, \ldots \}$;
+- $[-1]_R = \{ -1, -2, -3, -4, -5, \ldots \}$.
+
+**Partição:**
+
+A partição é dada por $F_R = \{ [1]_R, [-1]_R \}$.
