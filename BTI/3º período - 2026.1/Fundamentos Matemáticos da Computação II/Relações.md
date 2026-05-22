@@ -931,6 +931,14 @@ Vamos separar por quantidade de fatores primos:
 - 3: 8, 12, 18, 20
 - 4: 16
 
+Classes de equivalência:
+
+- $[2]_R = \{  \}$
+
 > [!example] Exercício
 > $R = \{ (x, y) \mid x \cdot y \geq 0 \} \subseteq \mathbb{Z}^* \times \mathbb{Z}^*$
+
+**Reflexividade:**
+
+Seja $x \in \mathbb{Z}^*$.
 
