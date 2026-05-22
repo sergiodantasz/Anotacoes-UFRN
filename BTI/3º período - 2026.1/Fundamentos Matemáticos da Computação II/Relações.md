@@ -207,8 +207,8 @@ $$
 Uma relação $R \subseteq A \times A$ é uma relação de equivalência se, e somente se, $R$ é:
 
 - Reflexiva;
-- Transitiva;
-- Simétrica.
+- Simétrica;
+- Transitiva.
 
 # Fechos
 
