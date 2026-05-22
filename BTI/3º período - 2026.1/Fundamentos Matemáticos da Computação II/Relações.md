@@ -251,7 +251,7 @@ Onde:
 
 Uma partição é um conjunto formado por subconjuntos (sem números repetidos que já estão em outros subconjuntos) cuja união é o conjunto no qual a partição se baseia.
 
-> Toda relação de equivalência define uma partição.
+> Toda relação de equivalência define uma, e apenas uma, partição.
 
 Seja $A$ um conjunto e $F \subseteq P(A)$.
 
