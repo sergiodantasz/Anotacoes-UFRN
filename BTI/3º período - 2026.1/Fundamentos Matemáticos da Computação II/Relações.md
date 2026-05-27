@@ -150,6 +150,8 @@ $$
 \forall x \in B, x\ R\ b \implies x = b
 $$
 
+> Nenhum elemento se relaciona com $b$ além dele mesmo.
+
 ### Máximo
 
 $b$ é o maior elemento (ou o elemento máximo) de $B$ se, e somente se:
