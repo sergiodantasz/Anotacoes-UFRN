@@ -24,3 +24,4 @@ Um subconjunto $B \subseteq A$ é chamado de cadeia de se, e somente se, quaisqu
 
 # Ordenação Topológica
 
+[foto]
