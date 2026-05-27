@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5,
-    "collapsed": true
+    "width": 379.5
   },
   "right": {
     "id": "244f2931f8d6b699",
@@ -182,9 +181,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f20d3d35828b86ef",
+  "active": "871ba8da18c41075",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2026-05-27 13.30.19.excalidraw.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Diagrama de Hasse.md",
+    "Excalidraw",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Relações.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Questões - 16 de maio.md",
     "Untitled.md",
@@ -210,7 +211,6 @@
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Demonstração por Contradição.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Demonstração Direta e por Contraposição.md",
     "BTI/3º período - 2026.1/Probabilidade/S2 - Introdução à Probabilidade.md",
-    "BTI/3º período - 2026.1/Probabilidade/S1 - Introdução à Probabilidade.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Funções",
     "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/Metadados",
@@ -220,7 +220,6 @@
     "BTI/3º período - 2026.1/Probabilidade",
     "BTI/3º período - 2026.1/Arquitetura de Computadores",
     "BTI/3º período - 2026.1/Linguagem de Programação I",
-    "BTI/3º período - 2026.1/Estrutura de Dados Básicas I",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image.png",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-47.png",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-46.png",
