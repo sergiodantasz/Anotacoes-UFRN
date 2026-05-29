@@ -28,7 +28,7 @@ Um subconjunto $B \subseteq A$ é chamado de cadeia se, e somente se, quaisquer 
 
 # Reticulado (Lattice)
 
-Um diagrama é reticulado 
+Um reticulado é uma estrutura em que quaisquer dois elementos possuem Inf e Sup.
 
 # Exercícios
 
