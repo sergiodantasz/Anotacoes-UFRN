@@ -30,6 +30,18 @@ Um subconjunto $B \subseteq A$ é chamado de cadeia se, e somente se, quaisquer 
 
 Um reticulado é uma estrutura em que quaisquer dois elementos possuem Inf e Sup.
 
+# Ross (251 a 258)
+
+Significado de $x \land y$ e $x \lor y$:
+
+1. $x \leq x \lor y$ e $y \leq x \lor y$;
+2. Se $x \leq z$ e $y \leq z$, então $x \lor y \leq z$;
+3. $x \land y \leq x$ e $x \land z \leq y$;
+4. Se $z \leq x$ e $z \leq y$, então $z \leq x \land y$.
+
+[teorema 2]
+[teorema 4]
+
 # Exercícios
 
 ## Ex. 1
