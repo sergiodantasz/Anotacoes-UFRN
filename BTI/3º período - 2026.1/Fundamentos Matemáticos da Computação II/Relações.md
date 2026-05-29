@@ -216,6 +216,14 @@ $$
 \text{Menor limitante superior de } \{x, y\} \iff x \lor y
 $$
 
+### Complementar
+
+Dados dois elementos $a, a' \in A$, $a'$ é o complementar de $a$ se, e somente se:
+
+$$
+a \land a' = 0 \quad \text{e} \quad a \lor a' = 1
+$$
+
 # Relação de Equivalência
 
 Uma relação $R \subseteq A \times A$ é uma relação de equivalência se, e somente se, $R$ é:

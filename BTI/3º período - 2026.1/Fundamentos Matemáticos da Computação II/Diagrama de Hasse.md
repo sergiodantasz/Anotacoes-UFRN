@@ -26,7 +26,7 @@ Um subconjunto $B \subseteq A$ é chamado de cadeia se, e somente se, quaisquer 
 
 [foto]
 
-# Reticulado
+# Reticulado (Lattice)
 
 Um diagrama é reticulado 
 
