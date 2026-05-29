@@ -20,7 +20,7 @@ Por exemplo, considere a cadeia de $R_1$ dada por $d\ R_1\ b\ R_1\ a\ R_1\ g$. T
 
 Seja $R \subseteq A \times A$ uma poset.
 
-Um subconjunto $B \subseteq A$ é chamado de cadeia de se, e somente se, quaisquer dois elementos de $B$ são comparáveis.
+Um subconjunto $B \subseteq A$ é chamado de cadeia se, e somente se, quaisquer dois elementos de $B$ são comparáveis.
 
 # Ordenação Topológica
 
