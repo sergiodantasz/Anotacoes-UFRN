@@ -186,6 +186,12 @@ $$
 \forall x \in L, x\ R\ l
 $$
 
+#### Notação
+
+$$
+\text{Maior limitante inferior de } \{x, y\} \iff x \land y
+$$
+
 ### Limitante Superior
 
 $a$ é limitante superior de $B$ se, e somente se:
@@ -202,6 +208,12 @@ $l$ é o maior limitante superior de $B$ se, e somente se:
 
 $$
 \forall x \in L, l\ R\ x
+$$
+
+#### Notação
+
+$$
+\text{Menor limitante superior de } \{x, y\} \iff x \lor y
 $$
 
 # Relação de Equivalência

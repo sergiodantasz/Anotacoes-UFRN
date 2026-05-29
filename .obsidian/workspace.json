@@ -20,7 +20,13 @@
               "icon": "lucide-file",
               "title": "Diagrama de Hasse"
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "8abf0ce8bd63ba25",
+        "type": "tabs",
+        "children": [
           {
             "id": "ec6f2af0b5d40598",
             "type": "leaf",
@@ -92,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5
+    "width": 379.5,
+    "collapsed": true
   },
   "right": {
     "id": "244f2931f8d6b699",
@@ -195,10 +202,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f20d3d35828b86ef",
+  "active": "ec6f2af0b5d40598",
   "lastOpenFiles": [
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Relações.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Diagrama de Hasse.md",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Relações.md",
     "Excalidraw/Drawing 2026-05-27 13.30.19.excalidraw.md",
     "Excalidraw",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Questões - 16 de maio.md",

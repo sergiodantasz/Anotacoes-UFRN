@@ -26,6 +26,10 @@ Um subconjunto $B \subseteq A$ é chamado de cadeia se, e somente se, quaisquer 
 
 [foto]
 
+# Reticulado
+
+Um diagrama é reticulado 
+
 # Exercícios
 
 ## Ex. 1
