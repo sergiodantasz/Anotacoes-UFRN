@@ -189,7 +189,7 @@ $$
 #### Notação
 
 $$
-\text{Maior limitante inferior de } \{x, y\} \iff x \land y
+\text{Maior limitante inferior de } \{x, y\} \overset{def}{\iff} x \land y
 $$
 
 ### Limitante Superior
@@ -204,7 +204,7 @@ $$
 
 Sejam $L = \{ x \in A \mid x \text{ é limitante superior de } B \}$ e $l \in L$.
 
-$l$ é o maior limitante superior de $B$ se, e somente se:
+$l$ é o menor limitante superior de $B$ se, e somente se:
 
 $$
 \forall x \in L, l\ R\ x
@@ -213,7 +213,7 @@ $$
 #### Notação
 
 $$
-\text{Menor limitante superior de } \{x, y\} \iff x \lor y
+\text{Menor limitante superior de } \{x, y\} \overset{def}{\iff} x \lor y
 $$
 
 ### Complementar
