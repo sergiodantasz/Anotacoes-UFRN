@@ -102,7 +102,13 @@ $$
 
 ## Definição
 
-...
+O diagrama de Hasse é uma forma gráfica de representar um conjunto finito parcialmente ordenado (*poset*).
+
+Seja um *poset* definido por $(A, \leq)$, onde a relação é reflexiva, antissimétrica e transitiva.
+
+O diagrama de Hasse simplifica as conexões entre os elementos do conjunto eliminando os grafos da reflexividade e da transitividade, além de atribuir o sentido de baixo para cima nas ligações.
+
+Dizemos que $y$ cobre $x$ se $x < y$ (isto é, $x \leq y$ e $x \neq y$) e não existe $z \in A$ tal que $x < z < y$.
 
 ## Cadeias
 
