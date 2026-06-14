@@ -176,6 +176,22 @@ Propriedades de $x \land y$ e $x \lor y$:
 
 [Ross (251 - 258) - Teoremas 2 e 4]
 
+## Propriedades
+
+Seja $L$ um reticulado. Para todo $a, b \in L$, valem:
+
+$$
+a \lor b = b \iff a \leq b
+$$
+
+$$
+a \land b = a \iff a \leq b
+$$
+
+$$
+a \land b = a \iff a \lor b = b
+$$
+
 ## Complementar
 
 Dados dois elementos $a, a' \in A$, $a'$ é o complementar de $a$ (e vice-versa) se, e somente se:
