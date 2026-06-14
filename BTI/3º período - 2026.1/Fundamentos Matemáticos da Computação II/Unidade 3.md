@@ -104,11 +104,11 @@ $$
 
 O diagrama de Hasse é uma forma gráfica de representar um conjunto finito parcialmente ordenado (*poset*).
 
-Seja um *poset* definido por $(A, \leq)$, onde a relação é reflexiva, antissimétrica e transitiva.
+Seja um *poset* definido por $(A, \preceq)$, onde a relação é reflexiva, antissimétrica e transitiva.
 
 O diagrama de Hasse simplifica as conexões entre os elementos do conjunto eliminando os grafos da reflexividade e da transitividade, além de atribuir o sentido de baixo para cima nas ligações.
 
-Dizemos que $y$ cobre $x$ se $x < y$ (isto é, $x \leq y$ e $x \neq y$) e não existe $z \in A$ tal que $x < z < y$.
+Dizemos que $y$ cobre $x$ se $x \prec y$ (isto é, $x \preceq y$ e $x \neq y$) e não existe $z \in A$ tal que $x \prec z \prec y$.
 
 ## Cadeias
 
@@ -135,6 +135,12 @@ Um subconjunto $B \subseteq A$ é chamado de cadeia se, e somente se, quaisquer 
 $$
 (\forall a, b \in B)[(a, b) \in R \lor (b, a) \in R]
 $$
+
+**Exemplo:**
+
+Considere o conjunto $P = \mathcal{P}(\{1,2,3\})$, que contém todos os subconjuntos de $\{1,2,3\}$, ordenado pela relação de inclusão de conjuntos $\subseteq$.
+
+O subconjunto $C = \{\emptyset,\{1\},\{1,2\},\{1,2,3\}\}$ é uma cadeia, pois todos os seus elementos estão contidos uns nos outros formando uma linha direta: $\emptyset \subseteq \{1\} \subseteq \{1,2\} \subseteq \{1,2,3\}$.
 
 ## Ordenação Topológica
 
