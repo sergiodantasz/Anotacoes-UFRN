@@ -28,6 +28,10 @@ $$
 \forall x \in B, x\ R\ b \implies x = b
 $$
 
+$$
+\nexists x \in B, x\ R\ b \land x \neq b
+$$
+
 > Nenhum elemento se relaciona com $b$ além dele mesmo.
 
 ### Máximo
@@ -37,7 +41,6 @@ $b$ é o maior elemento (ou o elemento máximo) de $B$ se, e somente se:
 $$
 \forall x \in B, x\ R\ b
 $$
-
 ### Maximal
 
 $b$ é o elemento maximal de $B$ se, e somente se:
@@ -45,6 +48,12 @@ $b$ é o elemento maximal de $B$ se, e somente se:
 $$
 \forall x \in B, b\ R\ x \implies x = b
 $$
+
+$$
+\nexists x \in B, b\ R\ x \land x \neq b
+$$
+
+> Nenhum elemento fica "acima" de $b$, exceto ele próprio.
 
 ### Limitante Inferior
 
