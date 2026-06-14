@@ -22,6 +22,30 @@
             }
           },
           {
+            "id": "fa238d942a4c64b8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Referências/Discrete Mathematics with Applications, 5th Edition by Susanna S. Epp (2020).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Discrete Mathematics with Applications, 5th Edition by Susanna S. Epp (2020)"
+            }
+          },
+          {
+            "id": "ecc08ac2de6c27ff",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Referências/Discrete Mathematics with Applications, 5th Edition by Susanna S. Epp (2020).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Discrete Mathematics with Applications, 5th Edition by Susanna S. Epp (2020)"
+            }
+          },
+          {
             "id": "f36ebcb345230f79",
             "type": "leaf",
             "state": {
@@ -195,14 +219,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "871ba8da18c41075",
+  "active": "d803af4bbd3a47a5",
   "lastOpenFiles": [
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Referências/Discrete Mathematical Structures, 3rd Edition.pdf",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Referências/Discrete Mathematics with Applications, 5th Edition by Susanna S. Epp (2020).pdf",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Unidade 3.md",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Referências/Discrete Mathematical Structures, 3rd Edition.pdf",
     "image.png",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Relações.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Referências/Discrete Mathematical Structures - Third Edition.pdf",
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Unidade 3.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Referências",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Funções.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Questões - 16 de maio.md",
@@ -235,7 +259,6 @@
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 3.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Funções",
-    "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/Metadados",
     "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/Metadados/ai-ml-dl.png",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image.png",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-47.png",

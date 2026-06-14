@@ -157,6 +157,8 @@ Seja $(A, \preceq)$ um poset, com $A \neq \emptyset$ e finito.
 
 Para construir uma ordenação topológica, selecione um elemento minimal de $A$ e "remova" ele do diagrama. Agora temos um novo diagrama com novos elementos minimais. Retire mais mais um minimal. O processo deve ser repetido até o diagrama ficar vazio. A ordenação topológica é feita iniciando no primeiro elemento removido e finalizando no último.
 
+> Veja o exemplo [[Discrete Mathematics with Applications, 5th Edition by Susanna S. Epp (2020).pdf#page=579&selection=195,0,197,6|8.5.11]].
+
 # Reticulados (Lattices)
 
 ## Definição
