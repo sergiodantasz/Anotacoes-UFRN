@@ -153,7 +153,9 @@ O subconjunto $C = \{\emptyset,\{1\},\{1,2\},\{1,2,3\}\}$ é uma cadeia, pois to
 
 ## Ordenação Topológica
 
-[foto]
+Seja $(A, \preceq)$ um poset, com $A \neq \emptyset$ e finito.
+
+Para construir uma ordenação topológica, selecione um elemento minimal de $A$ e "remova" ele do diagrama. Agora temos um novo diagrama com novos elementos minimais. Retire mais mais um minimal. O processo deve ser repetido até o diagrama ficar vazio. A ordenação topológica é feita iniciando no primeiro elemento removido e finalizando no último.
 
 # Reticulados (Lattices)
 
