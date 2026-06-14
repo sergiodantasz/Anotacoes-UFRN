@@ -163,7 +163,7 @@ Para construir uma ordenação topológica, selecione um elemento minimal de $A$
 
 ## Definição
 
-Um reticulado é uma estrutura em que quaisquer dois elementos possuem Inf e Sup.
+Um reticulado é uma estrutura em que quaisquer dois elementos possuem *Inf* e *Sup*.
 
 ## Ínfimos e Supremos em Reticulados
 
