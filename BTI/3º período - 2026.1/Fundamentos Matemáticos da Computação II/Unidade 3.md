@@ -169,10 +169,10 @@ Um reticulado é uma estrutura em que quaisquer dois elementos possuem *Inf* e *
 
 Propriedades de $x \land y$ e $x \lor y$:
 
-- $x \leq x \lor y$ e $y \leq x \lor y$;
-- Se $x \leq z$ e $y \leq z$, então $x \lor y \leq z$;
-- $x \land y \leq x$ e $x \land z \leq y$;
-- Se $z \leq x$ e $z \leq y$, então $z \leq x \land y$.
+- $x \leq x \lor y$ e $y \leq x \lor y$ ($x \lor y$ é um limitante superior de $x$ e $y$);
+- Se $x \leq z$ e $y \leq z$, então $x \lor y \leq z$ ($x \lor y$ é o menor limitante superior de $x$ e $y$);
+- $x \land y \leq x$ e $x \land y \leq y$ ($x \land y$ é um limitante inferior de $x$ e $y$);
+- Se $z \leq x$ e $z \leq y$, então $z \leq x \land y$ ($x \land y$ é o maior limitante inferior de $x$ e $y$).
 
 [Ross (251 - 258) - Teoremas 2 e 4]
 
