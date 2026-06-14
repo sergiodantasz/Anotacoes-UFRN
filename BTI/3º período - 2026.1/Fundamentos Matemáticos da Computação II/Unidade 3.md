@@ -1,8 +1,18 @@
 # Ordem Parcial
 
+## Definição
+
+$R \subseteq A \times A$ é uma relação de ordem parcial se, e somente se, $R$ é:
+
+- Reflexiva;
+- Antissimétrica;
+- Transitiva.
+
+## Elementos
+
 Sejam $R \subseteq A \times A$ uma relação de ordem parcial, $B \subseteq A$, $a \in A$ e $b \in B$.
 
-## Mínimo
+### Mínimo
 
 $b$ é o menor elemento (ou o elemento mínimo) de $B$ se, e somente se:
 
@@ -10,7 +20,7 @@ $$
 \forall x \in B, b\ R\ x
 $$
 
-## Minimal
+### Minimal
 
 $b$ é o elemento minimal de $B$ se, e somente se:
 
@@ -20,7 +30,7 @@ $$
 
 > Nenhum elemento se relaciona com $b$ além dele mesmo.
 
-## Máximo
+### Máximo
 
 $b$ é o maior elemento (ou o elemento máximo) de $B$ se, e somente se:
 
@@ -28,7 +38,7 @@ $$
 \forall x \in B, x\ R\ b
 $$
 
-## Maximal
+### Maximal
 
 $b$ é o elemento maximal de $B$ se, e somente se:
 
@@ -36,7 +46,7 @@ $$
 \forall x \in B, b\ R\ x \implies x = b
 $$
 
-## Limitante Inferior
+### Limitante Inferior
 
 $a$ é limitante inferior de $B$ se, e somente se:
 
@@ -44,7 +54,7 @@ $$
 \forall x \in B, a\ R\ x
 $$
 
-## Maior Limitante Inferior (Ínfimo)
+### Maior Limitante Inferior (Ínfimo)
 
 Sejam $L = \{ x \in A \mid x \text{ é limitante inferior de } B \}$ e $l \in L$.
 
@@ -62,7 +72,7 @@ $$
 l \text{ é o maior limitante inferior de } \{m, n\} \overset{def}{\iff} l = x \land y
 $$
 
-## Limitante Superior
+### Limitante Superior
 
 $a$ é limitante superior de $B$ se, e somente se:
 
@@ -70,7 +80,7 @@ $$
 \forall x \in B, x\ R\ a
 $$
 
-## Menor Limitante Superior (Supremo)
+### Menor Limitante Superior (Supremo)
 
 Sejam $L = \{ x \in A \mid x \text{ é limitante superior de } B \}$ e $l \in L$.
 
