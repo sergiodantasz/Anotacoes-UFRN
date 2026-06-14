@@ -178,7 +178,9 @@ Propriedades de $x \land y$ e $x \lor y$:
 
 ## Propriedades
 
-Seja $L$ um reticulado. Para todo $a, b \in L$, valem:
+Seja $L$ um reticulado. Para todo $a, b \in L$, valem as seguintes propriedades.
+
+### Básicas
 
 $$
 a \lor b = b \iff a \leq b
@@ -190,6 +192,15 @@ $$
 
 $$
 a \land b = a \iff a \lor b = b
+$$
+
+### Idempotência
+
+$$
+\displaylines{
+a \lor a = a \\
+a \land a = a
+}
 $$
 
 ## Complementar
