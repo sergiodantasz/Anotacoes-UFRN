@@ -128,9 +128,13 @@ Por exemplo, considere a cadeia de $R_1$ dada por $d\ R_1\ b\ R_1\ a\ R_1\ g$. T
 
 ### Definição Formal
 
-Seja $R \subseteq A \times A$ uma poset.
+Seja $R \subseteq A \times A$ uma relação de ordem parcial.
 
-Um subconjunto $B \subseteq A$ é chamado de cadeia se, e somente se, quaisquer dois elementos de $B$ são comparáveis.
+Um subconjunto $B \subseteq A$ é chamado de cadeia se, e somente se, quaisquer dois elementos de $B$ são comparáveis, ou seja:
+
+$$
+(\forall a, b \in B)[(a, b) \in R \lor (b, a) \in R]
+$$
 
 ## Ordenação Topológica
 
