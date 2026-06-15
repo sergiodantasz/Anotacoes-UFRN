@@ -174,20 +174,17 @@ Propriedades de $x \land y$ e $x \lor y$:
 - $x \land y \leq x$ e $x \land y \leq y$ ($x \land y$ é um limitante inferior de $x$ e $y$);
 - Se $z \leq x$ e $z \leq y$, então $z \leq x \land y$ ($x \land y$ é o maior limitante inferior de $x$ e $y$).
 
-[Ross (251 - 258) - Teoremas 2 e 4]
-
 ## Propriedades
 
 Seja $L$ um reticulado. Para todo $a, b, c \in L$, valem as seguintes propriedades.
 
-### Básicas
+### Propriedades Básicas
 
 $$
-a \lor b = b \iff a \leq b
-$$
-
-$$
+\displaylines{
+a \lor b = b \iff a \leq b \\
 a \land b = a \iff a \leq b
+}
 $$
 
 $$
@@ -229,6 +226,27 @@ a \lor (a \land b) = a \\
 a \land (a \lor b) = a
 }
 $$
+
+### Monotonicidade
+
+$$
+\displaylines{
+a \leq b \implies a \lor c \leq b \lor c \\
+a \leq b \implies a \land c \leq b \land c
+}
+$$
+
+$$
+a \leq c \quad \text{e} \quad b \leq c \iff a \lor b \leq c
+$$
+
+$$
+c \leq a \quad \text{e} \quad c \leq b \iff c \leq a \land b
+$$
+
+### Propriedades Universais
+
+
 
 ## Complementar
 
