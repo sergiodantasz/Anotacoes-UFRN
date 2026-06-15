@@ -178,7 +178,7 @@ Propriedades de $x \land y$ e $x \lor y$:
 
 Seja $L$ um reticulado. Para todo $a, b, c \in L$, valem as seguintes propriedades.
 
-### Propriedades Básicas
+### Teorema 1
 
 $$
 \displaylines{
@@ -191,7 +191,9 @@ $$
 a \land b = a \iff a \lor b = b
 $$
 
-### Idempotência
+### Teorema 2
+
+#### Idempotência
 
 $$
 \displaylines{
@@ -200,7 +202,7 @@ a \land a = a
 }
 $$
 
-### Comutatividade
+#### Comutatividade
 
 $$
 \displaylines{
@@ -209,7 +211,7 @@ a \land b = b \land a
 }
 $$
 
-### Associatividade
+#### Associatividade
 
 $$
 \displaylines{
@@ -218,7 +220,7 @@ a \land (b \land c) = (a \land b) \land c
 }
 $$
 
-### Absorção
+#### Absorção
 
 $$
 \displaylines{
@@ -227,7 +229,7 @@ a \land (a \lor b) = a
 }
 $$
 
-### Monotonicidade
+### Teorema 3
 
 $$
 \displaylines{
@@ -237,16 +239,18 @@ a \leq b \implies a \land c \leq b \land c
 $$
 
 $$
-a \leq c \quad \text{e} \quad b \leq c \iff a \lor b \leq c
-$$
-
-$$
+\displaylines{
+a \leq c \quad \text{e} \quad b \leq c \iff a \lor b \leq c \\
 c \leq a \quad \text{e} \quad c \leq b \iff c \leq a \land b
+}
 $$
 
-### Propriedades Universais
-
-
+$$
+\displaylines{
+a \leq b \quad \text{e} \quad c \leq d \implies a \lor c \leq b \lor d \\
+a \leq b \quad \text{e} \quad c \leq d \implies a \land c \leq b \land d
+}
+$$
 
 ## Complementar
 
