@@ -258,27 +258,22 @@ $$
 
 Um reticulado é limitado se, e somente se, existe um maior e um menor elemento.
 
+### Reticulado Distributivo
+
+Um reticulado é distributivo se, e somente se, para todo $x, y, z \in L$, temos:
+
+- $x \land (y \lor z) = (x \land y) \lor (x \land z)$; e
+- $x \lor (y \land z) = (x \lor y) \land (x \lor z)$.
+
 ### Reticulado Complementar
 
-Dados dois elementos $a, a' \in A$, $a'$ é o complementar de $a$ (e vice-versa) se, e somente se:
+Para todo $a, a' \in A$, $a'$ é o complementar de $a$ (e vice-versa) se, e somente se:
 
 $$
 a \land a' = 0 \quad \text{e} \quad a \lor a' = 1
 $$
 
-
-### Reticulados Distributivos
-
-[foto]
-
-Um reticulado é **distributivo** se, e somente se, para todo $x, y, z \in L$:
-
-- $x \land (y \lor z) = (x \land y) \lor (x \land z)$; e
-- $x \lor (y \land z) = (x \lor y) \land (x \lor z)$.
-
-### Reticulados Complementados
-
-Um reticulado é **complementado** se, e somente se, todo elemento possui complementar.
+> Note que $0' = 1$ e $1' = 0$.
 
 # Exercícios
 
