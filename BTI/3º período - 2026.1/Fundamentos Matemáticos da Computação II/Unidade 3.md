@@ -178,7 +178,7 @@ Propriedades de $x \land y$ e $x \lor y$:
 
 ## Propriedades
 
-Seja $L$ um reticulado. Para todo $a, b \in L$, valem as seguintes propriedades.
+Seja $L$ um reticulado. Para todo $a, b, c \in L$, valem as seguintes propriedades.
 
 ### Básicas
 
@@ -200,6 +200,33 @@ $$
 \displaylines{
 a \lor a = a \\
 a \land a = a
+}
+$$
+
+### Comutatividade
+
+$$
+\displaylines{
+a \lor b = b \lor a \\
+a \land b = b \land a
+}
+$$
+
+### Associatividade
+
+$$
+\displaylines{
+a \lor (b \lor c) = (a \lor b) \lor c \\
+a \land (b \land c) = (a \land b) \land c
+}
+$$
+
+### Absorção
+
+$$
+\displaylines{
+a \lor (a \land b) = a \\
+a \land (a \lor b) = a
 }
 $$
 
