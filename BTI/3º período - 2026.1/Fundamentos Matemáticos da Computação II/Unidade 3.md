@@ -252,7 +252,13 @@ a \leq b \quad \text{e} \quad c \leq d \implies a \land c \leq b \land d
 }
 $$
 
-## Complementar
+## Tipos Especiais
+
+### Reticulado Limitado
+
+Um reticulado é limitado se, e somente se, existe um maior e um menor elemento.
+
+### Reticulado Complementar
 
 Dados dois elementos $a, a' \in A$, $a'$ é o complementar de $a$ (e vice-versa) se, e somente se:
 
@@ -260,11 +266,8 @@ $$
 a \land a' = 0 \quad \text{e} \quad a \lor a' = 1
 $$
 
-## Reticulados Limitados
 
-Um reticulado é **limitado** se, e somente se, existe um maior e um menor elemento.
-
-## Reticulados Distributivos
+### Reticulados Distributivos
 
 [foto]
 
@@ -273,7 +276,7 @@ Um reticulado é **distributivo** se, e somente se, para todo $x, y, z \in L$:
 - $x \land (y \lor z) = (x \land y) \lor (x \land z)$; e
 - $x \lor (y \land z) = (x \lor y) \land (x \lor z)$.
 
-## Reticulados Complementados
+### Reticulados Complementados
 
 Um reticulado é **complementado** se, e somente se, todo elemento possui complementar.
 
