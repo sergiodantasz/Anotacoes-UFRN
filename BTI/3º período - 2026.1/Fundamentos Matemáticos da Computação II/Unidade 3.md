@@ -256,7 +256,7 @@ $$
 
 ### Reticulado Limitado
 
-Um reticulado é limitado se, e somente se, existe um maior e um menor elemento.
+Um reticulado é limitado se, e somente se, existe um maior e um menor elemento globais, denotados por $1$ e $0$, respectivamente.
 
 ### Reticulado Distributivo
 
@@ -265,15 +265,19 @@ Um reticulado é distributivo se, e somente se, para todo $x, y, z \in L$, temos
 - $x \land (y \lor z) = (x \land y) \lor (x \land z)$; e
 - $x \lor (y \land z) = (x \lor y) \land (x \lor z)$.
 
-### Reticulado Complementar
+### Reticulado Complementado
 
-Para todo $a, a' \in A$, $a'$ é o complementar de $a$ (e vice-versa) se, e somente se:
+Um reticulado é complementado se, e somente se, ele é limitado e para todo $a, a' \in A$, $a'$ é o complementar de $a$ (e vice-versa) se, e somente se:
 
 $$
 a \land a' = 0 \quad \text{e} \quad a \lor a' = 1
 $$
 
 > Note que $0' = 1$ e $1' = 0$.
+
+# Álgebra Booleana
+
+Um *poset* $(A, R)$ é uma álgebra booleana se, e somente se, ele é um reticulado limitado, distributivo e complementado.
 
 # Exercícios
 
