@@ -276,10 +276,11 @@ Um reticulado é limitado se, e somente se, existe um maior e um menor elemento 
 
 ### Reticulado Distributivo
 
-Um reticulado é distributivo se, e somente se, para todo $x, y, z \in L$, temos:
+Um reticulado é distributivo se, e somente se, para todo $a, b, c \in L$, temos:
 
-- $x \land (y \lor z) = (x \land y) \lor (x \land z)$; e
-- $x \lor (y \land z) = (x \lor y) \land (x \lor z)$.
+$$
+a \land (b \lor c) = (a \land b) \lor (a \land c) \quad \text{e} \quad a \lor (b \land c) = (a \lor b) \land (a \lor c)
+$$
 
 ### Reticulado Complementado
 
