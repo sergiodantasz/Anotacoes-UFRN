@@ -292,6 +292,32 @@ $$
 
 > Note que $0' = 1$ e $1' = 0$.
 
+## Top e Bottom
+
+Em um reticulado limitado, 1 é o maior elemento global (top) e 0 é o menor elemento global (bottom). Em outras palavras, eles denotam o *Sup* e o *Inf* do reticulado como um todo e são únicos.
+
+### Propriedades
+
+Para todo $x \in L$, valem:
+
+$$
+0 \leq x \leq 1
+$$
+
+$$
+\displaylines{
+x \lor 0 = x \\
+x \land 0 = 0
+}
+$$
+
+$$
+\displaylines{
+x \lor 1 = 1 \\
+x \land 1 = x
+}
+$$
+
 # Álgebra Booleana
 
 Um *poset* $(A, R)$ é uma álgebra booleana se, e somente se, ele é um reticulado limitado, distributivo e complementado.
