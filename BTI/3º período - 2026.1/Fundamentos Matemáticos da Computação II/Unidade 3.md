@@ -165,7 +165,17 @@ Para construir uma ordenação topológica, selecione um elemento minimal de $A$
 
 Um reticulado é uma estrutura em que quaisquer dois elementos possuem *Inf* e *Sup*.
 
-## Ínfimos e Supremos em Reticulados
+## Reticulados Isomórficos
+
+Dois reticulados são isomórficos quando ambos têm a mesma estrutura de ordem, mesmo que seus elementos sejam diferentes.
+
+Sejam $(L_1, R_1)$ e $(L_2, R_2)$ dois reticulados. Eles são isomórficos se existe uma função bijetiva $f : L_1 \to L_2$ tal que, para quaisquer $a, b \in L_1$, temos:
+
+$$
+f(a \land_{L_1} b) = f(a) \land_{L_2} f(b) \quad \text{e} \quad f(a \lor_{L_1} b) = f(a) \lor_{L_2} f(b)
+$$
+
+## Ínfimo e Supremo
 
 Propriedades de $x \land y$ e $x \lor y$:
 
