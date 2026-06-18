@@ -107,7 +107,7 @@ $$
 l \text{ é o menor limitante superior de } \{m, n\} \overset{def}{\iff} l = x \lor y
 $$
 
-# Diagramas de Hasse
+# Diagrama de Hasse
 
 ## Definição
 
@@ -119,7 +119,7 @@ O diagrama de Hasse simplifica as conexões entre os elementos do conjunto elimi
 
 Dizemos que $y$ cobre $x$ se $x \prec y$ (isto é, $x \preceq y$ e $x \neq y$) e não existe $z \in A$ tal que $x \prec z \prec y$.
 
-## Cadeias
+## Cadeia
 
 ### Definição Intuitiva
 
@@ -350,6 +350,8 @@ A função $f(x,y) = x \land y$ possui a seguinte tabela-verdade:
 Os mapas de Karnaugh fornecem uma representação gráfica da tabela-verdade, permitindo simplificar expressões booleanas e obter implementações mais eficientes.
 
 # Exercícios
+
+## Livro 6
 
 ## Ex. 1
 
