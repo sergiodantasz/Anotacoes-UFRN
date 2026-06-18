@@ -366,7 +366,7 @@ Suponha que $a \lor b = b$. Como $a \leq a \lor b = b$, logo $a \leq b$.
 
 **Parte ($\impliedby$):**
 
-Suponha que $a \leq b$. Disso e de $b \leq b$, segue que $b$ é um limitante superior de $a$ e de $b$. Pela definição de menor limitante superior, temos $a \lor b \leq b$. Como $a \lor b$ é um limitante superior, logo $b \leq a \lor b$ e, consequentemente, $a \lor b = b$. $\blacksquare$
+Suponha que $a \leq b$. Disso e de $b \leq b$ (reflexividade), segue que $b$ é um limitante superior de $a$ e de $b$. Pela definição de menor limitante superior, temos $a \lor b \leq b$. Como $a \lor b$ é um limitante superior, logo $b \leq a \lor b$ e, consequentemente, pela antissimetria, $a \lor b = b$. $\blacksquare$
 
 > [!example] Proposição (b)
 > $a \land b = a \iff a \leq b$
@@ -377,7 +377,7 @@ Suponha que $a \land b = a$. Como $a = a \land b \leq b$, logo $a \leq b$.
 
 **Parte ($\impliedby$):**
 
-Suponha que $a \leq b$. Segue que, disso e de $a \leq a$, $a$ é um limitante inferior de $a$ e de $b$. Pela definição de maior limitante inferior, então $a \leq a \land b$. Isto é, $a \land b$ é um limitante inferior. Assim, $a \land b \leq a$ e, por consequência, $a \land b = a$. $\blacksquare$
+Suponha que $a \leq b$. Segue que, disso e de $a \leq a$ (reflexividade), $a$ é um limitante inferior de $a$ e de $b$. Pela definição de maior limitante inferior, então $a \leq a \land b$. Isto é, $a \land b$ é um limitante inferior. Assim, $a \land b \leq a$ e, por consequência, pela propriedade da antissimetria, $a \land b = a$. $\blacksquare$
 
 > [!example] Proposição (c)
 > $a \land b = a \iff a \lor b = b$
@@ -392,10 +392,86 @@ Suponha que $a \lor b = b$. Pela proposição (a), segue que $a \leq b$. Pela pr
 
 ### Teorema 2
 
-Sejam $L$ um reticulado e $a, b \in L$.
+Sejam $L$ um reticulado e $a, b, c \in L$.
 
 #### Idempotência
 
 > [!example] Proposição (a)
 > $a \lor a = a$
 
+Pela definição de limitante superior, temos $a \leq a \lor a$. Pela reflexividade, $a \leq a$, ou seja, $a$ é um limitante superior de $a$. Pela definição de supremo, temos que $a \lor a$ é o menor limitante superior de $a$, logo necessariamente $a \lor a \leq a$. Por fim, pela antissimetria, concluímos que $a \lor a = a$. $\blacksquare$
+
+> [!example] Proposição (b)
+> $a \land a = a$
+
+Segundo a definição de limitante inferior, $a \land a \leq a$. Temos $a \leq a$ pela propriedade da reflexividade. Logo $a$ é limitante inferior de $a$. Pela definição de ínfimo, $a \land a$ é o maior limitante inferior de $a$. Assim, $a \leq a \land a$. Portanto, pela antissimetria, $a \land a = a$. $\blacksquare$
+
+#### Comutatividade
+
+> [!example] Proposição (a)
+> $a \lor b = b \lor a$
+
+Sabemos que $a \lor b$ é o supremo de $\{a, b\}$. Similarmente, $b \lor a$ é o supremo de $\{b, a\}$. Ora, $\{a, b\} = \{b, a\}$, pois a ordem dos elementos nos conjuntos não importa. Desse modo, sendo os conjuntos estritamente iguais, é impossível que eles tenham supremos diferentes. Portanto, concluímos diretamente que $a \lor b = b \lor a$. $\blacksquare$
+
+> [!example] Proposição (b)
+> $a \land b = b \land a$
+
+Note que $a \land b$ é o ínfimo de $\{a, b\}$ e $b \land a$, o de $\{b, a\}$. De forma análoga à proposição (a), segue imediatamente que $a \land b = b \land a$. $\blacksquare$
+
+#### Associatividade
+
+> [!example] Proposição (a)
+> $a \lor (b \lor c) = (a \lor b) \lor c$
+
+Pela definição de supremo, temos $a \leq a \lor (b \lor c)$ e $b \lor c \leq a \lor (b \lor c)$. Além disso, $b \leq b \lor c$ e $c \leq b \lor c$. Por transitividade, $b \leq a \lor (b \lor c)$ e $c \leq a \lor (b \lor c)$. Logo $a \lor (b \lor c)$ é um limitante superior de $a$ e de $b$. Pela definição de menor limitante superior, segue que $a \lor b \leq a \lor (b \lor c)$. Como $a \lor (b \lor c)$ é um limitante superior de $a \lor b$ e de $c$, obtemos $(a \lor b) \lor c \leq a \lor (b \lor c)$. De forma análoga, temos que $a \lor (b \lor c) \leq (a \lor b) \lor c$. Pela antissimetria, concluímos que $a \lor (b \lor c) = (a \lor b) \lor c$. $\blacksquare$
+
+> [!example] Proposição (b)
+> $a \land (b \land c) = (a \land b) \land c$
+
+A demonstração é análoga à da proposição (b). $\blacksquare$
+
+#### Absorção
+
+> [!example] Proposição (a)
+> $a \lor (a \land b) = a$
+
+Como $a \land b \leq a$ e $a \leq a$, vemos que $a$ é um limitante superior de $a \land b$ e de $a$. Logo $a \lor (a \land b) \leq a$. Pela definição de menor limitante superior, temos $a \leq a \lor (a \land b)$. Pela antissimetria, $a \lor (a \land b) = a$. $\blacksquare$
+
+> [!example] Proposição (b)
+> $a \land (a \lor b) = a$
+
+Como $a \leq a$ e $a \leq a \lor b$, então $a$ é um limitante inferior de $a$ e de $a \lor b$. Segue que $a \leq a \land (a \lor b)$. Pela definição de maior limitante inferior, $a \land (a \lor b) \leq a$. Portanto, por antissimetria, $a \land (a \lor b) = a$. $\blacksquare$
+
+### Teorema 3
+
+Sejam $L$ um reticulado e $a, b, c \in L$.
+
+> [!example] Proposição 1 - (a)
+> $a \leq b \implies a \lor c \leq b \lor c$
+
+Suponha que $a \leq b$. Pela definição de limitante superior, $a \leq a \lor c$ e $c \leq a \lor c$; isto é, $a \lor c$ é o menor limitante superior de $a$ e de $c$. Além disso, $b \leq b \lor c$ e $c \leq b \lor c$. Por transitividade, temos $a \leq b \lor c$. Note que $b \lor c$ é um limitante superior de $a$ e de $c$. Como $a \lor c$ é supremo de $\{a, c\}$, logo $a \lor c \leq b \lor c$. $\blacksquare$
+
+> [!example] Proposição 1 - (b)
+> $a \leq b \implies a \land c \leq b \land c$
+
+...
+
+> [!example] Proposição 2
+> $a \leq c \quad \text{e} \quad b \leq c \iff a \lor b \leq c$
+
+...
+
+> [!example] Proposição 3
+> $c \leq a \quad \text{e} \quad c \leq b \iff c \leq a \lor b$
+
+...
+
+> [!example] Proposição 4 - (a)
+> $a \leq b \quad \text{e} \quad c \leq d \implies a \lor c \leq b \lor d$
+
+...
+
+> [!example] Proposição 4 - (b)
+> $a \leq b \quad \text{e} \quad c \leq d \implies a \land c \leq b \land d$
+
+...
