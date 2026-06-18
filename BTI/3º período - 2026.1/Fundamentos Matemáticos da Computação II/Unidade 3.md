@@ -167,12 +167,18 @@ Um reticulado é uma estrutura em que quaisquer dois elementos possuem *Inf* e *
 
 ## Reticulados Isomórficos
 
-Dois reticulados são isomórficos quando ambos têm a mesma estrutura de ordem, mesmo que seus elementos sejam diferentes.
+Dois reticulados são isomórficos quando ambos têm a mesma estrutura algébrica e de ordem, mesmo que seus elementos sejam diferentes.
 
-Sejam $(L_1, R_1)$ e $(L_2, R_2)$ dois reticulados. Eles são isomórficos se existe uma função bijetiva $f : L_1 \to L_2$ tal que, para quaisquer $a, b \in L_1$, temos:
+Sejam $(L, R_L)$ e $(M, R_M)$ dois reticulados. Eles são isomórficos se existe uma função bijetiva $f : L \to M$ (dita isomorfismo de reticulados) tal que, para quaisquer $a, b \in L$, temos:
 
 $$
-f(a \land_{L_1} b) = f(a) \land_{L_2} f(b) \quad \text{e} \quad f(a \lor_{L_1} b) = f(a) \lor_{L_2} f(b)
+f(a \land_{L} b) = f(a) \land_{M} f(b) \quad \text{e} \quad f(a \lor_{L} b) = f(a) \lor_{M} f(b)
+$$
+
+Ou, equivalentemente:
+
+$$
+a\ R_L\ b \iff f(a)\ R_M\ f(b)
 $$
 
 ## Ínfimo e Supremo
