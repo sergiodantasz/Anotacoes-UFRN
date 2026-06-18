@@ -320,9 +320,34 @@ $$
 
 # Álgebra Booleana
 
+## Definição
+
 Um *poset* $(A, R)$ é uma álgebra booleana se, e somente se, ele é um reticulado limitado, distributivo e complementado.
 
 > Como o complementado já é limitado por definição, podemos dizer que ele é simplesmente distributivo e complementado.
+
+## Funções Booleanas
+
+Uma função booleana é uma função cujas variáveis e resultados pertencem ao conjunto $\{0,1\}$. Essas funções podem ser representadas por expressões booleanas utilizando operações como AND ($\land$), OR ($\lor$) e NOT ($'$ ou $\lnot$).
+
+As funções booleanas podem ser descritas de diferentes formas equivalentes, incluindo expressões algébricas, tabelas-verdade, mapas de Karnaugh e circuitos lógicos.
+
+![[Funções Booleanas.png|556]]
+
+**Exemplo:**
+
+A função $f(x,y) = x \land y$ possui a seguinte tabela-verdade:
+
+| $x$ | $y$ | $f(x,y)$ |
+| :-: | :-: | :------: |
+|  0  |  0  |    0     |
+|  0  |  1  |    0     |
+|  1  |  0  |    0     |
+|  1  |  1  |    1     |
+
+## Mapa de Karnaugh
+
+Os mapas de Karnaugh fornecem uma representação gráfica da tabela-verdade, permitindo simplificar expressões booleanas e obter implementações mais eficientes.
 
 # Exercícios
 
