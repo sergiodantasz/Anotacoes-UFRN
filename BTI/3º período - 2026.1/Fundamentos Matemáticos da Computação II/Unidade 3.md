@@ -157,7 +157,7 @@ Seja $(A, \preceq)$ um poset, com $A \neq \emptyset$ e finito.
 
 Para construir uma ordenação topológica, selecione um elemento minimal de $A$ e "remova" ele do diagrama. Agora temos um novo diagrama com novos elementos minimais. Retire mais mais um minimal. O processo deve ser repetido até o diagrama ficar vazio. A ordenação topológica é feita iniciando no primeiro elemento removido e finalizando no último.
 
-> Veja o exemplo [[Discrete Mathematics with Applications, 5th Edition by Susanna S. Epp (2020).pdf#page=579&selection=195,0,197,6|8.5.11]].
+> Veja o exemplo [[Discrete Mathematics with Applications, 5th Edition by Susanna S. Epp (2020).pdf#page=579&selection=195,0,197,6|8.5.11]] do livro 6.
 
 # Reticulados (Lattices)
 
@@ -351,49 +351,41 @@ Os mapas de Karnaugh fornecem uma representação gráfica da tabela-verdade, pe
 
 # Exercícios
 
-## Livro 6
+## Livro 5
 
-## Ex. 1
+### Teorema 1
 
-Apresente duas cadeias e duas ordenações topológicas para as seguintes relações.
+Sejam $L$ um reticulado e $a, b \in L$.
 
-> [!example] Exercício (a)
-> $A = \{ 2, 3, 4, 6, 18, 24 \}$ e $R = \{ (a, b) \mid a \text{ divide } b \}$.
+> [!example] Proposição (a)
+> $a \lor b = b \iff a \leq b$
 
-...
+**Parte ($\implies$):**
 
-> [!example] Exercício (b)
-> $(P(\{a, b, c\}), \subseteq)$
+Suponha que $a \lor b = b$. Como $a \leq a \lor b = b$, logo $a \leq b$.
 
-...
+**Parte ($\impliedby$):**
 
-## Ex. 2
+Suponha que $a \leq b$. Disso e de $b \leq b$, segue que $b$ é um limitante superior de $a$ e de $b$. Pela definição de menor limitante superior, temos $a \lor b \leq b$. Como $a \lor b$ é um limitante superior, logo $b \leq a \lor b$ e, consequentemente, $a \lor b = b$. $\blacksquare$
 
-Caso as relações a seguir sejam de ordem parcial, faça o diagrama de Hasse, ache os extremos, apresente uma cadeia e uma ordem topológica.
+> [!example] Proposição (b)
+> $a \land b = a \iff a \leq b$
 
-> [!example] Exercício (a)
-> $A = \mathbb{Z}$. $m\ R\ n$ se, e somente se, todo fator primo de $m$ é fator primo de $n$.
+**Parte ($\implies$):**
 
-...
+Suponha que $a \land b = a$. Como $a = a \land b \leq b$, logo $a \leq b$.
 
-> [!example] Exercício (b.1)
-> $A = \mathbb{Z}$. $m\ R\ n$ se, e somente se, $m + n$ é par.
+**Parte ($\impliedby$):**
 
-...
+Suponha que $a \leq b$. Segue que, disso e de $a \leq a$, $a$ é um limitante inferior de $a$ e de $b$. Pela definição de maior limitante inferior, então $a \leq a \land b$. Isto é, $a \land b$ é um limitante inferior. Assim, $a \land b \leq a$ e, por consequência, $a \land b = a$. $\blacksquare$
 
-> [!example] Exercício (b.2)
-> Faça para o subconjunto $\{ 1, 2, 3, \ldots, 10\}$.
+> [!example] Proposição (c)
+> $a \land b = a \iff a \lor b = b$
 
-...
+**Parte ($\implies$):**
 
-> [!example] Exercício (c)
-> $S = \{0, 1\}$. $(S \times S, R)$ tal que $(a, b)\ R\ (c, d)$ se, e somente se:
-> - $a < c$; ou
-> - $a = c$ e $b \leq d$.
+Suponha que $a \land b = a$. Pela proposição (b), temos $a \leq b$. Pela proposição (a), obtemos $a \lor b = b$.
 
-...
+**Parte ($\impliedby$):**
 
-> [!example] Exercício (d)
-> $A = \{ 2^0, 2^1, 2^2, 2^3, \ldots \}$ e $R = \{(a, b) \mid a \text{ divide } b\}$.
-
-...
+Suponha que $a \lor b = b$. Pela proposição (a), segue que $a \leq b$. Pela proposição (b), temos $a \land b = a$. $\blacksquare$
