@@ -449,7 +449,7 @@ Sejam $L$ um reticulado e $a, b, c \in L$.
 > [!example] Proposição 1 - (a)
 > $a \leq b \implies a \lor c \leq b \lor c$
 
-Suponha que $a \leq b$. Pela definição de limitante superior, $a \leq a \lor c$ e $c \leq a \lor c$; isto é, $a \lor c$ é o menor limitante superior de $a$ e de $c$. Além disso, $b \leq b \lor c$ e $c \leq b \lor c$. Por transitividade, temos $a \leq b \lor c$. Note que $b \lor c$ é um limitante superior de $a$ e de $c$. Como $a \lor c$ é supremo de $\{a, c\}$, logo $a \lor c \leq b \lor c$. $\blacksquare$
+Suponha que $a \leq b$. Pela definição de limitante superior, $a \leq a \lor c$ e $c \leq a \lor c$; isto é, $a \lor c$ é o menor limitante superior de $a$ e de $c$. Além disso, $b \leq b \lor c$ e $c \leq b \lor c$. Por transitividade, temos $a \leq b \lor c$. Note que $b \lor c$ é um limitante superior de $a$ e de $c$. Logo, como $a \lor c$ é supremo de $\{a, c\}$, logo $a \lor c \leq b \lor c$. $\blacksquare$
 
 > [!example] Proposição 1 - (b)
 > $a \leq b \implies a \land c \leq b \land c$
