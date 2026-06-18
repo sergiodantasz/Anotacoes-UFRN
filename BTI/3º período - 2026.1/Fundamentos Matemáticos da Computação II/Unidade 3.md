@@ -279,6 +279,8 @@ $$
 
 Um *poset* $(A, R)$ é uma álgebra booleana se, e somente se, ele é um reticulado limitado, distributivo e complementado.
 
+> Como o complementado já é limitado por definição, podemos dizer que ele é simplesmente distributivo e complementado.
+
 # Exercícios
 
 ## Ex. 1
