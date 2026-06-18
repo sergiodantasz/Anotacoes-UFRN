@@ -389,3 +389,13 @@ Suponha que $a \land b = a$. Pela proposição (b), temos $a \leq b$. Pela propo
 **Parte ($\impliedby$):**
 
 Suponha que $a \lor b = b$. Pela proposição (a), segue que $a \leq b$. Pela proposição (b), temos $a \land b = a$. $\blacksquare$
+
+### Teorema 2
+
+Sejam $L$ um reticulado e $a, b \in L$.
+
+#### Idempotência
+
+> [!example] Proposição (a)
+> $a \lor a = a$
+
