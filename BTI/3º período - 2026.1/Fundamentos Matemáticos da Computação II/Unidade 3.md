@@ -454,17 +454,29 @@ Suponha que $a \leq b$. Pela definição de limitante superior, $a \leq a \lor c
 > [!example] Proposição 1 - (b)
 > $a \leq b \implies a \land c \leq b \land c$
 
-...
+Suponha que $a \leq b$. Por definição, $a \land c \leq a$ e $a \land c \leq c$. Por transitividade, $a \land c \leq b$, logo $a \land c$ é um limitante inferior de $\{b, c\}$ (1). Além disso, por definição, temos $b \land c \leq b$ e $b \land c \leq c$, ou seja, $b \land c$ é o ínfimo de $\{b, c\}$ (2). De (1) e (2), concluímos, portanto, que $a \land c \leq b \land c$. $\blacksquare$
 
 > [!example] Proposição 2
 > $a \leq c \quad \text{e} \quad b \leq c \iff a \lor b \leq c$
 
-...
+**Parte ($\implies$):**
+
+Suponha que $a \leq c$ e $b \leq c$. Isso significa que $c$ atua como limitante superior de $\{a, b\}$. Por definição, é imediato que $a \lor b \leq c$.
+
+**Parte ($\impliedby$):**
+
+Suponha que $a \lor b \leq c$. Como $a \lor b$ é um limitante superior de $\{a, b\}$, logo $a \leq a \lor b$ e $b \leq a \lor b$. Por transitividade, segue que $a \leq c$ e $b \leq c$. $\blacksquare$
 
 > [!example] Proposição 3
 > $c \leq a \quad \text{e} \quad c \leq b \iff c \leq a \lor b$
 
-...
+**Parte ($\implies$):**
+
+Suponha que $c \leq a$ e $c \leq b$.
+
+**Parte ($\impliedby$):**
+
+
 
 > [!example] Proposição 4 - (a)
 > $a \leq b \quad \text{e} \quad c \leq d \implies a \lor c \leq b \lor d$
