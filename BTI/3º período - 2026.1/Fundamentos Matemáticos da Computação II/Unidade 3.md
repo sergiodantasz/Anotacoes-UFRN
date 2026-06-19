@@ -468,20 +468,20 @@ Suponha que $a \leq c$ e $b \leq c$. Isso significa que $c$ atua como limitante 
 Suponha que $a \lor b \leq c$. Como $a \lor b$ é um limitante superior de $\{a, b\}$, logo $a \leq a \lor b$ e $b \leq a \lor b$. Por transitividade, segue que $a \leq c$ e $b \leq c$. $\blacksquare$
 
 > [!example] Proposição 3
-> $c \leq a \quad \text{e} \quad c \leq b \iff c \leq a \lor b$
+> $c \leq a \quad \text{e} \quad c \leq b \iff c \leq a \land b$
 
 **Parte ($\implies$):**
 
-Suponha que $c \leq a$ e $c \leq b$.
+Suponha que $c \leq a$ e $c \leq b$. Logo $c$ é um limitante inferior de $\{a, b\}$. Por definição, temos que $c \leq a \land b$.
 
 **Parte ($\impliedby$):**
 
-
+Suponha que $c \leq a \land b$. Por ser limitante inferior de $\{a, b\}$, segue que $a \land b \leq a$ e $a \land b \leq b$. Por transitividade, $c \leq a$ e $c \leq b$. $\blacksquare$
 
 > [!example] Proposição 4 - (a)
 > $a \leq b \quad \text{e} \quad c \leq d \implies a \lor c \leq b \lor d$
 
-...
+Suponha que $a \leq b$ e $c \leq d$. 
 
 > [!example] Proposição 4 - (b)
 > $a \leq b \quad \text{e} \quad c \leq d \implies a \land c \leq b \land d$
