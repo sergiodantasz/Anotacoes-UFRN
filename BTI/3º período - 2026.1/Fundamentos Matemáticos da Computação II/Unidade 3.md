@@ -351,6 +351,45 @@ Os mapas de Karnaugh fornecem uma representação gráfica da tabela-verdade, pe
 
 # Exercícios
 
+## Resumo
+
+### Ex. 2
+
+> [!example] Exercício
+> Com as propriedades da álgebra booleana, simplifique os termos da expressão abaixo:
+> $((x \land y') \lor ((x \land 0) \lor (x' \land 1)))'$
+
+$$
+\begin{align}
+((x \land y') \lor ((x \land 0) \lor (x' \land 1)))'
+            &= (x \land y')' \land ((x \land 0) \lor (x' \land 1))' \\
+            &= (x \land y')' \land (0 \lor x')' \\
+            &= (x \land y')' \land (x')' \\
+            &= (x' \lor (y')') \land x \\
+            &= (x' \lor y) \land x \\
+            &= (x' \land x) \lor (y \land x) \\
+            &= 0 \lor (y \land x) \\
+            &= x \land y
+\end{align}
+$$
+
+### Ex. 3
+
+Considere o operador abaixo definido em uma álgebra booleana:
+
+$$
+x \oplus y \overset{def}{=} (x \lor y) \land (x \land y)'
+$$
+
+> [!example] Exercício
+> Demonstre que $x \oplus y = (x \land y') \lor (x' \land y)$.
+
+$$
+\begin{align}
+
+\end{align}
+$$
+
 ## Livro 5
 
 ### Teorema 1
@@ -481,9 +520,9 @@ Suponha que $c \leq a \land b$. Por ser limitante inferior de $\{a, b\}$, segue 
 > [!example] Proposição 4 - (a)
 > $a \leq b \quad \text{e} \quad c \leq d \implies a \lor c \leq b \lor d$
 
-Suponha que $a \leq b$ e $c \leq d$. 
+Suponha que $a \leq b$ e $c \leq d$. Pelo teorema 3.1, temos $a \lor c \leq b \lor c$ e $c \lor b \leq d \lor b$. Logo, pela comutatividade, $b \lor c \leq b \lor d$. Por transitividade, concluímos que $a \lor c \leq b \lor d$. $\blacksquare$
 
 > [!example] Proposição 4 - (b)
 > $a \leq b \quad \text{e} \quad c \leq d \implies a \land c \leq b \land d$
 
-...
+Suponha que $a \leq b$ e $c \leq d$. Pelo teorema 3.1, segue que $a \land c \leq b \land c$ e $c \land b \leq d \land b$. Disso, pela propriedade comutativa, temos $b \land c \leq b \land d$. Logo, por transitividade, $a \land c \leq b \land d$. $\blacksquare$
