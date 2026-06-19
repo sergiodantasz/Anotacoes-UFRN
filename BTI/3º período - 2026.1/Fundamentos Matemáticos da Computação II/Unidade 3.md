@@ -386,7 +386,63 @@ $$
 
 $$
 \begin{align}
+(x \lor y) \land (x \land y)'
+	       &= (x \lor y) \land (x' \lor y') \\
+           &= (x \land x') \lor (x \land y') \lor (y \land x') \lor (y \land y') \\
+           &= 0 \lor (x \land y') \lor (y \land x') \lor 0 \\
+           &= (x \land y') \lor (x' \land y)
+\end{align}
+$$
 
+### Ex. 4
+
+> [!example] Exercício
+> Com as propriedades da álgebra booleana, demonstre ou refute que:
+> $x = y \iff (x \land y') \lor (x' \land y) = 0$
+
+**Parte ($\implies$):**
+
+Suponha que $x = y$. Calculamos:
+
+$$
+\begin{align}
+(x \land y') \lor (x' \land y) &= (x \land x') \lor (x' \land x) \\
+                               &= 0 \lor 0 \\
+                               &= 0
+\end{align}
+$$
+
+**Parte ($\impliedby$):**
+
+Suponha que $(x \land y') \lor (x' \land y) = 0$. Calculamos:
+
+$$
+\begin{align}
+(x \land y') \lor (x' \land y) = 0
+              &\iff x \land ((x \land y') \lor (x' \land y)) = x \land 0 \\
+              &\iff (x \land (x \land y')) \lor (x \land (x' \land y)) = 0 \\
+              &\iff ((x \land x) \land y') \lor ((x \land x') \land y) = 0 \\
+              &\iff (x \land y') \lor (0 \land y) = 0 \\
+              &\iff (x \land y') \lor 0 = 0 \\
+              &\iff x \land y' = 0
+\end{align}
+$$
+
+Como $x = x \land 1$ e $1 = y \lor y'$, temos:
+
+$$
+\begin{align}
+x &= x \land (y \lor y') \\
+  &= (x \land y) \lor (x \land y')
+\end{align}
+$$
+
+Como $x \land y' = 0$, substituindo obtemos:
+
+$$
+\begin{align}
+x &= (x \land y) \lor 0 \\
+  &= x \land y
 \end{align}
 $$
 
