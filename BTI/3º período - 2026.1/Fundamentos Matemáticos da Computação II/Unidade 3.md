@@ -455,7 +455,7 @@ $$
 a \lor b = \operatorname{mmc}(a, b) \quad \text{e} \quad a \land b = \operatorname{mdc}(a, b)
 $$
 
-Além disso, ele é limitado, visto que $1 = 231$ (máximo) e $0 = 1$ (mínimo).
+Perceba que 1 divide todos os divisores de 231, logo $0 = 1$ (mínimo). Além disso, 231 é dividido por todos os elementos do conjunto, ou seja, $1 = 231$ (máximo). Logo o reticulado é limitado.
 
 ## Livro 5
 
