@@ -284,7 +284,7 @@ $$
 
 ### Reticulado Complementado
 
-Um reticulado é complementado se, e somente se, ele é limitado e para todo $a, a' \in A$, $a'$ é o complementar de $a$ (e vice-versa) se, e somente se:
+Um reticulado é complementado se, e somente se, ele é limitado e para todo $a \in A$, existe $a' \in A$ tal que $a'$ é o complementar de $a$ (e vice-versa) se, e somente se:
 
 $$
 a \land a' = 0 \quad \text{e} \quad a \lor a' = 1
@@ -449,7 +449,9 @@ Os divisores de 231 são: 1, 3, 7, 11, 21, 33, 77, 231. O diagrama de Hasse é o
 
 ![[Ex. 5.svg]]
 
+Note que conseguimos obter um reticulado, pois quaisquer dois elementos possuem ínfimo e supremo.
 
+Além disso, ele é limitado, visto que $1 = 231$ (máximo) e $0 = 1$ (mínimo).
 
 ## Livro 5
 
