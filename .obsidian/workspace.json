@@ -122,8 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5,
-    "collapsed": true
+    "width": 379.5
   },
   "right": {
     "id": "244f2931f8d6b699",
@@ -228,8 +227,10 @@
   },
   "active": "d803af4bbd3a47a5",
   "lastOpenFiles": [
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Referências/Discrete Mathematical Structures - Third Edition.pdf",
+    "Excalidraw/Drawing 2026-06-20 11.42.37.excalidraw.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Unidade 3.md",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Metadata/Ex. 5.svg",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Referências/Discrete Mathematical Structures - Third Edition.pdf",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Referências/Discrete Mathematics with Applications, 5th Edition by Susanna S. Epp (2020).pdf",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Metadata/Funções Booleanas.png",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Relações.md",
@@ -263,7 +264,6 @@
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 5.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 2.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 1.md",
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março/Questão 3.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/20 de março",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Funções",
     "BTI/3º período - 2026.1/Aprendizado de Máquina Supervisionado/Metadados/ai-ml-dl.png",
@@ -271,7 +271,6 @@
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-47.png",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-46.png",
     "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-45.png",
-    "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-44.png",
-    "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-43.png"
+    "BTI/2º período - 2025.2/Vetores e Geometria Analítica/Arquivos/Metadados/image-44.png"
   ]
 }

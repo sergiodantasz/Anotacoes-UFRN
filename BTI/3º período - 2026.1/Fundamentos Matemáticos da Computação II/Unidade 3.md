@@ -414,37 +414,42 @@ $$
 
 **Parte ($\impliedby$):**
 
-Suponha que $(x \land y') \lor (x' \land y) = 0$. Calculamos:
+Suponha que $(x \land y') \lor (x' \land y) = 0$. Por definição, $x \land y' \leq (x \land y') \lor (x' \land y)$ e, consequentemente, $x \land y' \leq 0$. Note que, como $0$ é o mínimo, necessariamente $0 \leq x \land y'$. Pela antissimetria, temos $x \land y' = 0$. De modo análogo, $x' \land y = 0$. Calculamos:
 
 $$
 \begin{align}
-(x \land y') \lor (x' \land y) = 0
-              &\iff x \land ((x \land y') \lor (x' \land y)) = x \land 0 \\
-              &\iff (x \land (x \land y')) \lor (x \land (x' \land y)) = 0 \\
-              &\iff ((x \land x) \land y') \lor ((x \land x') \land y) = 0 \\
-              &\iff (x \land y') \lor (0 \land y) = 0 \\
-              &\iff (x \land y') \lor 0 = 0 \\
-              &\iff x \land y' = 0
-\end{align}
-$$
-
-Como $x = x \land 1$ e $1 = y \lor y'$, temos:
-
-$$
-\begin{align}
-x &= x \land (y \lor y') \\
-  &= (x \land y) \lor (x \land y')
-\end{align}
-$$
-
-Como $x \land y' = 0$, substituindo obtemos:
-
-$$
-\begin{align}
-x &= (x \land y) \lor 0 \\
+x &= x \land 1 \\
+  &= x \land (y \lor y') \\
+  &= (x \land y) \lor (x \land y') \\
+  &= (x \land y) \lor 0 \\
   &= x \land y
 \end{align}
 $$
+
+Pelo teorema 1, segue que $x \leq y$. Calculamos:
+
+$$
+\begin{align}
+y &= y \land 1 \\
+  &= y \land (x \lor x') \\
+  &= (y \land x) \lor (y \land x') \\
+  &= (y \land x) \lor 0 \\
+  &= y \land x
+\end{align}
+$$
+
+Novamente pelo teorema 1, $y \leq x$. Pela antissimetria, concluímos que $x = y$. $\blacksquare$
+
+### Ex. 5
+
+> [!example] Exercício
+> Determine se podemos produzir um reticulado sobre os divisores de 231, dado pela ordem parcial da relação de divisibilidade, e que seja isomórfico de uma álgebra booleana.
+
+Os divisores de 231 são: 1, 3, 7, 11, 21, 33, 77, 231. O diagrama de Hasse é o seguinte:
+
+![[Ex. 5.svg]]
+
+
 
 ## Livro 5
 
