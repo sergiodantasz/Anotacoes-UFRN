@@ -464,7 +464,7 @@ Perceba que 1 divide todos os divisores de 231, logo $0 = 1$ (mínimo). Além di
 > [!example] Exercício
 > Com as propriedades da álgebra booleana, para quaisquer $x, y \in B$, se $x \lor y = x \lor z$ e $x \land y = x \land z$, então $y = z$.
 
-Sejam $x, y \in B$. Suponha que $x \lor y = x \lor z$ e $x \land y = x \land z$. 
+Sejam $x, y \in B$. Suponha que $x \lor y = x \lor z$ e $x \land y = x \land z$. Por definição, $y \leq x \lor y$, logo $y \leq x \lor z$. Além disso, $x \land y \leq y$ e, consequentemente, $x \land z \leq y$. Por transitividade, $x \land z \leq x \lor z$.
 
 ## Livro 5
 
