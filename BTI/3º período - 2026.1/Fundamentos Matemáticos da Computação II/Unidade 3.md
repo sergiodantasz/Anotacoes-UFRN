@@ -464,7 +464,28 @@ Perceba que 1 divide todos os divisores de 231, logo $0 = 1$ (mínimo). Além di
 > [!example] Exercício
 > Com as propriedades da álgebra booleana, para quaisquer $x, y \in B$, se $x \lor y = x \lor z$ e $x \land y = x \land z$, então $y = z$.
 
-Sejam $x, y \in B$. Suponha que $x \lor y = x \lor z$ e $x \land y = x \land z$. Por definição, $y \leq x \lor y$, logo $y \leq x \lor z$. Além disso, $x \land y \leq y$ e, consequentemente, $x \land z \leq y$. Por transitividade, $x \land z \leq x \lor z$.
+Sejam $x, y \in B$. Suponha que $x \lor y = x \lor z$ e $x \land y = x \land z$. Pela lei da absorção, $y = y \land (x \lor y)$. Substituindo:
+
+$$
+\begin{align}
+y &= y \land (x \lor z) \\
+  &= (y \land x) \lor (y \land z) \\
+  &= (x \land y) \lor (y \land z) \\
+  &= (x \land z) \lor (y \land z) \\
+  &= (x \lor y) \land z \\
+  &= z \land (x \lor y) \\
+  &= z \land (x \lor z)
+\end{align}
+$$
+
+Novamente pela lei da absorção, temos $z = z \land (x \lor z)$. Portanto, concluímos que $y = z$. $\blacksquare$
+
+### Ex. 7
+
+> [!example] Exercício
+> Demonstre na álgebra booleana que $b \land (a \lor (a' \land (b \lor b'))) = b$.
+
+
 
 ## Livro 5
 
