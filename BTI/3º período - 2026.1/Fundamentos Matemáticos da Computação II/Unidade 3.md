@@ -125,9 +125,9 @@ Dizemos que $y$ cobre $x$ se $x \prec y$ (isto é, $x \preceq y$ e $x \neq y$) e
 
 Com quaisquer dois elementos ordenados corretamente numa cadeia de relações do diagrama, conseguimos relacionar o que está à esquerda com o que está à direita, não importando quantos elementos há entre ambos.
 
-![[R1.svg]]
+![[Cadeia.svg]]
 
-Por exemplo, considere a cadeia de $R_1$ dada por $d\ R_1\ b\ R_1\ a\ R_1\ g$. Temos as relações:
+Por exemplo, considere a cadeia de $R_1$ (relação da figura) dada por $d\ R_1\ b\ R_1\ a\ R_1\ g$. Temos as relações:
 
 - $d\ R_1\ b$;
 - $d\ R_1\ g$;
@@ -829,3 +829,138 @@ $$
 
 #### Ex. 5
 
+##### (a)
+
+- Máximo: f
+- Mínimo: a
+
+##### (b)
+
+- Máximo: e
+- Mínimo: nenhum
+
+#### Ex. 6
+
+##### (a)
+
+- Máximo: nenhum
+- Mínimo: nenhum
+
+##### (b)
+
+- Máximo: 5
+- Mínimo: nenhum
+
+#### Ex. 7
+
+##### (a)
+
+> $A = \{ x \mid x \in \mathbb{R} \land 0 < x < 1 \}$ com a ordem parcial $\leq$.
+
+- Máximo: nenhum
+- Mínimo: nenhum
+
+##### (b)
+
+> $A = \{ x \mid x \in \mathbb{R} \land 0 \leq x \leq 1 \}$ com a ordem parcial $\leq$.
+
+- Máximo: 1
+- Mínimo: 0
+
+#### Ex. 8
+
+##### (a)
+
+> $A = \{ 2, 4, 6, 8, 12, 18, 24, 36, 72 \}$ com a ordem parcial de "divide".
+
+- Máximo: 72
+- Mínimo: 2
+
+##### (b)
+
+> $A = \{ 2, 3, 4, 6, 12, 18, 24, 36 \}$ com a ordem parcial de "divide".
+
+- Máximo: nenhum
+- Mínimo: nenhum
+
+> [!important] Nota
+> Nos exercícios 9 a 18, determine (em relação ao conjunto $B$), caso existam: (a) todos os limitantes superiores; (b) todos os limitantes inferiores; (c) o menor limitante superior; (d) o maior limitante inferior.
+
+#### Ex. 9
+
+(a) g, h, f
+(b) a, b, c
+(c) f
+(d) c
+
+#### Ex. 10
+
+(a) 4, 5
+(b) 1, 2
+(c) nenhum
+(d) nenhum
+
+#### Ex. 11
+
+(a) f, e, d
+(b) a, b
+(c) d
+(d) b
+
+#### Ex. 12
+
+(a) 5
+(b) 1, 2, 3
+(c) 5
+(d) 3
+
+#### Ex. 13
+
+(a) nenhum
+(b) b
+(c) nenhum
+(d) b
+
+#### Ex. 14
+
+##### (a)
+
+(a) nenhum
+(b) nenhum
+(c) nenhum
+(d) nenhum
+
+##### (b)
+
+(a) nenhum
+(b) 1, 2, 3
+(c) nenhum
+(d) 3
+
+#### Ex. 15
+
+(a) $[2, \infty)$
+(b) $(-\infty,1]$
+(c) 2
+(d) 1
+
+#### Ex. 16
+
+(a) $[2, \infty)$
+(b) $(-\infty,1]$
+(c) 2
+(d) 1
+
+#### Ex. 17
+
+(a) 
+(b) 
+(c) 
+(d) 
+
+#### Ex. 18
+
+(a) 
+(b) 
+(c) 
+(d) 
