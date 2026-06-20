@@ -485,11 +485,40 @@ Novamente pela lei da absorção, temos $z = z \land (x \lor z)$. Portanto, conc
 > [!example] Exercício
 > Demonstre na álgebra booleana que $b \land (a \lor (a' \land (b \lor b'))) = b$.
 
+$$
+\begin{align}
+b \land (a \lor (a' \land (b \lor b'))) &= b \land (a \lor (a' \land 1)) \\
+                                        &= b \land (a \lor a') \\
+                                        &= b \land 1 \\
+                                        &= b
+\end{align}
+$$
 
+### Ex. 8
+
+> [!example] Exercício
+> Demonstre na álgebra booleana que $((a \lor c) \land (b' \lor c))' = (a' \lor b) \land c'$.
+
+$$
+\begin{align}
+((a \lor c) \land (b' \lor c))' &= ((a \land b') \lor c)' \\
+                                &= (a \land b')' \land c' \\
+                                &= (a' \lor b) \land c'
+\end{align}
+$$
+
+### Ex. 9
+
+> [!example] Exercício
+> Sejam $A = \{1, 2, 3, 4\}$ e $R = \{(1, 1), (1, 2), (2, 2), (3, 3), (4, 4), (1, 4)\}$. Desenha o diagrama de Hasse da relação de ordem parcial definida por $R$.
+
+![[Ex. 9.svg]]
 
 ## Livro 5
 
-### Teorema 1
+### Teoremas
+
+#### Teorema 1
 
 Sejam $L$ um reticulado e $a, b \in L$.
 
@@ -526,11 +555,11 @@ Suponha que $a \land b = a$. Pela proposição (b), temos $a \leq b$. Pela propo
 
 Suponha que $a \lor b = b$. Pela proposição (a), segue que $a \leq b$. Pela proposição (b), temos $a \land b = a$. $\blacksquare$
 
-### Teorema 2
+#### Teorema 2
 
 Sejam $L$ um reticulado e $a, b, c \in L$.
 
-#### Idempotência
+##### Idempotência
 
 > [!example] Proposição (a)
 > $a \lor a = a$
@@ -542,7 +571,7 @@ Pela definição de limitante superior, temos $a \leq a \lor a$. Pela reflexivid
 
 Segundo a definição de limitante inferior, $a \land a \leq a$. Temos $a \leq a$ pela propriedade da reflexividade. Logo $a$ é limitante inferior de $a$. Pela definição de ínfimo, $a \land a$ é o maior limitante inferior de $a$. Assim, $a \leq a \land a$. Portanto, pela antissimetria, $a \land a = a$. $\blacksquare$
 
-#### Comutatividade
+##### Comutatividade
 
 > [!example] Proposição (a)
 > $a \lor b = b \lor a$
@@ -554,7 +583,7 @@ Sabemos que $a \lor b$ é o supremo de $\{a, b\}$. Similarmente, $b \lor a$ é o
 
 Note que $a \land b$ é o ínfimo de $\{a, b\}$ e $b \land a$, o de $\{b, a\}$. De forma análoga à proposição (a), segue imediatamente que $a \land b = b \land a$. $\blacksquare$
 
-#### Associatividade
+##### Associatividade
 
 > [!example] Proposição (a)
 > $a \lor (b \lor c) = (a \lor b) \lor c$
@@ -566,7 +595,7 @@ Pela definição de supremo, temos $a \leq a \lor (b \lor c)$ e $b \lor c \leq a
 
 A demonstração é análoga à da proposição (b). $\blacksquare$
 
-#### Absorção
+##### Absorção
 
 > [!example] Proposição (a)
 > $a \lor (a \land b) = a$
@@ -578,7 +607,7 @@ Como $a \land b \leq a$ e $a \leq a$, vemos que $a$ é um limitante superior de 
 
 Como $a \leq a$ e $a \leq a \lor b$, então $a$ é um limitante inferior de $a$ e de $a \lor b$. Segue que $a \leq a \land (a \lor b)$. Pela definição de maior limitante inferior, $a \land (a \lor b) \leq a$. Portanto, por antissimetria, $a \land (a \lor b) = a$. $\blacksquare$
 
-### Teorema 3
+#### Teorema 3
 
 Sejam $L$ um reticulado e $a, b, c \in L$.
 
@@ -623,3 +652,116 @@ Suponha que $a \leq b$ e $c \leq d$. Pelo teorema 3.1, temos $a \lor c \leq b \l
 > $a \leq b \quad \text{e} \quad c \leq d \implies a \land c \leq b \land d$
 
 Suponha que $a \leq b$ e $c \leq d$. Pelo teorema 3.1, segue que $a \land c \leq b \land c$ e $c \land b \leq d \land b$. Disso, pela propriedade comutativa, temos $b \land c \leq b \land d$. Logo, por transitividade, $a \land c \leq b \land d$. $\blacksquare$
+
+### Capítulo 7.1
+
+> [!important] Nota
+> Nos exercícios 5 e 6, determine o diagrama de Hasse da relação $R$.
+
+#### Ex. 5
+
+> [!example] Exercício
+> - $A = \{1, 2, 3, 4\}$
+> - $R = \{ (1, 1), (1, 2), (2, 2), (2, 4), (1, 3), (3, 3), (3, 4), (1, 4), (4, 4)\}$
+
+![[7.1 - Ex. 5.svg]]
+
+#### Ex. 6
+
+> [!example] Exercício
+> - $A = \{a, b, c, d, e\}$
+> - $R = \{ (a, a), (b, b), (c, c), (a, c), (c, d), (c, e), (a, d), (d, d), (a, e), (b, c), (b, d), (b, e), (e, e) \}$
+
+![[7.1 - Ex. 6.svg]]
+
+#### Ex. 7
+
+> [!example] Exercício
+> Descreva os pares ordenados nas relações determinadas pelos diagramas de Hasse.
+
+##### (a) $A = \{1, 2, 3, 4\}$
+
+![[7.1 - Ex. 7 - (a).png]]
+
+$$
+R = \{ (1, 1), (2, 2), (3, 3), (4, 4), (1, 3), (2, 3), (3, 4), (1, 4), (2, 4) \}
+$$
+
+##### (b) $A = \{1, 2, 3, 4\}$
+
+![[7.1 - Ex. 7 - (b).png]]
+
+$$
+R = \{ (1, 1), (2, 2), (3, 3), (4, 4), (1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4) \}
+$$
+
+> [!important] Nota
+> Nos exercícios 8 e 9, determine o diagrama de Hasse da ordem parcial dados os dígrafos.
+
+#### Ex. 8
+
+![[7.1 - Ex. 8 - Dígrafo.png|243]]
+
+![[7.1 - Ex. 8 - Hasse.svg]]
+
+#### Ex. 9
+
+![[7.1 - Ex. 9 - Dígrafo.png|267]]
+
+![[7.1 - Ex. 9 - Hasse.svg]]
+
+> [!important] Nota
+> Nos exercícios 16 e 17, descreva o diagrama de Hasse de uma ordenação topológica dos *posets* dados.
+
+#### Ex. 16
+
+![[7.1 - Ex. 16.png]]
+
+$$
+\displaylines{
+8 \\
+| \\
+7 \\
+| \\
+6 \\
+| \\
+5 \\
+| \\
+4 \\
+| \\
+3 \\
+| \\
+2 \\
+| \\
+1
+}
+$$
+
+#### Ex. 17
+
+![[7.1 - Ex. 17.png]]
+
+$$
+\displaylines{
+9 \\
+| \\
+8 \\
+| \\
+7 \\
+| \\
+6 \\
+| \\
+5 \\
+| \\
+3 \\
+| \\
+2 \\
+| \\
+1 \\
+| \\
+4 \\
+}
+$$
+
+### Capítulo 7.2
+
