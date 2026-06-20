@@ -457,6 +457,8 @@ $$
 
 Perceba que 1 divide todos os divisores de 231, logo $0 = 1$ (mínimo). Além disso, 231 é dividido por todos os elementos do conjunto, ou seja, $1 = 231$ (máximo). Logo o reticulado é limitado.
 
+[Demonstrar que o reticulado é distributivo, complementado e isomórfico]
+
 ## Livro 5
 
 ### Teorema 1
