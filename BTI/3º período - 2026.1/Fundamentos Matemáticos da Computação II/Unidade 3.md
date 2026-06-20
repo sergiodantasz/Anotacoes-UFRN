@@ -765,3 +765,67 @@ $$
 
 ### Capítulo 7.2
 
+> [!important] Nota
+> Nos exercícios 1 a 4, determine todos os maximais e minimais.
+
+#### Ex. 1
+
+##### (a)
+
+- Maximais: 3, 5
+- Minimais: 1, 6
+
+##### (b)
+
+- Maximais: f, g
+- Minimais: a, b, c
+
+#### Ex. 2
+
+##### (a)
+
+- Maximais: e, f
+- Minimais: a
+
+##### (b)
+
+- Maximais: 4, 7
+- Minimais: 1, 9, 8
+
+#### Ex. 3
+
+##### (a)
+
+> $A = \mathbb{R}$ com a ordem parcial $\leq$.
+
+- Maximais: nenhum
+- Minimais: nenhum
+
+##### (b)
+
+> $A = \{ x \mid x \in \mathbb{R} \land 0 \leq x \leq 1 \}$ com a ordem parcial $\leq$.
+
+- Maximais: 1
+- Minimais: 0
+
+#### Ex. 4
+
+##### (a)
+
+> $A = \{ x \mid x \in \mathbb{R} \land 0 < x \leq 1 \}$ com a ordem parcial $\leq$.
+
+- Maximais: 1
+- Minimais: nenhum
+
+##### (b)
+
+> $A = \{ 2, 3, 4, 6, 8, 24, 48 \}$ com a ordem parcial de "divide".
+
+- Maximais: 48
+- Minimais: 2, 3
+
+> [!important] Nota
+> Nos exercícios 5 a 8, determine os maiores e menores elementos, caso existam.
+
+#### Ex. 5
+
