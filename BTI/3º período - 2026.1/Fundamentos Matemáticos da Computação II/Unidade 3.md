@@ -457,7 +457,14 @@ $$
 
 Perceba que 1 divide todos os divisores de 231, logo $0 = 1$ (mínimo). Além disso, 231 é dividido por todos os elementos do conjunto, ou seja, $1 = 231$ (máximo). Logo o reticulado é limitado.
 
-[Demonstrar que o reticulado é distributivo, complementado e isomórfico]
+[Demonstrar que o reticulado é distributivo, complementado e isomórfico.]
+
+### Ex. 6
+
+> [!example] Exercício
+> Com as propriedades da álgebra booleana, para quaisquer $x, y \in B$, se $x \lor y = x \lor z$ e $x \land y = x \land z$, então $y = z$.
+
+Sejam $x, y \in B$. Suponha que $x \lor y = x \lor z$ e $x \land y = x \land z$. 
 
 ## Livro 5
 
