@@ -449,7 +449,11 @@ Os divisores de 231 são: 1, 3, 7, 11, 21, 33, 77, 231. O diagrama de Hasse é o
 
 ![[Ex. 5.svg]]
 
-Note que conseguimos obter um reticulado, pois quaisquer dois elementos possuem ínfimo e supremo.
+Note que conseguimos obter um reticulado, pois quaisquer dois elementos $a$ e $b$ possuem ínfimo e supremo através do MMC e do MDC:
+
+$$
+a \lor b = \operatorname{mmc}(a, b) \quad \text{e} \quad a \land b = \operatorname{mdc}(a, b)
+$$
 
 Além disso, ele é limitado, visto que $1 = 231$ (máximo) e $0 = 1$ (mínimo).
 
