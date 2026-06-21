@@ -659,5 +659,38 @@ $$
 
 #### Ex. 1
 
-(a) 
-(b) 
+(a) sim
+(b) não
+
+#### Ex. 2
+
+(a) não
+(b) sim
+
+#### Ex. 3
+
+(a) sim
+(b) sim
+
+#### Ex. 4
+
+> [!example] Exercício
+> O *poset* $A = \{2, 3, 6, 12, 24, 36, 72\}$ sob a relação de divisibilidade é um reticulado?
+
+Não.
+
+#### Ex. 11
+
+> [!example] Exercício
+> Mostre que se um reticulado limitado tem dois ou mais elementos, então $0 \neq 1$.
+
+Seja $L$ um reticulado limitado. Suponha, por contraposição, que $0 = 1$. Seja $x \in L$. Por definição de $0$ e $1$, temos $0 \leq x$ e $x \leq 1$, isto é, $x \leq 0$. Por antissimetria, $x = 0$. Disso segue que $L = \{0\}$, logo $L$ tem somente um elemento. $\blacksquare$
+
+#### Ex. 19
+
+> [!example] Exercício
+> Seja $L$ um *poset*. Mostre que se $a \leq b \land c$, para alguns $a, b, c \in L$, então as propriedades distributivas de um reticulado são satisfeitas por $a$, $b$ e $c$.
+
+> Alvo: $a \land (b \lor c) = (a \land b) \lor (a \land c) \quad \text{e} \quad a \lor (b \land c) = (a \lor b) \land (a \lor c)$
+
+Suponha que $a \leq b \land c$. Como $b \land c$ é um limitante superior 

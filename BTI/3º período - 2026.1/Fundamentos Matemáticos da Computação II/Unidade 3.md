@@ -272,7 +272,7 @@ $$
 
 ### Reticulado Limitado
 
-Um reticulado é limitado se, e somente se, existe um maior e um menor elemento globais, denotados por $1$ e $0$, respectivamente.
+Um reticulado é limitado se, e somente se, existem um maior e um menor elemento globais, denotados por $1$ e $0$, respectivamente.
 
 ### Reticulado Distributivo
 
