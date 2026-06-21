@@ -35,7 +35,8 @@
               "title": "Unidade 3"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "eaaa4f204a0b4640",
@@ -226,10 +227,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d803af4bbd3a47a5",
+  "active": "6de79759365ccff8",
   "lastOpenFiles": [
-    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Unidade 3.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Exercícios - Unidade 3.md",
+    "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Unidade 3.md",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Referências/Discrete Mathematical Structures - Third Edition.pdf",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Metadata/7.3 - Ex. 22 - (b).png",
     "BTI/3º período - 2026.1/Fundamentos Matemáticos da Computação II/Demonstração por Contradição.md",

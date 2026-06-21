@@ -858,8 +858,8 @@ Portanto, pelos três casos, concluímos que $L$ é modular. $\blacksquare$
 
 #### Ex. 25
 
-(a) 
-(b) 
+(a) não é distributivo e não é complementado
+(b) não é distributivo e não é complementado
 
 #### Ex. 26
 
