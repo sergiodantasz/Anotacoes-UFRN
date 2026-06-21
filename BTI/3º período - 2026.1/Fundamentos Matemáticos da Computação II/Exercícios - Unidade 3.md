@@ -781,6 +781,12 @@ Portanto, $L$ é modular. $\blacksquare$
 
 ![[7.3 - Ex. 22 - (b).png]]
 
+Seja $L$ o reticulado da figura.
+
+**Não distributividade:**
+
+Sejam $a, b, c \in L$.
+
 Verifiquemos o lado esquerdo da distributividade:
 
 $$
@@ -799,24 +805,63 @@ $$
 \end{align}
 $$
 
-Como $a \neq 1$, logo o reticulado é não distributivo.
+Como $a \neq 1$, logo $L$ é não distributivo.
 
-Perceba que $a \leq 1$. Calculemos o lado esquerdo da modularidade em $a$, $0$ e $1$:
+**Modularidade:**
 
-$$
-\begin{align}
-a \lor (0 \land 1) &= a \lor 0 \\
-                   &= a
-\end{align}
-$$
+Sejam $x, y, z \in L$. Suponha que $x \leq z$. Veja que os elementos intermediários do reticulado são estritamente incomparáveis entre si. Desse modo, $x \leq z$ é verdadeiro nos casos abaixo:
 
-No lado direito:
+*Caso $x = 0$:*
 
-$$
-\begin{align}
-(a \lor 0) \land 1 &= a \land 1 \\
-                   &= a
-\end{align}
-$$
+Temos $0 \lor (y \land z) = y \land z$ e $(0 \lor y) \land z = y \land z$.
 
-Logo, concluímos que o reticulado é modular. $\blacksquare$
+*Caso $z = 1$:*
+
+Temos $x \lor (y \land 1) = x \lor y$ e $(x \lor y) \land 1 = x \lor y$.
+
+*Caso $x = z$:*
+
+Pela lei da absorção, temos $x \lor (y \land x) = x$ e $(x \lor y) \land x = x$.
+
+Portanto, pelos três casos, concluímos que $L$ é modular. $\blacksquare$
+
+#### Ex. 23
+
+> [!example] Exercício
+> Encontre o complemento de cada elemento de $D_{42}$.
+
+- 1: 42
+- 2: 21
+- 3: 14
+- 6: 7
+- 7: 6
+- 14: 3
+- 21: 2
+- 42: 1
+
+#### Ex. 24
+
+> [!example] Exercício
+> Encontre o complemento de cada elemento de $D_{105}$.
+
+- 1: 105
+- 3: 35
+- 5: 21
+- 7: 15
+- 15: 7
+- 21: 5
+- 35: 3
+- 105: 1
+
+> [!important] Nota
+> Nos exercícios 25 e 26, determine se cada reticulado é distributivo, complementado ou ambos.
+
+#### Ex. 25
+
+(a) 
+(b) 
+
+#### Ex. 26
+
+(a) 
+(b) 
