@@ -691,6 +691,132 @@ Seja $L$ um reticulado limitado. Suponha, por contraposição, que $0 = 1$. Seja
 > [!example] Exercício
 > Seja $L$ um *poset*. Mostre que se $a \leq b \land c$, para alguns $a, b, c \in L$, então as propriedades distributivas de um reticulado são satisfeitas por $a$, $b$ e $c$.
 
-> Alvo: $a \land (b \lor c) = (a \land b) \lor (a \land c) \quad \text{e} \quad a \lor (b \land c) = (a \lor b) \land (a \lor c)$
+Suponha que $a \leq b \land c$. Logo $a \leq b$ e $a \leq c$. Disso segue que $a \lor b = b$ e $a \land b = a$; similarmente, $a \lor c = c$ e $a \land c = a$. Pela hipótese inicial, temos que $a \lor (b \land c) = b \land c$. Além disso, pela definição de supremo, $b \leq b \lor c$. Por transitividade, $a \leq b \lor c$ e, consequentemente, $a \land (b \lor c) = a$. Substituindo, teremos:
 
-Suponha que $a \leq b \land c$. Como $b \land c$ é um limitante superior 
+$$
+\begin{align}
+(a \lor b) \land (a \lor c) &= b \land c \\
+                            &= a \lor (b \land c)
+\end{align}
+$$
+
+Além disso, temos:
+
+$$
+\begin{align}
+(a \land b) \lor (a \land c) &= a \lor a \\
+                             &= a \\
+                             &= a \land (b \lor c)
+\end{align}
+$$
+
+Concluímos que as propriedades distributivas foram satisfeitas. $\blacksquare$
+
+#### Ex. 20
+
+> [!example] Exercício
+> Mostre que se $a$ e $b$ são elementos de um reticulado limitado, distributivo e complementado, então $a \lor (a' \land b) = a \lor b$ e $a \land (a' \lor b) = a \land b$.
+
+Seja $L$ um reticulado. Sejam $a, b \in L$. Suponha que $L$ é limitado, distributivo e complementado. Calculamos:
+
+$$
+\begin{align}
+a \lor (a' \land b) &= (a \lor a') \land (a \lor b) \\
+                    &= 1 \land (a \lor b) \\
+                    &= a \lor b
+\end{align}
+$$
+
+Calculamos:
+
+$$
+\begin{align}
+a \land (a' \lor b) &= (a \land a') \lor (a \land b) \\
+                    &= 0 \lor (a \land b) \\
+                    &= a \land b
+\end{align}
+$$
+
+Logo, concluímos a demonstração. $\blacksquare$
+
+#### Ex. 21
+
+> [!example] Exercício
+> Sejam $L$ um reticulado distributivo e $x, y \in L$. Mostre que se existe $a$ tal que $a \land x = a \land y$ e $a \lor x = a \lor y$, então $x = y$.
+
+Suponha que existe $a$ tal que $a \land x = a \land y$ e $a \lor x = a \lor y$. Pela lei da absorção, $x = x \land (a \lor x)$. Substituindo, $x = x \land (a \lor y)$. Aplicando a distributividade:
+
+$$
+\begin{align}
+x &= (x \land a) \lor (x \land y) \\
+  &= (a \land x) \lor (x \land y) \\
+  &= (a \land y) \lor (x \land y) \\
+  &= (a \lor x) \land y \\
+  &= (a \lor y) \land y
+\end{align}
+$$
+
+Perceba que, pela lei da absorção, $y = (a \lor y) \land y$. Logo, $x = y$. $\blacksquare$
+
+#### Ex. 22
+
+Um retículado é modular se, para todo $a, b, c$, $a \leq c$ implica que $a \lor (b \land c) = (a \lor b) \land c$.
+
+> [!example] Exercício - (a)
+> Mostre que um reticulado distributivo é modular.
+
+Seja $L$ um reticulado distributivo. Sejam $a, b, c \in L$. Suponha que $a \leq c$. Logo, pelo teorema 1, $c = a \lor c$. Calculamos:
+
+$$
+\begin{align}
+a \lor (b \land c) &= (a \lor b) \land (a \lor c) \\
+                   &= (a \lor b) \land c
+\end{align}
+$$
+
+Portanto, $L$ é modular. $\blacksquare$
+
+> [!example] Exercício - (b)
+> Mostre que o reticulado da figura abaixo é não distributivo e modular.
+
+![[7.3 - Ex. 22 - (b).png]]
+
+Verifiquemos o lado esquerdo da distributividade:
+
+$$
+\begin{align}
+a \lor (b \land c) &= a \lor 0 \\
+                   &= a
+\end{align}
+$$
+
+Agora o lado direito:
+
+$$
+\begin{align}
+(a \lor b) \land (a \lor c) &= 1 \land 1 \\
+                            &= 1
+\end{align}
+$$
+
+Como $a \neq 1$, logo o reticulado é não distributivo.
+
+Perceba que $a \leq 1$. Calculemos o lado esquerdo da modularidade em $a$, $0$ e $1$:
+
+$$
+\begin{align}
+a \lor (0 \land 1) &= a \lor 0 \\
+                   &= a
+\end{align}
+$$
+
+No lado direito:
+
+$$
+\begin{align}
+(a \lor 0) \land 1 &= a \land 1 \\
+                   &= a
+\end{align}
+$$
+
+Logo, concluímos que o reticulado é modular. $\blacksquare$
