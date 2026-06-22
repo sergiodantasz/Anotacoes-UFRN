@@ -901,3 +901,30 @@ Não, pois não é complementado.
 #### Ex. 2
 
 Não, pois não é complementado.
+
+#### Ex. 3
+
+Não, pois não é limitado nem complementado.
+
+#### Ex. 4
+
+Não, pois não é complementado.
+
+#### Ex. 5
+
+Sim.
+
+#### Ex. 6
+
+Não, pois não é distributivo nem complementado.
+
+#### Ex. 7
+
+Sim.
+
+#### Ex. 8
+
+Sim.
+
+#### Ex. 9
+
