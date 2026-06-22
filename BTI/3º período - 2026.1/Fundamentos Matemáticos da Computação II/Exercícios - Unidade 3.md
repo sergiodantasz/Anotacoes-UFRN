@@ -891,3 +891,13 @@ Como $L$ possui pelo menos dois elementos, é garantido que $0 \neq 1$. Suponha,
 
 ### Capítulo 7.4
 
+> [!important] Nota
+> Nos exercícios 1 a 10, determine se o *poset* é uma álgebra booleana. Explique.
+
+#### Ex. 1
+
+Não, pois não é complementado.
+
+#### Ex. 2
+
+Não, pois não é complementado.
