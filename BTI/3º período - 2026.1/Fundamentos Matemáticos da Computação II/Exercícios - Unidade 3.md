@@ -1,5 +1,8 @@
 # Exercícios
 
+```table-of-contents
+```
+
 ## Resumo
 
 ### Ex. 2
@@ -863,5 +866,28 @@ Portanto, pelos três casos, concluímos que $L$ é modular. $\blacksquare$
 
 #### Ex. 26
 
-(a) 
-(b) 
+(a) é distributivo e não é complementado
+(b) é distributivo e não é complementado
+
+#### Ex. 27
+
+> [!example] Exercício
+> Seja $L$ um reticulado limitado com pelo menos dois elementos. Mostre que nenhum elemento de $L$ é seu próprio complemento.
+
+Como $L$ possui pelo menos dois elementos, é garantido que $0 \neq 1$. Suponha, por absurdo, que existe $x \in L$ tal que $x = x'$. Por definição, $x \lor x' = 1$ e $x \land x' = 0$. Substituindo, temos $x \lor x = 1 \iff x = 1$ e $x \land x = 0 \iff x = 0$. Logo, $0 = 1$. Chegamos a um absurdo, pois obtemos anteriormente $0 \neq 1$. $\blacksquare$
+
+#### Ex. 28
+
+> [!example] Exercício
+> Considere o reticulado complementado mostrado na figura abaixo. Liste os complementos de cada elemento.
+
+![[7.3 - Ex. 28.png]]
+
+- a: e
+- b: c
+- c: b, d
+- d: c
+- e: a
+
+### Capítulo 7.4
+
