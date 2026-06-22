@@ -928,3 +928,63 @@ Sim.
 
 #### Ex. 9
 
+Sim.
+
+#### Ex. 10
+
+Não, pois não é complementado.
+
+#### Ex. 11
+
+> [!example] Exercício
+> Existe alguma álgebra booleana com 3 elementos? Justifique.
+
+Todo reticulado precisa ter 0 e 1. Considerando três elementos, teríamos:
+
+$$
+\displaylines{
+1 \\
+| \\
+x \\
+| \\
+0
+}
+$$
+
+Observe que $x$ não possui complemento, pois se $x'$ assumir qualquer valor dentro de $\{x, 0, 1\}$, ele não conseguirá satisfazer a condição de existência de ínfimo e supremo. Logo, o reticulado não é complementado e, consequentemente, não é uma álgebra booleana. $\blacksquare$
+
+#### Ex. 12
+
+> [!example] Exercício
+> Mostre que em uma álgebra booleana, para todo $a$ e $b$, $a \leq b$ se, e somente se, $b' \leq a'$.
+
+Sejam $a$ e $b$ elementos da álgebra booleana.
+
+**Parte ($\implies$):**
+
+Suponha que $a \leq b$. Logo, pelo teorema 1, $a \lor b = b$. Aplicando o complemento, temos:
+
+$$
+\begin{align}
+a \lor b = b &\iff (a \lor b)' = b' \\
+             &\iff a' \land b' = b' \\
+             &\iff b' \land a' = b'
+\end{align}
+$$
+
+Logo, novamente pelo teorema 1, $b' \leq a'$.
+
+**Parte ($\impliedby$):**
+
+Suponha que $b' \leq a'$. Pelo teorema 1, $b' \lor a' = a'$. Aplicando o complemento:
+
+$$
+\begin{align}
+b' \lor a' = a' &\iff (b' \lor a')' = (a')' \\
+                &\iff (b')' \land (a')' = a \\
+                &\iff b \land a = a \\
+                &\iff a \land b = a
+\end{align}
+$$
+
+Assim, pelo teorema 1, $a \leq b$. $\blacksquare$
